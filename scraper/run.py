@@ -1,6 +1,11 @@
 """
-Corre todos os scrapers para os produtos definidos em config/produtos.json
-e acrescenta os resultados de hoje a dados/precos.json (histórico acumulado).
+Corre o scraper genérico para todas as "fontes" (supermercado + link) de
+cada produto definido em config/produtos.json, e acrescenta os resultados
+de hoje a dados/precos.json (histórico acumulado).
+
+Cada produto pode ter várias fontes com "unidades" diferentes (ex: o
+Continente vende um pack de 6, os outros à unidade) — o preço é sempre
+guardado também como "preco_unitario" para a comparação ser justa.
 
 Uso: python scraper/run.py
 (É isto que o GitHub Actions corre automaticamente todos os dias.)
@@ -10,8 +15,7 @@ import json
 from datetime import date
 from pathlib import Path
 
-import continente
-# À medida que forem feitos, importar aqui: pingo_doce, intermarche, aldi
+import comum
 
 RAIZ = Path(__file__).resolve().parent.parent
 FICHEIRO_PRODUTOS = RAIZ / "config" / "produtos.json"
@@ -46,20 +50,28 @@ def main():
     for produto in produtos:
         nome = produto["nome"]
 
-        if "continente_url" in produto:
-            resultado = continente.scrape_produto(produto["continente_url"], nome)
+        for fonte in produto.get("fontes", []):
+            supermercado = fonte["supermercado"]
+            url = fonte["url"]
+            unidades = fonte.get("unidades", 1)
+
+            resultado = comum.scrape_produto(url, nome, supermercado)
+
             if resultado["preco"] is not None:
+                preco_unitario = round(resultado["preco"] / unidades, 4)
                 novos_registos.append({
                     "data": hoje,
                     "produto": nome,
-                    "supermercado": resultado["supermercado"],
+                    "supermercado": supermercado,
                     "preco": resultado["preco"],
+                    "unidades": unidades,
+                    "preco_unitario": preco_unitario,
                 })
-                print(f"OK: {nome} @ Continente = {resultado['preco']} EUR")
+                print(f"OK: {nome} @ {supermercado} = {resultado['preco']} EUR "
+                      f"({unidades}un -> {preco_unitario} EUR/un)")
             else:
-                print(f"FALHOU: {nome} @ Continente ({resultado.get('erro', 'preço não encontrado')})")
-
-        # Quando adicionarmos Pingo Doce / Intermarché / Aldi, o padrão repete-se aqui.
+                print(f"FALHOU: {nome} @ {supermercado} "
+                      f"({resultado.get('erro', 'preço não encontrado')})")
 
     historico.extend(novos_registos)
     guardar_historico(historico)
