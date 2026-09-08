@@ -4,8 +4,6 @@ Scraper para intermarche.pt
 Ao contrário do Continente/Pingo Doce (que usam JSON-LD "application/ld+json"),
 o Intermarché é feito em Next.js e guarda todos os dados da página, incluindo
 o preço, num bloco <script id="__NEXT_DATA__" type="application/json">.
-
-O preço está em: props.pageProps.prix.prix
 """
 
 import json
@@ -45,7 +43,18 @@ def scrape_produto(url: str, nome_produto: str) -> dict:
 
     try:
         data = json.loads(script.string)
-        preco = data["props"]["pageProps"]["prix"]["prix"]
+        page_props = data["props"]["pageProps"]
+
+        # A estrutura da página varia um pouco consoante o produto, por isso
+        # tentamos vários caminhos possíveis, do mais direto ao mais aninhado.
+        preco = None
+        if isinstance(page_props.get("prix"), (int, float)):
+            preco = page_props["prix"]
+        elif isinstance(page_props.get("unitPrice"), (int, float)):
+            preco = page_props["unitPrice"]
+        else:
+            preco = page_props["product"]["prix"]["prix"]
+
         resultado["preco"] = float(preco)
     except (KeyError, TypeError, ValueError, json.JSONDecodeError) as e:
         resultado["erro"] = f"Não consegui encontrar o preço na estrutura esperada: {e}"
