@@ -7,6 +7,7 @@ o preço, num bloco <script id="__NEXT_DATA__" type="application/json">.
 """
 
 import json
+import re
 import requests
 from bs4 import BeautifulSoup
 
@@ -17,6 +18,26 @@ HEADERS = {
     ),
     "Accept-Language": "pt-PT,pt;q=0.9",
 }
+
+
+def _preco_via_html_visivel(soup):
+    """
+    Plano B: o preço também está escrito no HTML visível da página, dentro de
+    <span class="productDetail__productPrice">, mesmo que o bloco JSON não
+    tenha o campo esperado (ex: por causa de proteção anti-scraping).
+    O markup vem com comentários HTML no meio dos números (ex: "0<!-- -->,
+    <!-- -->87"), por isso extraímos só os dígitos.
+    """
+    tag = soup.find(class_="productDetail__productPrice")
+    if not tag:
+        return None
+    digitos = re.findall(r"\d+", str(tag))
+    if len(digitos) >= 2:
+        try:
+            return float(f"{digitos[0]}.{digitos[1]}")
+        except ValueError:
+            return None
+    return None
 
 
 def scrape_produto(url: str, nome_produto: str) -> dict:
@@ -37,27 +58,28 @@ def scrape_produto(url: str, nome_produto: str) -> dict:
     soup = BeautifulSoup(resp.text, "lxml")
     script = soup.find("script", id="__NEXT_DATA__")
 
-    if not script or not script.string:
-        resultado["erro"] = "Bloco __NEXT_DATA__ não encontrado."
-        return resultado
+    preco = None
 
-    try:
-        data = json.loads(script.string)
-        page_props = data["props"]["pageProps"]
+    if script and script.string:
+        try:
+            data = json.loads(script.string)
+            page_props = data["props"]["pageProps"]
+            if isinstance(page_props.get("prix"), (int, float)):
+                preco = page_props["prix"]
+            elif isinstance(page_props.get("unitPrice"), (int, float)):
+                preco = page_props["unitPrice"]
+            elif "product" in page_props and "prix" in page_props["product"]:
+                preco = page_props["product"]["prix"].get("prix")
+        except (KeyError, TypeError, json.JSONDecodeError):
+            pass
 
-        # A estrutura da página varia um pouco consoante o produto, por isso
-        # tentamos vários caminhos possíveis, do mais direto ao mais aninhado.
-        preco = None
-        if isinstance(page_props.get("prix"), (int, float)):
-            preco = page_props["prix"]
-        elif isinstance(page_props.get("unitPrice"), (int, float)):
-            preco = page_props["unitPrice"]
-        else:
-            preco = page_props["product"]["prix"]["prix"]
+    if preco is None:
+        preco = _preco_via_html_visivel(soup)
 
+    if preco is None:
+        resultado["erro"] = "Preço não encontrado (nem no JSON nem no HTML visível)."
+    else:
         resultado["preco"] = float(preco)
-    except (KeyError, TypeError, ValueError, json.JSONDecodeError) as e:
-        resultado["erro"] = f"Não consegui encontrar o preço na estrutura esperada: {e}"
 
     return resultado
 
