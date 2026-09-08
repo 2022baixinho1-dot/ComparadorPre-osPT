@@ -18,5 +18,20 @@
         "unidades": 1
       }
     ]
-  }
+  },
+  {
+    "nome": "Arroz Agulha MP",
+    "fontes": [
+      {
+        "supermercado": "Continente",
+        "url": "https://www.continente.pt/produto/arroz-agulha-continente-6927230.html",
+        "unidades": 1
+      },
+      {
+        "supermercado": "Pingo Doce",
+        "url": "https://www.pingodoce.pt/home/produtos/mercearia/arroz-massa-e-leguminosas/arroz/arroz-agulha-europa-pingo-doce-651178.html",
+        "unidades": 1
+      }
+    ]
+    }
 ]
