@@ -15,7 +15,9 @@ import json
 from datetime import date
 from pathlib import Path
 
+import aldi
 import comum
+import intermarche
 
 RAIZ = Path(__file__).resolve().parent.parent
 FICHEIRO_PRODUTOS = RAIZ / "config" / "produtos.json"
@@ -55,7 +57,12 @@ def main():
             url = fonte["url"]
             unidades = fonte.get("unidades", 1)
 
-            resultado = comum.scrape_produto(url, nome, supermercado)
+            if supermercado == "Intermarché":
+                resultado = intermarche.scrape_produto(url, nome)
+            elif supermercado == "Aldi":
+                resultado = aldi.scrape_produto(url, nome)
+            else:
+                resultado = comum.scrape_produto(url, nome, supermercado)
 
             if resultado["preco"] is not None:
                 preco_unitario = round(resultado["preco"] / unidades, 4)
@@ -66,6 +73,7 @@ def main():
                     "preco": resultado["preco"],
                     "unidades": unidades,
                     "preco_unitario": preco_unitario,
+                    "promocao_ate": resultado.get("promocao_ate"),
                 })
                 print(f"OK: {nome} @ {supermercado} = {resultado['preco']} EUR "
                       f"({unidades}un -> {preco_unitario} EUR/un)")
