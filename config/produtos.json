@@ -1,6 +1,27 @@
 [
   {
     "nome": "Leite Meio Gordo",
-    "continente_url": "https://www.continente.pt/produto/leite-uht-meio-gordo-continente-8504295.html"
+    "fontes": [
+      {
+        "supermercado": "Continente",
+        "url": "https://www.continente.pt/produto/leite-uht-meio-gordo-continente-8504295.html",
+        "unidades": 6
+      },
+      {
+        "supermercado": "Pingo Doce",
+        "url": "https://www.pingodoce.pt/home/produtos/leite-e-bebidas-vegetais/leite/leite-meio-gordo-e-gordo%E2%80%8B/leite-uht-meio-gordo-pingo-doce-48150.html",
+        "unidades": 1
+      },
+      {
+        "supermercado": "Intermarché",
+        "url": "https://intermarche.pt/product/leite-uht-meio-gordo-dos-acores-1l/5604260270569",
+        "unidades": 1
+      },
+      {
+        "supermercado": "Aldi",
+        "url": "https://www.aldi.pt/produto-detalhe/leite-meio-gordo-70012530000.html",
+        "unidades": 1
+      }
+    ]
   }
 ]
