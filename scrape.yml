@@ -1,0 +1,37 @@
+name: Recolher preços diariamente
+
+on:
+  schedule:
+    # Corre todos os dias às 08:00 em Lisboa (07:00 UTC, ajusta se necessário)
+    - cron: '0 7 * * *'
+  workflow_dispatch:
+    # Permite correr manualmente a partir do separador "Actions" no GitHub
+
+permissions:
+  contents: write
+
+jobs:
+  recolher:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ir buscar o código do repositório
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+
+      - name: Correr o scraper
+        run: python scraper/run.py
+
+      - name: Guardar os novos dados no repositório
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add dados/precos.json
+          git diff --staged --quiet || git commit -m "Atualização automática de preços"
+          git push

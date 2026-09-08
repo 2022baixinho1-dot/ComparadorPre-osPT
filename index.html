@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Comparador de Preços — Supermercados</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 16px; color: #222; }
+  h1 { font-size: 1.4rem; }
+  select, input { padding: 6px 10px; font-size: 1rem; margin-bottom: 20px; }
+  table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid #ddd; }
+  th { background: #f4f4f4; }
+  .mais-barato { font-weight: bold; color: #147a30; }
+  .aviso { color: #a33; }
+</style>
+</head>
+<body>
+
+<h1>Comparador de Preços — Supermercados</h1>
+
+<label for="data">Ver preços de:</label>
+<input type="date" id="data">
+
+<table id="tabela">
+  <thead>
+    <tr><th>Produto</th><th>Supermercado mais barato</th><th>Preço</th></tr>
+  </thead>
+  <tbody id="corpo-tabela"></tbody>
+</table>
+
+<p id="aviso" class="aviso"></p>
+
+<script>
+async function carregarDados() {
+  const resp = await fetch('../dados/precos.json');
+  return resp.json();
+}
+
+function precoMaisRecenteAte(registos, produto, dataLimite) {
+  // Entre os registos <= dataLimite para este produto, devolve o mais recente por supermercado
+  const relevantes = registos.filter(r => r.produto === produto && r.data <= dataLimite);
+  const porSupermercado = {};
+  for (const r of relevantes) {
+    if (!porSupermercado[r.supermercado] || r.data > porSupermercado[r.supermercado].data) {
+      porSupermercado[r.supermercado] = r;
+    }
+  }
+  return Object.values(porSupermercado);
+}
+
+async function render() {
+  const dados = await carregarDados();
+  const dataInput = document.getElementById('data').value;
+  const corpo = document.getElementById('corpo-tabela');
+  const aviso = document.getElementById('aviso');
+  corpo.innerHTML = '';
+  aviso.textContent = '';
+
+  if (!dados.length) {
+    aviso.textContent = 'Ainda não há dados recolhidos. Corre o scraper pelo menos uma vez.';
+    return;
+  }
+
+  const dataEscolhida = dataInput || dados[dados.length - 1].data;
+  const produtos = [...new Set(dados.map(r => r.produto))];
+
+  for (const produto of produtos) {
+    const candidatos = precoMaisRecenteAte(dados, produto, dataEscolhida);
+    if (!candidatos.length) continue;
+    candidatos.sort((a, b) => a.preco - b.preco);
+    const maisBarato = candidatos[0];
+
+    const linha = document.createElement('tr');
+    linha.innerHTML = `
+      <td>${produto}</td>
+      <td class="mais-barato">${maisBarato.supermercado}</td>
+      <td>${maisBarato.preco.toFixed(2)} €</td>
+    `;
+    corpo.appendChild(linha);
+  }
+}
+
+document.getElementById('data').addEventListener('change', render);
+document.getElementById('data').valueAsDate = new Date();
+render();
+</script>
+
+</body>
+</html>
