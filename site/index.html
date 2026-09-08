@@ -12,6 +12,7 @@
   th { background: #f4f4f4; }
   .mais-barato { font-weight: bold; color: #147a30; }
   .aviso { color: #a33; }
+  .nota { color: #777; font-size: 0.85rem; }
 </style>
 </head>
 <body>
@@ -23,11 +24,12 @@
 
 <table id="tabela">
   <thead>
-    <tr><th>Produto</th><th>Supermercado mais barato</th><th>Preço</th></tr>
+    <tr><th>Produto</th><th>Supermercado mais barato</th><th>Preço unitário</th></tr>
   </thead>
   <tbody id="corpo-tabela"></tbody>
 </table>
 
+<p class="nota">Comparação feita por preço unitário (ex: pack de 6 dividido por 6), não pelo preço da embalagem.</p>
 <p id="aviso" class="aviso"></p>
 
 <script>
@@ -36,8 +38,7 @@ async function carregarDados() {
   return resp.json();
 }
 
-function precoMaisRecenteAte(registos, produto, dataLimite) {
-  // Entre os registos <= dataLimite para este produto, devolve o mais recente por supermercado
+function maisRecenteAte(registos, produto, dataLimite) {
   const relevantes = registos.filter(r => r.produto === produto && r.data <= dataLimite);
   const porSupermercado = {};
   for (const r of relevantes) {
@@ -65,16 +66,16 @@ async function render() {
   const produtos = [...new Set(dados.map(r => r.produto))];
 
   for (const produto of produtos) {
-    const candidatos = precoMaisRecenteAte(dados, produto, dataEscolhida);
+    const candidatos = maisRecenteAte(dados, produto, dataEscolhida);
     if (!candidatos.length) continue;
-    candidatos.sort((a, b) => a.preco - b.preco);
+    candidatos.sort((a, b) => a.preco_unitario - b.preco_unitario);
     const maisBarato = candidatos[0];
 
     const linha = document.createElement('tr');
     linha.innerHTML = `
       <td>${produto}</td>
       <td class="mais-barato">${maisBarato.supermercado}</td>
-      <td>${maisBarato.preco.toFixed(2)} €</td>
+      <td>${maisBarato.preco_unitario.toFixed(2)} €/un</td>
     `;
     corpo.appendChild(linha);
   }
