@@ -95,5 +95,32 @@
     "unidades": 1,
     "preco_unitario": 0.91,
     "promocao_ate": null
+  },
+  {
+    "data": "2026-09-08",
+    "produto": "Leite Meio Gordo",
+    "supermercado": "Continente",
+    "preco": 5.1,
+    "unidades": 6,
+    "preco_unitario": 0.85,
+    "promocao_ate": null
+  },
+  {
+    "data": "2026-09-08",
+    "produto": "Leite Meio Gordo",
+    "supermercado": "Pingo Doce",
+    "preco": 0.86,
+    "unidades": 1,
+    "preco_unitario": 0.86,
+    "promocao_ate": null
+  },
+  {
+    "data": "2026-09-08",
+    "produto": "Leite Meio Gordo",
+    "supermercado": "Aldi",
+    "preco": 0.91,
+    "unidades": 1,
+    "preco_unitario": 0.91,
+    "promocao_ate": null
   }
 ]
