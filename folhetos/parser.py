@@ -28,8 +28,12 @@ UNIT_PRICE_RE = re.compile(r'([\d,]+)\s*€/(KG|L|CÁPSULA|DOSE|UNID|ROLO)')
 # Marcadores que indicam o início do badge do PRÓXIMO produto (ou de
 # texto genérico), usados para cortar o nome do produto atual.
 STOP_MARKERS = re.compile(
-    r'(\d+,\d+\s*€|Desconto Direto|Sobre PVPR|Apenas\b|Mais de\b|Até\b|Poupe\b|Leve\b|PVPR\b)'
+    r'(\d+,\d+\s*€|Desconto Direto|Sobre PVPR|Apenas\b|Mais de\b|Até\b|Poupe\b|Leve\b|PVPR\b|\. )'
 )
+
+# Comprimento máximo razoável para o nome de um produto — acima disto
+# é quase certo que apanhámos texto descritivo/marketing a mais.
+NOME_MAX_LEN = 90
 
 
 def parse_products(page_text: str) -> list[dict]:
@@ -49,7 +53,7 @@ def parse_products(page_text: str) -> list[dict]:
         # e termina também antes do primeiro marcador do próximo badge
         stop = STOP_MARKERS.search(window_before_pack)
         name = window_before_pack[:stop.start()] if stop else window_before_pack
-        name = name.strip(" ,")
+        name = name.strip(" ,")[:NOME_MAX_LEN].strip(" ,")
 
         unit_price_match = UNIT_PRICE_RE.search(window)
         unit_price = (
