@@ -21,4 +21,4 @@ jobs:
         run: pip install -r folhetos/requirements.txt
 
       - name: Correr o scraper
-        run: python folhetos/scraper.py
+        run: python folhetos/parser.py
