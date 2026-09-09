@@ -33,5 +33,20 @@
         "unidades": 1
       }
     ]
+    },
+  {
+    "nome": "Ovos",
+    "fontes": [
+      {
+        "supermercado": "Continente",
+        "url": "https://www.continente.pt/produto/ovos-de-solo-classe-m-continente-7284496.html",
+        "unidades": 1
+      },
+      {
+        "supermercado": "Pingo Doce",
+        "url": "https://www.pingodoce.pt/home/produtos/as-nossas-marcas/pingo-doce/ovos-de-solo-classe-m-pingo-doce-889028.html",
+        "unidades": 1
+      }
+    ]
     }
 ]
