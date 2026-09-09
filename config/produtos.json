@@ -114,4 +114,24 @@
       }
     ]
   },
+  {
+    "nome": "Carne Picada Mista - não talho",
+    "fontes": [
+      {
+        "supermercado": "Continente",
+        "url": "https://www.continente.pt/produto/preparado-de-carne-picada-mista-continente-7993967.html",
+        "unidades": 0.9
+      },
+      {
+        "supermercado": "Pingo Doce",
+        "url": "https://www.pingodoce.pt/home/produtos/talho/especialidades-picados-e-salsichas/carne-picada-mista-pingo-doce-1001449.html",
+        "unidades": 0.5
+      }
+      {
+        "supermercado": "Aldi",
+        "url": "https://www.aldi.pt/produto-detalhe/preparado-de-carne-picada-mista-97510002.html",
+        "unidades": 0.5
+      }
+    ]
+  },
 ]
