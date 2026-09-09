@@ -89,5 +89,3 @@ if __name__ == "__main__":
         print(f"\n--- Página {i} (primeiros 300 caracteres) ---")
         print(text[:300])
 
-
-Adiciona Scraper de Folhetos
