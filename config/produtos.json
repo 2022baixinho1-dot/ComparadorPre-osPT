@@ -48,5 +48,70 @@
         "unidades": 1
       }
     ]
-    }
+    },
+  {
+    "nome": "Banana",
+    "fontes": [
+      {
+        "supermercado": "Continente",
+        "url": "https://www.continente.pt/produto/banana-continente-2597619.html",
+        "unidades": 1
+      },
+      {
+        "supermercado": "Pingo Doce",
+        "url": "https://www.pingodoce.pt/home/produtos/frutas-e-vegetais/frutas/fruta-da-epoca/banana-importada-nossa-fruta-e-legumes-43218.html",
+        "unidades": 1
+      }
+    ]
+  },
+  {
+    "nome": "Farinha com Fermento MP",
+    "fontes": [
+      {
+        "supermercado": "Continente",
+        "url": "https://www.continente.pt/produto/farinha-de-trigo-fina-com-fermento-continente-2388596.html",
+        "unidades": 1
+      },
+      {
+        "supermercado": "Pingo Doce",
+        "url": "https://www.pingodoce.pt/home/produtos/mercearia/farinha-fermento-e-acucar/farinha-fermento-e-pao-ralado/farinha-de-trigo-super-fina-com-fermento-pingo-doce-650224.html",
+        "unidades": 1
+      }
+    ]
+  },
+  {
+    "nome": "Esparguete MP",
+    "fontes": [
+      {
+        "supermercado": "Continente",
+        "url": "https://www.continente.pt/produto/massa-esparguete-pack-poupanca-continente-5253941.html",
+        "unidades": 1
+      },
+      {
+        "supermercado": "Pingo Doce",
+        "url": "https://www.pingodoce.pt/home/produtos/mercearia/arroz-massa-e-leguminosas/massa/massa-esparguete-spaghetti-pingo-doce-909274.html",
+        "unidades": 0.5
+      }
+    ]
+  },
+   {
+    "nome": "Carne Picada Bovina - não talho",
+    "fontes": [
+      {
+        "supermercado": "Continente",
+        "url": "https://www.continente.pt/produto/preparado-de-carne-picada-de-bovino-angus-continente-selecao-7723930.html",
+        "unidades": 0.4
+      },
+      {
+        "supermercado": "Pingo Doce",
+        "url": "https://www.pingodoce.pt/home/produtos/talho/vitela-vitelao-e-bovino/vitela-e-vitelao%E2%80%8B/carne-picada-de-vitelao-embalada-pingo-doce-1002196.html",
+        "unidades": 0.55
+      }
+      {
+        "supermercado": "Aldi",
+        "url": "https://www.aldi.pt/produto-detalhe/preparado-de-carne-picada-de-bovino-52550000.html",
+        "unidades": 0.5
+      }
+    ]
+  },
 ]
