@@ -1,21 +1,22 @@
 """
 Scraper do Folheto Semanal do Continente.
 
-Estratégia (sem PDF, sem OCR):
+Estratégia (sem PDF, sem OCR, sem percorrer página a página):
 1. Vai a https://www.continente.pt/folhetos e encontra o link do
    "Folheto Semanal" atual (distingue-se de "Continente Bom Dia" e
    "Madeira" pelo atributo title="Folheto Semanal" exato na imagem).
-2. A partir desse URL base, percorre as páginas (?Page=1, ?Page=2, ...)
-   e vai buscar o texto de cada página, que já vem incluído no HTML
-   (usado pelo Continente para SEO), sem precisarmos de PDF nem imagens.
-3. Para quando uma página deixa de trazer produtos novos.
+2. Faz UM ÚNICO pedido a esse URL. O HTML da página inclui uma
+   variável JavaScript (window.staticSettings) com um campo
+   "pageTexts": uma lista com o texto de TODAS as páginas do
+   folheto, já pronta a usar — não é preciso percorrer ?Page=1,
+   ?Page=2, etc.
 
 Dependências: requests, beautifulsoup4
     pip install requests beautifulsoup4
 """
 
+import json
 import re
-import time
 import requests
 from bs4 import BeautifulSoup
 
@@ -29,10 +30,6 @@ def get_current_weekly_flyer_url() -> str:
     resp.raise_for_status()
     soup = BeautifulSoup(resp.text, "html.parser")
 
-    # A imagem do folheto semanal "normal" tem title="Folheto Semanal" (exato).
-    # As variantes ("Continente Bom Dia: Folheto Semanal", "Madeira: Folheto
-    # Semanal", etc.) têm sempre texto adicional antes de "Folheto Semanal",
-    # por isso o match exato evita apanhar a errada.
     img = soup.find("img", title="Folheto Semanal")
     if img is None:
         raise RuntimeError(
@@ -51,31 +48,30 @@ def get_current_weekly_flyer_url() -> str:
     return url.rstrip("/") + "/"
 
 
-def get_page_text(base_url: str, page_number: int) -> str:
-    """Devolve o texto em bruto (HTML->texto) de uma página do folheto."""
-    url = f"{base_url}?Page={page_number}"
-    resp = requests.get(url, headers=HEADERS, timeout=20)
+def get_all_pages_text(flyer_url: str) -> list[str]:
+    """
+    Faz um único pedido ao folheto e extrai o campo "pageTexts" da
+    variável JavaScript window.staticSettings embutida no HTML.
+    Devolve a lista de textos, um por página.
+    """
+    resp = requests.get(flyer_url, headers=HEADERS, timeout=20)
     resp.raise_for_status()
-    soup = BeautifulSoup(resp.text, "html.parser")
-    return soup.get_text(separator=" ", strip=True)
+    html = resp.text
 
+    # A variável está definida como:
+    #   window.staticSettings = { ...json grande..., "pageTexts": [...], ... };
+    # Isolamos o valor do array "pageTexts" com um regex não-guloso,
+    # que apanha desde "pageTexts":[ até ao ] correspondente antes de
+    # ,"device" (o campo seguinte no objeto).
+    match = re.search(r'"pageTexts":(\[.*?\]),"device"', html, re.DOTALL)
+    if match is None:
+        raise RuntimeError(
+            "Não encontrei o campo 'pageTexts' no HTML do folheto. "
+            "É provável que a estrutura da página tenha mudado."
+        )
 
-def get_all_pages_text(base_url: str, max_pages: int = 40, pause_seconds: float = 1.0) -> list[str]:
-    """
-    Percorre as páginas do folheto até deixar de haver conteúdo novo
-    (o Continente costuma repetir/ficar vazio a última página existente).
-    """
-    pages = []
-    previous_text = None
-    for page_number in range(1, max_pages + 1):
-        text = get_page_text(base_url, page_number)
-        if text == previous_text:
-            # Página repetida = já passámos do fim do folheto.
-            break
-        pages.append(text)
-        previous_text = text
-        time.sleep(pause_seconds)  # não sobrecarregar o servidor
-    return pages
+    page_texts = json.loads(match.group(1))
+    return page_texts
 
 
 if __name__ == "__main__":
@@ -83,9 +79,8 @@ if __name__ == "__main__":
     print(f"Folheto semanal atual: {flyer_url}")
 
     pages_text = get_all_pages_text(flyer_url)
-    print(f"Encontradas {len(pages_text)} páginas com conteúdo.")
+    print(f"Extraídas {len(pages_text)} páginas de texto (1 único pedido HTTP).")
 
-    for i, text in enumerate(pages_text, start=1):
+    for i, text in enumerate(pages_text[:3], start=1):
         print(f"\n--- Página {i} (primeiros 300 caracteres) ---")
         print(text[:300])
-
