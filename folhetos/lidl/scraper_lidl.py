@@ -68,16 +68,9 @@ def get_current_weekly_flyer() -> dict:
     return candidatos[0]
 
 
-def get_flyer_detail(flyer_identifier: str) -> dict:
-    """Pede o detalhe completo de um folheto (todas as páginas com OCR)."""
-    params = {
-        "version": 4,
-        "flyer_identifier": flyer_identifier,
-        "region_id": 0,
-        "region_code": 0,
-        "client": "lidl",
-    }
-    resp = requests.get(FLYER_URL, params=params, headers=HEADERS, timeout=20)
+def get_flyer_detail(flyer: dict) -> dict:
+    """Pede o detalhe completo de um folheto, usando o URL já fornecido em flyer['flyerJson']."""
+    resp = requests.get(flyer["flyerJson"], headers=HEADERS, timeout=20)
     resp.raise_for_status()
     return resp.json()["flyer"]
 
@@ -87,12 +80,7 @@ if __name__ == "__main__":
     print(f"Folheto encontrado: {flyer['name']} — {flyer['title']}")
     print(f"Válido de {flyer['offerStartDate']} a {flyer['offerEndDate']}")
 
-    # o identifier é o último segmento do URL "flyerUrlAbsolute"
-    flyer_identifier = flyer["flyerUrlAbsolute"].rstrip("/").split("/")[-2] \
-        if flyer["flyerUrlAbsolute"].rstrip("/").split("/")[-1].isdigit() \
-        else flyer["flyerUrlAbsolute"].rstrip("/").split("/")[-1]
-
-    detail = get_flyer_detail(flyer_identifier)
+    detail = get_flyer_detail(flyer)
     pages = detail.get("pages", [])
     print(f"\nEncontradas {len(pages)} páginas.")
 
