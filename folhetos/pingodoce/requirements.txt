@@ -1,2 +1,5 @@
 requests
 pypdf
+PyMuPDF
+pytesseract
+Pillow
