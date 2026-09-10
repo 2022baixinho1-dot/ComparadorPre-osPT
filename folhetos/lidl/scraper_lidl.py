@@ -4,28 +4,27 @@ Scraper do Folheto Semanal do Lidl Portugal.
 Descoberta técnica: o Lidl usa, em todos os países, a mesma
 infraestrutura do grupo Schwarz (dono do Lidl) para os folhetos —
 uma API pública em endpoints.leaflets.schwarz, sem necessidade de
-login, cookies, ou navegador. Confirmado com dados reais da Roménia;
-a estrutura deveria ser idêntica para Portugal, só muda o
-"client_locale". Este script ainda não foi testado ao vivo contra
-lidl.pt — corre-o e vê o que aparece.
+login, cookies, ou navegador. Confirmado com dados reais de Portugal.
 
 Passos:
 1. Pede a lista de folhetos ativos (endpoint "overview")
 2. Encontra o folheto semanal nacional (não é uma promoção regional
    de uma loja específica) que esteja a decorrer hoje
-3. Pede o detalhe desse folheto (endpoint "flyer"), que traz o texto
-   OCR de cada página em "keyWords" e "altText"
+3. Descarrega o PDF do folheto (campo "pdfUrl", já vem pronto a usar
+   — sem o problema de botão JavaScript que tínhamos no Continente)
+   e extrai o texto de todas as páginas de uma vez
 
-Dependências: requests
-    pip install requests
+Dependências: requests, pypdf
+    pip install requests pypdf
 """
 
+import io
 import requests
 from datetime import date
+from pypdf import PdfReader
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; ComparadorPrecosPT/1.0)"}
 OVERVIEW_URL = "https://endpoints.leaflets.schwarz/v4/overview"
-FLYER_URL = "https://endpoints.leaflets.schwarz/v4/flyer"
 
 
 def get_all_flyers() -> list[dict]:
@@ -63,16 +62,17 @@ def get_current_weekly_flyer() -> dict:
             "categoria/subcategoria específicos de Portugal)."
         )
 
-    # Se houver mais que um candidato, preferir o de título "mais parecido"
-    # com uma promoção semanal genérica (evita brochuras especiais).
     return candidatos[0]
 
 
-def get_flyer_detail(flyer: dict) -> dict:
-    """Pede o detalhe completo de um folheto, usando o URL já fornecido em flyer['flyerJson']."""
-    resp = requests.get(flyer["flyerJson"], headers=HEADERS, timeout=20)
+def get_flyer_pdf_text(flyer: dict) -> str:
+    """Descarrega o PDF do folheto e devolve o texto de todas as páginas, junto."""
+    resp = requests.get(flyer["pdfUrl"], headers=HEADERS, timeout=60)
     resp.raise_for_status()
-    return resp.json()["flyer"]
+
+    reader = PdfReader(io.BytesIO(resp.content))
+    paginas_texto = [page.extract_text() or "" for page in reader.pages]
+    return "\n".join(paginas_texto)
 
 
 if __name__ == "__main__":
@@ -80,11 +80,7 @@ if __name__ == "__main__":
     print(f"Folheto encontrado: {flyer['name']} — {flyer['title']}")
     print(f"Válido de {flyer['offerStartDate']} a {flyer['offerEndDate']}")
 
-    detail = get_flyer_detail(flyer)
-    pages = detail.get("pages", [])
-    print(f"\nEncontradas {len(pages)} páginas.")
-
-    for i, page in enumerate(pages[:3], start=1):
-        print(f"\n--- Página {i} ---")
-        print("altText:", page.get("altText"))
-        print("keyWords (primeiros 300 caracteres):", (page.get("keyWords") or "")[:300])
+    texto = get_flyer_pdf_text(flyer)
+    print(f"\nTexto extraído: {len(texto)} caracteres.")
+    print("\n--- Primeiros 500 caracteres ---")
+    print(texto[:500])
