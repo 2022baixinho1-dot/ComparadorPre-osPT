@@ -25,6 +25,9 @@ import io
 import requests
 from datetime import date
 from pypdf import PdfReader
+import fitz  # PyMuPDF
+import pytesseract
+from PIL import Image
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; ComparadorPrecosPT/1.0)"}
 
@@ -36,26 +39,46 @@ def get_current_weekly_flyer_url() -> str:
     return f"https://folhetos.pingodoce.pt/{ano}/poupe-esta-semana/continental-lojas-grandes/S{semana}/"
 
 
-def get_flyer_pdf_text(flyer_url: str) -> str:
-    """
-    Descarrega o PDF do folheto via GetPDF.ashx (descoberto no DevTools —
-    este endpoint redireciona automaticamente para o ficheiro PDF real com
-    um token temporário) e devolve o texto de todas as páginas, junto.
-    """
+def get_flyer_pdf_bytes(flyer_url: str) -> bytes:
+    """Descarrega o PDF do folheto via GetPDF.ashx (descoberto no DevTools)."""
     pdf_download_url = flyer_url.rstrip("/") + "/GetPDF.ashx"
     resp = requests.get(pdf_download_url, headers=HEADERS, timeout=60)
     resp.raise_for_status()
+    return resp.content
 
-    reader = PdfReader(io.BytesIO(resp.content))
-    paginas_texto = [page.extract_text() or "" for page in reader.pages]
-    return "\n".join(paginas_texto)
+
+def get_flyer_pages_ocr_text(pdf_bytes: bytes, dpi: int = 200) -> list[str]:
+    """
+    Renderiza cada página do PDF como imagem e corre OCR (Tesseract, em
+    português) sobre cada uma. Necessário porque o PDF do Pingo Doce não
+    tem texto de produtos extraível diretamente — só imagens.
+    """
+    doc = fitz.open(stream=pdf_bytes, filetype="pdf")
+    textos = []
+
+    zoom = dpi / 72  # o PDF assume 72 DPI por omissão
+    matrix = fitz.Matrix(zoom, zoom)
+
+    for pagina in doc:
+        pix = pagina.get_pixmap(matrix=matrix)
+        imagem = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
+        texto = pytesseract.image_to_string(imagem, lang="por")
+        textos.append(texto)
+
+    return textos
 
 
 if __name__ == "__main__":
     flyer_url = get_current_weekly_flyer_url()
     print(f"URL do folheto: {flyer_url}")
 
-    texto = get_flyer_pdf_text(flyer_url)
-    print(f"Texto extraído: {len(texto)} caracteres.")
-    print("\n--- Primeiros 1000 caracteres ---")
-    print(texto[:1000])
+    pdf_bytes = get_flyer_pdf_bytes(flyer_url)
+    print(f"PDF descarregado: {len(pdf_bytes)} bytes.")
+
+    textos = get_flyer_pages_ocr_text(pdf_bytes)
+    print(f"OCR feito em {len(textos)} páginas.")
+
+    for i in [0, 2, 5]:
+        if i < len(textos):
+            print(f"\n--- Página {i + 1} (OCR, primeiros 800 caracteres) ---")
+            print(textos[i][:800])
