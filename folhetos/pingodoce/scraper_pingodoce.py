@@ -58,5 +58,8 @@ if __name__ == "__main__":
 
     pages_text = get_all_pages_text(flyer_url)
     print(f"Extraídas {len(pages_text)} páginas de texto.")
-    print("\nPrimeiros 300 caracteres da página 1:")
-    print(pages_text[0][:300])
+
+    for i in [0, 2, 5]:
+        if i < len(pages_text):
+            print(f"\n--- Página {i + 1} (1000 primeiros caracteres) ---")
+            print(pages_text[i][:1000])
