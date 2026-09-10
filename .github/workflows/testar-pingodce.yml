@@ -15,8 +15,13 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Instalar dependências
+      - name: Instalar o Tesseract (motor de OCR) + pacote de português
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y tesseract-ocr tesseract-ocr-por
+
+      - name: Instalar dependências Python
         run: pip install -r folhetos/pingodoce/requirements.txt
 
-      - name: Correr o scraper
+      - name: Correr o scraper (com OCR)
         run: python folhetos/pingodoce/scraper_pingodoce.py
