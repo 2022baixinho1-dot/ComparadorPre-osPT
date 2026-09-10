@@ -12,7 +12,7 @@ from datetime import date
 from scraper_lidl import get_current_weekly_flyer, get_flyer_pdf_text
 from parser_lidl import parse_products
 
-DADOS_DIR = os.path.join(os.path.dirname(__file__), "dados", "lidl")
+DADOS_DIR = os.path.join(os.path.dirname(__file__), "..", "dados", "lidl")
 
 
 def guardar_historico(flyer: dict, produtos: list[dict]) -> str:
