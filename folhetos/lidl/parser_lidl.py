@@ -38,6 +38,10 @@ NOISE_RE = re.compile(
 # ou modo de venda).
 FIM_DO_NOME_RE = re.compile(r'\bEmb\.|\bVendido ao kg\b|\bCada emb\.')
 
+# Comprimento máximo razoável — acima disto é quase certo que apanhámos
+# texto legal de rodapé (repete-se em todas as páginas) em vez do nome.
+NOME_MAX_LEN = 90
+
 
 def parse_products(pdf_text: str) -> list[dict]:
     """Extrai produtos (nome, preço) do texto extraído do PDF do folheto."""
@@ -52,6 +56,7 @@ def parse_products(pdf_text: str) -> list[dict]:
         name_part = FIM_DO_NOME_RE.split(window)[0]
         pieces = [p for p in NOISE_RE.split(name_part) if p.strip()]
         name = " ".join(pieces[-1].split()) if pieces else " ".join(name_part.split())
+        name = name[-NOME_MAX_LEN:].strip() if len(name) > NOME_MAX_LEN else name
 
         if name and len(name) > 2:
             products.append({"nome": name, "preco": price})
