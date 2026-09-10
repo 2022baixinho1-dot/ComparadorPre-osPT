@@ -16,7 +16,7 @@ jobs:
           python-version: "3.11"
 
       - name: Instalar dependências
-        run: pip install requests
+        run: pip install -r folhetos/lidl/requirements.txt
 
-      - name: Correr o scraper
-        run: python folhetos/lidl/scraper_lidl.py
+      - name: Correr o scraper + parser
+        run: python folhetos/lidl/parser_lidl.py
