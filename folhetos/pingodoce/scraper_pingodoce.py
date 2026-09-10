@@ -21,10 +21,10 @@ Dependências: requests
     pip install requests
 """
 
-import json
-import re
+import io
 import requests
 from datetime import date
+from pypdf import PdfReader
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; ComparadorPrecosPT/1.0)"}
 
@@ -36,30 +36,26 @@ def get_current_weekly_flyer_url() -> str:
     return f"https://folhetos.pingodoce.pt/{ano}/poupe-esta-semana/continental-lojas-grandes/S{semana}/"
 
 
-def get_all_pages_text(flyer_url: str) -> list[str]:
-    """Faz um único pedido ao folheto e extrai o campo 'pageTexts' embutido no HTML."""
-    resp = requests.get(flyer_url, headers=HEADERS, timeout=20)
+def get_flyer_pdf_text(flyer_url: str) -> str:
+    """
+    Descarrega o PDF do folheto via GetPDF.ashx (descoberto no DevTools —
+    este endpoint redireciona automaticamente para o ficheiro PDF real com
+    um token temporário) e devolve o texto de todas as páginas, junto.
+    """
+    pdf_download_url = flyer_url.rstrip("/") + "/GetPDF.ashx"
+    resp = requests.get(pdf_download_url, headers=HEADERS, timeout=60)
     resp.raise_for_status()
 
-    match = re.search(r'"pageTexts":(\[.*?\]),"device"', resp.text, re.DOTALL)
-    if match is None:
-        raise RuntimeError(
-            f"Não encontrei 'pageTexts' em {flyer_url}. "
-            "O URL construído pode estar errado (nome da campanha ou "
-            "formato de loja pode ter mudado) — é preciso confirmar "
-            "manualmente o URL correto do folheto desta semana."
-        )
-    return json.loads(match.group(1))
+    reader = PdfReader(io.BytesIO(resp.content))
+    paginas_texto = [page.extract_text() or "" for page in reader.pages]
+    return "\n".join(paginas_texto)
 
 
 if __name__ == "__main__":
     flyer_url = get_current_weekly_flyer_url()
-    print(f"URL construído: {flyer_url}")
+    print(f"URL do folheto: {flyer_url}")
 
-    pages_text = get_all_pages_text(flyer_url)
-    print(f"Extraídas {len(pages_text)} páginas de texto.")
-
-    for i in [0, 2, 5]:
-        if i < len(pages_text):
-            print(f"\n--- Página {i + 1} (1000 primeiros caracteres) ---")
-            print(pages_text[i][:1000])
+    texto = get_flyer_pdf_text(flyer_url)
+    print(f"Texto extraído: {len(texto)} caracteres.")
+    print("\n--- Primeiros 1000 caracteres ---")
+    print(texto[:1000])
