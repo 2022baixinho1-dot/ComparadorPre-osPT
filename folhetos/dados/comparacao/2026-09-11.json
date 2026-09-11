@@ -54,32 +54,6 @@
   {
     "produtos": {
       "continente": {
-        "nome": "PREGUINHO DE VITELA EMBALADO 9",
-        "preco": 21.99
-      },
-      "aldi": {
-        "nome": "embalado",
-        "preco": 2.59
-      }
-    },
-    "mais_barato": "aldi"
-  },
-  {
-    "produtos": {
-      "continente": {
-        "nome": "FRANGO P/ CHURRASCO CONTINENTE EMBALADO",
-        "preco": 3.39
-      },
-      "aldi": {
-        "nome": ") embalado",
-        "preco": 1.99
-      }
-    },
-    "mais_barato": "aldi"
-  },
-  {
-    "produtos": {
-      "continente": {
         "nome": "MOELAS DE FRANGO CONGELADAS",
         "preco": 2.49
       },
@@ -245,32 +219,6 @@
       }
     },
     "mais_barato": "aldi"
-  },
-  {
-    "produtos": {
-      "continente": {
-        "nome": "TAMPÕES DE NATAÇÃO REF:7641944 3 PARES SILICONE 19 L Bolso para PC até 16” 99 € 4 , UNID",
-        "preco": 2.99
-      },
-      "aldi": {
-        "nome": "5 PARES",
-        "preco": 7.99
-      }
-    },
-    "mais_barato": "continente"
-  },
-  {
-    "produtos": {
-      "continente": {
-        "nome": "ÓCULOS DE NATAÇÃO REF:7641946 TAM: 3 A 8 ANOS",
-        "preco": 3.99
-      },
-      "aldi": {
-        "nome": "+ 3 anos",
-        "preco": 3.99
-      }
-    },
-    "mais_barato": "continente"
   },
   {
     "produtos": {
