@@ -1,0 +1,521 @@
+{
+  "data_execucao": "2026-09-11",
+  "supermercado": "Pingo Doce",
+  "tipo_folheto": "Lojas Grandes",
+  "folheto": {
+    "url": "https://folhetos.pingodoce.pt/2026/poupe-esta-semana/continental-lojas-grandes/S37/",
+    "validade_aproximada": null
+  },
+  "produtos": [
+    {
+      "pagina": 4,
+      "nome": "CAMARÃO REP, 30/50 COZIDO 20* PINGO DOCE Embalado 99 BIFE DE ATUM Fica TRANCHE 80€ DE Pegamos. granel",
+      "preco": 19.99,
+      "preco_unidade": "19,99€/kg"
+    },
+    {
+      "pagina": 4,
+      "nome": "CAMARÃO REP, 30/50 COZIDO 20* PINGO DOCE Embalado 99 BIFE DE ATUM Fica TRANCHE 80€ DE Pegamos. granel",
+      "preco": 19.99,
+      "preco_unidade": "19,99€/kg"
+    },
+    {
+      "pagina": 6,
+      "nome": "ENTRECOTE ALCATRA BIFE DE BOVINO DOCE DE PINGO 10% WA] 10” Embalado PINGO DOCE Embalado E/kg 99€ 18",
+      "preco": 18.99,
+      "preco_unidade": "E/kg"
+    },
+    {
+      "pagina": 8,
+      "nome": "CROISSANT Folhado soa UA Ea",
+      "preco": 0.45,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 8,
+      "nome": "CROISSANT Folhado soa UA Ea",
+      "preco": 0.45,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 8,
+      "nome": "CROISSANT Folhado soa 20” UA Ea",
+      "preco": 0.45,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 9,
+      "nome": "FORNADA PADAS DE MAIS 20* 3€ Unid PÃO DE QUELJO",
+      "preco": 0.29,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 14,
+      "nome": "vos Ns DE IOGURTE SOBREMESA LACTEA Yo BICOMPARTIMENTADO Yo Todos sabores os DANONE SOBRE Pack 4x100/125. Bolacha crocant",
+      "preco": 3.42,
+      "preco_unidade": "1,09€/Unid."
+    },
+    {
+      "pagina": 14,
+      "nome": "vos Ns DE IOGURTE SOBREMESA LACTEA Yo BICOMPARTIMENTADO Yo Todos sabores os DANONE SOBRE Pack 4x100/125. Bolacha crocant",
+      "preco": 3.42,
+      "preco_unidade": "1,09€/Unid."
+    },
+    {
+      "pagina": 14,
+      "nome": "jo Luz TE As as vos vos Ns SOBREMESA LACTEA DANET BICOMPARTIMENTADO Yo Todos sabores os Pack 4x100/125",
+      "preco": 3.42,
+      "preco_unidade": "1,09€/Unid."
+    },
+    {
+      "pagina": 14,
+      "nome": "DESTAQUE SEMANA DA OIKOS IOGURTE GREGO 25% Papaia/Maracujá/ Manga Morango/Stracciatella Pack 4x110g",
+      "preco": 3.24,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 14,
+      "nome": "DESTAQUE SEMANA DA OIKOS IOGURTE GREGO 25% Papaia/Maracujá/ Manga Morango/Stracciatella Pack 4x110g",
+      "preco": 3.24,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 14,
+      "nome": "cs. Luz e] as vos IOGURTE LIQUIDO YOGGI MAIS MAIS DE lactose Sem Morango Banana Pack 89€ 99€",
+      "preco": 6.31,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 14,
+      "nome": "Luz as vos IOGURTE LIQUIDO YOGGI MAIS MAIS DE Yo lactose Sem PyPR Morango Banana Pack 89€ 99€",
+      "preco": 6.31,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 14,
+      "nome": "IOGURTE Magro Frutos Tropicais/Morango Pack 8x151g 99€ Pack MIMOSA jo MIMOSA ces. as Luz TE As os. as",
+      "preco": 4.19,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 14,
+      "nome": "IOGURTE Magro Frutos Tropicais/Morango Pack 8x151g 99€ Pack MIMOSA jo MIMOSA ces. as Luz TE As os. as",
+      "preco": 4.19,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 14,
+      "nome": "vos Ns DE IOGURTE SOBREMESA LACTEA Yo BICOMPARTIMENTADO Yo Todos sabores os DANONE SOBRE Pack 4x100/125. Bolacha crocant",
+      "preco": 3.42,
+      "preco_unidade": "1,09€/Unid."
+    },
+    {
+      "pagina": 14,
+      "nome": "vos Ns DE IOGURTE SOBREMESA LACTEA Yo BICOMPARTIMENTADO Yo Todos sabores os DANONE SOBRE Pack 4x100/125. Bolacha crocant",
+      "preco": 3.42,
+      "preco_unidade": "1,09€/Unid."
+    },
+    {
+      "pagina": 14,
+      "nome": "VÍMOSA ves IOGURTE MAIS DE SUISSINHO YOCO Baunilha Morango SOBRE Pack 4x90g Chocol: 39€ 79€ 100g Pack pUnid",
+      "preco": 3.42,
+      "preco_unidade": "1,09€/Unid."
+    },
+    {
+      "pagina": 14,
+      "nome": "SÓLIDO IOGURTE MIMOSA 98€ Todos sabores os pack Pack 8x120g 99€ MIMOSA Os ces. PER MiMOSA as ses",
+      "preco": 3.42,
+      "preco_unidade": "1,09€/Unid."
+    },
+    {
+      "pagina": 14,
+      "nome": "MIMOSA 99€ Pack Os MIMOSA jo ces. PER as ses TE As os. oe me as POUPANÇA ves",
+      "preco": 1.09,
+      "preco_unidade": "1,09€/Unid."
+    },
+    {
+      "pagina": 14,
+      "nome": "MIMOSA 99€ Pack Os MIMOSA jo ces. PER as ses TE As os. oe me as POUPANÇA ves",
+      "preco": 1.09,
+      "preco_unidade": "1,09€/Unid."
+    },
+    {
+      "pagina": 14,
+      "nome": "IOGURTE LÍQUIDO MAIS DE 'MAIS Yo Morango/Tutti-Frutti PyPR Pack 8x160g Morango Pack 4x160g 89€ 99€ pPock Pack om",
+      "preco": 5.37,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 14,
+      "nome": "IOGURTE LÍQUIDO MAIS DE 'MAIS Yo Morango/Tutti-Frutti PyPR Pack 8x160g Morango Pack 4x160g 89€ 99€ pPock Pack om",
+      "preco": 5.37,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 14,
+      "nome": "FOGURTE LÍQUIDO %o voce! banana/ Morango Morango Pack 4x160g 99€ pPock dx om Yoggi Yogg SUPER te POUPANÇA",
+      "preco": 3.52,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 14,
+      "nome": "FOGURTE LÍQUIDO %o voce! banana/ Morango Morango Pack 4x160g 99€ pPock dx om Yoggi Yogg SUPER te POUPANÇA",
+      "preco": 3.52,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 15,
+      "nome": "4009 Spa al pro Aa “sa Po pingodoce.pt AINDA... LÍQUIDO ACTIVIA IOG ACTIVIA Todos sabores os Pack 4x155",
+      "preco": 3.59,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 15,
+      "nome": "ss sas kéfir Kéfir LÍQUIDO IOGURTE ACTIMEL KID: Morango Pack 14x100g /Pack 99€ 39€ Pack Pack [em Be",
+      "preco": 7.39,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 15,
+      "nome": "IOGURTE Frutti-Frutti/Aveia Morangoy/ Pack 12x100g Danacol Pock Bra neem Kéfir LÍQUIDO LÍQUIDO ACTIMEL IOGURTE ACTIMEL M",
+      "preco": 6.57,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 15,
+      "nome": "Spa al pro Aa “sa Po pingodoce.pt AINDA... LÍQUIDO ACTIVIA IOG ACTIVIA Todos sabores os Pack 4x155",
+      "preco": 3.59,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 15,
+      "nome": "Spa al pro Aa Po pingodoce.pt AINDA... LÍQUIDO ACTIVIA IOG ACTIVIA Todos sabores os Pack 4x155",
+      "preco": 3.59,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 15,
+      "nome": "ss sas kéfir Kéfir LÍQUIDO IOGURTE ACTIMEL KID: Morango Pack 14x100g /Pack 99€ 39€ Pack Pack [em Be",
+      "preco": 7.39,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 15,
+      "nome": "ss sas kéfir Kéfir LÍQUIDO IOGURTE ACTIMEL KID: Morango Pack 14x100g /Pack 99€ 39€ Pack Pack [em Be",
+      "preco": 7.39,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 15,
+      "nome": "IOGURTE Frutti-Frutti/Aveia Morangoy/ Pack 12x100g Danacol Pock Bra neem Kéfir LÍQUIDO LÍQUIDO ACTIMEL IOGURTE ACTIMEL M",
+      "preco": 6.57,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 15,
+      "nome": "IOGURTE Frutti-Frutti/Aveia Morangoy/ Pack 12x100g Danacol Pock Bra neem Kéfir LÍQUIDO LÍQUIDO ACTIMEL IOGURTE ACTIMEL M",
+      "preco": 6.57,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 15,
+      "nome": "LÍQUIDO IOGURTE 000% ACTIVIA SOJA DE Kiwi/ ALPRO Morango Frutos silvestres Coco Pack 8x155g 3; E! 4009 dad",
+      "preco": 6.29,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 15,
+      "nome": "LÍQUIDO IOGURTE 000% ACTIVIA Kiwi/ Morango Frutos silvestres Coco Pack 8x155g 3; E! 4009 dad al pro ACT",
+      "preco": 6.29,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 15,
+      "nome": "14x100g /Pack Pack [em Be Ee: BA LÍQUIDO IOGURTE YOPRO Todos sabores Natural os PYPR: EB Bm 99€",
+      "preco": 2.69,
+      "preco_unidade": "2,69€/Unid."
+    },
+    {
+      "pagina": 15,
+      "nome": "14x100g /Pack Pack [em Be Ee: BA LÍQUIDO IOGURTE YOPRO Todos sabores Natural os PYPR: EB Bm 99€",
+      "preco": 2.69,
+      "preco_unidade": "2,69€/Unid."
+    },
+    {
+      "pagina": 15,
+      "nome": "LÍQUIDO IOGURTE ACTIMEL Morango/Natural 0% Pack 39€ Pack [em am BA SÓLIDO YOPRO IOGURTE YOPRO Natural 4509 PYPR",
+      "preco": 3.89,
+      "preco_unidade": "2,69€/Unid."
+    },
+    {
+      "pagina": 15,
+      "nome": "LÍQUIDO IOGURTE ACTIMEL Morango/Natural 0% Pack 39€ Pack [em am BA SÓLIDO YOPRO IOGURTE YOPRO Natural 4509 PYPR",
+      "preco": 3.89,
+      "preco_unidade": "2,69€/Unid."
+    },
+    {
+      "pagina": 15,
+      "nome": "8x155g E! dad al ACT “sa cê bz) Pi ice AINDA... SÓLIDO IOGURTE ACTIVIA Nozes/Cereais Aveia Pack 8x115g",
+      "preco": 5.77,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 15,
+      "nome": "“E Pack So al NESTLÉ KEFIR Natural 0%/Multifrutos 0%/Morango Pack 6x100g ss Pock sas Bra neem kéfir Kéfir",
+      "preco": 3.46,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 15,
+      "nome": "8x155g E! dad al ACT “sa cê bz) Pi ice AINDA... SÓLIDO IOGURTE ACTIVIA Nozes/Cereais Aveia Pack 8x115g",
+      "preco": 5.77,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 15,
+      "nome": "“E Pack So al NESTLÉ KEFIR Natural 0%/Multifrutos 0%/Morango Pack 6x100g ss Pock sas Bra neem kéfir Kéfir",
+      "preco": 3.46,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 25,
+      "nome": "EM TODO ICE TEA KOMBUCHAS LIPTON pt ICE TEA 69€ 99€ Todas as pUnid variedades 2lt vá Fa",
+      "preco": 1.75,
+      "preco_unidade": "C/GÁS"
+    },
+    {
+      "pagina": 33,
+      "nome": "49€ pUnid. planetus sa PÃO DE LEITE DULCA DULCA 3609 Emb. 10 Unid. CROISSANT C/ RECHEADO CACAU ADE!",
+      "preco": 0.49,
+      "preco_unidade": "0,49€/Unid,"
+    },
+    {
+      "pagina": 33,
+      "nome": "49€ pUnid. planetus sa PÃO DE LEITE DULCA DULCA 3609 Emb. 10 Unid. CROISSANT C/ RECHEADO CACAU ADE!",
+      "preco": 0.49,
+      "preco_unidade": "0,49€/Unid,"
+    },
+    {
+      "pagina": 37,
+      "nome": "OS CREMES DE CORPO SÉRUNS 400/625ml NIVEA ACTIVE GARNIER EM im nave “E (ES O10, == Ng No",
+      "preco": 12.99,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 37,
+      "nome": "LIMPEZA, 50ml SÉRUNS PURE ACTIVE GARNIER RESULTADOS 2€ EM im “E (ES O10, == he Tm Ng No",
+      "preco": 15.69,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 37,
+      "nome": "eptideo: RESULTADOS VISÍVEIS 2€ EM (ES he Tm No estar MULTIVITAMÍNICO CENTRUM Homem/Mulher NM Vas Emb. Unid. 30",
+      "preco": 10.39,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 37,
+      "nome": "eptideo: RESULTADOS VISÍVEIS 2€ EM (ES he Tm No estar MULTIVITAMÍNICO CENTRUM Homem/Mulher NM Vas Emb. Unid. 30",
+      "preco": 12.29,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 39,
+      "nome": "FRALDAS CUECA DODOT Emb. 23 Unid./ TZ Unid./ Tó Emb. 27 inclui Não Emb. Unid. T5 30 O9€!",
+      "preco": 8.65,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 40,
+      "nome": "ROLO DE COZINHA MAX ABSORPTION PINGO DOCE XXL RENOVA Emb. Emb. Rolos 24 79€ 84€ Emb. Rolos Emb",
+      "preco": 1.99,
+      "preco_unidade": "1,99€/Emb."
+    },
+    {
+      "pagina": 40,
+      "nome": "99€ Emb (e) Scottex Cuida 2] EA GUARDANAPOS FOLHA TRIPLA ae LEVE Emb. 70 Unid OU MAIS FRALDA",
+      "preco": 1.59,
+      "preco_unidade": "1,59€/Emb."
+    },
+    {
+      "pagina": 40,
+      "nome": "99€ Emb (e) Scottex Cuida 2] EA GUARDANAPOS FOLHA TRIPLA ae LEVE Emb. 70 Unid OU MAIS FRALDA",
+      "preco": 1.59,
+      "preco_unidade": "1,59€/Emb."
+    },
+    {
+      "pagina": 41,
+      "nome": "po Consulte todas condições as EM TODA MARCA SKIP A+ LÍQUIDO DETERGENTE 12,325 P/ROUPA clean 76 Doses Active",
+      "preco": 25.99,
+      "preco_unidade": "25,99€/Unid."
+    },
+    {
+      "pagina": 41,
+      "nome": "Consulte todas condições as EM TODA MARCA SKIP A+ LÍQUIDO DETERGENTE Il 12,325 P/ROUPA clean 76 Doses Active",
+      "preco": 25.99,
+      "preco_unidade": "25,99€/Unid."
+    },
+    {
+      "pagina": 41,
+      "nome": "inclui Ultra. marca Es ad 99€ 'O Jenor Uma Iutada de feno 1,720) ar ad ATUA PARA ROUP",
+      "preco": 11.98,
+      "preco_unidade": "11,98€/Unid."
+    },
+    {
+      "pagina": 41,
+      "nome": "Ultra. marca Es ad 99€ 'O Jenor Flenor Uma Iutada de feno 1,720) ar ad ATUA PARA ROUP",
+      "preco": 11.98,
+      "preco_unidade": "11,98€/Unid."
+    },
+    {
+      "pagina": 41,
+      "nome": "th TODOS OS DETERGENTES 22508 99€ fo === pUnid, P/MAQUINA Surf LíquiDO ROUPA XAU+VANISH SA Ultra. Tira nódoas",
+      "preco": 24.99,
+      "preco_unidade": "24,99€/Unid."
+    },
+    {
+      "pagina": 41,
+      "nome": "Pas 99€ Unid. P/MÁQUINA AMACIADOR ROUPA DA COMFORT mirtilo Jasmim inclui Ultra. Não marca NO Doses iso) Es",
+      "preco": 9.99,
+      "preco_unidade": "9,99€/Unid."
+    },
+    {
+      "pagina": 41,
+      "nome": "th TODOS OS DETERGENTES 22508 99€ fo === pUnid, P/MAQUINA Surf LíquiDO ROUPA XAU+VANISH SA Ultra. Tira nódoas",
+      "preco": 24.99,
+      "preco_unidade": "24,99€/Unid."
+    },
+    {
+      "pagina": 41,
+      "nome": "Pas 99€ Unid. P/MÁQUINA AMACIADOR ROUPA DA COMFORT mirtilo Jasmim inclui Ultra. Não marca NO Doses iso) Es",
+      "preco": 9.99,
+      "preco_unidade": "9,99€/Unid."
+    },
+    {
+      "pagina": 41,
+      "nome": "pingodoce.pt em 99€ CÁPSULAS P/MÁQUINA Il DA ROUPA A+ Fl Higiene ad poder Máximo tira Emb. Unid. 46",
+      "preco": 24.99,
+      "preco_unidade": "25,99€/Unid."
+    },
+    {
+      "pagina": 41,
+      "nome": "folheto pingodoce.pt em 99€ CÁPSULAS P/MÁQUINA DA ROUPA A+ Fl Higiene ad poder Máximo tira Emb. Unid. 46",
+      "preco": 24.99,
+      "preco_unidade": "25,99€/Unid."
+    },
+    {
+      "pagina": 43,
+      "nome": "EG ES ATE 30” inclui Ultra. Não marca Er AJAX cf Lavanda os",
+      "preco": 1.25,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 46,
+      "nome": "EE TODA COMIDA 40* P/CÃO SECA ONE MINI 23,5% Todas variedades as 1,5kg g99€/Unid. COMIDA SECA P/CÃO ADULTO",
+      "preco": 39.99,
+      "preco_unidade": "g99€/Unid."
+    },
+    {
+      "pagina": 46,
+      "nome": "COMIDA 40* ONE MINI 23,5% Todas variedades as 1,5kg g99€/Unid. COMIDA SECA P/CÃO ADULTO NE ONE 7kg Vaca",
+      "preco": 39.99,
+      "preco_unidade": "g99€/Unid."
+    },
+    {
+      "pagina": 47,
+      "nome": "LEVE HÚMIDA COMIDA MAIS P/GATO 10* variedades as Todas as variedades 859 800g 49€ 1€ unid, Unid fe",
+      "preco": 0.59,
+      "preco_unidade": "P/GATO"
+    },
+    {
+      "pagina": 48,
+      "nome": "CADERNO A4 AGRAFADO A4 Pautado/Quadriculado Pautado Vários modelos modelos Vários 79€ 39€ 48 folhas folhas 48 48 Unid",
+      "preco": 2.99,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 48,
+      "nome": "CADERNO AGRAFADO A4 Pautado/Quadriculado Pautado Vários modelos modelos Vários 39€ folhas 48 folhas folhas 48 48 Unid. U",
+      "preco": 2.99,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 49,
+      "nome": "Emb MARCADORES MARCADORES DE PONTA DUPLA FINELINER 20 40” KAYET EBERHARDFABER Unid. Emb. Emb. Unid. 60 29€ Emb",
+      "preco": 9.99,
+      "preco_unidade": "J9,99€/Emb."
+    },
+    {
+      "pagina": 51,
+      "nome": "49%: Joc GRELHA TEPPANYAKI COOKITCH 29 2000W SANDUICHEIRA HOFFEN H193",
+      "preco": 18.32,
+      "preco_unidade": "/Unid."
+    },
+    {
+      "pagina": 51,
+      "nome": "49%: GRELHA TEPPANYAKI COOKITCH 29 2000W SANDUICHEIRA HOFFEN H193 BR/PR",
+      "preco": 18.32,
+      "preco_unidade": "/Unid."
+    },
+    {
+      "pagina": 51,
+      "nome": "EM TODAS AS TELEVISÕES SMART 24º (3 E) 1365768 149, BE TV LED SMART 32 ESMART 249, 00€/Unid",
+      "preco": 249.0,
+      "preco_unidade": "00€/Unid"
+    },
+    {
+      "pagina": 51,
+      "nome": "SANDUICHEIRA HOFFEN H193 BR/PR /Unid. MÁQUINA DE LIMPEZA VIDROS HOFFEN DE WC-6063 243",
+      "preco": 34.99,
+      "preco_unidade": "E/Unid"
+    },
+    {
+      "pagina": 51,
+      "nome": "243: 1,5 450ml 2400W EM TODAS AS TELEVISÕES 225% 1095 LIQUIDIFICADORA LRNK-H154 TV LED SMART 24º /Unid. LE-24P28",
+      "preco": 159.0,
+      "preco_unidade": "39,/99€/Unid,"
+    },
+    {
+      "pagina": 54,
+      "nome": "SEM LÍQUIDO DETERGENTE P/MAQUINA ROUPA DA A+ Essência de Provença 100 Doses",
+      "preco": 29.99,
+      "preco_unidade": "29,99€/Unid."
+    },
+    {
+      "pagina": 54,
+      "nome": "DE COMPRA BEs LÍQUIDO LÍQUIDO DETERGENTE ROUPA P/MAQUINA DA ROUPA SKIP 100 Doses Clean 76 Doses Active PYPR",
+      "preco": 25.99,
+      "preco_unidade": "29,99€/Unid."
+    },
+    {
+      "pagina": 54,
+      "nome": "SEM LÍQUIDO DETERGENTE P/MAQUINA ROUPA DA A+ Essência de Provença 100 Doses 99€",
+      "preco": 29.99,
+      "preco_unidade": "29,99€/Unid."
+    },
+    {
+      "pagina": 54,
+      "nome": "SEM LÍQUIDO DETERGENTE P/MAQUINA ROUPA DA A+ Essência de Provença 100 Doses 99€",
+      "preco": 29.99,
+      "preco_unidade": "29,99€/Unid."
+    },
+    {
+      "pagina": 54,
+      "nome": "SEM LÍQUIDO DETERGENTE P/MAQUINA ROUPA DA A+ Essência de Provença 100 Doses 99€",
+      "preco": 29.99,
+      "preco_unidade": "29,99€/Unid."
+    },
+    {
+      "pagina": 54,
+      "nome": "COMPRA BEs LÍQUIDO LÍQUIDO DETERGENTE ROUPA P/MAQUINA DA ROUPA SKIP 100 Doses Clean 76 Doses Active PYPR: 99€",
+      "preco": 25.99,
+      "preco_unidade": "29,99€/Unid."
+    },
+    {
+      "pagina": 54,
+      "nome": "VALOR DE COMPRA BEs LÍQUIDO DETERGENTE ROUPA P/MAQUINA DA ROUPA SKIP Doses Clean 76 Doses Active PYPR: 99€",
+      "preco": 25.99,
+      "preco_unidade": "29,99€/Unid."
+    }
+  ]
+}
