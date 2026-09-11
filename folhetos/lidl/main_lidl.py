@@ -20,8 +20,8 @@ def guardar_historico(flyer: dict, produtos: list[dict], hoje: str) -> str:
     os.makedirs(DADOS_DIR, exist_ok=True)
 
     # sufixo tipo "semanal-2026-09-07" ou "fim-de-semana-2026-09-07"
-    # agora nunca colide entre categorias, porque a categoria vem da
-    # subcategoria da API e não do título.
+    # agora nunca colide entre categorias, porque a categoria vem do
+    # campo `name` do folheto e não do `title`.
     sufixo = f"{flyer['_categoria']}-{flyer['offerStartDate']}"
     caminho = os.path.join(DADOS_DIR, f"{hoje}-{sufixo}.json")
 
@@ -48,12 +48,6 @@ if __name__ == "__main__":
 
     for flyer in folhetos:
         print(f"\n=== [{flyer['_categoria']}] {flyer['title']} ({flyer['offerStartDate']}) ===")
-        # Debug temporário: a subcategoria sozinha não chegou para
-        # distinguir semanal de fim-de-semana (ambos vêm de "Semanais").
-        # Aqui despejamos o folheto completo para encontrar o campo certo.
-        # Remover este bloco assim que soubermos qual é o campo.
-        debug_flyer = {k: v for k, v in flyer.items() if k != "_subcategoria"}
-        print(f"    folheto completo (debug): {json.dumps(debug_flyer, default=str, ensure_ascii=False, indent=2)}")
 
         pdf_text = get_flyer_pdf_text(flyer)
         produtos = parse_products(pdf_text)
