@@ -48,9 +48,12 @@ if __name__ == "__main__":
 
     for flyer in folhetos:
         print(f"\n=== [{flyer['_categoria']}] {flyer['title']} ({flyer['offerStartDate']}) ===")
-        # Debug temporário: confirmar que a subcategoria tem mesmo a
-        # palavra-chave esperada. Remover esta linha depois de confirmado.
-        print(f"    subcategoria (debug): {flyer['_subcategoria']}")
+        # Debug temporário: a subcategoria sozinha não chegou para
+        # distinguir semanal de fim-de-semana (ambos vêm de "Semanais").
+        # Aqui despejamos o folheto completo para encontrar o campo certo.
+        # Remover este bloco assim que soubermos qual é o campo.
+        debug_flyer = {k: v for k, v in flyer.items() if k != "_subcategoria"}
+        print(f"    folheto completo (debug): {json.dumps(debug_flyer, default=str, ensure_ascii=False, indent=2)}")
 
         pdf_text = get_flyer_pdf_text(flyer)
         produtos = parse_products(pdf_text)
