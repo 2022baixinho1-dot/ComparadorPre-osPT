@@ -73,8 +73,32 @@ def nome_informativo(nome: str, minimo_tokens: int = 2, tamanho_min_token: int =
     return len(tokens_uteis) >= minimo_tokens
 
 
+def remover_duplicados(produtos: list[dict], loja: str) -> list[dict]:
+    """
+    Remove duplicados exatos (mesmo nome normalizado + mesmo preço)
+    dentro da mesma loja — acontece quando um produto aparece em mais
+    do que uma página do folheto (ex: "Camarão Cozido 30/50" do Lidl
+    apareceu 2x em produção, e por isso correspondeu a 2 produtos
+    diferentes do Continente ao mesmo tempo).
+    """
+    vistos = set()
+    resultado = []
+    duplicados = 0
+    for p in produtos:
+        chave = (normalizar(p.get("nome", "")), str(p.get("preco")))
+        if chave in vistos:
+            duplicados += 1
+            continue
+        vistos.add(chave)
+        resultado.append(p)
+
+    if duplicados:
+        print(f"  ({loja}: descartados {duplicados} produto(s) duplicado(s) dentro da própria loja)")
+    return resultado
+
+
 def filtrar_produtos_validos(produtos: list[dict], loja: str) -> list[dict]:
-    """Remove produtos com preço implausível ou nome pouco informativo, avisando quantos foram descartados."""
+    """Remove produtos com preço implausível, nome pouco informativo ou duplicados, avisando quantos foram descartados."""
     validos = []
     descartados_preco = 0
     descartados_nome = 0
@@ -91,7 +115,8 @@ def filtrar_produtos_validos(produtos: list[dict], loja: str) -> list[dict]:
         print(f"  ({loja}: descartados {descartados_preco} produto(s) com preço implausível)")
     if descartados_nome:
         print(f"  ({loja}: descartados {descartados_nome} produto(s) com nome pouco informativo)")
-    return validos
+
+    return remover_duplicados(validos, loja)
 
 
 def carregar_mais_recente(loja: str, sufixo: str | None = None) -> list[dict]:
@@ -166,7 +191,13 @@ def carregar_lidl_atual() -> list[dict]:
 
 
 def encontrar_correspondencias(lojas: dict[str, list[dict]]) -> list[dict]:
-    """Agrupa produtos parecidos entre as lojas, usando correspondência aproximada de nomes."""
+    """
+    Agrupa produtos parecidos entre as lojas, usando correspondência
+    aproximada de nomes. Cada grupo guarda também, em "_scores", a
+    pontuação (0-100) de cada correspondência em relação ao produto
+    "âncora" (o primeiro encontrado) — útil para identificar casos
+    duvidosos sem ter de adivinhar.
+    """
     usados = {loja: set() for loja in lojas}
     grupos = []
     lista_lojas = list(lojas.items())
@@ -176,6 +207,7 @@ def encontrar_correspondencias(lojas: dict[str, list[dict]]) -> list[dict]:
             if idx_a in usados[loja_a]:
                 continue
             grupo = {loja_a: produto_a}
+            scores = {}
             usados[loja_a].add(idx_a)
             nome_a_norm = normalizar(produto_a["nome"])
 
@@ -190,26 +222,44 @@ def encontrar_correspondencias(lojas: dict[str, list[dict]]) -> list[dict]:
                 if melhor_score >= LIMIAR_CORRESPONDENCIA:
                     grupo[loja_b] = produtos_b[melhor_idx]
                     usados[loja_b].add(melhor_idx)
+                    scores[loja_b] = melhor_score
 
             if len(grupo) > 1:  # só interessa se apareceu em mais do que uma loja
+                grupo["_scores"] = scores
                 grupos.append(grupo)
 
     return grupos
 
 
 def montar_resultado(grupos: list[dict]) -> list[dict]:
-    """Transforma os grupos em resultado final, com o preço mais baixo assinalado."""
+    """
+    Transforma os grupos em resultado final: preço mais baixo assinalado,
+    poupança em € e %, e pontuação de correspondência por loja. Ordenado
+    da maior para a menor poupança em €.
+    """
     resultado = []
     for grupo in grupos:
-        precos = {loja: preco_float(p["preco"]) for loja, p in grupo.items()}
+        scores = grupo.get("_scores", {})
+        produtos = {loja: p for loja, p in grupo.items() if loja != "_scores"}
+        precos = {loja: preco_float(p["preco"]) for loja, p in produtos.items()}
         loja_mais_barata = min(precos, key=precos.get)
+        preco_min = precos[loja_mais_barata]
+        preco_max = max(precos.values())
+        poupanca_eur = round(preco_max - preco_min, 2)
+        poupanca_pct = round((poupanca_eur / preco_max) * 100, 1) if preco_max else 0.0
+
         resultado.append({
             "produtos": {
                 loja: {"nome": p["nome"], "preco": precos[loja]}
-                for loja, p in grupo.items()
+                for loja, p in produtos.items()
             },
             "mais_barato": loja_mais_barata,
+            "poupanca_eur": poupanca_eur,
+            "poupanca_pct": poupanca_pct,
+            "pontuacoes_correspondencia": scores,
         })
+
+    resultado.sort(key=lambda r: r["poupanca_eur"], reverse=True)
     return resultado
 
 
@@ -234,7 +284,9 @@ if __name__ == "__main__":
     print(f"Resultado guardado em: {caminho}")
 
     for item in resultado[:10]:
-        print("\n---")
+        print(f"\n--- poupança: {item['poupanca_eur']:.2f}€ ({item['poupanca_pct']:.0f}%) ---")
         for loja, p in item["produtos"].items():
             marca = " <-- mais barato" if loja == item["mais_barato"] else ""
-            print(f"  {loja}: {p['nome']} = {p['preco']:.2f}€{marca}")
+            score = item["pontuacoes_correspondencia"].get(loja)
+            score_txt = f" [score={score}]" if score is not None else " [âncora]"
+            print(f"  {loja}: {p['nome']} = {p['preco']:.2f}€{marca}{score_txt}")
