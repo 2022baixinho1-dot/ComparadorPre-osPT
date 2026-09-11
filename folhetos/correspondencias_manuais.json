@@ -1,0 +1,26 @@
+{
+  "_comentario": "Memória manual de correções ao fuzzy matching do comparar.py. Cada par é uma lista de 2 nomes de produto EXATAMENTE como aparecem no JSON de origem (o script normaliza-os internamente). 'rejeitadas': nunca corresponder este par, mesmo com pontuação alta. 'confirmadas': corresponder sempre este par (score=100), mesmo que a pontuação real do fuzzy matching fique abaixo do LIMIAR_CORRESPONDENCIA. Atualizar à mão sempre que se encontrar um erro ou se confirmar uma correspondência.",
+
+  "rejeitadas": [
+    ["TABLETE CHOCOLATE DOLCA LEITE", "NESTLÉ Tablete de Chocolate de Leite KitKat Sortido;"],
+    ["FILETES IGLO PEIXE", "ntos de glúten GOLDEN SEAFOOD ® Filetes de Peixe Sortido: bordalesa, brócolos ou crocante;"],
+    ["VINHO VENTOZELO RESERVA, DOURO, BRANCO/ TINTO", "CEVÊR Vinho Reserva DOC Tinto/ Branco Origem: Douro DOC;"],
+    ["BANDIDA Sidra de Frutos Vermelhos", "Mix de Frutos Vermelhos"],
+    ["ATUM BOM PETISCO ÓLEO", "BOM PETISCO Atum ao Natural"],
+    ["MANTEIGA MIMOSA C/ SAL/ S/ SAL", "O OS CONSUMIDORES** EM **Sabe mais na capa do folheto. MIMOSA Manteiga com Sal sem Lactose"]
+  ],
+
+  "confirmadas": [
+    ["FRANGO DO CAMPO INTEIRO C/ MIÚDOS CONTINENTE SELEÇÃO 40", "C ° Frango Inteiro Sem Miudos"],
+    ["VINHO MONTE VELHO ALENTEJO, BRANCO/ ROSÉ/ TINTO", "MONTE VELHO Vinho Regional Branco/ Tinto"],
+    ["CAMARÃO 30/50 COZIDO 66 30 %", "Camarão Cozido 30/ 50"],
+    ["MOELAS DE FRANGO CONGELADAS", "Moelas de Frango"],
+    ["COGUMELOS CONTINENTE LAMINADOS", "FRESHONA Cogumelos Laminados"],
+    ["BATATAS FRITAS RUFFLES SAL", "compras realizadas nas suas lojas. Sabe mais em aldi.pt. RUFFLES Batatas Fritas Onduladas"],
+    ["CEREAIS CHOCAPIC ORIGINAL", "NESTLÉ Cereais Chocapic"],
+    ["CREME DE BARRAR NUTELLA", "NUTELLA Creme para Barrar"],
+    ["LEITE UHT GRESSO MEIO GORDO/ MAGRO", "DESCONTO GRESSO Leite Meio-gordo"],
+    ["ERVILHAS IGLO ULTRACONGELADAS", "IGLO Ervilhas"],
+    ["NÉCTAR COMPAL TUTTI FRUTTI/ PÊSSEGO/ MANGA,LARANJA", "COMPAL Néctar 100% Manga"]
+  ]
+}
