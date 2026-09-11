@@ -1,29 +1,31 @@
 """
-Script principal do módulo de folhetos do Lidl: descobre o folheto
-semanal nacional atual, extrai os produtos em promoção do PDF e
-guarda o resultado num ficheiro JSON identificado pela data de
-execução, em folhetos/dados/lidl/.
+Script principal do módulo de folhetos do Lidl: descobre TODOS os
+folhetos nacionais ainda válidos (semanais + fim de semana, atual e
+seguinte), extrai os produtos de cada um, e guarda um ficheiro JSON
+por folheto, identificado pela data de execução e pelo período a que
+o folheto diz respeito, em folhetos/dados/lidl/.
 """
 
 import json
 import os
 from datetime import date
 
-from scraper_lidl import get_current_weekly_flyer, get_flyer_pdf_text
+from scraper_lidl import get_folhetos_nacionais_validos, get_flyer_pdf_text
 from parser_lidl import parse_products
 
 DADOS_DIR = os.path.normpath(os.path.join(os.path.dirname(__file__), "..", "dados", "lidl"))
 
 
-def guardar_historico(flyer: dict, produtos: list[dict]) -> str:
-    """Guarda os produtos extraídos num ficheiro JSON com a data de hoje."""
+def guardar_historico(flyer: dict, produtos: list[dict], hoje: str) -> str:
     os.makedirs(DADOS_DIR, exist_ok=True)
 
-    hoje = date.today().isoformat()
-    caminho = os.path.join(DADOS_DIR, f"{hoje}.json")
+    # sufixo tipo "semanal-2026-09-07" ou "fim-de-semana-2026-09-11"
+    sufixo = f"{flyer['_categoria']}-{flyer['offerStartDate']}"
+    caminho = os.path.join(DADOS_DIR, f"{hoje}-{sufixo}.json")
 
     conteudo = {
         "data_execucao": hoje,
+        "categoria": flyer["_categoria"],
         "folheto": flyer.get("title"),
         "valido_de": flyer.get("offerStartDate"),
         "valido_ate": flyer.get("offerEndDate"),
@@ -38,12 +40,15 @@ def guardar_historico(flyer: dict, produtos: list[dict]) -> str:
 
 
 if __name__ == "__main__":
-    flyer = get_current_weekly_flyer()
-    print(f"Folheto: {flyer['name']} — {flyer['title']}")
+    hoje = date.today().isoformat()
+    folhetos = get_folhetos_nacionais_validos()
+    print(f"Encontrados {len(folhetos)} folhetos válidos.")
 
-    pdf_text = get_flyer_pdf_text(flyer)
-    produtos = parse_products(pdf_text)
-    print(f"Extraídos {len(produtos)} produtos em promoção.")
+    for flyer in folhetos:
+        print(f"\n=== [{flyer['_categoria']}] {flyer['title']} ===")
+        pdf_text = get_flyer_pdf_text(flyer)
+        produtos = parse_products(pdf_text)
+        print(f"Extraídos {len(produtos)} produtos.")
 
-    caminho = guardar_historico(flyer, produtos)
-    print(f"Histórico guardado em: {caminho}")
+        caminho = guardar_historico(flyer, produtos, hoje)
+        print(f"Guardado em: {caminho}")
