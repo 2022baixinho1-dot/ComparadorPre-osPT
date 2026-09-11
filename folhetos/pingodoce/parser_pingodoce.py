@@ -54,6 +54,14 @@ class Badge:
     def cy(self) -> float:
         return self.top + self.height / 2
 
+    @property
+    def right(self) -> int:
+        return self.left + self.width
+
+    @property
+    def bottom(self) -> int:
+        return self.top + self.height
+
 
 def _ocr_words(image: Image.Image) -> list[Word]:
     data = pytesseract.image_to_data(
