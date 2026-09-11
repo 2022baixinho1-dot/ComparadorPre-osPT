@@ -22,7 +22,8 @@ import unicodedata
 from rapidfuzz import fuzz
 
 DADOS_DIR = os.path.normpath(os.path.join(os.path.dirname(__file__), "dados"))
-LIMIAR_CORRESPONDENCIA = 80  # 0-100; acima disto consideramos "o mesmo produto"
+CORRECOES_PATH = os.path.join(os.path.dirname(__file__), "correspondencias_manuais.json")
+LIMIAR_CORRESPONDENCIA = 85  # 0-100; acima disto consideramos "o mesmo produto"
 
 # Limite superior plausível para um preço promocional de folheto. Os
 # parsers que extraem texto de PDF (Aldi, Lidl) por vezes juntam dois
@@ -39,6 +40,33 @@ def normalizar(texto: str) -> str:
     texto = re.sub(r"[-/,]", " ", texto)
     texto = re.sub(r"\s+", " ", texto).strip()
     return texto
+
+
+def carregar_correcoes_manuais(caminho: str = CORRECOES_PATH) -> tuple[set, set]:
+    """
+    Carrega a memória de correções manuais (ver correspondencias_manuais.json).
+    Devolve dois conjuntos de pares (frozenset com os 2 nomes normalizados):
+    `rejeitadas` (nunca corresponder, mesmo com pontuação alta) e
+    `confirmadas` (corresponder sempre, mesmo com pontuação baixa).
+
+    Se o ficheiro não existir, devolve dois conjuntos vazios — a memória
+    é um extra opcional, o script funciona sem ela (só fuzzy matching).
+    """
+    if not os.path.exists(caminho):
+        return set(), set()
+
+    with open(caminho, encoding="utf-8") as f:
+        dados = json.load(f)
+
+    rejeitadas = {
+        frozenset({normalizar(a), normalizar(b)})
+        for a, b in dados.get("rejeitadas", [])
+    }
+    confirmadas = {
+        frozenset({normalizar(a), normalizar(b)})
+        for a, b in dados.get("confirmadas", [])
+    }
+    return rejeitadas, confirmadas
 
 
 def preco_float(preco_str: str) -> float:
@@ -190,14 +218,26 @@ def carregar_lidl_atual() -> list[dict]:
     return filtrar_produtos_validos(produtos, "lidl")
 
 
-def encontrar_correspondencias(lojas: dict[str, list[dict]]) -> list[dict]:
+def encontrar_correspondencias(
+    lojas: dict[str, list[dict]],
+    rejeitadas: set | None = None,
+    confirmadas: set | None = None,
+) -> list[dict]:
     """
     Agrupa produtos parecidos entre as lojas, usando correspondência
     aproximada de nomes. Cada grupo guarda também, em "_scores", a
     pontuação (0-100) de cada correspondência em relação ao produto
     "âncora" (o primeiro encontrado) — útil para identificar casos
     duvidosos sem ter de adivinhar.
+
+    `rejeitadas` e `confirmadas` vêm de carregar_correcoes_manuais():
+    um par em `rejeitadas` nunca é escolhido, mesmo com a pontuação de
+    fuzzy matching mais alta disponível; um par em `confirmadas` é
+    sempre escolhido (score 100), mesmo que a pontuação real do fuzzy
+    matching ficasse abaixo de LIMIAR_CORRESPONDENCIA.
     """
+    rejeitadas = rejeitadas or set()
+    confirmadas = confirmadas or set()
     usados = {loja: set() for loja in lojas}
     grupos = []
     lista_lojas = list(lojas.items())
@@ -216,7 +256,11 @@ def encontrar_correspondencias(lojas: dict[str, list[dict]]) -> list[dict]:
                 for idx_b, produto_b in enumerate(produtos_b):
                     if idx_b in usados[loja_b]:
                         continue
-                    score = fuzz.token_set_ratio(nome_a_norm, normalizar(produto_b["nome"]))
+                    nome_b_norm = normalizar(produto_b["nome"])
+                    par = frozenset({nome_a_norm, nome_b_norm})
+                    if par in rejeitadas:
+                        continue  # memória diz que NUNCA é o mesmo produto
+                    score = 100 if par in confirmadas else fuzz.token_set_ratio(nome_a_norm, nome_b_norm)
                     if score > melhor_score:
                         melhor_score, melhor_idx = score, idx_b
                 if melhor_score >= LIMIAR_CORRESPONDENCIA:
@@ -264,6 +308,9 @@ def montar_resultado(grupos: list[dict]) -> list[dict]:
 
 
 if __name__ == "__main__":
+    rejeitadas, confirmadas = carregar_correcoes_manuais()
+    print(f"Memória de correções: {len(confirmadas)} confirmada(s), {len(rejeitadas)} rejeitada(s)")
+
     lojas = {
         "continente": carregar_mais_recente("continente"),
         "lidl": carregar_lidl_atual(),
@@ -272,7 +319,7 @@ if __name__ == "__main__":
     for nome, produtos in lojas.items():
         print(f"{nome}: {len(produtos)} produtos carregados")
 
-    grupos = encontrar_correspondencias(lojas)
+    grupos = encontrar_correspondencias(lojas, rejeitadas, confirmadas)
     resultado = montar_resultado(grupos)
 
     print(f"\nEncontrados {len(resultado)} produtos correspondentes entre pelo menos 2 lojas.")
