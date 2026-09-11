@@ -23,7 +23,12 @@ from rapidfuzz import fuzz
 
 DADOS_DIR = os.path.normpath(os.path.join(os.path.dirname(__file__), "dados"))
 CORRECOES_PATH = os.path.join(os.path.dirname(__file__), "correspondencias_manuais.json")
-LIMIAR_CORRESPONDENCIA = 85  # 0-100; acima disto consideramos "o mesmo produto"
+LIMIAR_CORRESPONDENCIA = 75  # 0-100; acima disto consideramos "o mesmo produto".
+# Pode ser um valor relativamente permissivo porque os pares problemáticos
+# já ficam bloqueados pela memória em correspondencias_manuais.json,
+# independentemente da pontuação — por isso vale a pena arriscar mais
+# correspondências novas e ir tratando os falsos positivos que aparecerem
+# caso a caso, em vez de subir o limiar às cegas.
 
 # Limite superior plausível para um preço promocional de folheto. Os
 # parsers que extraem texto de PDF (Aldi, Lidl) por vezes juntam dois
