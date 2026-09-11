@@ -1,11 +1,16 @@
 """
 Scraper do(s) Folheto(s) do Lidl Portugal.
 
-Atualização: em vez de escolher só UM folheto semanal nacional, esta
-versão apanha TODOS os folhetos nacionais que ainda não expiraram
-(offerEndDate >= hoje) — isto inclui tipicamente 2 folhetos "semanais"
-(o atual e o da próxima semana) e 2 "fim de semana" (o atual e o do
-próximo), num total de 4.
+Apanha todos os folhetos nacionais ainda válidos (semanais + fim de
+semana, atual e seguinte) e classifica cada um usando a SUBCATEGORIA
+da API — não o título. Títulos como "A partir de 07/09" repetem-se
+entre o folheto semanal e o de fim de semana com a mesma data de
+início, o que tornava a deteção por título ambígua e causava colisão
+de nomes de ficheiro.
+
+Também restringe a folhetos com início recente, para não apanhar
+catálogos "evergreen" antigos (ex: "Ferramentas e Bricolage" de 2022)
+que a API devolve com offerEndDate no futuro distante.
 
 Continua a usar a mesma infraestrutura pública do grupo Schwarz
 (endpoints.leaflets.schwarz), sem necessidade de login.
@@ -16,15 +21,32 @@ Dependências: requests, pypdf
 
 import io
 import requests
-from datetime import date
+from datetime import date, timedelta
 from pypdf import PdfReader
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; ComparadorPrecosPT/1.0)"}
 OVERVIEW_URL = "https://endpoints.leaflets.schwarz/v4/overview"
 
+# Janela de datas de início aceites: exclui catálogos antigos/"evergreen"
+# mas continua a apanhar o folheto semanal atual + o da próxima semana,
+# e o de fim de semana atual + o do próximo (tipicamente 4 no total).
+DIAS_PASSADO_MAX = 10
+DIAS_FUTURO_MAX = 21
+
+# Palavras-chave que identificam "fim de semana" quando aparecem em
+# qualquer campo de texto da subcategoria — evita depender de um nome
+# de campo específico (ex: 'name', 'title', 'id') que a API pode usar
+# e que não foi confirmado.
+PALAVRAS_FIM_DE_SEMANA = ("fim de semana", "fim-de-semana", "weekend", "fds")
+
 
 def get_all_flyers() -> list[dict]:
-    """Devolve a lista completa (achatada) de folhetos ativos do Lidl Portugal."""
+    """
+    Devolve a lista completa (achatada) de folhetos ativos do Lidl
+    Portugal. Cada folheto fica marcado com a subcategoria de onde
+    veio, em `_subcategoria` (sem o campo 'flyers', para não criar
+    uma referência circular).
+    """
     params = {"client_locale": "lidl/pt-PT"}
     resp = requests.get(OVERVIEW_URL, params=params, headers=HEADERS, timeout=20)
     resp.raise_for_status()
@@ -33,31 +55,47 @@ def get_all_flyers() -> list[dict]:
     flyers = []
     for category in data.get("categories", []):
         for subcategory in category.get("subcategories", []):
-            flyers.extend(subcategory.get("flyers", []))
+            subcat_meta = {k: v for k, v in subcategory.items() if k != "flyers"}
+            for flyer in subcategory.get("flyers", []):
+                flyer["_subcategoria"] = subcat_meta
+                flyers.append(flyer)
     return flyers
 
 
 def _categoria(flyer: dict) -> str:
-    """Classifica um folheto como 'fim-de-semana' ou 'semanal', pelo título."""
-    titulo = (flyer.get("title") or "").lower()
-    if "fim de semana" in titulo or "fim-de-semana" in titulo:
+    """
+    Classifica um folheto como 'fim-de-semana' ou 'semanal' usando a
+    SUBCATEGORIA da API (ver nota no cabeçalho do ficheiro sobre porque
+    não se usa o título).
+    """
+    subcategoria = flyer.get("_subcategoria", {})
+    textos = [str(v).lower() for v in subcategoria.values() if isinstance(v, (str, int))]
+    texto_junto = " ".join(textos)
+
+    if any(palavra in texto_junto for palavra in PALAVRAS_FIM_DE_SEMANA):
         return "fim-de-semana"
     return "semanal"
 
 
 def get_folhetos_nacionais_validos() -> list[dict]:
     """
-    Devolve TODOS os folhetos nacionais cujo período de oferta ainda não
-    terminou (inclui o atual e o(s) seguinte(s) já publicados, tanto
-    semanais como de fim de semana).
+    Devolve os folhetos nacionais recentes (offerStartDate dentro da
+    janela DIAS_PASSADO_MAX/DIAS_FUTURO_MAX) e cujo período de oferta
+    ainda não terminou — tipicamente 4: semanal atual, semanal
+    seguinte, fim de semana atual e fim de semana seguinte.
     """
-    hoje = date.today().isoformat()
+    hoje = date.today()
+    hoje_str = hoje.isoformat()
+    limite_passado = (hoje - timedelta(days=DIAS_PASSADO_MAX)).isoformat()
+    limite_futuro = (hoje + timedelta(days=DIAS_FUTURO_MAX)).isoformat()
+
     flyers = get_all_flyers()
 
     validos = [
         f for f in flyers
         if any(r.get("type") == "national" for r in f.get("regions", []))
-        and f.get("offerEndDate", "0000-00-00") >= hoje
+        and f.get("offerEndDate", "0000-00-00") >= hoje_str
+        and limite_passado <= f.get("offerStartDate", "0000-00-00") <= limite_futuro
     ]
 
     if not validos:
@@ -84,3 +122,4 @@ if __name__ == "__main__":
     print(f"Encontrados {len(folhetos)} folhetos nacionais válidos:")
     for f in folhetos:
         print(f"  [{f['_categoria']}] {f['title']} — válido {f['offerStartDate']} a {f['offerEndDate']}")
+        print(f"    subcategoria (debug): {f['_subcategoria']}")
