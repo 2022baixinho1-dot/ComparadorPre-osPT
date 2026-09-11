@@ -9,199 +9,361 @@
   "produtos": [
     {
       "pagina": 4,
-      "nome": "=quer BIFE ATUM Fica 80€ Pegamos",
+      "nome": "999 Fr ea mm TRANCHE Fica BIFE DE ATUM DE SALMÃO 80€ Embalado 150g €/kg",
       "preco": 19.99,
+      "preco_unidade": "19,99€/kg"
+    },
+    {
+      "pagina": 8,
+      "nome": "69€ NÉ. ms DE NOZ PECA CHAUSSON DE MAÇA e)",
+      "preco": 0.79,
       "preco_unidade": null
     },
     {
       "pagina": 8,
-      "nome": "CROISSANT Folhado soa 20” UA Ea 35€",
-      "preco": 0.45,
+      "nome": "35€ 69€ NÉ. E) ms TRANÇA DE NOZ PECA CHAUSSON DE MAÇA o, e)",
+      "preco": 0.79,
       "preco_unidade": null
     },
     {
-      "pagina": 9,
-      "nome": "20* 3€ Unid PÃO QUELJO",
-      "preco": 0.29,
-      "preco_unidade": null
-    },
-    {
-      "pagina": 14,
-      "nome": "DANONE SOBRE Bolacha 4x90g crocante Chocol 79€ 100g pUnid 49€",
-      "preco": 1.09,
+      "pagina": 13,
+      "nome": "NATAS UHT MIMOSA OVOS CAMPOVO Massas/Carne/ Classe Culinária sem lactose Emb.18 200ml 449€TEmb. MIMO",
+      "preco": 1.59,
       "preco_unidade": null
     },
     {
       "pagina": 14,
-      "nome": "Todos sabores os Pack 4x100/125 Bolacha crocante Chocol 100g 49€",
+      "nome": "IOGURTE LÍQUIDO %o Frutos vermelhos/Morango, Morango Banana Pack 8x151",
+      "preco": 3.89,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 14,
+      "nome": "DESTAQUE DA SEMANA LÍQUIDO MIMOSA IOGURTE GREGO OIKOS vermelhos/Morango, Yo Manga Papaia/Maracujá/ B",
+      "preco": 3.24,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 14,
+      "nome": "OLKOS MELHOR OIKOS AINDA... MAIS DE Yo IOGURTE LÍQUIDO IS DE Yo Morango/Tutti-Frutti SOBRE Pack 8x16",
+      "preco": 5.37,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 14,
+      "nome": "MELHOR OIKOS MELHOR El UN IOGURTE LÍQUIDO IS DE IOGURTE LÍQUIDO Yo Yo voce! Morango/Tutti-Frutti SOB",
+      "preco": 3.52,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 14,
+      "nome": "Morango/Tutti-Frutti SOBRE Pack 8x160g 89€ 99€ Pack Pack Yogg EA vog9 Yogg! iguído Th MAIS DE IOGURT",
+      "preco": 4.19,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 14,
+      "nome": "Todos os sabores Pack 8x120g MIMOSA vos MIMOSA VÍMOSA VÍMOSA vos MAIS DE IOGURTE Yo SUISSINHO YOCO S",
       "preco": 3.42,
       "preco_unidade": null
     },
     {
       "pagina": 14,
-      "nome": "Frutos Tropicais/Morango Pack 8x151g 99€ Pack MIMOSA jo MIMOSA hd",
+      "nome": "MIMOSA LI EA AL po as SOBREMESA os sabores 4x100/125",
+      "preco": 3.42,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 14,
+      "nome": "DESTAQUE DA SEMANA IOGURTE LÍQUIDO MIMOSA %o Frutos vermelhos/Morango, Yo Morango Banana Pack 8x151",
+      "preco": 3.89,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 14,
+      "nome": "DESTAQUE DA SEMANA IOGURTE LÍQUIDO MIMOSA IOGURTE %o Frutos vermelhos/Morango, Yo Manga Morango Bana",
+      "preco": 3.89,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 14,
+      "nome": "DESTAQUE DA SEMANA IOGURTE LÍQUIDO MIMOSA IOGURTE GREGO OIKOS %o Frutos vermelhos/Morango, Yo Manga ",
+      "preco": 3.24,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 14,
+      "nome": "MELHOR OIKOS MELHOR El UN IOGURTE LÍQUIDO IS DE IOGURTE LÍQUIDO Yo voce! Morango/Tutti-Frutti SOBRE ",
+      "preco": 3.52,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 14,
+      "nome": "vog9 Th IOGURTE Magro Frutos Tropicais/Morango Pack 8x151 MIMOSA LI AL",
       "preco": 4.19,
       "preco_unidade": null
     },
     {
-      "pagina": 15,
-      "nome": "LÍQUIDO LÍQUIDO IOGURTE ACTIMEL IOGURTE Morango/Natural KID Pack 12x100g Morango",
-      "preco": 7.39,
+      "pagina": 14,
+      "nome": "98€ Todos os Pack Pack 8x120g MIMOSA vos MIMOSA VÍMOSA VÍMOSA MAIS DE IOGURTE Yo SUISSINHO YOCO SOBR",
+      "preco": 3.42,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 14,
+      "nome": "MAIS DE IOGURTE Magro Frutos Pack 8x151 99€ Pack MIMOSA EA AL po vos as POUPANÇA Mis SOBREMESA BICOM",
+      "preco": 3.42,
       "preco_unidade": null
     },
     {
       "pagina": 15,
-      "nome": "LÍQUIDO LÍQUIDO IOGURTE ACTIMEL IOGURTE ACTIMEL Morango/Natural Pack 12x100g",
+      "nome": "DESTAQUE DA SEMANA IOGURTE LÍQUIDO VEGEGURTE 000% ACTIVIA DE SOJA Morango Kiwi/ ALPRO Frutos silvest",
+      "preco": 6.29,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 15,
+      "nome": "alpro ACTIVIA ce cê 12 Em AINDA... IOGURTE SÓLIDO ACTIVIA Aveia Nozes/Cereais Pack 8x115g",
+      "preco": 5.77,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 15,
+      "nome": "As 12 Em pingodoce.pt AINDA... SÓLIDO ACTIVIA IOGURTE LÍQUIDO ACTIVIA 000% Todos os sabores Pack 4x1",
+      "preco": 3.59,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 15,
+      "nome": "Aveia Nozes/Cereais 000% Pack 8x115g Todos os Pack 79€ 99€ Pack Pack ACTIVIA ses ACTIVIA Ses NESTLÉ ",
+      "preco": 3.46,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 15,
+      "nome": "ACTIVIA ACTIVIA zero, quis? IOGURTE LÍQUIDO Pack 12x100g",
+      "preco": 7.54,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 15,
+      "nome": "Pack 12x100g IOGURTE LÍQUIDO Morango/Natural 0% Pack 12x100",
       "preco": 6.57,
       "preco_unidade": null
     },
     {
       "pagina": 15,
-      "nome": "LÍQUIDO IOGURTE YOPRO Todos sabores Natural os PYPR EB Bm",
+      "nome": "Pack 6x100g Pack 99€ Pock kéfir kéfir kéfir ES IOGURTE LÍQUIDO ACTIMEL KID Morango Pack Pack 14x100",
+      "preco": 7.39,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 15,
+      "nome": "KID Morango Pack 14x100 99€ Pack [7 el) IOGURTE LÍQUIDO YOPRO Todos os sabores 300g Bem",
       "preco": 2.69,
       "preco_unidade": null
     },
     {
       "pagina": 15,
-      "nome": "Pi AINDA SÓLIDO IOGURTE ACTIVIA IOG Nozes/Cereais Aveia Pack 8x115g",
-      "preco": 5.77,
+      "nome": "LÍQUIDO ACTIMEL IOGURTE LÍQUIDO ACTIMEL Morango/Natural 0% Pack 12x100: 39€ EA imunitário [7 el) LÍQ",
+      "preco": 3.89,
       "preco_unidade": null
     },
     {
-      "pagina": 20,
-      "nome": "QUEIJO FRESCO VACA Todas as Bo 69€ Unid",
-      "preco": 699.78,
+      "pagina": 15,
+      "nome": "As ACTIVIA ce cê 12 Em pingodoce.pt AINDA... IOGURTE SÓLIDO ACTIVIA IOGURTE LÍQUIDO ACTIVIA Aveia No",
+      "preco": 3.59,
       "preco_unidade": null
     },
     {
-      "pagina": 25,
-      "nome": "Todas variedades Unid vá EM TODO [049 7UP",
-      "preco": 1.75,
+      "pagina": 15,
+      "nome": "Aveia Nozes/Cereais 000% Pack 8x115g Todos Pack 79€ 99€ Pack Pack ACTIVIA ses ACTIVIA Ses NESTLÉ IOG",
+      "preco": 3.46,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 15,
+      "nome": "000% Todos os sabores Pack 4x155g 99€ Pack ACTIVIA ACTIVIA ACTIVIA zero, triplo verão, mad quis? Ses",
+      "preco": 7.54,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 15,
+      "nome": "Pack 6x100g Pack 12x100g 99€ Pock kéfir kéfir kéfir ES IOGURTE LÍQUIDO ACTIMEL IOGURTE LÍQUIDO KID M",
+      "preco": 7.39,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 15,
+      "nome": "ACTIMEL IOGURTE LÍQUIDO ACTIMEL Morango/Natural 0% Pack 12x100: 39€ EA imunitário [7 el) IOGURTE LÍQ",
+      "preco": 3.89,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 24,
+      "nome": "Ds age nã vam) COMPAL",
+      "preco": 1.59,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 31,
+      "nome": "BOLACHAS DIGESTIVE BOLACHAS DE BOLACHAS GO TRIUNFO PEQUENO ALMOÇO CRACKER BELVITA la!",
+      "preco": 2.79,
       "preco_unidade": null
     },
     {
       "pagina": 33,
-      "nome": "DULCA CROISSANT C/ RECHEADO CACAU ADE! Unid",
+      "nome": "CROISSANT RECHEADO C/ Es",
       "preco": 0.49,
       "preco_unidade": null
     },
     {
-      "pagina": 37,
-      "nome": "nave “E O10 == Ng SUPLEMENTO",
-      "preco": 12.99,
+      "pagina": 34,
+      "nome": "TODOS EM TODOS OS BISCOITOS SUPLEMENTOS VITALDIN Vitaldin suENC Emb. pa TODA PÃO DE FORMA BIMBO MARC",
+      "preco": 2.49,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 34,
+      "nome": "TOSTAS GRAN PAVESI 3! Todas as 29€ 1509/1809",
+      "preco": 3.49,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 36,
+      "nome": "MAIS DE 30 Com chocolate avelã 410g 99€ gUnid LÁCTEA FARINHA 20º NÃO LÁCTEA Bolacha 250g",
+      "preco": 38.28,
       "preco_unidade": null
     },
     {
       "pagina": 37,
-      "nome": "2€ EM im “E (ES No MULTIVITAMÍNICO",
+      "nome": "OS EM LIMPEZA, TODA CREMES ILUMINA DE CORPO SÉRUNS 50ml PURE NIVEA ACTIVE GARNIER Retinal Niacinamid",
       "preco": 15.69,
       "preco_unidade": null
     },
     {
       "pagina": 37,
-      "nome": "he Tm NM Unid SPRAY NASAL",
+      "nome": "RESULTADOS VISÍVEIS SÉ EM Fr tm Ter MUITIVITAMÍNICO CENTRUM PLUS Homem/Mulher Nx Mex Emb. 30 Sa",
       "preco": 10.39,
       "preco_unidade": null
     },
     {
       "pagina": 37,
-      "nome": "Tm Vas",
+      "nome": "RESULTADOS VISÍVEIS SÉ EM tm Ter estar Nx Sa Mex tsDIN",
       "preco": 12.29,
       "preco_unidade": null
     },
     {
-      "pagina": 39,
-      "nome": "CUECA Emb TZ Tó Emb Emb T5",
-      "preco": 8.65,
-      "preco_unidade": null
-    },
-    {
       "pagina": 40,
-      "nome": "COZINHA MAX ABSORPTION XXL RENOVA 79€ Emb Rolos",
-      "preco": 1.99,
-      "preco_unidade": null
-    },
-    {
-      "pagina": 40,
-      "nome": "GUARDANAPOS FOLHA LEVE Emb Unid OU MAIS",
+      "nome": "HIGIÉNICO PAPEL PROTEGE ACOLCHOADO SCOTTEX folhas folhas 12 Rolos 99€ Emb. Emb. Scottex Cuida proteg",
       "preco": 1.59,
-      "preco_unidade": null
+      "preco_unidade": "1,59€/Emb."
+    },
+    {
+      "pagina": 40,
+      "nome": "HIGIÉNICO PROTEGE COLHOGAR SCOTTEX Rosa folhas folhas Emb. 12 Rolos 99€ Emb. Scottex Cuida protege 2",
+      "preco": 1.59,
+      "preco_unidade": "1,59€/Emb."
     },
     {
       "pagina": 41,
-      "nome": "LÍQUIDO DETERGENTE 12,325 P/ROUPA clean Doses Active",
+      "nome": "DO Consulte todas as condições no EM TODA MARCA SKIP A+ DETERGENTE LÍQUIDO ll 12.5 P/ROUPA Active cl",
       "preco": 25.99,
       "preco_unidade": null
     },
     {
       "pagina": 41,
-      "nome": "Higiene poder Máximo tira nódoos Emb Unid",
+      "nome": "VALOR DE COMPRA da capa do folheto em pingodoce.pt 99€ E. CÁPSULAS ll P/MÁQUINA DA ROUPA A+ Higiene ",
       "preco": 24.99,
-      "preco_unidade": null
+      "preco_unidade": "24,99€/Emb."
     },
     {
       "pagina": 41,
-      "nome": "LíquiDO XAU+VANISH Ultra Tira nódoas Doses PYPR",
-      "preco": 24.99,
-      "preco_unidade": null
-    },
-    {
-      "pagina": 41,
-      "nome": "AMACIADOR COMFORT mirtilo Jasmim Ultra NO Doses MMS",
+      "nome": "99€ AMACIADOR COMFORT mirtilo Doses",
       "preco": 9.99,
       "preco_unidade": null
     },
     {
       "pagina": 41,
-      "nome": "99€",
+      "nome": "COMFORT Não inclui marca Ultra. Jasmim mirtilo NO Doses 99€ É) Uma de eno Jenor Elenor ar tresco ATU",
+      "preco": 11.98,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 41,
+      "nome": "DO Consulte todas as condições no verso da EM TODA MARCA SKIP A+ DETERGENTE LÍQUIDO E. 12.5 P/ROUPA ",
+      "preco": 25.99,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 41,
+      "nome": "<a EM TODOS OS DETERGENTES E! P/MÁQUINA pUnia DA ROUPA LíquiDO XAU+VANISH Surf Não inclui marca Ultr",
+      "preco": 24.99,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 41,
+      "nome": "COMFORT Não inclui marca Ultra. Jasmim mirtilo NO Doses so) 99€ É) Uma de eno Jenor Elenor NsO ar tr",
       "preco": 11.98,
       "preco_unidade": null
     },
     {
       "pagina": 43,
-      "nome": "inclui Ultra Não marca AJAX Lavanda 29FETUnid",
+      "nome": "ATÉ O” Não inclui marca Ultra. AJAX Lavanda",
       "preco": 1.25,
       "preco_unidade": null
     },
     {
       "pagina": 46,
-      "nome": "es P/CÃO ADULTO NE ONE 7kg Vaca URINA MAIS 30”",
-      "preco": 39.99,
+      "nome": "friskies COMIDA SECA P/CÃO ONE Todas as variedades 2,5kg 15/49€/Unid",
+      "preco": 39.15,
       "preco_unidade": null
     },
     {
       "pagina": 47,
-      "nome": "HÚMIDA COMIDA P/GATO Todas as variedades 1€",
+      "nome": "falo pelo LEVE COMIDA HUMIDA MAIS variedades +1 P/GATO Todas 10% RATIS as variedades 85g",
       "preco": 0.59,
       "preco_unidade": null
     },
     {
       "pagina": 48,
-      "nome": "AGRAFADO Pautado modelos Vários 39€ folhas Unid",
-      "preco": 2.99,
+      "nome": "Vários Vários modelos 30x44x]6cm 39:99€/Unid. 79€ CADERNO CADERNO AGRAFADO A4 AGRAFADO SCOOLMIX Paut",
+      "preco": 79.48,
       "preco_unidade": null
     },
     {
-      "pagina": 49,
-      "nome": "MARCADORES PONTA DUPLA 40” KAYET Unid Emb",
-      "preco": 9.99,
+      "pagina": 48,
+      "nome": "Vários modelos Vários modelos 30x44x]6cm 599€/Unid 39:99€/Unid. 79€ CADERNO CADERNO AGRAFADO A4 AGRA",
+      "preco": 39.48,
       "preco_unidade": null
     },
     {
       "pagina": 51,
-      "nome": "1,5 450ml ea) 280ml == 2400W EM TODAS AS",
-      "preco": 159.0,
+      "nome": "GRELHA TEPPANYAKI COOKITCH /Unid. so! SANDUICHEIRA HOFFEN FORNO P/PIZZA HOFFEN HI193 BR/PR FPTK-HIZO",
+      "preco": 39.99,
       "preco_unidade": null
     },
     {
       "pagina": 54,
-      "nome": "DETERGENTE P/MAQUINA A+ Essência Provença Doses 12,5%",
+      "nome": "DE OMEL DETERGENTE LIQUIDO DETERGENTE P/MAQUINA DA ROUPA P/MAQUINA A+ SKIP Essência de Provença 100 ",
       "preco": 29.99,
       "preco_unidade": null
     },
     {
       "pagina": 54,
-      "nome": "P/MAQUINA SKIP Clean Doses Active PYPR 99€",
+      "nome": "DE COMPRA OMEL DO LIQUIDO DETERGENTE LIQUIDO DA ROUPA P/MAQUINA DA ROUPA SKIP Provença 100 Doses Act",
+      "preco": 25.99,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 54,
+      "nome": "DE COMPRA OMEL DO DETERGENTE LIQUIDO DETERGENTE LIQUIDO P/MAQUINA DA ROUPA P/MAQUINA DA A+ SKIP Essê",
+      "preco": 29.99,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 54,
+      "nome": "DE COMPRA OMEL DO DETERGENTE LIQUIDO DETERGENTE LIQUIDO P/MAQUINA DA ROUPA P/MAQUINA DA ROUPA SKIP E",
       "preco": 25.99,
       "preco_unidade": null
     }
