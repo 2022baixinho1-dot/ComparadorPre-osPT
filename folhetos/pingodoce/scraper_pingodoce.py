@@ -1,84 +1,60 @@
-"""
-Scraper do Folheto do Pingo Doce.
-
-Descoberta técnica: o Pingo Doce usa a mesma plataforma iPaper que o
-Continente e a Aldi. O URL do folheto tem o formato previsível:
-
-    https://folhetos.pingodoce.pt/<ano>/poupe-esta-semana/continental-lojas-grandes/S<semana>/
-
-onde <semana> é o número da semana ISO do ano (ex: S37). Ao contrário
-do Continente, este URL não tem sufixo aleatório, por isso pode ser
-CONSTRUÍDO diretamente a partir da data de hoje, sem precisar de uma
-página-índice para o descobrir.
-
-Nota: esta construção direta do URL é uma assunção por testar — se a
-Pingo Doce mudar o nome da campanha ("poupe-esta-semana") ou o formato
-de loja ("continental-lojas-grandes"), o URL deixa de ser válido e é
-preciso rever isto (nesse caso, procurar de novo uma página-índice,
-tal como se fez para o Continente).
-
-Dependências: requests
-    pip install requests
-"""
-
+import datetime as dt
 import io
+import re
+from pathlib import Path
+
 import requests
-from datetime import date
-from pypdf import PdfReader
-import fitz  # PyMuPDF
-import pytesseract
-from PIL import Image
 
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; ComparadorPrecosPT/1.0)"}
+BASE = "https://folhetos.pingodoce.pt"
+TIMEOUT = 60
 
 
-def get_current_weekly_flyer_url() -> str:
-    """Constrói o URL do folheto semanal atual a partir da semana ISO de hoje."""
-    hoje = date.today()
-    ano, semana, _ = hoje.isocalendar()
-    return f"https://folhetos.pingodoce.pt/{ano}/poupe-esta-semana/continental-lojas-grandes/S{semana}/"
+def current_iso_week(today: dt.date | None = None) -> int:
+    today = today or dt.date.today()
+    return today.isocalendar().week
 
 
-def get_flyer_pdf_bytes(flyer_url: str) -> bytes:
-    """Descarrega o PDF do folheto via GetPDF.ashx (descoberto no DevTools)."""
-    pdf_download_url = flyer_url.rstrip("/") + "/GetPDF.ashx"
-    resp = requests.get(pdf_download_url, headers=HEADERS, timeout=60)
-    resp.raise_for_status()
-    return resp.content
+def build_flyer_url(today: dt.date | None = None) -> str:
+    today = today or dt.date.today()
+    week = current_iso_week(today)
+    return (
+        f"{BASE}/{today.year}/poupe-esta-semana/"
+        f"continental-lojas-grandes/S{week}/"
+    )
 
 
-def get_flyer_pages_ocr_text(pdf_bytes: bytes, dpi: int = 200) -> list[str]:
+def get_flyer_pdf_bytes(session: requests.Session | None = None,
+                        flyer_url: str | None = None) -> tuple[bytes, str]:
+    """Download the official Pingo Doce 'Lojas Grandes' flyer PDF.
+
+    The iPaper viewer exposes the PDF through <flyer_url>GetPDF.ashx and
+    redirects to a temporary Download.pdf URL. We intentionally keep the
+    original flyer URL in the returned metadata.
     """
-    Renderiza cada página do PDF como imagem e corre OCR (Tesseract, em
-    português) sobre cada uma. Necessário porque o PDF do Pingo Doce não
-    tem texto de produtos extraível diretamente — só imagens.
-    """
-    doc = fitz.open(stream=pdf_bytes, filetype="pdf")
-    textos = []
+    session = session or requests.Session()
+    flyer_url = flyer_url or build_flyer_url()
+    pdf_endpoint = flyer_url.rstrip("/") + "/GetPDF.ashx"
 
-    zoom = dpi / 72  # o PDF assume 72 DPI por omissão
-    matrix = fitz.Matrix(zoom, zoom)
+    r = session.get(
+        pdf_endpoint,
+        timeout=TIMEOUT,
+        headers={"User-Agent": "Mozilla/5.0 (compatible; ComparadorPre-osPT/1.0)"},
+        allow_redirects=True,
+    )
+    r.raise_for_status()
+    content_type = (r.headers.get("Content-Type") or "").lower()
+    if not r.content.startswith(b"%PDF") and "pdf" not in content_type:
+        raise RuntimeError(
+            "O endpoint do Pingo Doce não devolveu um PDF. "
+            f"URL final: {r.url} | Content-Type: {content_type}"
+        )
+    return r.content, flyer_url
 
-    for pagina in doc:
-        pix = pagina.get_pixmap(matrix=matrix)
-        imagem = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
-        texto = pytesseract.image_to_string(imagem, lang="por")
-        textos.append(texto)
 
-    return textos
-
-
-if __name__ == "__main__":
-    flyer_url = get_current_weekly_flyer_url()
-    print(f"URL do folheto: {flyer_url}")
-
-    pdf_bytes = get_flyer_pdf_bytes(flyer_url)
-    print(f"PDF descarregado: {len(pdf_bytes)} bytes.")
-
-    textos = get_flyer_pages_ocr_text(pdf_bytes)
-    print(f"OCR feito em {len(textos)} páginas.")
-
-    for i in [0, 2, 5]:
-        if i < len(textos):
-            print(f"\n--- Página {i + 1} (OCR, primeiros 800 caracteres) ---")
-            print(textos[i][:800])
+def save_pdf(pdf_bytes: bytes, output_dir: str | Path, run_date: dt.date | None = None) -> Path:
+    run_date = run_date or dt.date.today()
+    out = Path(output_dir)
+    out.mkdir(parents=True, exist_ok=True)
+    path = out / f"{run_date:%Y-%m-%d}.pdf"
+    path.write_bytes(pdf_bytes)
+    return path
