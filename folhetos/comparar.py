@@ -54,12 +54,43 @@ def preco_razoavel(preco_str: str) -> bool:
         return False
 
 
-def filtrar_precos_validos(produtos: list[dict], loja: str) -> list[dict]:
-    """Remove produtos com preço corrompido/implausível, avisando quantos foram descartados."""
-    validos = [p for p in produtos if preco_razoavel(p.get("preco"))]
-    descartados = len(produtos) - len(validos)
-    if descartados:
-        print(f"  ({loja}: descartados {descartados} produto(s) com preço implausível)")
+def nome_informativo(nome: str, minimo_tokens: int = 2, tamanho_min_token: int = 3) -> bool:
+    """
+    Verifica se um nome de produto tem informação suficiente para uma
+    correspondência fiável entre lojas.
+
+    Os parsers de folheto (sobretudo o da Aldi, que extrai de PDF)
+    por vezes deixam passar fragmentos de texto sem relação com o
+    produto em si — ex: "embalado", ") embalado", "Sortido;" — que,
+    por serem tão curtos e genéricos, acabam a corresponder por engano
+    a qualquer produto que contenha essa palavra algures no nome (ex:
+    "PREGUINHO DE VITELA EMBALADO" <-> "embalado"). Exigir pelo menos
+    duas palavras "a sério" (3+ letras) evita esse tipo de falso
+    positivo.
+    """
+    tokens = normalizar(nome).split()
+    tokens_uteis = [t for t in tokens if t.isalpha() and len(t) >= tamanho_min_token]
+    return len(tokens_uteis) >= minimo_tokens
+
+
+def filtrar_produtos_validos(produtos: list[dict], loja: str) -> list[dict]:
+    """Remove produtos com preço implausível ou nome pouco informativo, avisando quantos foram descartados."""
+    validos = []
+    descartados_preco = 0
+    descartados_nome = 0
+    for p in produtos:
+        if not preco_razoavel(p.get("preco")):
+            descartados_preco += 1
+            continue
+        if not nome_informativo(p.get("nome", "")):
+            descartados_nome += 1
+            continue
+        validos.append(p)
+
+    if descartados_preco:
+        print(f"  ({loja}: descartados {descartados_preco} produto(s) com preço implausível)")
+    if descartados_nome:
+        print(f"  ({loja}: descartados {descartados_nome} produto(s) com nome pouco informativo)")
     return validos
 
 
@@ -84,7 +115,7 @@ def carregar_mais_recente(loja: str, sufixo: str | None = None) -> list[dict]:
 
     with open(ficheiros[-1], encoding="utf-8") as f:
         conteudo = json.load(f)
-    return filtrar_precos_validos(conteudo["produtos"], loja)
+    return filtrar_produtos_validos(conteudo["produtos"], loja)
 
 
 def carregar_lidl_atual() -> list[dict]:
@@ -131,7 +162,7 @@ def carregar_lidl_atual() -> list[dict]:
             continue
         produtos.extend(atual["produtos"])
 
-    return filtrar_precos_validos(produtos, "lidl")
+    return filtrar_produtos_validos(produtos, "lidl")
 
 
 def encontrar_correspondencias(lojas: dict[str, list[dict]]) -> list[dict]:
