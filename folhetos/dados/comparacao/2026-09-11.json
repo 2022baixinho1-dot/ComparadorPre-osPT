@@ -1,0 +1,288 @@
+[
+  {
+    "produtos": {
+      "continente": {
+        "nome": "FRANGO DO CAMPO INTEIRO C/ MIÚDOS CONTINENTE SELEÇÃO 40",
+        "preco": 3.99
+      },
+      "aldi": {
+        "nome": "C ° Frango Inteiro Sem Miudos",
+        "preco": 2.49
+      }
+    },
+    "mais_barato": "aldi"
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "VINHO MONTE VELHO ALENTEJO, BRANCO/ ROSÉ/ TINTO",
+        "preco": 3.59
+      },
+      "aldi": {
+        "nome": "MONTE VELHO Vinho Regional Branco/ Tinto",
+        "preco": 1.8
+      }
+    },
+    "mais_barato": "aldi"
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "CAMARÃO 30/50 COZIDO 66 30 %",
+        "preco": 10.99
+      },
+      "lidl": {
+        "nome": "Camarão Cozido 30/ 50",
+        "preco": 4.99
+      }
+    },
+    "mais_barato": "lidl"
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "CAMARÃO CONTINENTE 60/80 COZIDO",
+        "preco": 6.49
+      },
+      "lidl": {
+        "nome": "Camarão Cozido 30/ 50",
+        "preco": 4.99
+      }
+    },
+    "mais_barato": "lidl"
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "PREGUINHO DE VITELA EMBALADO 9",
+        "preco": 21.99
+      },
+      "aldi": {
+        "nome": "embalado",
+        "preco": 2.59
+      }
+    },
+    "mais_barato": "aldi"
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "FRANGO P/ CHURRASCO CONTINENTE EMBALADO",
+        "preco": 3.39
+      },
+      "aldi": {
+        "nome": ") embalado",
+        "preco": 1.99
+      }
+    },
+    "mais_barato": "aldi"
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "MOELAS DE FRANGO CONGELADAS",
+        "preco": 2.49
+      },
+      "aldi": {
+        "nome": "Moelas de Frango",
+        "preco": 1.99
+      }
+    },
+    "mais_barato": "aldi"
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "ATUM BOM PETISCO ÓLEO",
+        "preco": 1.2
+      },
+      "lidl": {
+        "nome": "BOM PETISCO Atum ao Natural",
+        "preco": 1.29
+      }
+    },
+    "mais_barato": "continente"
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "COGUMELOS CONTINENTE LAMINADOS",
+        "preco": 1.29
+      },
+      "lidl": {
+        "nome": "FRESHONA Cogumelos Laminados",
+        "preco": 0.75
+      }
+    },
+    "mais_barato": "lidl"
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "BATATAS FRITAS RUFFLES SAL",
+        "preco": 2.19
+      },
+      "aldi": {
+        "nome": "compras realizadas nas suas lojas. Sabe mais em aldi.pt. RUFFLES Batatas Fritas Onduladas",
+        "preco": 1.39
+      }
+    },
+    "mais_barato": "aldi"
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "CEREAIS CHOCAPIC ORIGINAL",
+        "preco": 3.49
+      },
+      "aldi": {
+        "nome": "NESTLÉ Cereais Chocapic",
+        "preco": 4.69
+      }
+    },
+    "mais_barato": "continente"
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "CREME DE BARRAR NUTELLA",
+        "preco": 7.99
+      },
+      "aldi": {
+        "nome": "NUTELLA Creme para Barrar",
+        "preco": 7.99
+      }
+    },
+    "mais_barato": "continente"
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "TABLETE CHOCOLATE DOLCA LEITE",
+        "preco": 1.59
+      },
+      "aldi": {
+        "nome": "NESTLÉ Tablete de Chocolate de Leite KitKat Sortido;",
+        "preco": 1.99
+      }
+    },
+    "mais_barato": "continente"
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "MANTEIGA MIMOSA C/ SAL/ S/ SAL",
+        "preco": 2.19
+      },
+      "lidl": {
+        "nome": "O OS CONSUMIDORES** EM **Sabe mais na capa do folheto. MIMOSA Manteiga com Sal sem Lactose",
+        "preco": 1.59
+      }
+    },
+    "mais_barato": "lidl"
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "LEITE UHT GRESSO MEIO GORDO/ MAGRO",
+        "preco": 0.86
+      },
+      "aldi": {
+        "nome": "DESCONTO GRESSO Leite Meio-gordo",
+        "preco": 0.85
+      }
+    },
+    "mais_barato": "aldi"
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "FILETES IGLO PEIXE",
+        "preco": 7.99
+      },
+      "aldi": {
+        "nome": "ntos de glúten GOLDEN SEAFOOD ® Filetes de Peixe Sortido: bordalesa, brócolos ou crocante;",
+        "preco": 3.39
+      }
+    },
+    "mais_barato": "aldi"
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "ERVILHAS IGLO ULTRACONGELADAS",
+        "preco": 5.39
+      },
+      "aldi": {
+        "nome": "IGLO Ervilhas",
+        "preco": 3.49
+      }
+    },
+    "mais_barato": "aldi"
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "NÉCTAR COMPAL TUTTI FRUTTI/ PÊSSEGO/ MANGA,LARANJA",
+        "preco": 2.39
+      },
+      "lidl": {
+        "nome": "COMPAL Néctar 100% Manga",
+        "preco": 1.49
+      }
+    },
+    "mais_barato": "lidl"
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "VINHO VENTOZELO RESERVA, DOURO, BRANCO/ TINTO",
+        "preco": 7.99
+      },
+      "aldi": {
+        "nome": "CEVÊR Vinho Reserva DOC Tinto/ Branco Origem: Douro DOC;",
+        "preco": 3.49
+      }
+    },
+    "mais_barato": "aldi"
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "TAMPÕES DE NATAÇÃO REF:7641944 3 PARES SILICONE 19 L Bolso para PC até 16” 99 € 4 , UNID",
+        "preco": 2.99
+      },
+      "aldi": {
+        "nome": "5 PARES",
+        "preco": 7.99
+      }
+    },
+    "mais_barato": "continente"
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "ÓCULOS DE NATAÇÃO REF:7641946 TAM: 3 A 8 ANOS",
+        "preco": 3.99
+      },
+      "aldi": {
+        "nome": "+ 3 anos",
+        "preco": 3.99
+      }
+    },
+    "mais_barato": "continente"
+  },
+  {
+    "produtos": {
+      "lidl": {
+        "nome": "BANDIDA Sidra de Frutos Vermelhos",
+        "preco": 0.89
+      },
+      "aldi": {
+        "nome": "Mix de Frutos Vermelhos",
+        "preco": 1.19
+      }
+    },
+    "mais_barato": "lidl"
+  }
+]
