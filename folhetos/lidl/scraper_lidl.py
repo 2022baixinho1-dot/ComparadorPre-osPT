@@ -2,11 +2,12 @@
 Scraper do(s) Folheto(s) do Lidl Portugal.
 
 Apanha todos os folhetos nacionais ainda válidos (semanais + fim de
-semana, atual e seguinte) e classifica cada um usando a SUBCATEGORIA
-da API — não o título. Títulos como "A partir de 07/09" repetem-se
-entre o folheto semanal e o de fim de semana com a mesma data de
-início, o que tornava a deteção por título ambígua e causava colisão
-de nomes de ficheiro.
+semana, atual e seguinte) e classifica cada um usando o campo `name`
+do PRÓPRIO FOLHETO ("Promoções Semanais" vs "Promoções Fim-de-Semana")
+— não o `title`. O `title` (ex: "A partir de 07/09") repete-se entre o
+folheto semanal e o de fim de semana com a mesma data de início, o que
+tornava a deteção por título ambígua e causava colisão de nomes de
+ficheiro.
 
 Também restringe a folhetos com início recente, para não apanhar
 catálogos "evergreen" antigos (ex: "Ferramentas e Bricolage" de 2022)
@@ -33,20 +34,13 @@ OVERVIEW_URL = "https://endpoints.leaflets.schwarz/v4/overview"
 DIAS_PASSADO_MAX = 10
 DIAS_FUTURO_MAX = 21
 
-# Palavras-chave que identificam "fim de semana" quando aparecem em
-# qualquer campo de texto da subcategoria — evita depender de um nome
-# de campo específico (ex: 'name', 'title', 'id') que a API pode usar
-# e que não foi confirmado.
+# Palavras-chave que identificam "fim de semana" no campo `name` do
+# folheto (ex: "Promoções Fim-de-Semana").
 PALAVRAS_FIM_DE_SEMANA = ("fim de semana", "fim-de-semana", "weekend", "fds")
 
 
 def get_all_flyers() -> list[dict]:
-    """
-    Devolve a lista completa (achatada) de folhetos ativos do Lidl
-    Portugal. Cada folheto fica marcado com a subcategoria de onde
-    veio, em `_subcategoria` (sem o campo 'flyers', para não criar
-    uma referência circular).
-    """
+    """Devolve a lista completa (achatada) de folhetos ativos do Lidl Portugal."""
     params = {"client_locale": "lidl/pt-PT"}
     resp = requests.get(OVERVIEW_URL, params=params, headers=HEADERS, timeout=20)
     resp.raise_for_status()
@@ -55,24 +49,22 @@ def get_all_flyers() -> list[dict]:
     flyers = []
     for category in data.get("categories", []):
         for subcategory in category.get("subcategories", []):
-            subcat_meta = {k: v for k, v in subcategory.items() if k != "flyers"}
-            for flyer in subcategory.get("flyers", []):
-                flyer["_subcategoria"] = subcat_meta
-                flyers.append(flyer)
+            flyers.extend(subcategory.get("flyers", []))
     return flyers
 
 
 def _categoria(flyer: dict) -> str:
     """
-    Classifica um folheto como 'fim-de-semana' ou 'semanal' usando a
-    SUBCATEGORIA da API (ver nota no cabeçalho do ficheiro sobre porque
-    não se usa o título).
+    Classifica um folheto como 'fim-de-semana' ou 'semanal' usando o
+    campo `name` do PRÓPRIO FOLHETO ("Promoções Semanais" vs
+    "Promoções Fim-de-Semana") — confirmado por inspeção direta da API.
+    O `title` não serve para isto: é igual ("A partir de 07/09") tanto
+    para o folheto semanal como para o de fim de semana com a mesma
+    data de início.
     """
-    subcategoria = flyer.get("_subcategoria", {})
-    textos = [str(v).lower() for v in subcategoria.values() if isinstance(v, (str, int))]
-    texto_junto = " ".join(textos)
+    nome = flyer.get("name", "").lower()
 
-    if any(palavra in texto_junto for palavra in PALAVRAS_FIM_DE_SEMANA):
+    if any(palavra in nome for palavra in PALAVRAS_FIM_DE_SEMANA):
         return "fim-de-semana"
     return "semanal"
 
@@ -121,5 +113,4 @@ if __name__ == "__main__":
     folhetos = get_folhetos_nacionais_validos()
     print(f"Encontrados {len(folhetos)} folhetos nacionais válidos:")
     for f in folhetos:
-        print(f"  [{f['_categoria']}] {f['title']} — válido {f['offerStartDate']} a {f['offerEndDate']}")
-        print(f"    subcategoria (debug): {f['_subcategoria']}")
+        print(f"  [{f['_categoria']}] {f['name']} — {f['title']} — válido {f['offerStartDate']} a {f['offerEndDate']}")
