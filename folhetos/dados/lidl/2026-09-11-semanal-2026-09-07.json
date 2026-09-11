@@ -1,0 +1,190 @@
+{
+  "data_execucao": "2026-09-11",
+  "categoria": "semanal",
+  "folheto": "A partir de 07/09",
+  "valido_de": "2026-09-07",
+  "valido_ate": "2026-09-13",
+  "total_produtos": 45,
+  "produtos": [
+    {
+      "nome": "A partir de sex. 11/9 a dom. 13/9 Salsichas Frescas de Porco",
+      "preco": "5.29"
+    },
+    {
+      "nome": "Camarão Cozido 30/ 50",
+      "preco": "4.99"
+    },
+    {
+      "nome": "MILBONA Queijo Flamengo em Fatias Original/ Light Pack Familiar",
+      "preco": "3.49"
+    },
+    {
+      "nome": "ALESTO Mix de Frutos Secos",
+      "preco": "2.15"
+    },
+    {
+      "nome": "BARESA Polpa de Tomate",
+      "preco": "1.39"
+    },
+    {
+      "nome": "Batata de Conservação Vermelha Nacional",
+      "preco": "10.39"
+    },
+    {
+      "nome": "-20% 12.99",
+      "preco": "9112910.49"
+    },
+    {
+      "nome": "Laranja Nacional IGP Citrinos do Algarve",
+      "preco": "0.95"
+    },
+    {
+      "nome": "6 unid. por Banana da Madeira",
+      "preco": "2.39"
+    },
+    {
+      "nome": "Batata de Conservação Vermelha Nacional",
+      "preco": "5.29"
+    },
+    {
+      "nome": "Perninha de Frango com Pimentão",
+      "preco": "5.99"
+    },
+    {
+      "nome": "Hambúrguer de Porco Preto",
+      "preco": "6.75"
+    },
+    {
+      "nome": "Tira da Vazia da América do Sul",
+      "preco": "12910.99"
+    },
+    {
+      "nome": "Camarão Cozido 30/ 50",
+      "preco": "4.99"
+    },
+    {
+      "nome": "OCEAN SEA Lombos de Bacalhau",
+      "preco": "19.99"
+    },
+    {
+      "nome": "OCEAN SEA Migas de Paloco",
+      "preco": "2.59"
+    },
+    {
+      "nome": "PESCANOVA Postas de Pescada Nº3 do Cabo para Cozer",
+      "preco": "6.69"
+    },
+    {
+      "nome": "O OS CONSUMIDORES** EM **Sabe mais na capa do folheto. MIMOSA Manteiga com Sal sem Lactose",
+      "preco": "1.59"
+    },
+    {
+      "nome": "MILBONA Queijo Mozzarella Ralado",
+      "preco": "2.89"
+    },
+    {
+      "nome": "MCENNEDY Panquecas ao Estilo Americano",
+      "preco": "2.49"
+    },
+    {
+      "nome": "MILBONA Queijo Flamengo em Fatias Original/ Light Pack Familiar",
+      "preco": "3.49"
+    },
+    {
+      "nome": "FUMADINHO Chouriço Corrente",
+      "preco": "4.19"
+    },
+    {
+      "nome": "CHEF SELECT Cheeseburger de Frango",
+      "preco": "2.49"
+    },
+    {
+      "nome": "MONISSA Rissóis de Camarão XXL",
+      "preco": "1.99"
+    },
+    {
+      "nome": "mas lojas Lidl. *Face ao produto sempre disponível. 737/2026 - T.P. NESTLÉ Nesquik Cereais",
+      "preco": "3.34"
+    },
+    {
+      "nome": "OREO Bolachas Original",
+      "preco": "2.79"
+    },
+    {
+      "nome": "CALVÉ Maionese XXL",
+      "preco": "2.15"
+    },
+    {
+      "nome": "BOM PETISCO Atum ao Natural",
+      "preco": "1.29"
+    },
+    {
+      "nome": "CUÉTARA Bolacha Maria de Chocolate",
+      "preco": "1.29"
+    },
+    {
+      "nome": "RUFFLES Batata Fritas de Ketchup",
+      "preco": "1.39"
+    },
+    {
+      "nome": "BARESA Polpa de Tomate",
+      "preco": "1.39"
+    },
+    {
+      "nome": "FRESHONA Cogumelos Laminados",
+      "preco": "0.75"
+    },
+    {
+      "nome": "DO OS CONSUMIDORES** EM **Sabe mais na capa do folheto. FREEWAY Bebida Cola 0% Sem Cafeína",
+      "preco": "3.85"
+    },
+    {
+      "nome": "BANDIDA Sidra de Frutos Vermelhos",
+      "preco": "0.89"
+    },
+    {
+      "nome": "FRIZE Água com Gás Maracujá Pack 4x250 ml",
+      "preco": "2.29"
+    },
+    {
+      "nome": "JOI Refrigerante Laranja/ Maracujá",
+      "preco": "1.29"
+    },
+    {
+      "nome": "COMPAL Sumo 100% Maçã",
+      "preco": "1.49"
+    },
+    {
+      "nome": "COMPAL Néctar 100% Manga",
+      "preco": "1.49"
+    },
+    {
+      "nome": "FREEWAY Ice Tea Pêssego",
+      "preco": "0.99"
+    },
+    {
+      "nome": "L 1 L =",
+      "preco": "4.29"
+    },
+    {
+      "nome": "nº5906413 GARNIER Creme de Pentear Fructis Hidra Caracóis",
+      "preco": "6.29"
+    },
+    {
+      "nome": "COLHOGAR Papel Higiénico Ultra Suave",
+      "preco": "5.19"
+    },
+    {
+      "nome": "Perfume Utür Al-Yaqut Mulher/ Homem",
+      "preco": "9.99"
+    },
+    {
+      "nome": "COMFORT Amaciador para Roupa Creations Jasmim & Mirtilos 110 Doses",
+      "preco": "4.99"
+    },
+    {
+      "nome": "S** EM **Sabe mais na capa do folheto. A partir de sex. 11/9 a dom. 13/9 Moda e Acessórios",
+      "preco": "11.99"
+    }
+  ]
+}

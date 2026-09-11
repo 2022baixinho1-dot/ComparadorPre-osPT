@@ -1,0 +1,438 @@
+{
+  "data_execucao": "2026-09-11",
+  "categoria": "semanal",
+  "folheto": "Vinhos, Queijos e Enchidos",
+  "valido_de": "2026-08-31",
+  "valido_ate": "2026-09-13",
+  "total_produtos": 107,
+  "produtos": [
+    {
+      "nome": "91 90 Exclusivo Lidl FORAL D. HENRIQUE Vinho Branco Dão DOC Encruzado",
+      "preco": "2.99"
+    },
+    {
+      "nome": "MONSARAZ Vinho Tinto Regional Alentejano",
+      "preco": "3.49"
+    },
+    {
+      "nome": "/9 Nº1 QUALIDADE PREÇO SEGUNDO OS CONSUMIDORES* EM VILA REAL Vinho Tinto Douro DOC Reserva",
+      "preco": "3.49"
+    },
+    {
+      "nome": "BARQUINHA Vinho Tinto Douro DOC Reserva",
+      "preco": "2.39"
+    },
+    {
+      "nome": "frescante nuance salina que enaltece o marisco. SOALHEIRO Vinho Verde Branco DOC Alvarinho",
+      "preco": "8.99"
+    },
+    {
+      "nome": "CASAL GARCIA Vinho Verde DOC",
+      "preco": "2.99"
+    },
+    {
+      "nome": "PORTAL DO MINHO Vinho Verde Branco DOC Alvarinho",
+      "preco": "2.79"
+    },
+    {
+      "nome": "Exclusivo Lidl 88 GAZELA Vinho Rosé DOC",
+      "preco": "2.99"
+    },
+    {
+      "nome": "AVELEDA Vinho Verde Branco DOC",
+      "preco": "3.39"
+    },
+    {
+      "nome": "89 AVELEDA Vinho Verde Branco Loureiro Alvarinho",
+      "preco": "3.89"
+    },
+    {
+      "nome": "MURALHAS DE MONÇÃO Vinho Verde Branco DOC",
+      "preco": "3.45"
+    },
+    {
+      "nome": "89 CASAL GARCIA Vinho Rosé",
+      "preco": "3.35"
+    },
+    {
+      "nome": "MURALHAS DE MONÇÃO Vinho Verde Rosé DOC",
+      "preco": "3.59"
+    },
+    {
+      "nome": "inhos de excelência, reconhecidos em todo o mundo. VILA REAL Vinho Tinto Douro DOC Reserva",
+      "preco": "3.19"
+    },
+    {
+      "nome": "PORCA DE MURÇA Vinho Tinto Douro DOC",
+      "preco": "3.49"
+    },
+    {
+      "nome": "87 ALTANO Vinho Tinto Douro DOC",
+      "preco": "3.89"
+    },
+    {
+      "nome": "88 RIO BELO Vinho Tinto Douro DOC",
+      "preco": "3.99"
+    },
+    {
+      "nome": "EVEL Vinho Tinto Douro DOC",
+      "preco": "4.49"
+    },
+    {
+      "nome": "revela toda a sua complexidade e intensidade com o tempo. 87 ASSOBIO Vinho Tinto Douro DOC",
+      "preco": "5.99"
+    },
+    {
+      "nome": "91 VALLADO Vinho Tinto Douro DOC",
+      "preco": "6.89"
+    },
+    {
+      "nome": "90 PAPA FIGOS Vinho Tinto Douro DOC",
+      "preco": "4.49"
+    },
+    {
+      "nome": "ESTEVA Vinho Tinto Douro DOC",
+      "preco": "4.49"
+    },
+    {
+      "nome": "Exclusivo Lidl 89 PACHECA Vinho Tinto Douro DOC Escolha",
+      "preco": "5.49"
+    },
+    {
+      "nome": "perfeito para acompanhar pratos de forno e estufados ricos. 90 CARM Vinho Tinto Douro DOC",
+      "preco": "8.89"
+    },
+    {
+      "nome": "90 DUSTY Vinho Tinto Douro DOC",
+      "preco": "9.49"
+    },
+    {
+      "nome": "92 POST SCRIPTUM Vinho Tinto Douro DOC",
+      "preco": "13.49"
+    },
+    {
+      "nome": "TONS DE DUORUM Vinho Branco Douro DOC",
+      "preco": "3.89"
+    },
+    {
+      "nome": "88 RIO BELO Vinho Branco Douro DOC",
+      "preco": "3.99"
+    },
+    {
+      "nome": "MEANDRO Vinho Tinto Douro DOC",
+      "preco": "11.59"
+    },
+    {
+      "nome": "90 VILA REAL Vinho Branco Douro DOC Reserva",
+      "preco": "6.89"
+    },
+    {
+      "nome": "EVEL Vinho Branco Douro DOC",
+      "preco": "4.49"
+    },
+    {
+      "nome": "87 PACHECA Vinho Branco Douro DOC Escolha",
+      "preco": "5.49"
+    },
+    {
+      "nome": "88 ASSOBIO Vinho Branco Douro DOC",
+      "preco": "5.99"
+    },
+    {
+      "nome": "PLANALTO Vinho Branco Douro DOC Reserva",
+      "preco": "4.49"
+    },
+    {
+      "nome": "e equilíbrio harmonioso, perfeito para os dias quentes. PAPA FIGOS Vinho Branco Douro DOC",
+      "preco": "3.19"
+    },
+    {
+      "nome": "Exclusivo Lidl 92 MEANDRO Vinho Branco Douro DOC",
+      "preco": "9.99"
+    },
+    {
+      "nome": "solos graníticos conferem elegância. 88 POUPA DA SERRA Vinho Tinto Beira Interior Reserva",
+      "preco": "3.19"
+    },
+    {
+      "nome": "88 CABRIZ Vinho Tinto Dão DOC Colheita Selecionada",
+      "preco": "3.79"
+    },
+    {
+      "nome": "87 Exclusivo Lidl TORRE DE FERRO Vinho Tinto Dão DOC Reserva",
+      "preco": "2.19"
+    },
+    {
+      "nome": "delicioso, perfeito para marisco e peixe. FORAL D. HENRIQUE Vinho Branco Dão DOC Encruzado",
+      "preco": "2.69"
+    },
+    {
+      "nome": "Exclusivo Lidl SEM RESERVAS Vinho Rosé Regional Lisboa Emb 750 ml 1 L =",
+      "preco": "1.99"
+    },
+    {
+      "nome": "Exclusivo Lidl SEM RESERVAS Vinho Branco Regional Lisboa Emb 750 ml 1 L =",
+      "preco": "1.99"
+    },
+    {
+      "nome": "88 Exclusivo Lidl SEM RESERVAS Vinho Branco Regional Lisboa Sauvignon Blanc",
+      "preco": "2.75"
+    },
+    {
+      "nome": "num final seco, salino e irresistivelmente gastronómico. DORY Vinho Branco Regional Lisboa",
+      "preco": "3.49"
+    },
+    {
+      "nome": "perfil frutado e estrutura leve, altamente apetecível. 1 CENTAVO Vinho Tinto Regional Tejo",
+      "preco": "1.99"
+    },
+    {
+      "nome": "CACHO FRESCO Vinho Rosé Regional Tejo",
+      "preco": "1.59"
+    },
+    {
+      "nome": "87 CABEÇA DE TOIRO Vinho Tinto Tejo DOC Reserva",
+      "preco": "5.49"
+    },
+    {
+      "nome": "CACHO FRESCO Vinho Branco Regional Tejo",
+      "preco": "1.55"
+    },
+    {
+      "nome": "JP Vinho Tinto Regional Península de Setúbal",
+      "preco": "2.39"
+    },
+    {
+      "nome": "VINHA DO ROSÁRIO Vinho Tinto Regional Península de Setúbal Selection",
+      "preco": "2.39"
+    },
+    {
+      "nome": "estrutura e complexidade. VINHA DO ROSÁRIO Vinho Tinto Regional Península de Setúbal Syrah",
+      "preco": "1.69"
+    },
+    {
+      "nome": "ram vinhos únicos. 89 VINHA DO ROSÁRIO Vinho Branco Regional Península de Setúbal Verdelho",
+      "preco": "1.95"
+    },
+    {
+      "nome": "91 JOÃO PIRES Vinho Branco Regional Península de Setúbal",
+      "preco": "2.39"
+    },
+    {
+      "nome": "CATARINA Vinho Branco Regional Península de Setúbal",
+      "preco": "4.99"
+    },
+    {
+      "nome": "tênticos do Alentejo para brindar à sua mesa. 87 ALMOCREVE Vinho Tinto Regional Alentejano",
+      "preco": "1.79"
+    },
+    {
+      "nome": "88 TAPADA DOS GAMAS Vinho Tinto Regional Alentejano",
+      "preco": "1.99"
+    },
+    {
+      "nome": "dável doçura e final envolvente e macio. ALMOCREVE Vinho Tinto Regional Alentejano Reserva",
+      "preco": "1.99"
+    },
+    {
+      "nome": "88 REGUENGOS Vinho Tinto Alentejo Regional Alentejano",
+      "preco": "2.59"
+    },
+    {
+      "nome": "MONTE DOS PINHEIROS Vinho Tinto Regional Alentejano",
+      "preco": "2.69"
+    },
+    {
+      "nome": "88 CASTELO DE BORBA Vinho Tinto Alentejo DOC",
+      "preco": "2.69"
+    },
+    {
+      "nome": "Alentejo em vinhos perfeitos para cada brinde. 87 ADEGA DE BORBA Vinho Tinto Alentejo DOC",
+      "preco": "2.89"
+    },
+    {
+      "nome": "87 Exclusivo Lidl HERDADE DAS MOURAS Vinho Tinto Regional Alentejano Premium",
+      "preco": "2.79"
+    },
+    {
+      "nome": "90 MONSARAZ Vinho Tinto Regional Alentejano",
+      "preco": "3.49"
+    },
+    {
+      "nome": "beber e perfeito para momentos descontraídos. MONTE VELHO Vinho Tinto Regional Alentejano",
+      "preco": "2.99"
+    },
+    {
+      "nome": "Exclusivo Lidl SÃO BRAZ Vinho Tinto Regional Alentejano Reserva",
+      "preco": "2.99"
+    },
+    {
+      "nome": "89 MONTE DO GAIO Vinho Tinto Regional Alentejano Winemaker Selection",
+      "preco": "2.99"
+    },
+    {
+      "nome": "87 ABELHARUCO Vinho Tinto Regional Alentejano Colheita Selecionada",
+      "preco": "7.79"
+    },
+    {
+      "nome": "88 TRINCA BOLOTAS Vinho Tinto Regional Alentejano",
+      "preco": "17.49"
+    },
+    {
+      "nome": "87 DOM MARTINHO Vinho Tinto Regional Alentejano",
+      "preco": "3.99"
+    },
+    {
+      "nome": "88 EA Vinho Tinto Regional Alentejano",
+      "preco": "3.89"
+    },
+    {
+      "nome": "HERDADE DOS GROUS Vinho Tinto Regional Alentejano",
+      "preco": "6.99"
+    },
+    {
+      "nome": "MONTE DA RAVASQUEIRA Vinho Tinto Regional Alentejano",
+      "preco": "3.59"
+    },
+    {
+      "nome": "om seleções de sabor vibrante. HERDADE DAS MOURAS Vinho Branco Regional Alentejano Premium",
+      "preco": "2.79"
+    },
+    {
+      "nome": "Exclusivo Lidl 87 ABELHARUCO Vinho Branco Regional Alentejano Colheita Selecionada",
+      "preco": "2.79"
+    },
+    {
+      "nome": "MONTE VELHO Vinho Rosé Regional Alentejano",
+      "preco": "2.69"
+    },
+    {
+      "nome": "GALITOS Vinho Branco Regional Alentejano",
+      "preco": "1.79"
+    },
+    {
+      "nome": "87 PORTA DA RAVESSA Vinho Branco Regional Alentejano Colheita Especial",
+      "preco": "1.99"
+    },
+    {
+      "nome": "88 VERSÁTIL Vinho Branco Regional Alentejano",
+      "preco": "2.99"
+    },
+    {
+      "nome": "VERSÁTIL Vinho Rosé Regional Alentejano",
+      "preco": "2.99"
+    },
+    {
+      "nome": "isponíveis em algumas lojas Lidl. Sangrias e Espumantes 92 FREIXENET Blanc de Blancs Bruto",
+      "preco": "5.99"
+    },
+    {
+      "nome": "89 Exclusivo Lidl CASTELO DA LAPA Espumante Bruto",
+      "preco": "2.79"
+    },
+    {
+      "nome": "88 Exclusivo Lidl CASTELO DA LAPA Espumante Rosé",
+      "preco": "2.85"
+    },
+    {
+      "nome": "Exclusivo Lidl VILLA D'MARIALVA Espumante Doce",
+      "preco": "2.59"
+    },
+    {
+      "nome": "MATEUS Espumante Rosé",
+      "preco": "4.99"
+    },
+    {
+      "nome": "PLEXUS Espumante Branco Tejo",
+      "preco": "1.99"
+    },
+    {
+      "nome": "CASAL GARCIA Sangria Frutos Tropicais",
+      "preco": "3.99"
+    },
+    {
+      "nome": "CASAL GARCIA Sangria Frutos Vermelhos",
+      "preco": "3.99"
+    },
+    {
+      "nome": "CASAL MENDES Sangria Tinta/ Branca",
+      "preco": "2.99"
+    },
+    {
+      "nome": "omplexos, perfeitos para fechar a refeição ou para pausas. VELHOTES Vinho do Porto 10 Anos",
+      "preco": "11.69"
+    },
+    {
+      "nome": "ALAMBRE Moscatel de Setúbal",
+      "preco": "4.89"
+    },
+    {
+      "nome": "88 ARMILAR Vinho do Porto LBV",
+      "preco": "4.15"
+    },
+    {
+      "nome": "MILBONA Queijo Prato de Mistura Unid.",
+      "preco": "4.69"
+    },
+    {
+      "nome": "ALVELHE Queijo de Vaca e Ovelha Curado Unid.",
+      "preco": "4.49"
+    },
+    {
+      "nome": "DA MINHA TERRA Queijo Ilha 5 Meses",
+      "preco": "4.19"
+    },
+    {
+      "nome": "tura Unid. nº2490 PAIVA Queijo Amanteigado Unid. nº5915871 SEIA Queijo de Cabra Mini Unid.",
+      "preco": "4.99"
+    },
+    {
+      "nome": "SEIA Queijo de Ovelha Amanteigado Mini Unid.",
+      "preco": "4.99"
+    },
+    {
+      "nome": "em mós de pedra • Fermentação natural com massa mãe viva SANTIAGO Tábua de Queijos Mistura",
+      "preco": "4.49"
+    },
+    {
+      "nome": "GLEBA Pão de Massa Mãe Unid. 650 g 1 kg =",
+      "preco": "2.39"
+    },
+    {
+      "nome": "ASTELÕES Queijo Curado Unid. nº5906562 CASTELÕES Queijo de Prato Pequeno Amanteigado Unid.",
+      "preco": "5.99"
+    },
+    {
+      "nome": "SÃO MIGUEL Queijo 9 Meses",
+      "preco": "4.69"
+    },
+    {
+      "nome": "PAIVA Tábua de Queijos Vaca/ Ovelha/ Cabra",
+      "preco": "5.35"
+    },
+    {
+      "nome": "de Portugal para casa com a nossa seleção de enchidos. DA MINHA TERRA Alheira de Mirandela",
+      "preco": "1.39"
+    },
+    {
+      "nome": "DA MINHA TERRA Chouriço de Porco Preto",
+      "preco": "1.99"
+    },
+    {
+      "nome": "CURSO NACIONAL DE CHOURIÇOS /hyphen.cap ENCHIDOS DA MINHA TERRA Chouriço Receita do Fundão",
+      "preco": "1.99"
+    },
+    {
+      "nome": "DA MINHA TERRA Alheira com Caça",
+      "preco": "3.09"
+    },
+    {
+      "nome": "MONTARAZ Copita de Porco Preto",
+      "preco": "4.49"
+    },
+    {
+      "nome": "DULANO SELECTION Presunto Fatiado",
+      "preco": "2.99"
+    }
+  ]
+}

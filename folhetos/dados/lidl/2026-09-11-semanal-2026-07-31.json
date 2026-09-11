@@ -1,0 +1,98 @@
+{
+  "data_execucao": "2026-09-11",
+  "categoria": "semanal",
+  "folheto": "DTP",
+  "valido_de": "2026-07-31",
+  "valido_ate": "2026-09-27",
+  "total_produtos": 22,
+  "produtos": [
+    {
+      "nome": "idl.pt. Nº1 QUALIDADE PREÇO SEGUNDO OS CONSUMIDORES* EM OCEAN SEA Pescada do Chile à Posta",
+      "preco": "5.99"
+    },
+    {
+      "nome": "OCEAN SEA Maruca à Posta",
+      "preco": "2.29"
+    },
+    {
+      "nome": "ainda Em setembro, vale mesmo a pena. CHEF SELECT Pizza Frango/ Fiambre e Dupla Mozzarella",
+      "preco": "0.55"
+    },
+    {
+      "nome": "MILBONA Iogurte Neo/ Cookie Bits/ Chocodrops",
+      "preco": "1.25"
+    },
+    {
+      "nome": "ços baixar ainda Em setembro, vale mesmo a pena. CHEF SELECT Coxinhas de Frango Pré-Fritas",
+      "preco": "1.19"
+    },
+    {
+      "nome": "HARVEST BASKET Batatas Rústicas",
+      "preco": "1.29"
+    },
+    {
+      "nome": "Ovos L de Galinhas Criadas no Solo",
+      "preco": "0.59"
+    },
+    {
+      "nome": "COMBINO Cotovelinhos",
+      "preco": "2.99"
+    },
+    {
+      "nome": "DULANO Salsichas Estilo Viena",
+      "preco": "0.40"
+    },
+    {
+      "nome": "A MINHA PADARIA Travesseiro de Cacau",
+      "preco": "0.79"
+    },
+    {
+      "nome": "SONDEY Wafers com Recheio de Avelã",
+      "preco": "0.89"
+    },
+    {
+      "nome": "MORENAZOS Argolas de Chocolate Preto/ de Leite",
+      "preco": "0.99"
+    },
+    {
+      "nome": "VEMONDO Bio Bebida de Amêndoa 0% Açúcar",
+      "preco": "1.99"
+    },
+    {
+      "nome": "CONFISERIE FIRENZE Bolos com Cobertura de Chocolate",
+      "preco": "1.79"
+    },
+    {
+      "nome": "CROWNFIELD Granola sem Açúcar Adicionado",
+      "preco": "7200701.39"
+    },
+    {
+      "nome": "BELLAROM Cappuccino em Saquetas",
+      "preco": "1.29"
+    },
+    {
+      "nome": "DENTALUX Fio Dentário Unid.",
+      "preco": "1.39"
+    },
+    {
+      "nome": "CIEN Laca Profissional Volume Queratina",
+      "preco": "0.99"
+    },
+    {
+      "nome": "nº24736 CIEN Sabonete Líquido",
+      "preco": "0.95"
+    },
+    {
+      "nome": "CIEN Condicionador Familiar",
+      "preco": "2.59"
+    },
+    {
+      "nome": "FORMIL Detergente Líquido Frescura Azul/ Colónia",
+      "preco": "1.29"
+    },
+    {
+      "nome": "W5 Spray Limpa Móveis",
+      "preco": "93700.85"
+    }
+  ]
+}
