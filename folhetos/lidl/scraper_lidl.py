@@ -1,18 +1,14 @@
 """
-Scraper do Folheto Semanal do Lidl Portugal.
+Scraper do(s) Folheto(s) do Lidl Portugal.
 
-Descoberta técnica: o Lidl usa, em todos os países, a mesma
-infraestrutura do grupo Schwarz (dono do Lidl) para os folhetos —
-uma API pública em endpoints.leaflets.schwarz, sem necessidade de
-login, cookies, ou navegador. Confirmado com dados reais de Portugal.
+Atualização: em vez de escolher só UM folheto semanal nacional, esta
+versão apanha TODOS os folhetos nacionais que ainda não expiraram
+(offerEndDate >= hoje) — isto inclui tipicamente 2 folhetos "semanais"
+(o atual e o da próxima semana) e 2 "fim de semana" (o atual e o do
+próximo), num total de 4.
 
-Passos:
-1. Pede a lista de folhetos ativos (endpoint "overview")
-2. Encontra o folheto semanal nacional (não é uma promoção regional
-   de uma loja específica) que esteja a decorrer hoje
-3. Descarrega o PDF do folheto (campo "pdfUrl", já vem pronto a usar
-   — sem o problema de botão JavaScript que tínhamos no Continente)
-   e extrai o texto de todas as páginas de uma vez
+Continua a usar a mesma infraestrutura pública do grupo Schwarz
+(endpoints.leaflets.schwarz), sem necessidade de login.
 
 Dependências: requests, pypdf
     pip install requests pypdf
@@ -41,28 +37,36 @@ def get_all_flyers() -> list[dict]:
     return flyers
 
 
-def get_current_weekly_flyer() -> dict:
+def _categoria(flyer: dict) -> str:
+    """Classifica um folheto como 'fim-de-semana' ou 'semanal', pelo título."""
+    titulo = (flyer.get("title") or "").lower()
+    if "fim de semana" in titulo or "fim-de-semana" in titulo:
+        return "fim-de-semana"
+    return "semanal"
+
+
+def get_folhetos_nacionais_validos() -> list[dict]:
     """
-    Encontra o folheto semanal NACIONAL (regions[0].type == "national")
-    cujo período de oferta inclui hoje.
+    Devolve TODOS os folhetos nacionais cujo período de oferta ainda não
+    terminou (inclui o atual e o(s) seguinte(s) já publicados, tanto
+    semanais como de fim de semana).
     """
-    today = date.today().isoformat()
+    hoje = date.today().isoformat()
     flyers = get_all_flyers()
 
-    candidatos = [
+    validos = [
         f for f in flyers
         if any(r.get("type") == "national" for r in f.get("regions", []))
-        and f.get("offerStartDate", "9999-99-99") <= today <= f.get("offerEndDate", "0000-00-00")
+        and f.get("offerEndDate", "0000-00-00") >= hoje
     ]
 
-    if not candidatos:
-        raise RuntimeError(
-            "Não encontrei nenhum folheto semanal nacional ativo hoje. "
-            "Pode ser preciso rever os critérios de filtro (ex: nomes de "
-            "categoria/subcategoria específicos de Portugal)."
-        )
+    if not validos:
+        raise RuntimeError("Não encontrei nenhum folheto nacional válido (atual ou futuro).")
 
-    return candidatos[0]
+    for f in validos:
+        f["_categoria"] = _categoria(f)
+
+    return validos
 
 
 def get_flyer_pdf_text(flyer: dict) -> str:
@@ -76,11 +80,7 @@ def get_flyer_pdf_text(flyer: dict) -> str:
 
 
 if __name__ == "__main__":
-    flyer = get_current_weekly_flyer()
-    print(f"Folheto encontrado: {flyer['name']} — {flyer['title']}")
-    print(f"Válido de {flyer['offerStartDate']} a {flyer['offerEndDate']}")
-
-    texto = get_flyer_pdf_text(flyer)
-    print(f"\nTexto extraído: {len(texto)} caracteres.")
-    print("\n--- Primeiros 500 caracteres ---")
-    print(texto[:500])
+    folhetos = get_folhetos_nacionais_validos()
+    print(f"Encontrados {len(folhetos)} folhetos nacionais válidos:")
+    for f in folhetos:
+        print(f"  [{f['_categoria']}] {f['title']} — válido {f['offerStartDate']} a {f['offerEndDate']}")
