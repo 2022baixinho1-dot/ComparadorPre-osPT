@@ -2,32 +2,6 @@
   {
     "produtos": {
       "continente": {
-        "nome": "FRANGO DO CAMPO INTEIRO C/ MIÚDOS CONTINENTE SELEÇÃO 40",
-        "preco": 3.99
-      },
-      "aldi": {
-        "nome": "C ° Frango Inteiro Sem Miudos",
-        "preco": 2.49
-      }
-    },
-    "mais_barato": "aldi"
-  },
-  {
-    "produtos": {
-      "continente": {
-        "nome": "VINHO MONTE VELHO ALENTEJO, BRANCO/ ROSÉ/ TINTO",
-        "preco": 3.59
-      },
-      "aldi": {
-        "nome": "MONTE VELHO Vinho Regional Branco/ Tinto",
-        "preco": 1.8
-      }
-    },
-    "mais_barato": "aldi"
-  },
-  {
-    "produtos": {
-      "continente": {
         "nome": "CAMARÃO 30/50 COZIDO 66 30 %",
         "preco": 10.99
       },
@@ -36,150 +10,12 @@
         "preco": 4.99
       }
     },
-    "mais_barato": "lidl"
-  },
-  {
-    "produtos": {
-      "continente": {
-        "nome": "CAMARÃO CONTINENTE 60/80 COZIDO",
-        "preco": 6.49
-      },
-      "lidl": {
-        "nome": "Camarão Cozido 30/ 50",
-        "preco": 4.99
-      }
-    },
-    "mais_barato": "lidl"
-  },
-  {
-    "produtos": {
-      "continente": {
-        "nome": "MOELAS DE FRANGO CONGELADAS",
-        "preco": 2.49
-      },
-      "aldi": {
-        "nome": "Moelas de Frango",
-        "preco": 1.99
-      }
-    },
-    "mais_barato": "aldi"
-  },
-  {
-    "produtos": {
-      "continente": {
-        "nome": "ATUM BOM PETISCO ÓLEO",
-        "preco": 1.2
-      },
-      "lidl": {
-        "nome": "BOM PETISCO Atum ao Natural",
-        "preco": 1.29
-      }
-    },
-    "mais_barato": "continente"
-  },
-  {
-    "produtos": {
-      "continente": {
-        "nome": "COGUMELOS CONTINENTE LAMINADOS",
-        "preco": 1.29
-      },
-      "lidl": {
-        "nome": "FRESHONA Cogumelos Laminados",
-        "preco": 0.75
-      }
-    },
-    "mais_barato": "lidl"
-  },
-  {
-    "produtos": {
-      "continente": {
-        "nome": "BATATAS FRITAS RUFFLES SAL",
-        "preco": 2.19
-      },
-      "aldi": {
-        "nome": "compras realizadas nas suas lojas. Sabe mais em aldi.pt. RUFFLES Batatas Fritas Onduladas",
-        "preco": 1.39
-      }
-    },
-    "mais_barato": "aldi"
-  },
-  {
-    "produtos": {
-      "continente": {
-        "nome": "CEREAIS CHOCAPIC ORIGINAL",
-        "preco": 3.49
-      },
-      "aldi": {
-        "nome": "NESTLÉ Cereais Chocapic",
-        "preco": 4.69
-      }
-    },
-    "mais_barato": "continente"
-  },
-  {
-    "produtos": {
-      "continente": {
-        "nome": "CREME DE BARRAR NUTELLA",
-        "preco": 7.99
-      },
-      "aldi": {
-        "nome": "NUTELLA Creme para Barrar",
-        "preco": 7.99
-      }
-    },
-    "mais_barato": "continente"
-  },
-  {
-    "produtos": {
-      "continente": {
-        "nome": "TABLETE CHOCOLATE DOLCA LEITE",
-        "preco": 1.59
-      },
-      "aldi": {
-        "nome": "NESTLÉ Tablete de Chocolate de Leite KitKat Sortido;",
-        "preco": 1.99
-      }
-    },
-    "mais_barato": "continente"
-  },
-  {
-    "produtos": {
-      "continente": {
-        "nome": "MANTEIGA MIMOSA C/ SAL/ S/ SAL",
-        "preco": 2.19
-      },
-      "lidl": {
-        "nome": "O OS CONSUMIDORES** EM **Sabe mais na capa do folheto. MIMOSA Manteiga com Sal sem Lactose",
-        "preco": 1.59
-      }
-    },
-    "mais_barato": "lidl"
-  },
-  {
-    "produtos": {
-      "continente": {
-        "nome": "LEITE UHT GRESSO MEIO GORDO/ MAGRO",
-        "preco": 0.86
-      },
-      "aldi": {
-        "nome": "DESCONTO GRESSO Leite Meio-gordo",
-        "preco": 0.85
-      }
-    },
-    "mais_barato": "aldi"
-  },
-  {
-    "produtos": {
-      "continente": {
-        "nome": "FILETES IGLO PEIXE",
-        "preco": 7.99
-      },
-      "aldi": {
-        "nome": "ntos de glúten GOLDEN SEAFOOD ® Filetes de Peixe Sortido: bordalesa, brócolos ou crocante;",
-        "preco": 3.39
-      }
-    },
-    "mais_barato": "aldi"
+    "mais_barato": "lidl",
+    "poupanca_eur": 6.0,
+    "poupanca_pct": 54.6,
+    "pontuacoes_correspondencia": {
+      "lidl": 100
+    }
   },
   {
     "produtos": {
@@ -192,7 +28,66 @@
         "preco": 3.49
       }
     },
-    "mais_barato": "aldi"
+    "mais_barato": "aldi",
+    "poupanca_eur": 1.9,
+    "poupanca_pct": 35.3,
+    "pontuacoes_correspondencia": {
+      "aldi": 100
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "VINHO MONTE VELHO ALENTEJO, BRANCO/ ROSÉ/ TINTO",
+        "preco": 3.59
+      },
+      "aldi": {
+        "nome": "MONTE VELHO Vinho Regional Branco/ Tinto",
+        "preco": 1.8
+      }
+    },
+    "mais_barato": "aldi",
+    "poupanca_eur": 1.79,
+    "poupanca_pct": 49.9,
+    "pontuacoes_correspondencia": {
+      "aldi": 100
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "FRANGO DO CAMPO INTEIRO C/ MIÚDOS CONTINENTE SELEÇÃO 40",
+        "preco": 3.99
+      },
+      "aldi": {
+        "nome": "C ° Frango Inteiro Sem Miudos",
+        "preco": 2.49
+      }
+    },
+    "mais_barato": "aldi",
+    "poupanca_eur": 1.5,
+    "poupanca_pct": 37.6,
+    "pontuacoes_correspondencia": {
+      "aldi": 100
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "CEREAIS CHOCAPIC ORIGINAL",
+        "preco": 3.49
+      },
+      "aldi": {
+        "nome": "NESTLÉ Cereais Chocapic",
+        "preco": 4.69
+      }
+    },
+    "mais_barato": "continente",
+    "poupanca_eur": 1.2,
+    "poupanca_pct": 25.6,
+    "pontuacoes_correspondencia": {
+      "aldi": 100
+    }
   },
   {
     "produtos": {
@@ -205,32 +100,101 @@
         "preco": 1.49
       }
     },
-    "mais_barato": "lidl"
+    "mais_barato": "lidl",
+    "poupanca_eur": 0.9,
+    "poupanca_pct": 37.7,
+    "pontuacoes_correspondencia": {
+      "lidl": 100
+    }
   },
   {
     "produtos": {
       "continente": {
-        "nome": "VINHO VENTOZELO RESERVA, DOURO, BRANCO/ TINTO",
-        "preco": 7.99
+        "nome": "BATATAS FRITAS RUFFLES SAL",
+        "preco": 2.19
       },
       "aldi": {
-        "nome": "CEVÊR Vinho Reserva DOC Tinto/ Branco Origem: Douro DOC;",
-        "preco": 3.49
+        "nome": "compras realizadas nas suas lojas. Sabe mais em aldi.pt. RUFFLES Batatas Fritas Onduladas",
+        "preco": 1.39
       }
     },
-    "mais_barato": "aldi"
+    "mais_barato": "aldi",
+    "poupanca_eur": 0.8,
+    "poupanca_pct": 36.5,
+    "pontuacoes_correspondencia": {
+      "aldi": 100
+    }
   },
   {
     "produtos": {
-      "lidl": {
-        "nome": "BANDIDA Sidra de Frutos Vermelhos",
-        "preco": 0.89
+      "continente": {
+        "nome": "COGUMELOS CONTINENTE LAMINADOS",
+        "preco": 1.29
       },
-      "aldi": {
-        "nome": "Mix de Frutos Vermelhos",
-        "preco": 1.19
+      "lidl": {
+        "nome": "FRESHONA Cogumelos Laminados",
+        "preco": 0.75
       }
     },
-    "mais_barato": "lidl"
+    "mais_barato": "lidl",
+    "poupanca_eur": 0.54,
+    "poupanca_pct": 41.9,
+    "pontuacoes_correspondencia": {
+      "lidl": 100
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "MOELAS DE FRANGO CONGELADAS",
+        "preco": 2.49
+      },
+      "aldi": {
+        "nome": "Moelas de Frango",
+        "preco": 1.99
+      }
+    },
+    "mais_barato": "aldi",
+    "poupanca_eur": 0.5,
+    "poupanca_pct": 20.1,
+    "pontuacoes_correspondencia": {
+      "aldi": 100
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "LEITE UHT GRESSO MEIO GORDO/ MAGRO",
+        "preco": 0.86
+      },
+      "aldi": {
+        "nome": "DESCONTO GRESSO Leite Meio-gordo",
+        "preco": 0.85
+      }
+    },
+    "mais_barato": "aldi",
+    "poupanca_eur": 0.01,
+    "poupanca_pct": 1.2,
+    "pontuacoes_correspondencia": {
+      "aldi": 100
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "CREME DE BARRAR NUTELLA",
+        "preco": 7.99
+      },
+      "aldi": {
+        "nome": "NUTELLA Creme para Barrar",
+        "preco": 7.99
+      }
+    },
+    "mais_barato": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "pontuacoes_correspondencia": {
+      "aldi": 100
+    }
   }
 ]
