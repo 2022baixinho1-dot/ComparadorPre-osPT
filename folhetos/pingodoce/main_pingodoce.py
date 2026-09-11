@@ -23,7 +23,7 @@ def main() -> None:
     pdf_path = TMP_DIR / "current.pdf"
     pdf_path.write_bytes(pdf_bytes)
 
-    products = parse_pdf(pdf_path, render_dpi=170, use_color_anchors=True)
+    products = parse_pdf(pdf_path, render_dpi=200, use_color_anchors=True)
     payload = {
         "data_execucao": run_date.isoformat(),
         "supermercado": "Pingo Doce",
