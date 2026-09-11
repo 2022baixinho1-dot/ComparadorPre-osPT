@@ -1,9 +1,9 @@
 """
-Script principal do módulo de folhetos do Lidl: descobre TODOS os
-folhetos nacionais ainda válidos (semanais + fim de semana, atual e
+Script principal do módulo de folhetos do Lidl: descobre os folhetos
+nacionais recentes e ainda válidos (semanais + fim de semana, atual e
 seguinte), extrai os produtos de cada um, e guarda um ficheiro JSON
-por folheto, identificado pela data de execução e pelo período a que
-o folheto diz respeito, em folhetos/dados/lidl/.
+por folheto, identificado pela data de execução, categoria e data de
+início do folheto, em folhetos/dados/lidl/.
 """
 
 import json
@@ -19,7 +19,9 @@ DADOS_DIR = os.path.normpath(os.path.join(os.path.dirname(__file__), "..", "dado
 def guardar_historico(flyer: dict, produtos: list[dict], hoje: str) -> str:
     os.makedirs(DADOS_DIR, exist_ok=True)
 
-    # sufixo tipo "semanal-2026-09-07" ou "fim-de-semana-2026-09-11"
+    # sufixo tipo "semanal-2026-09-07" ou "fim-de-semana-2026-09-07"
+    # agora nunca colide entre categorias, porque a categoria vem da
+    # subcategoria da API e não do título.
     sufixo = f"{flyer['_categoria']}-{flyer['offerStartDate']}"
     caminho = os.path.join(DADOS_DIR, f"{hoje}-{sufixo}.json")
 
@@ -45,7 +47,11 @@ if __name__ == "__main__":
     print(f"Encontrados {len(folhetos)} folhetos válidos.")
 
     for flyer in folhetos:
-        print(f"\n=== [{flyer['_categoria']}] {flyer['title']} ===")
+        print(f"\n=== [{flyer['_categoria']}] {flyer['title']} ({flyer['offerStartDate']}) ===")
+        # Debug temporário: confirmar que a subcategoria tem mesmo a
+        # palavra-chave esperada. Remover esta linha depois de confirmado.
+        print(f"    subcategoria (debug): {flyer['_subcategoria']}")
+
         pdf_text = get_flyer_pdf_text(flyer)
         produtos = parse_products(pdf_text)
         print(f"Extraídos {len(produtos)} produtos.")
