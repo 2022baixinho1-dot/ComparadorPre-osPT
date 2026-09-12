@@ -183,6 +183,10 @@
     transform:translateY(-1px);
   }
 
+  .tag-loja.tag-continente{ color:#B23A2E; border-color:#B23A2E; background:#F7E9E7; }
+  .tag-loja.tag-lidl{ color:#8A6D00; border-color:#D6B21A; background:#FBF3D2; }
+  .tag-loja.tag-aldi{ color:#2E3F6E; border-color:#2E3F6E; background:#E4E8F1; }
+
   .produto .preco{
     grid-column:2;
     text-align:right;
@@ -418,10 +422,16 @@
     return grupos;
   }
 
+  function lojaSlug(loja) {
+    return loja.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  }
+
+  const CORES_LOJA = { continente: '#B23A2E', lidl: '#D6B21A', aldi: '#2E3F6E' };
+
   function produtoHTML(p) {
     return `
       <div class="produto">
-        <div class="nome"><span class="tag-loja">${p.loja}</span>${p.nome}</div>
+        <div class="nome"><span class="tag-loja tag-${lojaSlug(p.loja)}">${p.loja}</span>${p.nome}</div>
         <div class="preco">${eur(p.preco)}</div>
         <div class="preco-unid">${p.unidade || ''}</div>
         <div class="validade${p.aComecar ? ' a-comecar' : ''}">${p.aComecar ? 'a partir de ' : 'válido '}${p.validade}</div>
@@ -500,7 +510,7 @@
     el('#gerado-em').textContent = geradoEm || '—';
 
     const lojas = [...new Set(produtos.map((p) => p.loja))].sort();
-    el('#legend').innerHTML = lojas.map(l => `<span><span class="swatch"></span>${l}</span>`).join('');
+    el('#legend').innerHTML = lojas.map(l => `<span><span class="swatch" style="background:${CORES_LOJA[lojaSlug(l)] || 'var(--ink-soft)'}; border-color:${CORES_LOJA[lojaSlug(l)] || 'var(--ink-soft)'}"></span>${l}</span>`).join('');
   }
 
   const MESES_ABREV = ['jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov','dez'];
