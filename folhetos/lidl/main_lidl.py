@@ -53,6 +53,13 @@ if __name__ == "__main__":
 
         pdf_text = get_flyer_pdf_text(flyer)
         produtos = parse_products(pdf_text)
+        # anexa a validade REAL do folheto (datas já extraídas pelo
+        # scraper) a cada produto individualmente, para a página web
+        # mostrar sem ter de olhar para o ficheiro todo
+        produtos = [
+            {**p, "valido_de": flyer.get("offerStartDate"), "valido_ate": flyer.get("offerEndDate")}
+            for p in produtos
+        ]
         todos_produtos.extend(produtos)
         print(f"Extraídos {len(produtos)} produtos.")
 
