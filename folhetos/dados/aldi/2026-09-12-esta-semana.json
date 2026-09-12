@@ -7,1176 +7,1372 @@
     {
       "nome": "Pêssego Paraguaio kg",
       "preco": "1.79",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "BON-RI ® Arroz Extra Carolino",
       "preco": "0.69",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Preparado de Carne Picada de Bovino",
       "preco": "4.99",
+      "preco_unidade": "9,98€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": ". GOLDEN SEAFOOD ® Miolo de Gambão",
       "preco": "4.99",
+      "preco_unidade": "22,18€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": ". COVA DOS GAMOS Vinho Regional Tinto/ Branco Região: Alentejo;",
       "preco": "2.49",
+      "preco_unidade": "3,32€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "CADA DOSE",
       "preco": "13.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "APENAS",
       "preco": "9.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "aldi.pt C ° GUT DREI EICHEN ® Presunto da Floresta Negra",
       "preco": "2.49",
+      "preco_unidade": "12,45€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "SCHULTEN ® Cerveja",
       "preco": "0.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": ". Batata-doce kg",
       "preco": "1.49",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Cogumelos Marron",
       "preco": "1.35",
+      "preco_unidade": "5,40€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Tomate Salada kg",
       "preco": "1.49",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "kg 2",
       "preco": "2.29",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "embalado",
       "preco": "2.59",
+      "preco_unidade": "1,30€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Uva Branca sem Grainha/ Preta sem Grainha",
       "preco": "2.19",
+      "preco_unidade": "4,38€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": ") embalado",
       "preco": "1.99",
+      "preco_unidade": "3,98€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Lisianthus Sortido; unidade",
       "preco": "3.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "GARDENLINE ® Kalanchoe Especial regresso às aulas; vaso",
       "preco": "3.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": ". C ° Bifanas da Perna de Porco",
       "preco": "4.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "C ° Hambúrgueres de Bovino com Cebola",
       "preco": "3.99",
+      "preco_unidade": "13,30€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Salsicha Brasileira",
       "preco": "2.69",
+      "preco_unidade": "6,73€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "C ° Pato Desfiado com Bacon e Chouriço",
       "preco": "3.99",
+      "preco_unidade": "9,98€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Preparado de Carne Picada de Bovino",
       "preco": "4.99",
+      "preco_unidade": "9,98€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "ntos de glúten GOLDEN SEAFOOD ® Filetes de Peixe Sortido: bordalesa, brócolos ou crocante;",
       "preco": "3.39",
+      "preco_unidade": "8,48€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "BATARDAS Empadas/ Croquetes 240/",
       "preco": "3.49",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "IGLO Ervilhas",
       "preco": "3.49",
+      "preco_unidade": "4,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "BATARDAS Pão Rústico Sortido;",
       "preco": "3.49",
+      "preco_unidade": "6,98€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "TRIBE Gelado Açaí",
       "preco": "1.79",
+      "preco_unidade": "11,19€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Pão Pretzel *PVP unitário na compra de 3 unidades",
       "preco": "0.60",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Unidade",
       "preco": "0.89",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "ireta, sem talões, cupões ou complicações, na loja, todos os dias. NESTLÉ Cereais Chocapic",
       "preco": "3.49",
+      "preco_unidade": "5,58€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "NESTLÉ Nestum Mel",
       "preco": "3.79",
+      "preco_unidade": "6,32€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "NESTLÉ Nestum Zero Arroz",
       "preco": "2.79",
+      "preco_unidade": "11,16€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "NESTLÉ Mini Snack de Chocolate KitKat",
       "preco": "3.99",
+      "preco_unidade": "19,95€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "GULLÓN Bolachas com Recheio de Baunilha",
       "preco": "1.39",
+      "preco_unidade": "2,78€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "200/",
       "preco": "1.49",
+      "preco_unidade": "19,45€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "HARIBO Gomas Favoritos Sortido;",
       "preco": "1.79",
+      "preco_unidade": "5,97€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "​ ​1.99 -35 %",
       "preco": "3.89",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "DODOT Toalhitas Pure Pack de 48",
       "preco": "1.74",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "compras realizadas nas suas lojas. Sabe mais em aldi.pt. RUFFLES Batatas Fritas Onduladas",
       "preco": "1.39",
+      "preco_unidade": "8,69€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "DELTA Café Moído Lote Chávena",
       "preco": "3.99",
+      "preco_unidade": "15,96€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "€; 1.",
       "preco": "1.89",
+      "preco_unidade": "1,26€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "SCHWEPPES Água Tónica",
       "preco": "0.74",
+      "preco_unidade": "2,96€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "ROMEO ® Ração para Cão Super Premium Sortido; para raças médias; 1.",
       "preco": "4.99",
+      "preco_unidade": "3,33€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "FELIX Snack para Gato Adulto Crispies Salmão e Truta",
       "preco": "1.49",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "1 Seja responsável, beba com moderação. CORONA Cerveja",
       "preco": "1.49",
+      "preco_unidade": "4,20€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "com função sal; protege a máquina e neutraliza odores; eficaz a partir de 45º C; 40 doses",
       "preco": "3.69",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": ". ABELHARUCO Vinho Tinto Colheita Selecionada Região: Alentejo;",
       "preco": "2.79",
+      "preco_unidade": "3,72€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "PORTO CORTEZ Vinho Branco",
       "preco": "3.99",
+      "preco_unidade": "5,32€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "PAPA FIGOS Vinho Tinto DOC Região: Douro;",
       "preco": "5.99",
+      "preco_unidade": "7,99€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Vinho Branco Frisante Gaseificado Região: Tejo;",
       "preco": "1.59",
+      "preco_unidade": "2,12€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "PONTE DE XISTO Vinho Seleção Espe- cial Tinto/ Branco Região: Douro;",
       "preco": "2.50",
+      "preco_unidade": "3,33€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "LPEAVGAA65 CAVE DO MORGADO ® Vinho Verde Branco",
       "preco": "1.50",
+      "preco_unidade": "2,00€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "MONTE VELHO Vinho Regional Branco/ Tinto",
       "preco": "1.80",
+      "preco_unidade": "7,99€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "GIARDINI Lambrusco Rosé/ Branco",
       "preco": "1.79",
+      "preco_unidade": "2,39€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "MONTE DA FERRA ® Vinho Regional Rosé/ Tinto Região: Alentejo;",
       "preco": "1.69",
+      "preco_unidade": "2,25€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Região: Palmela;",
       "preco": "1.49",
+      "preco_unidade": "1,99€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "DESCONTO FIDALGO DOS PERDIGÕES Vinho Regional Branco/ Tinto/ Rosé",
       "preco": "2.19",
+      "preco_unidade": "2,92€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "PROSECCO Vinho Frisante DOC",
       "preco": "3.39",
+      "preco_unidade": "4,52€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "FOREST HILL Vinho Branco Chardonnay Origem: Austrália;",
       "preco": "1.99",
+      "preco_unidade": "2,65€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "ALMA FRESCA Vinho Frisante Rosé",
       "preco": "1.49",
+      "preco_unidade": "1,99€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "JEAN GINER ® Vinho IGP Tinto Merlot/ Pinot Noir/ Sauvignon Origem: França;",
       "preco": "2.99",
+      "preco_unidade": "3,99€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "MARCO DE PEGÕES Vinho Tinto Reserva DOC",
       "preco": "2.19",
+      "preco_unidade": "2,92€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "CEVÊR Vinho Reserva DOC Tinto/ Branco Origem: Douro DOC;",
       "preco": "3.49",
+      "preco_unidade": "4,65€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "PORTAS DE S.PEDRO Vinho Regional Tinto/ Branco Região: Península de Setúbal;",
       "preco": "1.49",
+      "preco_unidade": "1,99€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "VILA REAL Vinho Vinho Reserva DOC Branco/ Tinto",
       "preco": "2.62",
+      "preco_unidade": "3,49€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "HUGO Cocktail à Base de Vinho",
       "preco": "1.99",
+      "preco_unidade": "2,65€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "d7.9M.--DDoomm.1d3.M9. CHOCEUR ® Chocolate de Leite dos Alpes",
       "preco": "0.95",
+      "preco_unidade": "9,50€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "ABORES À ALPES PRODUTOS DE QUALIDADE, A PREÇOS BAIXOS. FLETE ® Strudel de Maçã/ Ginga 500/",
       "preco": "2.29",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "ALPEN SCHMAUS ® Bolinhos Variados Sortido; 200/",
       "preco": "1.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Sementes de Abóbora Ao natural;",
       "preco": "1.59",
+      "preco_unidade": "10,60€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Pão Brioche Pretzel",
       "preco": "2.99",
+      "preco_unidade": "7,44€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "200/",
       "preco": "1.59",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "ALPEN SCHMAUS ® Palitos Crocantes Sortido: sementes de sésamo ou clássico;",
       "preco": "1.79",
+      "preco_unidade": "11,93€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "avés de uma seleção de produtos tradicionais da região. Apenas no ALDI! MANNAPAIN Bretzels",
       "preco": "2.29",
+      "preco_unidade": "2,64€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "JACK'S FARM ® Schnitzel de Porco À moda de Viena;",
       "preco": "7.99",
+      "preco_unidade": "15,98€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Rosti de Batata-doce",
       "preco": "2.49",
+      "preco_unidade": "8,30€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "C ° ALPEN SCHMAUS ® Mini Pernil de Porco",
       "preco": "4.69",
+      "preco_unidade": "9,38€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "ALL SEASONS ® Chucrute Peso: líquido 520 g; escorrido 500 g;",
       "preco": "1.49",
+      "preco_unidade": "2,98€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Sortido;",
       "preco": "4.49",
+      "preco_unidade": "12,83€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Sortido;",
       "preco": "4.99",
+      "preco_unidade": "14,26€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "C ° MILSANI ® Especialidades de Queijo Sortido;",
       "preco": "1.89",
+      "preco_unidade": "12,60€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "C ° MILSANI ® Queijo Cremoso Sortido;",
       "preco": "1.69",
+      "preco_unidade": "11,27€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "1 Seja responsável, beba com moderação. PAULANER Cerveja",
       "preco": "2.79",
+      "preco_unidade": "5,58€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "CASALUX ® Candeeiro de Teto Têxtil Lâmpadas substituíveis; unidade",
       "preco": "10.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Mais cores",
       "preco": "1.49",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Mais cores HOME CREATION ® Vela Aromática Sortido; tempo de chama aprox.: 30 h; unidade",
       "preco": "4.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Medidas aprox.: 45 x 75 cm ou 35 x 100 cm",
       "preco": "3.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Mais cores HOME CREATION ® Tapete Unidade",
       "preco": "19.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "HOME CREATION ® Tapete Lavável Sortido; unidade",
       "preco": "4.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Medidas aprox.: 150 x 200 cm",
       "preco": "9.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "algodão; conjunto Medidas aprox.: 220 x 240 cm",
       "preco": "39.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Mais cores Variante HOME CREATION ® Manta Polar Reversível Unidade",
       "preco": "17.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Medidas aprox.: 140-160 x 200 cm NOVITESSE ® Lençol-capa de Casal Unidade",
       "preco": "8.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": ": 90-100 x 200 cm NOVITESSE ® Edredão e Colcha 2 em 1 Unidade Medidas aprox.: 140 x 245 cm",
       "preco": "19.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Mais cores NOVITESSE ® Lençol-capa de Solteiro Unidade",
       "preco": "7.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "esta página são de stock limitado. CONJUNTO DE 2 HOME CREATION ® Cortinas Opacas com Ilhós",
       "preco": "19.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "algodão; tamanhos: S-XL; conjunto",
       "preco": "7.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "algodão; tamanhos: M-XL; conjunto",
       "preco": "14.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Medidas aprox.: 55 x 35 x 18 cm Variantes UP2FASHION ® Chinelos Tamanhos: 37-45; 1 par",
       "preco": "3.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "KRONTALER ® Despertador Sortido; função snooze; unidade",
       "preco": "4.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": ". Variantes UP2FASHION ® Camisola para Senhora Tamanhos: S-XL; unidade",
       "preco": "8.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Maiscores Variantes UP2FASHION ® Conjunto Lounge Tamanhos: S-XL; unidade",
       "preco": "14.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Em couro",
       "preco": "9.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "NOVITESSE ® Almofada de Viagem Unidade",
       "preco": "4.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "ta página são de stock limitado. UP2FASHION ® Cinto Reversível Tamanhos: 85-95 cm; unidade",
       "preco": "11.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Abacate",
       "preco": "1.99",
+      "preco_unidade": "3,98€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Mix de Frutos Vermelhos",
       "preco": "1.19",
+      "preco_unidade": "13,98€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Rebentos de Feijão-mungo",
       "preco": "1.99",
+      "preco_unidade": "7,96€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "ssombra Ø 12 cm 30-45 cm 1 x semana interior semissombra GARDENLINE ® Mini Suculentas Vaso",
       "preco": "3.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "GARDENLINE ® Zamioculcas Vaso",
       "preco": "7.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "kg C ° Lombo de Porco a Vácuo",
       "preco": "4.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "C ° Frango Inteiro Sem Miudos",
       "preco": "2.49",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Moelas de Frango",
       "preco": "1.99",
+      "preco_unidade": "3,98€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Pão de Rio Maior",
       "preco": "1.00",
+      "preco_unidade": "2,22€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Croissant Brioche *PVP unitário na compra de 3 unidades",
       "preco": "0.50",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Pack de 12 + 3 grátis MATINADOS Ovos do Campo M/L",
       "preco": "3.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "FIM DE SEMANA EL HORNO ® Laços Folhados",
       "preco": "2.79",
+      "preco_unidade": "9,30€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "TUC Bolacha Cracker",
       "preco": "2.29",
+      "preco_unidade": "9,16€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "NESTLÉ Cereais Chocapic",
       "preco": "4.69",
+      "preco_unidade": "5,21€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "NUTELLA Creme para Barrar",
       "preco": "7.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Chocolate de Leite/ com Avelãs",
       "preco": "1.39",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "KINDER Snack Crispy",
       "preco": "3.99",
+      "preco_unidade": "23,47€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "BIO ® Pesto Biológico Sortido;",
       "preco": "2.49",
+      "preco_unidade": "13,46€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "BIO ® Pasta de Amêndoa/ Caju Biológica Sortido: amêndoa castanha, amêndoa branca ou caju;",
       "preco": "5.49",
+      "preco_unidade": "21,96€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "500/",
       "preco": "2.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "os os artigos desta página são de stock limitado. TRADER JOE‘S ® Amendoins Fritos com Pele",
       "preco": "2.79",
+      "preco_unidade": "5,58€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "€; 1.",
       "preco": "0.99",
+      "preco_unidade": "0,66€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "BBQ ® Massa com Ovos",
       "preco": "1.99",
+      "preco_unidade": "2,58€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "CADA CÁPSULA",
       "preco": "1.29",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Café Ristretto Descafeinado Compatíveis com máquina Nespresso; intensidade 9; 10 cápsulas",
       "preco": "3.64",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "OREO Mini Bolachas Recheadas com Creme",
       "preco": "1.84",
+      "preco_unidade": "11,50€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "HARIBO Gomas Black Edition",
       "preco": "1.19",
+      "preco_unidade": "7,93€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "HARIBO Gomas Pasta Basta Pica",
       "preco": "1.29",
+      "preco_unidade": "8,06€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": ") 20",
       "preco": "1.49",
+      "preco_unidade": "2,48€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": ". AJAX Detergente Lava Tudo Perfumado Energizante",
       "preco": "1.99",
+      "preco_unidade": "2,65€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "FIM DE SEMANA SONASOL Detergente Lava Tudo Brilhante Floral Euphoria",
       "preco": "2.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "CADA DOSE PERSIL Detergente Cápsulas para Máquina da Roupa Universal 40 doses",
       "preco": "9.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "; pack de 40",
       "preco": "1.29",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "POWER FORCE ® Tratamento de Calçado Sortido; 75/",
       "preco": "1.29",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "; unidade",
       "preco": "7.49",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "HANSAPLAST Pensos Rápidos Universal Resistentes à água; pack de 20",
       "preco": "1.89",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "PANTENE Condicionador Pro-V Caracóis Perfeitos/ Liso e Sedoso",
       "preco": "4.59",
+      "preco_unidade": "13,11€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "cm; unidade",
       "preco": "1.89",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "PANTENE Champô Pro-V Caracóis Perfeitos/ Liso e Sedoso",
       "preco": "5.59",
+      "preco_unidade": "11,18€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "DESCONTO NIVEA Body Lotion Repara & Cuida Reparação Avançada",
       "preco": "5.69",
+      "preco_unidade": "14,23€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "NIVEA Gel de Banho Men Active Clean",
       "preco": "4.67",
+      "preco_unidade": "9,34€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "BYPHASSE Gel de Banho Óleo de Argão",
       "preco": "2.49",
+      "preco_unidade": "4,15€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "NIVEA Gel de Limpeza Anti­‑imperfeições Derma Skin",
       "preco": "5.19",
+      "preco_unidade": "34,60€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "L‘ORÉAL Creme de Rosto Noite Revitalift Antirrugas + extrafirmeza;",
       "preco": "9.74",
+      "preco_unidade": "194,80€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "L‘ORÉAL Desodorizante Roll­ ‑on Carbon Protect Men Expert",
       "preco": "2.59",
+      "preco_unidade": "51,80€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "L‘ORÉAL Desodorizante Spray Carbon Protect Men Expert",
       "preco": "2.89",
+      "preco_unidade": "19,27€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "COLGATE Pasta de Dentes Branquea- dora Carvão Max White",
       "preco": "3.99",
+      "preco_unidade": "53,20€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": ". WORKZONE ® Chaves de Caixa/ Roquetes Sortido; unidade/conjunto",
       "preco": "9.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "WORKZONE ® Caixa de Armazenamento Sortido; unidade",
       "preco": "3.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "WORKZONE ® Alicate de Crimpagem/ Decapador Sortido; unidade",
       "preco": "7.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "CONJUNTO DE 2 OU 4",
       "preco": "3.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Adequada para madeira, metal e plástico; substituição fácil das folhas de serra; conjunto",
       "preco": "9.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": ". WORKZONE ® Roquete Telescópico/ Chaves Sortido; unidade/conjunto",
       "preco": "14.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "aixa de Ferramentas Para medição de corrente, tensão e resistência elétrica CONJUNTO DE 94",
       "preco": "49.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "WORKZONE ® Alicate Sortido; em aço cromo-vanádio; unidade",
       "preco": "7.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Para medição rápida da temperatura de superfícies",
       "preco": "12.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Mais cores WORKZONE ® Abraçadeiras PACK DE 180",
       "preco": "2.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "odos os artigos desta página são de stock limitado. HOME CREATION ® Tesouras CONJUNTO DE 4",
       "preco": "2.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": ". Capacidade aprox.: 272 l Carga máx.: 65 kg CONJUNTO DE 4",
       "preco": "2.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "GARDENLINE ® Saco de Jardim Unidade",
       "preco": "3.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Profissional",
       "preco": "2.99",
+      "preco_unidade": "1,54€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Cola de Montagem/ Acrilato Sortido; 310/",
       "preco": "2.49",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "GARDENLINE ® Cesto Sortido; unidade",
       "preco": "1.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Mais cores",
       "preco": "5.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "PATTEX Não Mais Pregos Fixação forte e rápida; aderência imediata;",
       "preco": "4.99",
+      "preco_unidade": "33,27€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "WORKZONE ® Spray Multiusos Lubrifica, limpa e cuida;",
       "preco": "1.99",
+      "preco_unidade": "6,63€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": ". Variante Detalhe RIDE + GO ® Cadeado para Bicicleta Sortido; unidade",
       "preco": "8.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "+ GO ® Luz Traseira para Bicicleta Com controlo remoto; autonomia de até 5 horas; conjunto",
       "preco": "11.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Rotação 360° Touchscreen",
       "preco": "3.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "RIDE + GO ® Espelho Retrovisor para Bicicleta Sortido PACK DE 2",
       "preco": "3.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "RIDE + GO ® Suporte para Smartphone Unidade",
       "preco": "4.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Dimensões aprox.: 9 x 20 x 9 cm",
       "preco": "4.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "talhe Detalhe RIDE + GO ® Acessórios de Segurança para Bicicleta Sortido; unidade/conjunto",
       "preco": "1.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "s artigos desta página são de stock limitado. LIVE IN STYLE ® Bolsa para Bicicleta Unidade",
       "preco": "3.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": ". CRANE ® Poncho para Chuva Tamanho único; unidade",
       "preco": "9.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "algodão; tamanhos: M-XL; unidade",
       "preco": "15.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "algodão; tamanhos: M-XL; unidade",
       "preco": "3.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "CONJUNTO",
       "preco": "9.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "UP2FASHION ® Ténis para Homem Tamanhos: 41-45; 1 par",
       "preco": "19.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "5 PARES",
       "preco": "7.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "+ 3 anos",
       "preco": "3.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "+ 3 anos",
       "preco": "4.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Estojo Disney Sortido; unidade",
       "preco": "3.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Estojo Marvel Sortido; unidade",
       "preco": "3.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "DESCONTO GRESSO Leite Meio-gordo",
       "preco": "0.85",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "NESTLÉ Tablete de Chocolate de Leite KitKat Sortido;",
       "preco": "1.99",
+      "preco_unidade": "20,10€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Moelas de Frango",
       "preco": "1.99",
+      "preco_unidade": "3,98€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "1 kg pack XXL",
       "preco": "2.79",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "SOLO ® Papel Higiénico de Fibra Natu­ral Compacto Extra suave; 2 folhas PACK DE 12",
       "preco": "3.49",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "C ° Coentros Molho *PVP unitário na compra de 2 unidades",
       "preco": "0.49",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     }

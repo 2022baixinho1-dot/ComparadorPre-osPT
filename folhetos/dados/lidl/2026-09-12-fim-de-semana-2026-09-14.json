@@ -9,258 +9,301 @@
     {
       "nome": "o deixes escapar ESMARA Pijama para Homem/ Senhora nº481229/ 481223 ESMARA Calças Wide Leg",
       "preco": "11.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "-20% 9.99",
       "preco": "0.59",
+      "preco_unidade": "11,40€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "nº1457 Perninha de Frango",
       "preco": "4.49",
+      "preco_unidade": "1,87€/L",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "Maçã Gala de Alcobaça IGP",
       "preco": "0.65",
+      "preco_unidade": "5,91€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "Baguete Unid. 210 g 1 kg =",
       "preco": "0.39",
+      "preco_unidade": "1,86€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "Maçã Gala de Alcobaça IGP",
       "preco": "1.49",
+      "preco_unidade": "0,75€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "Ramo de Flores da Época Nacional nº136034",
       "preco": "23.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "CANEIRA Lombo de Porco Assado",
       "preco": "4.99",
+      "preco_unidade": "12,48€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "Perninha de Frango",
       "preco": "4.49",
+      "preco_unidade": null,
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "Medalhões da Alcatra da América do Sul",
       "preco": "14.99",
+      "preco_unidade": "11,70€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "OCEAN SEA Bacalhau Posta Tradicional",
       "preco": "4.59",
+      "preco_unidade": "18,74€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "CHEF SELECT Salada Icebergue",
       "preco": "0.49",
+      "preco_unidade": "2,45€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "DANONE Danonino Petit Morango/ Banana Pack 6x50 g 1 kg =",
       "preco": "1.69",
+      "preco_unidade": "5,63€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "FUMADINHO Bacon Fatiado",
       "preco": "2.35",
+      "preco_unidade": "8,30€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "BEN&JERRY'S Gelado Cookie Dough",
       "preco": "3.99",
+      "preco_unidade": "10,73€/L",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "CHEF SELECT Pizza Romana",
       "preco": "2.25",
+      "preco_unidade": "5,23€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "YOGGI Iogurte Cremoso Morango",
       "preco": "2.59",
+      "preco_unidade": "3,27€/L",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "FUMADINHO Fiambre Maxi Peru Finíssimo",
       "preco": "9113720.49",
+      "preco_unidade": "7,48€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "BELLAROM Cápsulas de Café Espresso Ouro",
       "preco": "2.49",
+      "preco_unidade": "4,53€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "SOLEVITA Néctar de 8 Frutos Pack 6x200 ml 1 L =",
       "preco": "1.19",
+      "preco_unidade": "0,99€/L",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "FREEWAY Gasosa XXL",
       "preco": "0.55",
+      "preco_unidade": "0,28€/L",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "MARTINI Rosso",
       "preco": "8.39",
+      "preco_unidade": "11,99€/L",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "UM BONGO Néctar de 8 Frutos",
       "preco": "1.29",
+      "preco_unidade": null,
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "COMPAL Clássico Tutti Frutti Pack 3x200 ml 1 L =",
       "preco": "1.39",
+      "preco_unidade": "2,32€/L",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "FREEWAY Refrigerante Tropical sem Açúcar",
       "preco": "0.99",
+      "preco_unidade": "0,86€/L",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "s Lidl. *Face ao produto sempre disponível. 938/2026 - T.P. CIEN Champô Anticaspa Clássico",
       "preco": "1.35",
+      "preco_unidade": "1,80€/L",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "W5 Lixivia com Detergente Perfumada",
       "preco": "1.59",
+      "preco_unidade": "0,32€/L",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "CIEN Champô Hairvital",
       "preco": "1.49",
+      "preco_unidade": "3,73€/L",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "W5 Spray Multiusos Perfumado",
       "preco": "0.95",
+      "preco_unidade": null,
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "Detergente Líquido para Roupa Azul 100 Doses",
       "preco": "4.99",
+      "preco_unidade": "1,00€/L",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "Lava Loiça de Limão XXL",
       "preco": "1.09",
+      "preco_unidade": "0,55€/L",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "PALMOLIVE Gel de Banho Skin Radiance Papaia e Pêssego",
       "preco": "3.29",
+      "preco_unidade": "6,58€/L",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "COLGATE TOTAL Pasta Dentifríca Branqueadora Pack Duplo Cada pack 2x75 ml 1 L =",
       "preco": "4.65",
+      "preco_unidade": "31,00€/L",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "ível. Nº1 QUALIDADE PREÇO SEGUNDO OS CONSUMIDORES** EM **Sabe mais na capa do folheto. Até",
       "preco": "2.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "Cada unid. sai a",
       "preco": "168409.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "-20% 9.99",
       "preco": "1.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "Maçã Gala de Alcobaça IGP",
       "preco": "2.09",
+      "preco_unidade": "1,87€/L",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "Maçã Gala de Alcobaça IGP",
       "preco": "0.49",
+      "preco_unidade": "5,91€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "Plantas e flores cheias de frescura! Plantas Verdes Cerâmica Planta de interior Vaso: 6 cm",
       "preco": "2.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "flores cheias de frescura! Plantas Verdes Cerâmica Planta de interior Vaso: 6 cm nº935353",
       "preco": "2.99",
+      "preco_unidade": null,
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "Medalhões da Alcatra da América do Sul",
       "preco": "4.99",
+      "preco_unidade": "12,48€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "Medalhões da Alcatra da América do Sul",
       "preco": "4.99",
+      "preco_unidade": "12,48€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "nº3082 BELBAKE Farinha de Trigo sem Fermento",
       "preco": "7.96",
+      "preco_unidade": "7,96€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     }
