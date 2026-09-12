@@ -15,5 +15,7 @@ for flyer in folhetos:
     if "Abacate" in pdf_text:
         i = pdf_text.find("Abacate")
         print(f"=== [{flyer['_categoria']}] {flyer['title']} ===")
-        print(repr(pdf_text[max(0, i - 50): i + 600]))
+        # janela bem maior: 200 antes, 2000 depois — para apanhar
+        # também o Melão e a Maçã Fuji que vêm a seguir na mesma zona
+        print(repr(pdf_text[max(0, i - 200): i + 2000]))
         print()
