@@ -2,13 +2,18 @@
 Parser de produtos do Folheto da Aldi Portugal.
 
 Recebe o texto de uma página (ver scraper_aldi.get_all_pages_text) e
-devolve uma lista de produtos com nome e preço.
+devolve uma lista de produtos com nome, preço e preço por unidade.
 
 Descoberta chave: o preço promocional destacado é sempre escrito com
 um espaço a seguir ao ponto decimal (ex: "1. 79", "9. 99"), o que o
 distingue do preço "de" normal, escrito sem espaço (ex: "2.69"). Isto
 serve de âncora fiável, tal como o padrão "X XX , € UNID." no
 Continente.
+
+O preço por unidade aparece quase sempre junto à info de embalagem,
+no formato "(kg = X.XX)" ou "(l = X.XX)" — por isso é procurado na
+mesma janela de texto usada para extrair o nome, antes de essa janela
+ser recortada no ponto da info de embalagem.
 """
 
 import re
@@ -18,6 +23,9 @@ PRICE_RE = re.compile(r'(\d{1,3})\.\s(\d{2})\b')
 
 # Info de embalagem/venda: separa o nome do produto do resto dos detalhes
 PACKAGING_RE = re.compile(r'\d+\s?(?:g|kg|ml|l)\s(?:embalagem|unidade)\b', re.IGNORECASE)
+
+# Preço por unidade: "(kg = 6.86)" ou "(l = 14.77)"
+UNIT_PRICE_RE = re.compile(r'\((kg|l)\s*=\s*([\d]+[.,][\d]+)\)', re.IGNORECASE)
 
 # Ruído comum: badges, percentagens de desconto, datas, texto promocional genérico
 NOISE_RE = re.compile(
@@ -29,8 +37,17 @@ NOISE_RE = re.compile(
 NOME_MAX_LEN = 90
 
 
+def _preco_unidade(window: str) -> str | None:
+    """Procura o padrão '(kg = X.XX)' / '(l = X.XX)' numa janela de texto."""
+    m = UNIT_PRICE_RE.search(window)
+    if not m:
+        return None
+    unidade, valor = m.group(1).upper(), m.group(2).replace(".", ",")
+    return f"{valor}€/{unidade}"
+
+
 def parse_products(page_text: str) -> list[dict]:
-    """Extrai produtos (nome, preço) do texto de uma página do folheto."""
+    """Extrai produtos (nome, preço, preço por unidade) do texto de uma página do folheto."""
     products = []
     matches = list(PRICE_RE.finditer(page_text))
 
@@ -39,13 +56,15 @@ def parse_products(page_text: str) -> list[dict]:
         start = matches[i - 1].end() if i > 0 else 0
         window = page_text[start:m.start()]
 
+        preco_unidade = _preco_unidade(window)
+
         name_part = PACKAGING_RE.split(window)[0]
         pieces = [p for p in NOISE_RE.split(name_part) if p.strip()]
         name = " ".join(pieces[-1].split()) if pieces else " ".join(name_part.split())
         name = name[-NOME_MAX_LEN:].strip() if len(name) > NOME_MAX_LEN else name
 
         if name and len(name) > 2:
-            products.append({"nome": name, "preco": price})
+            products.append({"nome": name, "preco": price, "preco_unidade": preco_unidade})
 
     return products
 
