@@ -1,367 +1,344 @@
-"""
-Comparação de preços entre os folhetos do Continente, Lidl e Aldi.
-
-Lê o histórico mais recente de cada supermercado (folhetos/dados/<loja>/),
-encontra produtos parecidos entre eles (correspondência aproximada de
-texto, tolerante a diferenças de formatação como "Meio Gordo" vs
-"Meio-Gordo", ordem das palavras, marca no início ou no fim, etc.), e
-para cada grupo de produtos parecidos indica qual supermercado tem o
-preço mais baixo.
-
-Dependências: rapidfuzz
-    pip install rapidfuzz
-"""
-
-import datetime
-import glob
-import json
-import os
-import re
-import unicodedata
-
-from rapidfuzz import fuzz
-
-DADOS_DIR = os.path.normpath(os.path.join(os.path.dirname(__file__), "dados"))
-CORRECOES_PATH = os.path.join(os.path.dirname(__file__), "correspondencias_manuais.json")
-LIMIAR_CORRESPONDENCIA = 75  # 0-100; acima disto consideramos "o mesmo produto".
-# Pode ser um valor relativamente permissivo porque os pares problemáticos
-# já ficam bloqueados pela memória em correspondencias_manuais.json,
-# independentemente da pontuação — por isso vale a pena arriscar mais
-# correspondências novas e ir tratando os falsos positivos que aparecerem
-# caso a caso, em vez de subir o limiar às cegas.
-
-# Vinhos são um caso especial: os nomes partilham tantas palavras
-# genéricas ("vinho", "reserva", "branco/tinto", "DOC", nomes de região)
-# que o fuzzy matching encontra sobreposição alta entre marcas
-# completamente diferentes quase sempre (visto em produção repetidamente:
-# Ventozelo↔Cevêr, Cevêr↔Burmester, EA↔Fidalgo dos Perdigões...). Listar
-# par a par na memória não escala, porque cada semana traz vinhos
-# diferentes — por isso exige-se aqui uma pontuação bem mais alta,
-# específica para quando ambos os produtos são vinho.
-LIMIAR_VINHO = 95
-
-# Limite superior plausível para um preço promocional de folheto. Os
-# parsers que extraem texto de PDF (Aldi, Lidl) por vezes juntam dois
-# números por engano (ex: um preço "12.99" colado a outro valor da
-# mesma zona da página, dando "9112910.49"). Este filtro evita que
-# esse ruído entre na comparação.
-PRECO_MAX_RAZOAVEL = 200.0
-
-
-def normalizar(texto: str) -> str:
-    """Baixa para minúsculas, remove acentos, e trata hífens/barras como espaços."""
-    texto = texto.lower()
-    texto = unicodedata.normalize("NFKD", texto).encode("ascii", "ignore").decode()
-    texto = re.sub(r"[-/,]", " ", texto)
-    texto = re.sub(r"\s+", " ", texto).strip()
-    return texto
-
-
-def carregar_correcoes_manuais(caminho: str = CORRECOES_PATH) -> tuple[set, set]:
-    """
-    Carrega a memória de correções manuais (ver correspondencias_manuais.json).
-    Devolve dois conjuntos de pares (frozenset com os 2 nomes normalizados):
-    `rejeitadas` (nunca corresponder, mesmo com pontuação alta) e
-    `confirmadas` (corresponder sempre, mesmo com pontuação baixa).
-
-    Se o ficheiro não existir, devolve dois conjuntos vazios — a memória
-    é um extra opcional, o script funciona sem ela (só fuzzy matching).
-    """
-    if not os.path.exists(caminho):
-        return set(), set()
-
-    with open(caminho, encoding="utf-8") as f:
-        dados = json.load(f)
-
-    rejeitadas = {
-        frozenset({normalizar(a), normalizar(b)})
-        for a, b in dados.get("rejeitadas", [])
+[
+  {
+    "produtos": {
+      "continente": {
+        "nome": "CAMARÃO 30/50 COZIDO 66 30 %",
+        "preco": 10.99
+      },
+      "lidl": {
+        "nome": "Camarão Cozido 30/ 50",
+        "preco": 4.99
+      }
+    },
+    "mais_barato": "lidl",
+    "poupanca_eur": 6.0,
+    "poupanca_pct": 54.6,
+    "pontuacoes_correspondencia": {
+      "lidl": 100
     }
-    confirmadas = {
-        frozenset({normalizar(a), normalizar(b)})
-        for a, b in dados.get("confirmadas", [])
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "ERVILHAS IGLO ULTRACONGELADAS",
+        "preco": 5.39
+      },
+      "aldi": {
+        "nome": "IGLO Ervilhas",
+        "preco": 3.49
+      }
+    },
+    "mais_barato": "aldi",
+    "poupanca_eur": 1.9,
+    "poupanca_pct": 35.3,
+    "pontuacoes_correspondencia": {
+      "aldi": 100
     }
-    return rejeitadas, confirmadas
-
-
-def preco_float(preco_str: str) -> float:
-    """Converte preços em formato '3,39' (Continente) ou '8.19' (Lidl/Aldi) para float."""
-    return float(str(preco_str).replace(",", "."))
-
-
-def preco_razoavel(preco_str: str) -> bool:
-    """Verifica se um preço parece plausível para um produto de supermercado (ver PRECO_MAX_RAZOAVEL)."""
-    try:
-        return 0 < preco_float(preco_str) <= PRECO_MAX_RAZOAVEL
-    except (TypeError, ValueError):
-        return False
-
-
-def nome_informativo(nome: str, minimo_tokens: int = 2, tamanho_min_token: int = 3) -> bool:
-    """
-    Verifica se um nome de produto tem informação suficiente para uma
-    correspondência fiável entre lojas.
-
-    Os parsers de folheto (sobretudo o da Aldi, que extrai de PDF)
-    por vezes deixam passar fragmentos de texto sem relação com o
-    produto em si — ex: "embalado", ") embalado", "Sortido;" — que,
-    por serem tão curtos e genéricos, acabam a corresponder por engano
-    a qualquer produto que contenha essa palavra algures no nome (ex:
-    "PREGUINHO DE VITELA EMBALADO" <-> "embalado"). Exigir pelo menos
-    duas palavras "a sério" (3+ letras) evita esse tipo de falso
-    positivo.
-    """
-    tokens = normalizar(nome).split()
-    tokens_uteis = [t for t in tokens if t.isalpha() and len(t) >= tamanho_min_token]
-    return len(tokens_uteis) >= minimo_tokens
-
-
-def eh_vinho(nome_norm: str) -> bool:
-    """Verifica se um nome de produto já normalizado é um vinho (ver LIMIAR_VINHO)."""
-    return "vinho" in nome_norm.split()
-
-
-def remover_duplicados(produtos: list[dict], loja: str) -> list[dict]:
-    """
-    Remove duplicados exatos (mesmo nome normalizado + mesmo preço)
-    dentro da mesma loja — acontece quando um produto aparece em mais
-    do que uma página do folheto (ex: "Camarão Cozido 30/50" do Lidl
-    apareceu 2x em produção, e por isso correspondeu a 2 produtos
-    diferentes do Continente ao mesmo tempo).
-    """
-    vistos = set()
-    resultado = []
-    duplicados = 0
-    for p in produtos:
-        chave = (normalizar(p.get("nome", "")), str(p.get("preco")))
-        if chave in vistos:
-            duplicados += 1
-            continue
-        vistos.add(chave)
-        resultado.append(p)
-
-    if duplicados:
-        print(f"  ({loja}: descartados {duplicados} produto(s) duplicado(s) dentro da própria loja)")
-    return resultado
-
-
-def filtrar_produtos_validos(produtos: list[dict], loja: str) -> list[dict]:
-    """Remove produtos com preço implausível, nome pouco informativo ou duplicados, avisando quantos foram descartados."""
-    validos = []
-    descartados_preco = 0
-    descartados_nome = 0
-    for p in produtos:
-        if not preco_razoavel(p.get("preco")):
-            descartados_preco += 1
-            continue
-        if not nome_informativo(p.get("nome", "")):
-            descartados_nome += 1
-            continue
-        validos.append(p)
-
-    if descartados_preco:
-        print(f"  ({loja}: descartados {descartados_preco} produto(s) com preço implausível)")
-    if descartados_nome:
-        print(f"  ({loja}: descartados {descartados_nome} produto(s) com nome pouco informativo)")
-
-    return remover_duplicados(validos, loja)
-
-
-def carregar_mais_recente(loja: str, sufixo: str | None = None) -> list[dict]:
-    """
-    Carrega os produtos do ficheiro de histórico mais recente de uma loja.
-    Para a Aldi, usa sufixo="esta-semana" para escolher entre os dois
-    ficheiros guardados por execução.
-
-    NÃO usar para o Lidl — ver `carregar_lidl_atual()`, porque o Lidl
-    guarda até 4 ficheiros por execução (semanal/fim-de-semana ×
-    atual/seguinte) e "o último por ordem alfabética" não corresponde
-    ao folheto atual.
-    """
-    padrao = os.path.join(DADOS_DIR, loja, "*.json")
-    ficheiros = sorted(glob.glob(padrao))
-    if sufixo:
-        ficheiros = [f for f in ficheiros if sufixo in os.path.basename(f)]
-
-    if not ficheiros:
-        raise RuntimeError(f"Não encontrei nenhum ficheiro de histórico para '{loja}'.")
-
-    with open(ficheiros[-1], encoding="utf-8") as f:
-        conteudo = json.load(f)
-    return filtrar_produtos_validos(conteudo["produtos"], loja)
-
-
-def carregar_lidl_atual() -> list[dict]:
-    """
-    Carrega os produtos do Lidl desta semana: combina o folheto semanal
-    atual com o de fim-de-semana atual.
-
-    O Lidl guarda até 4 ficheiros por execução (semanal e fim-de-semana,
-    cada um atual + seguinte). Escolher "o último ficheiro por ordem
-    alfabética" dava sempre o semanal DA PRÓXIMA semana (porque
-    "semanal" > "fim-de-semana" alfabeticamente, e dentro de "semanal"
-    a data de início mais tardia ordena por último) — por isso aqui
-    usamos os campos `categoria`, `valido_de` e `valido_ate` gravados
-    em cada ficheiro para escolher, para cada categoria, o folheto cujo
-    período de validade inclui a data de hoje.
-    """
-    padrao = os.path.join(DADOS_DIR, "lidl", "*.json")
-    ficheiros = sorted(glob.glob(padrao))
-    if not ficheiros:
-        raise RuntimeError("Não encontrei nenhum ficheiro de histórico para 'lidl'.")
-
-    # A execução mais recente é identificada pelos primeiros 10
-    # caracteres do nome do ficheiro (data_execucao), que vêm sempre
-    # em primeiro lugar no nome.
-    ultima_execucao = os.path.basename(ficheiros[-1])[:10]
-    ficheiros_ultima_execucao = [
-        f for f in ficheiros if os.path.basename(f).startswith(ultima_execucao)
-    ]
-
-    hoje = datetime.date.today().isoformat()
-    produtos = []
-    for categoria in ("semanal", "fim-de-semana"):
-        atual = None
-        for caminho in ficheiros_ultima_execucao:
-            with open(caminho, encoding="utf-8") as f:
-                conteudo = json.load(f)
-            if conteudo.get("categoria") != categoria:
-                continue
-            if conteudo.get("valido_de", "9999-99-99") <= hoje <= conteudo.get("valido_ate", "0000-00-00"):
-                atual = conteudo
-                break
-        if atual is None:
-            print(f"Aviso: não encontrei folheto Lidl '{categoria}' válido para hoje ({hoje}).")
-            continue
-        produtos.extend(atual["produtos"])
-
-    return filtrar_produtos_validos(produtos, "lidl")
-
-
-def encontrar_correspondencias(
-    lojas: dict[str, list[dict]],
-    rejeitadas: set | None = None,
-    confirmadas: set | None = None,
-) -> list[dict]:
-    """
-    Agrupa produtos parecidos entre as lojas, usando correspondência
-    aproximada de nomes. Cada grupo guarda também, em "_scores", a
-    pontuação (0-100) de cada correspondência em relação ao produto
-    "âncora" (o primeiro encontrado) — útil para identificar casos
-    duvidosos sem ter de adivinhar.
-
-    `rejeitadas` e `confirmadas` vêm de carregar_correcoes_manuais():
-    um par em `rejeitadas` nunca é escolhido, mesmo com a pontuação de
-    fuzzy matching mais alta disponível; um par em `confirmadas` é
-    sempre escolhido (score 100), mesmo que a pontuação real do fuzzy
-    matching ficasse abaixo de LIMIAR_CORRESPONDENCIA.
-    """
-    rejeitadas = rejeitadas or set()
-    confirmadas = confirmadas or set()
-    usados = {loja: set() for loja in lojas}
-    grupos = []
-    lista_lojas = list(lojas.items())
-
-    for i, (loja_a, produtos_a) in enumerate(lista_lojas):
-        for idx_a, produto_a in enumerate(produtos_a):
-            if idx_a in usados[loja_a]:
-                continue
-            grupo = {loja_a: produto_a}
-            scores = {}
-            usados[loja_a].add(idx_a)
-            nome_a_norm = normalizar(produto_a["nome"])
-
-            for loja_b, produtos_b in lista_lojas[i + 1:]:
-                melhor_idx, melhor_score = None, 0
-                for idx_b, produto_b in enumerate(produtos_b):
-                    if idx_b in usados[loja_b]:
-                        continue
-                    nome_b_norm = normalizar(produto_b["nome"])
-                    par = frozenset({nome_a_norm, nome_b_norm})
-                    if par in rejeitadas:
-                        continue  # memória diz que NUNCA é o mesmo produto
-                    score = 100 if par in confirmadas else fuzz.token_set_ratio(nome_a_norm, nome_b_norm)
-                    if score > melhor_score:
-                        melhor_score, melhor_idx = score, idx_b
-
-                if melhor_idx is None:
-                    continue
-
-                limiar = LIMIAR_CORRESPONDENCIA
-                if eh_vinho(nome_a_norm) and eh_vinho(normalizar(produtos_b[melhor_idx]["nome"])):
-                    limiar = LIMIAR_VINHO  # ver nota junto à constante
-
-                if melhor_score >= limiar:
-                    grupo[loja_b] = produtos_b[melhor_idx]
-                    usados[loja_b].add(melhor_idx)
-                    scores[loja_b] = melhor_score
-
-            if len(grupo) > 1:  # só interessa se apareceu em mais do que uma loja
-                grupo["_scores"] = scores
-                grupos.append(grupo)
-
-    return grupos
-
-
-def montar_resultado(grupos: list[dict]) -> list[dict]:
-    """
-    Transforma os grupos em resultado final: preço mais baixo assinalado,
-    poupança em € e %, e pontuação de correspondência por loja. Ordenado
-    da maior para a menor poupança em €.
-    """
-    resultado = []
-    for grupo in grupos:
-        scores = grupo.get("_scores", {})
-        produtos = {loja: p for loja, p in grupo.items() if loja != "_scores"}
-        precos = {loja: preco_float(p["preco"]) for loja, p in produtos.items()}
-        loja_mais_barata = min(precos, key=precos.get)
-        preco_min = precos[loja_mais_barata]
-        preco_max = max(precos.values())
-        poupanca_eur = round(preco_max - preco_min, 2)
-        poupanca_pct = round((poupanca_eur / preco_max) * 100, 1) if preco_max else 0.0
-
-        resultado.append({
-            "produtos": {
-                loja: {"nome": p["nome"], "preco": precos[loja]}
-                for loja, p in produtos.items()
-            },
-            "mais_barato": loja_mais_barata,
-            "poupanca_eur": poupanca_eur,
-            "poupanca_pct": poupanca_pct,
-            "pontuacoes_correspondencia": scores,
-        })
-
-    resultado.sort(key=lambda r: r["poupanca_eur"], reverse=True)
-    return resultado
-
-
-if __name__ == "__main__":
-    rejeitadas, confirmadas = carregar_correcoes_manuais()
-    print(f"Memória de correções: {len(confirmadas)} confirmada(s), {len(rejeitadas)} rejeitada(s)")
-
-    lojas = {
-        "continente": carregar_mais_recente("continente"),
-        "lidl": carregar_lidl_atual(),
-        "aldi": carregar_mais_recente("aldi", sufixo="esta-semana"),
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "VINHO MONTE VELHO ALENTEJO, BRANCO/ ROSÉ/ TINTO",
+        "preco": 3.59
+      },
+      "aldi": {
+        "nome": "MONTE VELHO Vinho Regional Branco/ Tinto",
+        "preco": 1.8
+      }
+    },
+    "mais_barato": "aldi",
+    "poupanca_eur": 1.79,
+    "poupanca_pct": 49.9,
+    "pontuacoes_correspondencia": {
+      "aldi": 100
     }
-    for nome, produtos in lojas.items():
-        print(f"{nome}: {len(produtos)} produtos carregados")
-
-    grupos = encontrar_correspondencias(lojas, rejeitadas, confirmadas)
-    resultado = montar_resultado(grupos)
-
-    print(f"\nEncontrados {len(resultado)} produtos correspondentes entre pelo menos 2 lojas.")
-
-    os.makedirs(os.path.join(DADOS_DIR, "comparacao"), exist_ok=True)
-    caminho = os.path.join(DADOS_DIR, "comparacao", f"{datetime.date.today().isoformat()}.json")
-    with open(caminho, "w", encoding="utf-8") as f:
-        json.dump(resultado, f, ensure_ascii=False, indent=2)
-    print(f"Resultado guardado em: {caminho}")
-
-    for item in resultado[:10]:
-        print(f"\n--- poupança: {item['poupanca_eur']:.2f}€ ({item['poupanca_pct']:.0f}%) ---")
-        for loja, p in item["produtos"].items():
-            marca = " <-- mais barato" if loja == item["mais_barato"] else ""
-            score = item["pontuacoes_correspondencia"].get(loja)
-            score_txt = f" [score={score}]" if score is not None else " [âncora]"
-            print(f"  {loja}: {p['nome']} = {p['preco']:.2f}€{marca}{score_txt}")
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "FRANGO DO CAMPO INTEIRO C/ MIÚDOS CONTINENTE SELEÇÃO 40",
+        "preco": 3.99
+      },
+      "aldi": {
+        "nome": "C ° Frango Inteiro Sem Miudos",
+        "preco": 2.49
+      }
+    },
+    "mais_barato": "aldi",
+    "poupanca_eur": 1.5,
+    "poupanca_pct": 37.6,
+    "pontuacoes_correspondencia": {
+      "aldi": 100
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "CEREAIS CHOCAPIC ORIGINAL",
+        "preco": 3.49
+      },
+      "aldi": {
+        "nome": "NESTLÉ Cereais Chocapic",
+        "preco": 4.69
+      }
+    },
+    "mais_barato": "continente",
+    "poupanca_eur": 1.2,
+    "poupanca_pct": 25.6,
+    "pontuacoes_correspondencia": {
+      "aldi": 100
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "NÉCTAR COMPAL TUTTI FRUTTI/ PÊSSEGO/ MANGA,LARANJA",
+        "preco": 2.39
+      },
+      "lidl": {
+        "nome": "COMPAL Néctar 100% Manga",
+        "preco": 1.49
+      }
+    },
+    "mais_barato": "lidl",
+    "poupanca_eur": 0.9,
+    "poupanca_pct": 37.7,
+    "pontuacoes_correspondencia": {
+      "lidl": 100
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "CHOURIÇO CORRENTE CONTINENTE",
+        "preco": 4.99
+      },
+      "lidl": {
+        "nome": "FUMADINHO Chouriço Corrente",
+        "preco": 4.19
+      }
+    },
+    "mais_barato": "lidl",
+    "poupanca_eur": 0.8,
+    "poupanca_pct": 16.0,
+    "pontuacoes_correspondencia": {
+      "lidl": 77.27272727272728
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "BATATAS FRITAS RUFFLES SAL",
+        "preco": 2.19
+      },
+      "lidl": {
+        "nome": "RUFFLES Batata Fritas de Ketchup",
+        "preco": 1.39
+      }
+    },
+    "mais_barato": "lidl",
+    "poupanca_eur": 0.8,
+    "poupanca_pct": 36.5,
+    "pontuacoes_correspondencia": {
+      "lidl": 75.86206896551724
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "TABLETES DE CHOCOLATE EXTRAFINO NESTLÉ AMÊNDOAS/ AVELÃS",
+        "preco": 1.99
+      },
+      "aldi": {
+        "nome": "Chocolate de Leite/ com Avelãs",
+        "preco": 1.39
+      }
+    },
+    "mais_barato": "aldi",
+    "poupanca_eur": 0.6,
+    "poupanca_pct": 30.2,
+    "pontuacoes_correspondencia": {
+      "aldi": 79.16666666666667
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "COGUMELOS CONTINENTE LAMINADOS",
+        "preco": 1.29
+      },
+      "lidl": {
+        "nome": "FRESHONA Cogumelos Laminados",
+        "preco": 0.75
+      }
+    },
+    "mais_barato": "lidl",
+    "poupanca_eur": 0.54,
+    "poupanca_pct": 41.9,
+    "pontuacoes_correspondencia": {
+      "lidl": 100
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "MOELAS DE FRANGO CONGELADAS",
+        "preco": 2.49
+      },
+      "aldi": {
+        "nome": "Moelas de Frango",
+        "preco": 1.99
+      }
+    },
+    "mais_barato": "aldi",
+    "poupanca_eur": 0.5,
+    "poupanca_pct": 20.1,
+    "pontuacoes_correspondencia": {
+      "aldi": 100
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "PAPEL HIGIÉNICO FOXY SEDA 3 FOLHAS",
+        "preco": 2.99
+      },
+      "aldi": {
+        "nome": "SOLO ® Papel Higiénico de Fibra Natu­ral Compacto Extra suave; 2 folhas PACK DE 12",
+        "preco": 3.49
+      }
+    },
+    "mais_barato": "continente",
+    "poupanca_eur": 0.5,
+    "poupanca_pct": 14.3,
+    "pontuacoes_correspondencia": {
+      "aldi": 78.57142857142857
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "UVA BRANCA S/ GRAINHA CONTINENTE",
+        "preco": 1.99
+      },
+      "aldi": {
+        "nome": "Uva Branca sem Grainha/ Preta sem Grainha",
+        "preco": 2.19
+      }
+    },
+    "mais_barato": "continente",
+    "poupanca_eur": 0.2,
+    "poupanca_pct": 9.1,
+    "pontuacoes_correspondencia": {
+      "aldi": 78.26086956521739
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "ATUM MINERVA NATURAL",
+        "preco": 1.14
+      },
+      "lidl": {
+        "nome": "BOM PETISCO Atum ao Natural",
+        "preco": 1.29
+      }
+    },
+    "mais_barato": "continente",
+    "poupanca_eur": 0.15,
+    "poupanca_pct": 11.6,
+    "pontuacoes_correspondencia": {
+      "lidl": 75.0
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "BOLACHAS RECHEADAS BISCOFF CHOCOLATE/ CREME/ BAUNILHA",
+        "preco": 1.74
+      },
+      "aldi": {
+        "nome": "OREO Mini Bolachas Recheadas com Creme",
+        "preco": 1.84
+      }
+    },
+    "mais_barato": "continente",
+    "poupanca_eur": 0.1,
+    "poupanca_pct": 5.4,
+    "pontuacoes_correspondencia": {
+      "aldi": 77.41935483870968
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "BATATAS FRITAS LAY’S SAL",
+        "preco": 1.44
+      },
+      "aldi": {
+        "nome": "compras realizadas nas suas lojas. Sabe mais em aldi.pt. RUFFLES Batatas Fritas Onduladas",
+        "preco": 1.39
+      }
+    },
+    "mais_barato": "aldi",
+    "poupanca_eur": 0.05,
+    "poupanca_pct": 3.5,
+    "pontuacoes_correspondencia": {
+      "aldi": 75.67567567567568
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "LEITE UHT GRESSO MEIO GORDO/ MAGRO",
+        "preco": 0.86
+      },
+      "aldi": {
+        "nome": "DESCONTO GRESSO Leite Meio-gordo",
+        "preco": 0.85
+      }
+    },
+    "mais_barato": "aldi",
+    "poupanca_eur": 0.01,
+    "poupanca_pct": 1.2,
+    "pontuacoes_correspondencia": {
+      "aldi": 100
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "CEREAIS NESQUIK CHOCOLATE",
+        "preco": 3.34
+      },
+      "lidl": {
+        "nome": "mas lojas Lidl. *Face ao produto sempre disponível. 737/2026 - T.P. NESTLÉ Nesquik Cereais",
+        "preco": 3.34
+      }
+    },
+    "mais_barato": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "pontuacoes_correspondencia": {
+      "lidl": 75.0
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "CREME DE BARRAR NUTELLA",
+        "preco": 7.99
+      },
+      "aldi": {
+        "nome": "NUTELLA Creme para Barrar",
+        "preco": 7.99
+      }
+    },
+    "mais_barato": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "pontuacoes_correspondencia": {
+      "aldi": 100
+    }
+  }
+]
