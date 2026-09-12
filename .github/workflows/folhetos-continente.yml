@@ -2,11 +2,7 @@ name: Folhetos - Continente
 
 on:
   workflow_dispatch:
-  schedule:
-    # Todas as segundas-feiras às 6:00 UTC (7h/8h em Portugal, dependendo
-    # da hora de verão) — o folheto semanal costuma estar disponível a
-    # essa hora.
-    - cron: "0 6 * * 1"
+
 
 permissions:
   contents: write
