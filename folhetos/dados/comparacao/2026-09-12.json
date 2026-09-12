@@ -215,13 +215,13 @@
   },
   {
     "produtos": {
-      "aldi": {
-        "nome": "C ° Frango Inteiro Sem Miudos",
-        "preco_hoje": 2.49
-      },
       "continente": {
         "nome": "FRANGO DO CAMPO INTEIRO C/ MIÚDOS CONTINENTE SELEÇÃO 40",
         "preco_hoje": 3.99
+      },
+      "aldi": {
+        "nome": "C ° Frango Inteiro Sem Miudos",
+        "preco_hoje": 2.49
       }
     },
     "mais_barato_hoje": "aldi",
@@ -229,7 +229,7 @@
     "poupanca_pct": 37.6,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "continente": 100
+      "aldi": 100
     }
   },
   {
@@ -253,13 +253,13 @@
   },
   {
     "produtos": {
-      "aldi": {
-        "nome": "NESTLÉ Cereais Chocapic",
-        "preco_hoje": 4.69
-      },
       "continente": {
         "nome": "CEREAIS CHOCAPIC ORIGINAL",
         "preco_hoje": 3.49
+      },
+      "aldi": {
+        "nome": "NESTLÉ Cereais Chocapic",
+        "preco_hoje": 4.69
       }
     },
     "mais_barato_hoje": "continente",
@@ -267,7 +267,7 @@
     "poupanca_pct": 25.6,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "continente": 100
+      "aldi": 100
     }
   },
   {
@@ -310,13 +310,13 @@
   },
   {
     "produtos": {
-      "continente": {
-        "nome": "NÉCTAR COMPAL TUTTI FRUTTI/ PÊSSEGO/ MANGA,LARANJA",
-        "preco_hoje": 2.39
-      },
       "lidl": {
         "nome": "COMPAL Néctar 100% Manga",
         "preco_hoje": 1.49
+      },
+      "continente": {
+        "nome": "NÉCTAR COMPAL TUTTI FRUTTI/ PÊSSEGO/ MANGA,LARANJA",
+        "preco_hoje": 2.39
       }
     },
     "mais_barato_hoje": "lidl",
@@ -324,7 +324,7 @@
     "poupanca_pct": 37.7,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "lidl": 100
+      "continente": 100
     }
   },
   {
@@ -348,13 +348,13 @@
   },
   {
     "produtos": {
-      "aldi": {
-        "nome": "compras realizadas nas suas lojas. Sabe mais em aldi.pt. RUFFLES Batatas Fritas Onduladas",
-        "preco_hoje": 1.39
-      },
       "continente": {
         "nome": "BATATAS FRITAS RUFFLES SAL",
         "preco_hoje": 2.19
+      },
+      "aldi": {
+        "nome": "compras realizadas nas suas lojas. Sabe mais em aldi.pt. RUFFLES Batatas Fritas Onduladas",
+        "preco_hoje": 1.39
       }
     },
     "mais_barato_hoje": "aldi",
@@ -362,18 +362,18 @@
     "poupanca_pct": 36.5,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "continente": 100
+      "aldi": 100
     }
   },
   {
     "produtos": {
-      "lidl": {
-        "nome": "FRESHONA Cogumelos Laminados",
-        "preco_hoje": 0.75
-      },
       "continente": {
         "nome": "COGUMELOS CONTINENTE LAMINADOS",
         "preco_hoje": 1.29
+      },
+      "lidl": {
+        "nome": "FRESHONA Cogumelos Laminados",
+        "preco_hoje": 0.75
       }
     },
     "mais_barato_hoje": "lidl",
@@ -381,7 +381,7 @@
     "poupanca_pct": 41.9,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "continente": 100
+      "lidl": 100
     }
   },
   {
@@ -538,32 +538,13 @@
   },
   {
     "produtos": {
-      "lidl": {
-        "nome": "mas lojas Lidl. *Face ao produto sempre disponível. 737/2026 - T.P. NESTLÉ Nesquik Cereais",
-        "preco_hoje": 3.34
-      },
       "continente": {
         "nome": "CEREAIS NESQUIK CHOCOLATE",
         "preco_hoje": 3.34
-      }
-    },
-    "mais_barato_hoje": "lidl",
-    "poupanca_eur": 0.0,
-    "poupanca_pct": 0.0,
-    "proxima_alteracao": null,
-    "pontuacoes_correspondencia": {
-      "continente": 100
-    }
-  },
-  {
-    "produtos": {
-      "continente": {
-        "nome": "ERVILHAS IGLO ULTRACONGELADAS",
-        "preco_hoje": 5.39
       },
       "lidl": {
-        "nome": "IGLO Ervilhas",
-        "preco_hoje": 5.39
+        "nome": "mas lojas Lidl. *Face ao produto sempre disponível. 737/2026 - T.P. NESTLÉ Nesquik Cereais",
+        "preco_hoje": 3.34
       }
     },
     "mais_barato_hoje": "continente",
@@ -591,6 +572,25 @@
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
       "continente": 100
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "ERVILHAS IGLO ULTRACONGELADAS",
+        "preco_hoje": 5.39
+      },
+      "lidl": {
+        "nome": "IGLO Ervilhas",
+        "preco_hoje": 5.39
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "lidl": 100
     }
   },
   {
