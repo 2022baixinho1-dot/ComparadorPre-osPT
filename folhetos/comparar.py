@@ -30,6 +30,16 @@ LIMIAR_CORRESPONDENCIA = 75  # 0-100; acima disto consideramos "o mesmo produto"
 # correspondências novas e ir tratando os falsos positivos que aparecerem
 # caso a caso, em vez de subir o limiar às cegas.
 
+# Vinhos são um caso especial: os nomes partilham tantas palavras
+# genéricas ("vinho", "reserva", "branco/tinto", "DOC", nomes de região)
+# que o fuzzy matching encontra sobreposição alta entre marcas
+# completamente diferentes quase sempre (visto em produção repetidamente:
+# Ventozelo↔Cevêr, Cevêr↔Burmester, EA↔Fidalgo dos Perdigões...). Listar
+# par a par na memória não escala, porque cada semana traz vinhos
+# diferentes — por isso exige-se aqui uma pontuação bem mais alta,
+# específica para quando ambos os produtos são vinho.
+LIMIAR_VINHO = 95
+
 # Limite superior plausível para um preço promocional de folheto. Os
 # parsers que extraem texto de PDF (Aldi, Lidl) por vezes juntam dois
 # números por engano (ex: um preço "12.99" colado a outro valor da
@@ -104,6 +114,11 @@ def nome_informativo(nome: str, minimo_tokens: int = 2, tamanho_min_token: int =
     tokens = normalizar(nome).split()
     tokens_uteis = [t for t in tokens if t.isalpha() and len(t) >= tamanho_min_token]
     return len(tokens_uteis) >= minimo_tokens
+
+
+def eh_vinho(nome_norm: str) -> bool:
+    """Verifica se um nome de produto já normalizado é um vinho (ver LIMIAR_VINHO)."""
+    return "vinho" in nome_norm.split()
 
 
 def remover_duplicados(produtos: list[dict], loja: str) -> list[dict]:
@@ -268,7 +283,15 @@ def encontrar_correspondencias(
                     score = 100 if par in confirmadas else fuzz.token_set_ratio(nome_a_norm, nome_b_norm)
                     if score > melhor_score:
                         melhor_score, melhor_idx = score, idx_b
-                if melhor_score >= LIMIAR_CORRESPONDENCIA:
+
+                if melhor_idx is None:
+                    continue
+
+                limiar = LIMIAR_CORRESPONDENCIA
+                if eh_vinho(nome_a_norm) and eh_vinho(normalizar(produtos_b[melhor_idx]["nome"])):
+                    limiar = LIMIAR_VINHO  # ver nota junto à constante
+
+                if melhor_score >= limiar:
                     grupo[loja_b] = produtos_b[melhor_idx]
                     usados[loja_b].add(melhor_idx)
                     scores[loja_b] = melhor_score
