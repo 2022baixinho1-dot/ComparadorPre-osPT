@@ -37,38 +37,38 @@
   },
   {
     "produtos": {
-      "aldi": {
-        "nome": "MONTE VELHO Vinho Regional Branco/ Tinto",
-        "preco": 1.8
-      },
       "continente": {
         "nome": "VINHO MONTE VELHO ALENTEJO, BRANCO/ ROSÉ/ TINTO",
         "preco": 3.59
+      },
+      "aldi": {
+        "nome": "MONTE VELHO Vinho Regional Branco/ Tinto",
+        "preco": 1.8
       }
     },
     "mais_barato": "aldi",
     "poupanca_eur": 1.79,
     "poupanca_pct": 49.9,
     "pontuacoes_correspondencia": {
-      "continente": 100
+      "aldi": 100
     }
   },
   {
     "produtos": {
-      "continente": {
-        "nome": "FRANGO DO CAMPO INTEIRO C/ MIÚDOS CONTINENTE SELEÇÃO 40",
-        "preco": 3.99
-      },
       "aldi": {
         "nome": "C ° Frango Inteiro Sem Miudos",
         "preco": 2.49
+      },
+      "continente": {
+        "nome": "FRANGO DO CAMPO INTEIRO C/ MIÚDOS CONTINENTE SELEÇÃO 40",
+        "preco": 3.99
       }
     },
     "mais_barato": "aldi",
     "poupanca_eur": 1.5,
     "poupanca_pct": 37.6,
     "pontuacoes_correspondencia": {
-      "aldi": 100
+      "continente": 100
     }
   },
   {
@@ -109,38 +109,20 @@
   },
   {
     "produtos": {
-      "continente": {
-        "nome": "NÉCTAR COMPAL TUTTI FRUTTI/ PÊSSEGO/ MANGA,LARANJA",
-        "preco": 2.39
-      },
       "lidl": {
         "nome": "COMPAL Néctar 100% Manga",
         "preco": 1.49
+      },
+      "continente": {
+        "nome": "NÉCTAR COMPAL TUTTI FRUTTI/ PÊSSEGO/ MANGA,LARANJA",
+        "preco": 2.39
       }
     },
     "mais_barato": "lidl",
     "poupanca_eur": 0.9,
     "poupanca_pct": 37.7,
     "pontuacoes_correspondencia": {
-      "lidl": 100
-    }
-  },
-  {
-    "produtos": {
-      "continente": {
-        "nome": "BATATAS FRITAS RUFFLES SAL",
-        "preco": 2.19
-      },
-      "aldi": {
-        "nome": "compras realizadas nas suas lojas. Sabe mais em aldi.pt. RUFFLES Batatas Fritas Onduladas",
-        "preco": 1.39
-      }
-    },
-    "mais_barato": "aldi",
-    "poupanca_eur": 0.8,
-    "poupanca_pct": 36.5,
-    "pontuacoes_correspondencia": {
-      "aldi": 100
+      "continente": 100
     }
   },
   {
@@ -159,6 +141,24 @@
     "poupanca_pct": 16.0,
     "pontuacoes_correspondencia": {
       "lidl": 100
+    }
+  },
+  {
+    "produtos": {
+      "aldi": {
+        "nome": "compras realizadas nas suas lojas. Sabe mais em aldi.pt. RUFFLES Batatas Fritas Onduladas",
+        "preco": 1.39
+      },
+      "continente": {
+        "nome": "BATATAS FRITAS RUFFLES SAL",
+        "preco": 2.19
+      }
+    },
+    "mais_barato": "aldi",
+    "poupanca_eur": 0.8,
+    "poupanca_pct": 36.5,
+    "pontuacoes_correspondencia": {
+      "continente": 100
     }
   },
   {
@@ -199,36 +199,18 @@
   },
   {
     "produtos": {
-      "continente": {
-        "nome": "MOELAS DE FRANGO CONGELADAS",
-        "preco": 2.49
-      },
       "aldi": {
         "nome": "Moelas de Frango",
         "preco": 1.99
+      },
+      "continente": {
+        "nome": "MOELAS DE FRANGO CONGELADAS",
+        "preco": 2.49
       }
     },
     "mais_barato": "aldi",
     "poupanca_eur": 0.5,
     "poupanca_pct": 20.1,
-    "pontuacoes_correspondencia": {
-      "aldi": 100
-    }
-  },
-  {
-    "produtos": {
-      "aldi": {
-        "nome": "Uva Branca sem Grainha/ Preta sem Grainha",
-        "preco": 2.19
-      },
-      "continente": {
-        "nome": "UVA BRANCA S/ GRAINHA CONTINENTE",
-        "preco": 1.99
-      }
-    },
-    "mais_barato": "continente",
-    "poupanca_eur": 0.2,
-    "poupanca_pct": 9.1,
     "pontuacoes_correspondencia": {
       "continente": 100
     }
@@ -236,19 +218,37 @@
   {
     "produtos": {
       "continente": {
-        "nome": "LEITE UHT GRESSO MEIO GORDO/ MAGRO",
-        "preco": 0.86
+        "nome": "UVA BRANCA S/ GRAINHA CONTINENTE",
+        "preco": 1.99
       },
+      "aldi": {
+        "nome": "Uva Branca sem Grainha/ Preta sem Grainha",
+        "preco": 2.19
+      }
+    },
+    "mais_barato": "continente",
+    "poupanca_eur": 0.2,
+    "poupanca_pct": 9.1,
+    "pontuacoes_correspondencia": {
+      "aldi": 100
+    }
+  },
+  {
+    "produtos": {
       "aldi": {
         "nome": "DESCONTO GRESSO Leite Meio-gordo",
         "preco": 0.85
+      },
+      "continente": {
+        "nome": "LEITE UHT GRESSO MEIO GORDO/ MAGRO",
+        "preco": 0.86
       }
     },
     "mais_barato": "aldi",
     "poupanca_eur": 0.01,
     "poupanca_pct": 1.2,
     "pontuacoes_correspondencia": {
-      "aldi": 100
+      "continente": 100
     }
   },
   {
@@ -271,20 +271,20 @@
   },
   {
     "produtos": {
-      "continente": {
-        "nome": "CEREAIS NESQUIK CHOCOLATE",
-        "preco": 3.34
-      },
       "lidl": {
         "nome": "mas lojas Lidl. *Face ao produto sempre disponível. 737/2026 - T.P. NESTLÉ Nesquik Cereais",
         "preco": 3.34
+      },
+      "continente": {
+        "nome": "CEREAIS NESQUIK CHOCOLATE",
+        "preco": 3.34
       }
     },
-    "mais_barato": "continente",
+    "mais_barato": "lidl",
     "poupanca_eur": 0.0,
     "poupanca_pct": 0.0,
     "pontuacoes_correspondencia": {
-      "lidl": 100
+      "continente": 100
     }
   }
 ]
