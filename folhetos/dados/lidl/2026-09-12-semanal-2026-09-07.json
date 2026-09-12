@@ -9,14 +9,14 @@
     {
       "nome": "Manga Maturada",
       "preco": "2.29",
-      "preco_unidade": null,
+      "preco_unidade": "2,29€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Bife de Peru Embalagem Familiar",
       "preco": "8.19",
-      "preco_unidade": null,
+      "preco_unidade": "8,19€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -51,14 +51,14 @@
     {
       "nome": "Figo",
       "preco": "3.99",
-      "preco_unidade": null,
+      "preco_unidade": "3,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Meloa Gália",
       "preco": "0.99",
-      "preco_unidade": null,
+      "preco_unidade": "0,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -72,7 +72,7 @@
     {
       "nome": "Uva Branca Nacional",
       "preco": "2.39",
-      "preco_unidade": null,
+      "preco_unidade": "2,39€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -121,7 +121,7 @@
     {
       "nome": "as lojas Lidl. *Face ao produto sempre disponível. 537/2026 - T.P. Meio Coelho Desmanchado",
       "preco": "7.89",
-      "preco_unidade": null,
+      "preco_unidade": "7,89€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -135,14 +135,14 @@
     {
       "nome": "Strogonoff de Frango",
       "preco": "7.49",
-      "preco_unidade": null,
+      "preco_unidade": "7,49€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Bife de Peru Embalagem Familiar",
       "preco": "8.19",
-      "preco_unidade": null,
+      "preco_unidade": "8,19€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -170,7 +170,7 @@
     {
       "nome": "Lombos de Salmão",
       "preco": "17.75",
-      "preco_unidade": null,
+      "preco_unidade": "17,75€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },

@@ -5,14 +5,14 @@
     {
       "nome": "Manga Maturada",
       "preco": "2.29",
-      "preco_unidade": null,
+      "preco_unidade": "2,29€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Bife de Peru Embalagem Familiar",
       "preco": "8.19",
-      "preco_unidade": null,
+      "preco_unidade": "8,19€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -47,14 +47,14 @@
     {
       "nome": "Figo",
       "preco": "3.99",
-      "preco_unidade": null,
+      "preco_unidade": "3,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Meloa Gália",
       "preco": "0.99",
-      "preco_unidade": null,
+      "preco_unidade": "0,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -68,7 +68,7 @@
     {
       "nome": "Uva Branca Nacional",
       "preco": "2.39",
-      "preco_unidade": null,
+      "preco_unidade": "2,39€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -117,7 +117,7 @@
     {
       "nome": "as lojas Lidl. *Face ao produto sempre disponível. 537/2026 - T.P. Meio Coelho Desmanchado",
       "preco": "7.89",
-      "preco_unidade": null,
+      "preco_unidade": "7,89€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -131,14 +131,14 @@
     {
       "nome": "Strogonoff de Frango",
       "preco": "7.49",
-      "preco_unidade": null,
+      "preco_unidade": "7,49€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Bife de Peru Embalagem Familiar",
       "preco": "8.19",
-      "preco_unidade": null,
+      "preco_unidade": "8,19€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -166,7 +166,7 @@
     {
       "nome": "Lombos de Salmão",
       "preco": "17.75",
-      "preco_unidade": null,
+      "preco_unidade": "17,75€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -775,7 +775,7 @@
     {
       "nome": "A partir de sex. 11/9 a dom. 13/9 Salsichas Frescas de Porco",
       "preco": "5.29",
-      "preco_unidade": null,
+      "preco_unidade": "5,29€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -824,14 +824,14 @@
     {
       "nome": "Laranja Nacional IGP Citrinos do Algarve",
       "preco": "0.95",
-      "preco_unidade": null,
+      "preco_unidade": "0,95€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "6 unid. por Banana da Madeira",
       "preco": "2.39",
-      "preco_unidade": null,
+      "preco_unidade": "2,39€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -845,7 +845,7 @@
     {
       "nome": "Perninha de Frango com Pimentão",
       "preco": "5.99",
-      "preco_unidade": null,
+      "preco_unidade": "5,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -859,7 +859,7 @@
     {
       "nome": "Tira da Vazia da América do Sul",
       "preco": "12910.99",
-      "preco_unidade": null,
+      "preco_unidade": "12910,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -1153,7 +1153,7 @@
     {
       "nome": "Frango Fresco com Miúdos",
       "preco": "7.35",
-      "preco_unidade": null,
+      "preco_unidade": "7,35€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
@@ -1167,21 +1167,21 @@
     {
       "nome": "Banana Rainforest Alliance",
       "preco": "3.49",
-      "preco_unidade": null,
+      "preco_unidade": "3,49€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "Cebola Nacional",
       "preco": "2.19",
-      "preco_unidade": null,
+      "preco_unidade": "2,19€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "Tomate Coração de Boi Nacional",
       "preco": "5.49",
-      "preco_unidade": null,
+      "preco_unidade": "5,49€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
@@ -1202,7 +1202,7 @@
     {
       "nome": "Melão Verde Nacional",
       "preco": "1.59",
-      "preco_unidade": null,
+      "preco_unidade": "1,59€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
@@ -1216,7 +1216,7 @@
     {
       "nome": "Banana",
       "preco": "1.19",
-      "preco_unidade": null,
+      "preco_unidade": "1,19€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
@@ -1237,14 +1237,14 @@
     {
       "nome": "Perninha de Peru",
       "preco": "2.99",
-      "preco_unidade": null,
+      "preco_unidade": "2,99€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "Escalopes de Novilho dos Açores",
       "preco": "14.99",
-      "preco_unidade": null,
+      "preco_unidade": "14,99€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
@@ -1265,7 +1265,7 @@
     {
       "nome": "Robalo Escalado",
       "preco": "13.99",
-      "preco_unidade": null,
+      "preco_unidade": "13,99€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
@@ -1713,7 +1713,7 @@
     {
       "nome": "€ Frango Fresco com Miúdos",
       "preco": "84.68",
-      "preco_unidade": null,
+      "preco_unidade": "84,68€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
@@ -1727,7 +1727,7 @@
     {
       "nome": "Banana Rainforest Alliance",
       "preco": "1.05",
-      "preco_unidade": null,
+      "preco_unidade": "1,05€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
@@ -1790,7 +1790,7 @@
     {
       "nome": "Escalopes de Novilho dos Açores",
       "preco": "6.99",
-      "preco_unidade": null,
+      "preco_unidade": "6,99€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
@@ -1860,7 +1860,7 @@
     {
       "nome": "Ramo de Flores da Época Nacional nº136034",
       "preco": "23.99",
-      "preco_unidade": null,
+      "preco_unidade": "23,99€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
@@ -1874,7 +1874,7 @@
     {
       "nome": "Perninha de Frango",
       "preco": "4.49",
-      "preco_unidade": null,
+      "preco_unidade": "4,49€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },

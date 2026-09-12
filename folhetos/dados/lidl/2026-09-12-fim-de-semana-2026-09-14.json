@@ -51,7 +51,7 @@
     {
       "nome": "Ramo de Flores da Época Nacional nº136034",
       "preco": "23.99",
-      "preco_unidade": null,
+      "preco_unidade": "23,99€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
@@ -65,7 +65,7 @@
     {
       "nome": "Perninha de Frango",
       "preco": "4.49",
-      "preco_unidade": null,
+      "preco_unidade": "4,49€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },

@@ -39,13 +39,13 @@
   },
   {
     "produtos": {
-      "continente": {
-        "nome": "CAMARÃO 30/50 COZIDO 66 30 %",
-        "preco_hoje": 10.99
-      },
       "lidl": {
         "nome": "Camarão Cozido 30/ 50",
         "preco_hoje": 4.99
+      },
+      "continente": {
+        "nome": "CAMARÃO 30/50 COZIDO 66 30 %",
+        "preco_hoje": 10.99
       }
     },
     "mais_barato_hoje": "lidl",
@@ -53,7 +53,7 @@
     "poupanca_pct": 54.6,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "lidl": 100
+      "continente": 100
     }
   },
   {
@@ -310,13 +310,13 @@
   },
   {
     "produtos": {
-      "lidl": {
-        "nome": "COMPAL Néctar 100% Manga",
-        "preco_hoje": 1.49
-      },
       "continente": {
         "nome": "NÉCTAR COMPAL TUTTI FRUTTI/ PÊSSEGO/ MANGA,LARANJA",
         "preco_hoje": 2.39
+      },
+      "lidl": {
+        "nome": "COMPAL Néctar 100% Manga",
+        "preco_hoje": 1.49
       }
     },
     "mais_barato_hoje": "lidl",
@@ -324,7 +324,7 @@
     "poupanca_pct": 37.7,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "continente": 100
+      "lidl": 100
     }
   },
   {
@@ -405,13 +405,13 @@
   },
   {
     "produtos": {
-      "continente": {
-        "nome": "MOELAS DE FRANGO CONGELADAS",
-        "preco_hoje": 2.49
-      },
       "aldi": {
         "nome": "Moelas de Frango",
         "preco_hoje": 1.99
+      },
+      "continente": {
+        "nome": "MOELAS DE FRANGO CONGELADAS",
+        "preco_hoje": 2.49
       }
     },
     "mais_barato_hoje": "aldi",
@@ -419,7 +419,7 @@
     "poupanca_pct": 20.1,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "aldi": 100
+      "continente": 100
     }
   },
   {
@@ -462,13 +462,13 @@
   },
   {
     "produtos": {
-      "continente": {
-        "nome": "UVA BRANCA S/ GRAINHA CONTINENTE",
-        "preco_hoje": 1.99
-      },
       "aldi": {
         "nome": "Uva Branca sem Grainha/ Preta sem Grainha",
         "preco_hoje": 2.19
+      },
+      "continente": {
+        "nome": "UVA BRANCA S/ GRAINHA CONTINENTE",
+        "preco_hoje": 1.99
       }
     },
     "mais_barato_hoje": "continente",
@@ -476,7 +476,7 @@
     "poupanca_pct": 9.1,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "aldi": 100
+      "continente": 100
     }
   },
   {
@@ -539,12 +539,12 @@
   {
     "produtos": {
       "continente": {
-        "nome": "ERVILHAS IGLO ULTRACONGELADAS",
-        "preco_hoje": 5.39
+        "nome": "CEREAIS NESQUIK CHOCOLATE",
+        "preco_hoje": 3.34
       },
       "lidl": {
-        "nome": "IGLO Ervilhas",
-        "preco_hoje": 5.39
+        "nome": "mas lojas Lidl. *Face ao produto sempre disponível. 737/2026 - T.P. NESTLÉ Nesquik Cereais",
+        "preco_hoje": 3.34
       }
     },
     "mais_barato_hoje": "continente",
@@ -553,25 +553,6 @@
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
       "lidl": 100
-    }
-  },
-  {
-    "produtos": {
-      "lidl": {
-        "nome": "mas lojas Lidl. *Face ao produto sempre disponível. 737/2026 - T.P. NESTLÉ Nesquik Cereais",
-        "preco_hoje": 3.34
-      },
-      "continente": {
-        "nome": "CEREAIS NESQUIK CHOCOLATE",
-        "preco_hoje": 3.34
-      }
-    },
-    "mais_barato_hoje": "lidl",
-    "poupanca_eur": 0.0,
-    "poupanca_pct": 0.0,
-    "proxima_alteracao": null,
-    "pontuacoes_correspondencia": {
-      "continente": 100
     }
   },
   {
@@ -591,6 +572,25 @@
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
       "aldi": 100
+    }
+  },
+  {
+    "produtos": {
+      "lidl": {
+        "nome": "IGLO Ervilhas",
+        "preco_hoje": 5.39
+      },
+      "continente": {
+        "nome": "ERVILHAS IGLO ULTRACONGELADAS",
+        "preco_hoje": 5.39
+      }
+    },
+    "mais_barato_hoje": "lidl",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "continente": 100
     }
   },
   {

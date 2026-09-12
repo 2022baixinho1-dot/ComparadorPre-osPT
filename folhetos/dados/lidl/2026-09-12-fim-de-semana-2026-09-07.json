@@ -9,7 +9,7 @@
     {
       "nome": "A partir de sex. 11/9 a dom. 13/9 Salsichas Frescas de Porco",
       "preco": "5.29",
-      "preco_unidade": null,
+      "preco_unidade": "5,29€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -58,14 +58,14 @@
     {
       "nome": "Laranja Nacional IGP Citrinos do Algarve",
       "preco": "0.95",
-      "preco_unidade": null,
+      "preco_unidade": "0,95€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "6 unid. por Banana da Madeira",
       "preco": "2.39",
-      "preco_unidade": null,
+      "preco_unidade": "2,39€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -79,7 +79,7 @@
     {
       "nome": "Perninha de Frango com Pimentão",
       "preco": "5.99",
-      "preco_unidade": null,
+      "preco_unidade": "5,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -93,7 +93,7 @@
     {
       "nome": "Tira da Vazia da América do Sul",
       "preco": "12910.99",
-      "preco_unidade": null,
+      "preco_unidade": "12910,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },

@@ -6,28 +6,28 @@
     {
       "nome": "LARANJA NA PESCADA CONGELADA DO BALCÃO DE ATENDIMENTO",
       "preco": "1,49",
-      "preco_unidade": null,
+      "preco_unidade": "1,49€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "CHAMBÃO DE NOVILHO CONTINENTE BALCÃO DE ATENDIMENTO",
       "preco": "11,99",
-      "preco_unidade": null,
+      "preco_unidade": "11,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "ENTREMEADA DE PORCO CONTINENTE",
       "preco": "4,29",
-      "preco_unidade": null,
+      "preco_unidade": "4,29€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "AMEIXA PRETA/ VERMELHA 10 %",
       "preco": "1,79",
-      "preco_unidade": null,
+      "preco_unidade": "1,79€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -41,14 +41,14 @@
     {
       "nome": "AMÊIJOA VIETNAMITA C/ CASCA CONGELADA",
       "preco": "1,99",
-      "preco_unidade": null,
+      "preco_unidade": "1,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "FRANGO DO CAMPO INTEIRO C/ MIÚDOS CONTINENTE SELEÇÃO 40",
       "preco": "3,99",
-      "preco_unidade": null,
+      "preco_unidade": "3,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -69,14 +69,14 @@
     {
       "nome": "BACALHAU GRAÚDO DE 1ª DA NORUEGA CONTINENTE SELEÇÃO SALGADO SECO INTEIRO",
       "preco": "21,99",
-      "preco_unidade": null,
+      "preco_unidade": "21,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "BACALHAU CRESCIDO DE 1ª DA NORUEGA CONTINENTE SELEÇÃO SALGADO SECO INTEIRO Postas altas ou",
       "preco": "19,99",
-      "preco_unidade": null,
+      "preco_unidade": "19,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -90,7 +90,7 @@
     {
       "nome": "CARAS DE BACALHAU CONTINENTE SALGADO SECO",
       "preco": "5,99",
-      "preco_unidade": null,
+      "preco_unidade": "5,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -111,63 +111,63 @@
     {
       "nome": "CARAS DE BACALHAU DEMOLHADAS CONGELADAS BALCÃO DE ATENDIMENTO Mais 20 de %",
       "preco": "7,99",
-      "preco_unidade": null,
+      "preco_unidade": "7,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "DOURADA NACIONAL 200G 600G FRESCA ENCOMENDE AQUI A FRESCURA QUE VEM DO MAR ESCOLHA Escolha",
       "preco": "9,99",
-      "preco_unidade": null,
+      "preco_unidade": "9,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "ESPETADAS DE POTA E SALMÃO CONTINENTE FRESCO UNID APROX",
       "preco": "15,99",
-      "preco_unidade": null,
+      "preco_unidade": "15,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "RAIA +1KG FRESCA",
       "preco": "4,99",
-      "preco_unidade": null,
+      "preco_unidade": "4,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "ESPETADAS DE SALMÃO E PERCA FRESCO UNID APROX",
       "preco": "15,99",
-      "preco_unidade": null,
+      "preco_unidade": "15,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "PARGO MULATO FRESCO",
       "preco": "6,99",
-      "preco_unidade": null,
+      "preco_unidade": "6,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "SALMÃO INTEIRO PEQUENO 1 3KG FRESCO 20",
       "preco": "8,99",
-      "preco_unidade": null,
+      "preco_unidade": "8,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "LULA DESCONGELADA FRESCA 15 %",
       "preco": "9,99",
-      "preco_unidade": null,
+      "preco_unidade": "9,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "CHOCO C/ TINTA 200G 800G FRESCO",
       "preco": "10,99",
-      "preco_unidade": null,
+      "preco_unidade": "10,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -195,28 +195,28 @@
     {
       "nome": "MARUCA MÉDIA CONGELADA BALCÃO DE ATENDIMENTO Sabor suave e textura inconfundível 10",
       "preco": "8,99",
-      "preco_unidade": null,
+      "preco_unidade": "8,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "SOLHA GRANDE CONGELADA BALCÃO DE ATENDIMENTO Ideal para grelhar ou fazer na frigideira",
       "preco": "5,99",
-      "preco_unidade": null,
+      "preco_unidade": "5,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "PERCA DO NILO S/ CABEÇA CONGELADA BALCÃO DE ATENDIMENTO Excelente para Massadas e Arroz de",
       "preco": "9,99",
-      "preco_unidade": null,
+      "preco_unidade": "9,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "RED FISH MÉDIO CONGELADO BALCÃO DE ATENDIMENTO Perfeito para assar",
       "preco": "4,99",
-      "preco_unidade": null,
+      "preco_unidade": "4,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -230,14 +230,14 @@
     {
       "nome": "POSTA GAROUPA CONTINENTE CONGELADA BALCÃO DE ATENDIMENTO",
       "preco": "14,49",
-      "preco_unidade": null,
+      "preco_unidade": "14,49€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "CORVINA POSTA HIGIENIZADA CONGELADA BALCÃO DE ATENDIMENTO Perfeita para grelhar com ervas",
       "preco": "12,29",
-      "preco_unidade": null,
+      "preco_unidade": "12,29€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -251,7 +251,7 @@
     {
       "nome": "BIFE DE ATUM ALBACORA CONGELADO BALCÃO DE ATENDIMENTO 30",
       "preco": "14,99",
-      "preco_unidade": null,
+      "preco_unidade": "14,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -300,7 +300,7 @@
     {
       "nome": "CAMARÃO GRANDE 20/30 VANNAMEI CONGELADO 15 %",
       "preco": "8,99",
-      "preco_unidade": null,
+      "preco_unidade": "8,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -321,14 +321,14 @@
     {
       "nome": "CAMARÃO 30/50 COZIDO 66 30 %",
       "preco": "10,99",
-      "preco_unidade": null,
+      "preco_unidade": "10,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "CAMARÃO MÉDIO 60/80 VANNAMEI CONGELADO",
       "preco": "6,99",
-      "preco_unidade": null,
+      "preco_unidade": "6,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -349,14 +349,14 @@
     {
       "nome": "LINGUEIRÃO FRESCO",
       "preco": "11,99",
-      "preco_unidade": null,
+      "preco_unidade": "11,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "GAMBÃO GRANDE DA ARGENTINA SELVAGEM 20/30 CONGELADO",
       "preco": "11,99",
-      "preco_unidade": null,
+      "preco_unidade": "11,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -370,7 +370,7 @@
     {
       "nome": "MELOA GÁLIA/ CANTALUPE INTEIRA",
       "preco": "1,49",
-      "preco_unidade": null,
+      "preco_unidade": "1,49€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -391,14 +391,14 @@
     {
       "nome": "PÊSSEGO VERMELHO",
       "preco": "1,99",
-      "preco_unidade": null,
+      "preco_unidade": "1,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "PERA CONFERENCE 25 %",
       "preco": "2,29",
-      "preco_unidade": null,
+      "preco_unidade": "2,29€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -419,14 +419,14 @@
     {
       "nome": "PEPINO",
       "preco": "1,19",
-      "preco_unidade": null,
+      "preco_unidade": "1,19€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "BATATA ASSAR CONTINENTE",
       "preco": "1,20",
-      "preco_unidade": null,
+      "preco_unidade": "1,20€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -447,7 +447,7 @@
     {
       "nome": "MANGA DE AVIÃO PALMER",
       "preco": "3,99",
-      "preco_unidade": null,
+      "preco_unidade": "3,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -461,7 +461,7 @@
     {
       "nome": "ALHO SECO SAB IL",
       "preco": "5,99",
-      "preco_unidade": null,
+      "preco_unidade": "5,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -482,7 +482,7 @@
     {
       "nome": "FEIJÃO VERDE loja, site e app 714524 714518 714520 719314 714523 714394 719238 714522 7145",
       "preco": "4,25",
-      "preco_unidade": null,
+      "preco_unidade": "4,25€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -545,7 +545,7 @@
     {
       "nome": "ABÓBORA FATIADA BIOLÓGICA CONTINENTE BIO EMBALADA",
       "preco": "2,79",
-      "preco_unidade": null,
+      "preco_unidade": "2,79€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -601,217 +601,217 @@
     {
       "nome": "BIFE DA RABADILHA DE NOVILHO CONTINENTE BALCÃO DE ATENDIMENTO",
       "preco": "12,99",
-      "preco_unidade": null,
+      "preco_unidade": "12,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "ESTUFAR CHAMBÃO DE NOVILHO ANGUS",
       "preco": "13,99",
-      "preco_unidade": null,
+      "preco_unidade": "13,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "FRALDINHA DE BOVINO EMBALADA",
       "preco": "18,99",
-      "preco_unidade": null,
+      "preco_unidade": "18,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "BIFE DA PÁ DE NOVILHO ANGUS",
       "preco": "15,99",
-      "preco_unidade": null,
+      "preco_unidade": "15,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "ALCATRA DE NOVILHO LIMOUSINE",
       "preco": "18,99",
-      "preco_unidade": null,
+      "preco_unidade": "18,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "PREGUINHO DE VITELA EMBALADO 9",
       "preco": "21,99",
-      "preco_unidade": null,
+      "preco_unidade": "21,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "MAMINHA DE BOVINO FATIADA CONTINENTE EMBALADA",
       "preco": "16,99",
-      "preco_unidade": null,
+      "preco_unidade": "16,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "MEDALHÕES DE NOVILHO NACIONAL CONTINENTE EMBALADOS",
       "preco": "14,99",
-      "preco_unidade": null,
+      "preco_unidade": "14,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "VAZIO ALTO C/ OSSO DE NOVILHO ANGUS",
       "preco": "18,99",
-      "preco_unidade": null,
+      "preco_unidade": "18,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "ACÉM COMPRIDO DE NOVILHO LIMOUSINE BALCÃO DE ATENDIMENTO",
       "preco": "15,99",
-      "preco_unidade": null,
+      "preco_unidade": "15,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "VAZIA DE BOVINO AMÉRICA DO SUL CONTINENTE CONGELADA",
       "preco": "19,99",
-      "preco_unidade": null,
+      "preco_unidade": "19,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "ENTRECÔTE DE BOVINO AMÉRICA DO SUL CONTINENTE CONGELADO loja, site e app",
       "preco": "19,99",
-      "preco_unidade": null,
+      "preco_unidade": "19,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "BIFANAS DE PORCO CONTINENTE",
       "preco": "4,99",
-      "preco_unidade": null,
+      "preco_unidade": "4,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "COSTELETAS MISTAS DE PORCO CONTINENTE",
       "preco": "4,99",
-      "preco_unidade": null,
+      "preco_unidade": "4,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "TIRAS DE ENTRECOSTO DE PORCO PIANO CONTINENTE",
       "preco": "6,99",
-      "preco_unidade": null,
+      "preco_unidade": "6,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "ROJÕES DE PORCO CONTINENTE EMBALADOS",
       "preco": "4,99",
-      "preco_unidade": null,
+      "preco_unidade": "4,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "LOMBINHOS DE PORCO CONTINENTE 10",
       "preco": "6,99",
-      "preco_unidade": null,
+      "preco_unidade": "6,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "CACHAÇO DE PORCO P/ ASSAR S/ OSSO CONTINENTE",
       "preco": "5,29",
-      "preco_unidade": null,
+      "preco_unidade": "5,29€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "ENTRECOSTO DE PORCO CONTINENTE",
       "preco": "6,29",
-      "preco_unidade": null,
+      "preco_unidade": "6,29€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "PÁ DE PORCO C/ OSSO CONTINENTE 15 %",
       "preco": "4,49",
-      "preco_unidade": null,
+      "preco_unidade": "4,49€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "LOMBO DE PORCO S/ OSSO CONTINENTE",
       "preco": "4,49",
-      "preco_unidade": null,
+      "preco_unidade": "4,49€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "BOCHECHAS DE PORCO CONTINENTE BALCÃO DE ATENDIMENTO loja, site e app",
       "preco": "8,49",
-      "preco_unidade": null,
+      "preco_unidade": "8,49€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "ALCATRA DE BORREGO EMBALADA AVES",
       "preco": "26,99",
-      "preco_unidade": null,
+      "preco_unidade": "26,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "FRANGO INTEIRO CONTINENTE",
       "preco": "2,49",
-      "preco_unidade": null,
+      "preco_unidade": "2,49€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "PERNA DE FRANGO CONTINENTE BALCÃO DE ATENDIMENTO",
       "preco": "2,99",
-      "preco_unidade": null,
+      "preco_unidade": "2,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "PEITO DE FRANGO CONTINENTE BALCÃO DE ATENDIMENTO",
       "preco": "6,49",
-      "preco_unidade": null,
+      "preco_unidade": "6,49€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "FRANGO P/ CHURRASCO CONTINENTE EMBALADO",
       "preco": "3,39",
-      "preco_unidade": null,
+      "preco_unidade": "3,39€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "PATO INTEIRO FRESCO 11",
       "preco": "4,49",
-      "preco_unidade": null,
+      "preco_unidade": "4,49€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "PERNA DE PERU CONTINENTE BALCÃO DE ATENDIMENTO TTAALLHHOO GRANDES OPORTUNIDADES LÍNGUA DE",
       "preco": "4,99",
-      "preco_unidade": null,
+      "preco_unidade": "4,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "PERNIL DE PORCO CONTINENTE",
       "preco": "8,99",
-      "preco_unidade": null,
+      "preco_unidade": "8,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "COELHO INTEIRO CONTINENTE EMBALADO",
       "preco": "3,49",
-      "preco_unidade": null,
+      "preco_unidade": "3,49€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -825,7 +825,7 @@
     {
       "nome": "COXAS DE FRANGO DESOSSADAS BALCÃO DE ATENDIMENTO",
       "preco": "6,59",
-      "preco_unidade": null,
+      "preco_unidade": "6,59€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -839,7 +839,7 @@
     {
       "nome": "PEITO DE PERU CONTINENTE BALCÃO DE ATENDIMENTO",
       "preco": "8,49",
-      "preco_unidade": null,
+      "preco_unidade": "8,49€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -895,14 +895,14 @@
     {
       "nome": "MIX SALSICHAS DE PORCO CONTINENTE CHURRASCO LUSITANO/ SABORES DO MUNDO EMBALADO 10 %",
       "preco": "6,29",
-      "preco_unidade": null,
+      "preco_unidade": "6,29€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "TIRA ENTRECOSTO TEMPERADA CAMPOFRIO BARBACOA EMBALADA 10 %",
       "preco": "9,89",
-      "preco_unidade": null,
+      "preco_unidade": "9,89€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -986,7 +986,7 @@
     {
       "nome": "QUEIJO FLAMENGO TERRA NOSTRA BOLA 10 %",
       "preco": "9,99",
-      "preco_unidade": null,
+      "preco_unidade": "9,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -1000,14 +1000,14 @@
     {
       "nome": "QUEIJO FLAMENGO AGROS BOLA 25 %",
       "preco": "9,39",
-      "preco_unidade": null,
+      "preco_unidade": "9,39€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "QUEIJO DE VACA CURADO MÉDIO ORIGINAL/ PIMENTÃO CASTELÕES 10 %",
       "preco": "9,99",
-      "preco_unidade": null,
+      "preco_unidade": "9,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -1028,21 +1028,21 @@
     {
       "nome": "QUEIJO DE VACA DOS AÇORES MILHAFRE 10 %",
       "preco": "10,99",
-      "preco_unidade": null,
+      "preco_unidade": "10,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "QUEIJO AMANTEIGADO DE OVELHA PASTOR DA BEIRA ALTA 15",
       "preco": "19,29",
-      "preco_unidade": null,
+      "preco_unidade": "19,29€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "QUEIJO DE VACA AMANTEIGADO/ MEIO GORDO QUEIJARIA DAS POUSADAS 15 %",
       "preco": "9,89",
-      "preco_unidade": null,
+      "preco_unidade": "9,89€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -1077,42 +1077,42 @@
     {
       "nome": "QUEIJO FLAMENGO MIMOSA BARRA 10 %",
       "preco": "7,99",
-      "preco_unidade": null,
+      "preco_unidade": "7,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "MORTADELA IBÉRICA ELPOZO 15 %",
       "preco": "8,99",
-      "preco_unidade": null,
+      "preco_unidade": "8,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "SALAME PALACIEGO CAMPOFRIO 15 %",
       "preco": "17,79",
-      "preco_unidade": null,
+      "preco_unidade": "17,79€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "MORTADELA DE PERU CAMPOFRIO 15 %",
       "preco": "7,99",
-      "preco_unidade": null,
+      "preco_unidade": "7,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "MORTADELA DE PERU C/ AZEITONAS CAMPOFRIO 15 %",
       "preco": "7,99",
-      "preco_unidade": null,
+      "preco_unidade": "7,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "CHOURIÇO GRAN DOBLÓN CAMPOFRIO loja, site e app",
       "preco": "21,19",
-      "preco_unidade": null,
+      "preco_unidade": "21,19€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -1357,7 +1357,7 @@
     {
       "nome": "BALDE ASAS DE FRANGO COZINHA CONTINENTE",
       "preco": "8,95",
-      "preco_unidade": null,
+      "preco_unidade": "8,95€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -1378,7 +1378,7 @@
     {
       "nome": "ASAS DE FRANGO ASSADAS COZINHA CONTINENTE",
       "preco": "8,49",
-      "preco_unidade": null,
+      "preco_unidade": "8,49€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -1392,7 +1392,7 @@
     {
       "nome": "BACALHAU C/ NATAS GRATINADO COZINHA CONTINENTE",
       "preco": "12,99",
-      "preco_unidade": null,
+      "preco_unidade": "12,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -1826,7 +1826,7 @@
     {
       "nome": "ACHOCOLATADO EM PÓ NESQUIK",
       "preco": "5,99",
-      "preco_unidade": null,
+      "preco_unidade": "5,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },

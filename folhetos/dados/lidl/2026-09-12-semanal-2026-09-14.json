@@ -16,7 +16,7 @@
     {
       "nome": "Frango Fresco com Miúdos",
       "preco": "7.35",
-      "preco_unidade": null,
+      "preco_unidade": "7,35€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
@@ -30,21 +30,21 @@
     {
       "nome": "Banana Rainforest Alliance",
       "preco": "3.49",
-      "preco_unidade": null,
+      "preco_unidade": "3,49€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "Cebola Nacional",
       "preco": "2.19",
-      "preco_unidade": null,
+      "preco_unidade": "2,19€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "Tomate Coração de Boi Nacional",
       "preco": "5.49",
-      "preco_unidade": null,
+      "preco_unidade": "5,49€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
@@ -65,7 +65,7 @@
     {
       "nome": "Melão Verde Nacional",
       "preco": "1.59",
-      "preco_unidade": null,
+      "preco_unidade": "1,59€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
@@ -79,7 +79,7 @@
     {
       "nome": "Banana",
       "preco": "1.19",
-      "preco_unidade": null,
+      "preco_unidade": "1,19€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
@@ -100,14 +100,14 @@
     {
       "nome": "Perninha de Peru",
       "preco": "2.99",
-      "preco_unidade": null,
+      "preco_unidade": "2,99€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
       "nome": "Escalopes de Novilho dos Açores",
       "preco": "14.99",
-      "preco_unidade": null,
+      "preco_unidade": "14,99€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
@@ -128,7 +128,7 @@
     {
       "nome": "Robalo Escalado",
       "preco": "13.99",
-      "preco_unidade": null,
+      "preco_unidade": "13,99€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
@@ -576,7 +576,7 @@
     {
       "nome": "€ Frango Fresco com Miúdos",
       "preco": "84.68",
-      "preco_unidade": null,
+      "preco_unidade": "84,68€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
@@ -590,7 +590,7 @@
     {
       "nome": "Banana Rainforest Alliance",
       "preco": "1.05",
-      "preco_unidade": null,
+      "preco_unidade": "1,05€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
@@ -653,7 +653,7 @@
     {
       "nome": "Escalopes de Novilho dos Açores",
       "preco": "6.99",
-      "preco_unidade": null,
+      "preco_unidade": "6,99€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
