@@ -2,10 +2,7 @@ name: Comparar Preços - Folhetos
 
 on:
   workflow_dispatch:
-  schedule:
-    # 2 horas depois dos scrapers dos folhetos (que correm às 6h UTC),
-    # para dar tempo a estarem todos concluídos e guardados
-    - cron: "0 8 * * 1"
+ 
 
 permissions:
   contents: write
