@@ -1,126 +1,537 @@
 [
   {
     "produtos": {
-      "lidl": {
-        "nome": "Camarão Cozido 30/ 50",
-        "preco": 4.99
+      "continente": {
+        "nome": "DETERGENTE LÍQUIDO P/ MÁQUINA DA ROUPA SKIP ACTIVE CLEAN",
+        "preco_hoje": 7.99
       },
+      "lidl": {
+        "nome": "SKIP Detergente para Máquina da Roupa Líquido Tabuleiro Active Fresh",
+        "preco_hoje": 14.98
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 6.99,
+    "poupanca_pct": 46.7,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "lidl": 92.15686274509804
+    }
+  },
+  {
+    "produtos": {
       "continente": {
         "nome": "CAMARÃO 30/50 COZIDO 66 30 %",
-        "preco": 10.99
+        "preco_hoje": 10.99
+      },
+      "lidl": {
+        "nome": "Camarão Cozido 30/ 50",
+        "preco_hoje": 4.99
       }
     },
-    "mais_barato": "lidl",
+    "mais_barato_hoje": "lidl",
     "poupanca_eur": 6.0,
     "poupanca_pct": 54.6,
+    "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "continente": 100
+      "lidl": 100
     }
   },
   {
     "produtos": {
-      "aldi": {
-        "nome": "IGLO Ervilhas",
-        "preco": 3.49
-      },
       "continente": {
-        "nome": "ERVILHAS IGLO ULTRACONGELADAS",
-        "preco": 5.39
+        "nome": "DETERGENTE EM PASTILHAS P/ MÁQUINA DA LOIÇA FAIRY TUDO EM UM LIMÃO",
+        "preco_hoje": 7.49
+      },
+      "lidl": {
+        "nome": "AJAX Detergente Lava Tudo Limão",
+        "preco_hoje": 2.99
       }
     },
-    "mais_barato": "aldi",
-    "poupanca_eur": 1.9,
-    "poupanca_pct": 35.3,
+    "mais_barato_hoje": "lidl",
+    "poupanca_eur": 4.5,
+    "poupanca_pct": 60.1,
+    "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "continente": 100
+      "lidl": 80.76923076923077
     }
   },
   {
     "produtos": {
-      "aldi": {
-        "nome": "MONTE VELHO Vinho Regional Branco/ Tinto",
-        "preco": 1.8
+      "continente": {
+        "nome": "ATUM BOM PETISCO ÓLEO",
+        "preco_hoje": 1.2
       },
+      "lidl": {
+        "nome": "BOM PETISCO Atum em Óleo Vegetal Pack 5x120 g 1 kg =",
+        "preco_hoje": 5.69
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 4.49,
+    "poupanca_pct": 78.9,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "lidl": 100.0
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "AZEITE VIRGEM EXTRA OLIVEIRA DA SERRA SPRAY",
+        "preco_hoje": 2.59
+      },
+      "lidl": {
+        "nome": "OLIVEIRA DA SERRA Azeite Virgem Extra Clássico",
+        "preco_hoje": 5.79
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 3.2,
+    "poupanca_pct": 55.3,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "lidl": 92.5
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "ENTREMEADA DE PORCO CONTINENTE",
+        "preco_hoje": 4.29
+      },
+      "lidl": {
+        "nome": "CANEIRA Entremeada de Porco Assada",
+        "preco_hoje": 7.29
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 3.0,
+    "poupanca_pct": 41.2,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "lidl": 77.55102040816327
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "CAFÉ SOLÚVEL NESCAFÉ GOLD",
+        "preco_hoje": 9.89
+      },
+      "lidl": {
+        "nome": "DELTA Café Solúvel",
+        "preco_hoje": 6.99
+      }
+    },
+    "mais_barato_hoje": "lidl",
+    "poupanca_eur": 2.9,
+    "poupanca_pct": 29.3,
+    "proxima_alteracao": {
+      "loja": "aldi",
+      "preco": 3.29,
+      "a_partir_de": "2026-09-14"
+    },
+    "pontuacoes_correspondencia": {
+      "lidl": 80.0,
+      "aldi": 80.95238095238095
+    }
+  },
+  {
+    "produtos": {
+      "lidl": {
+        "nome": "CASAL GARCIA Sangria de Frutos Vermelhos",
+        "preco_hoje": 3.99
+      },
+      "aldi": {
+        "nome": "Mix de Frutos Vermelhos",
+        "preco_hoje": 1.19
+      }
+    },
+    "mais_barato_hoje": "aldi",
+    "poupanca_eur": 2.8,
+    "poupanca_pct": 70.2,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 90.47619047619048
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "LAVA TUDO AJAX LIMÃO/ LAVANDA/ CLÁSSICO",
+        "preco_hoje": 2.99
+      },
+      "lidl": {
+        "nome": "Lava Tudo",
+        "preco_hoje": 0.99
+      }
+    },
+    "mais_barato_hoje": "lidl",
+    "poupanca_eur": 2.0,
+    "poupanca_pct": 66.9,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "lidl": 100.0
+    }
+  },
+  {
+    "produtos": {
       "continente": {
         "nome": "VINHO MONTE VELHO ALENTEJO, BRANCO/ ROSÉ/ TINTO",
-        "preco": 3.59
+        "preco_hoje": 3.59
+      },
+      "aldi": {
+        "nome": "MONTE VELHO Vinho Regional Branco/ Tinto",
+        "preco_hoje": 1.8
       }
     },
-    "mais_barato": "aldi",
+    "mais_barato_hoje": "aldi",
     "poupanca_eur": 1.79,
     "poupanca_pct": 49.9,
+    "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "continente": 100
+      "aldi": 100
     }
   },
   {
     "produtos": {
       "continente": {
         "nome": "FRANGO DO CAMPO INTEIRO C/ MIÚDOS CONTINENTE SELEÇÃO 40",
-        "preco": 3.99
+        "preco_hoje": 3.99
       },
       "aldi": {
         "nome": "C ° Frango Inteiro Sem Miudos",
-        "preco": 2.49
+        "preco_hoje": 2.49
       }
     },
-    "mais_barato": "aldi",
+    "mais_barato_hoje": "aldi",
     "poupanca_eur": 1.5,
     "poupanca_pct": 37.6,
+    "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
       "aldi": 100
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "TIRA NÓDOAS SPRAY SKIP",
+        "preco_hoje": 2.99
+      },
+      "lidl": {
+        "nome": "FORMIL Spray Tira Nódoas",
+        "preco_hoje": 4.49
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 1.5,
+    "poupanca_pct": 33.4,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "lidl": 87.17948717948718
     }
   },
   {
     "produtos": {
       "aldi": {
         "nome": "NESTLÉ Cereais Chocapic",
-        "preco": 4.69
+        "preco_hoje": 4.69
       },
       "continente": {
         "nome": "CEREAIS CHOCAPIC ORIGINAL",
-        "preco": 3.49
+        "preco_hoje": 3.49
       }
     },
-    "mais_barato": "continente",
+    "mais_barato_hoje": "continente",
     "poupanca_eur": 1.2,
     "poupanca_pct": 25.6,
+    "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
       "continente": 100
+    }
+  },
+  {
+    "produtos": {
+      "lidl": {
+        "nome": "Preparado de Carne Picada Misto",
+        "preco_hoje": 3.79
+      },
+      "aldi": {
+        "nome": "Preparado de Carne Picada de Bovino",
+        "preco_hoje": 4.99
+      }
+    },
+    "mais_barato_hoje": "lidl",
+    "poupanca_eur": 1.2,
+    "poupanca_pct": 24.0,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 89.28571428571429
+    }
+  },
+  {
+    "produtos": {
+      "lidl": {
+        "nome": "SONASOL Detergente de Camomila",
+        "preco_hoje": 3.99
+      },
+      "aldi": {
+        "nome": "FIM DE SEMANA SONASOL Detergente Lava Tudo Brilhante Floral Euphoria",
+        "preco_hoje": 2.99
+      }
+    },
+    "mais_barato_hoje": "aldi",
+    "poupanca_eur": 1.0,
+    "poupanca_pct": 25.1,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 82.35294117647058
     }
   },
   {
     "produtos": {
       "continente": {
         "nome": "NÉCTAR COMPAL TUTTI FRUTTI/ PÊSSEGO/ MANGA,LARANJA",
-        "preco": 2.39
+        "preco_hoje": 2.39
       },
       "lidl": {
         "nome": "COMPAL Néctar 100% Manga",
-        "preco": 1.49
+        "preco_hoje": 1.49
       }
     },
-    "mais_barato": "lidl",
+    "mais_barato_hoje": "lidl",
     "poupanca_eur": 0.9,
     "poupanca_pct": 37.7,
+    "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
       "lidl": 100
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "BATATAS FRITAS RUFFLES SAL",
+        "preco_hoje": 2.19
+      },
+      "aldi": {
+        "nome": "compras realizadas nas suas lojas. Sabe mais em aldi.pt. RUFFLES Batatas Fritas Onduladas",
+        "preco_hoje": 1.39
+      }
+    },
+    "mais_barato_hoje": "aldi",
+    "poupanca_eur": 0.8,
+    "poupanca_pct": 36.5,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 100
     }
   },
   {
     "produtos": {
       "continente": {
         "nome": "CHOURIÇO CORRENTE CONTINENTE",
-        "preco": 4.99
+        "preco_hoje": 4.99
       },
       "lidl": {
         "nome": "FUMADINHO Chouriço Corrente",
-        "preco": 4.19
+        "preco_hoje": 4.19
       }
     },
-    "mais_barato": "lidl",
+    "mais_barato_hoje": "lidl",
     "poupanca_eur": 0.8,
     "poupanca_pct": 16.0,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "lidl": 100
+    }
+  },
+  {
+    "produtos": {
+      "lidl": {
+        "nome": "FRESHONA Cogumelos Laminados",
+        "preco_hoje": 0.75
+      },
+      "continente": {
+        "nome": "COGUMELOS CONTINENTE LAMINADOS",
+        "preco_hoje": 1.29
+      }
+    },
+    "mais_barato_hoje": "lidl",
+    "poupanca_eur": 0.54,
+    "poupanca_pct": 41.9,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "continente": 100
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "PIZZA ROMANA/ FIAMBRE E QUEIJO CONTINENTE",
+        "preco_hoje": 2.69
+      },
+      "lidl": {
+        "nome": "CHEF SELECT Pizza Fiambre e Queijo",
+        "preco_hoje": 2.15
+      }
+    },
+    "mais_barato_hoje": "lidl",
+    "poupanca_eur": 0.54,
+    "poupanca_pct": 20.1,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "lidl": 78.57142857142857
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "MOELAS DE FRANGO CONGELADAS",
+        "preco_hoje": 2.49
+      },
+      "aldi": {
+        "nome": "Moelas de Frango",
+        "preco_hoje": 1.99
+      }
+    },
+    "mais_barato_hoje": "aldi",
+    "poupanca_eur": 0.5,
+    "poupanca_pct": 20.1,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 100
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "MELOA GÁLIA/ CANTALUPE INTEIRA",
+        "preco_hoje": 1.49
+      },
+      "lidl": {
+        "nome": "Meloa Gália",
+        "preco_hoje": 0.99
+      }
+    },
+    "mais_barato_hoje": "lidl",
+    "poupanca_eur": 0.5,
+    "poupanca_pct": 33.6,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "lidl": 100.0
+    }
+  },
+  {
+    "produtos": {
+      "lidl": {
+        "nome": "MIMOSA Leite com Chocolate Pack 4x200 ml 1 L =",
+        "preco_hoje": 1.68
+      },
+      "aldi": {
+        "nome": "Chocolate de Leite/ com Avelãs",
+        "preco_hoje": 1.39
+      }
+    },
+    "mais_barato_hoje": "aldi",
+    "poupanca_eur": 0.29,
+    "poupanca_pct": 17.3,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 79.16666666666667
+    }
+  },
+  {
+    "produtos": {
+      "aldi": {
+        "nome": "Uva Branca sem Grainha/ Preta sem Grainha",
+        "preco_hoje": 2.19
+      },
+      "continente": {
+        "nome": "UVA BRANCA S/ GRAINHA CONTINENTE",
+        "preco_hoje": 1.99
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.2,
+    "poupanca_pct": 9.1,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "continente": 100
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "ESPARGUETE CONTINENTE",
+        "preco_hoje": 0.69
+      },
+      "lidl": {
+        "nome": "COMBINO Esparguete",
+        "preco_hoje": 0.85
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.16,
+    "poupanca_pct": 18.8,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "lidl": 76.92307692307692
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "FLOCOS DE CEREAIS PROTEÍNA NESTUM MORANGO/ CEREAIS/ CACAU",
+        "preco_hoje": 2.59
+      },
+      "lidl": {
+        "nome": "NESTUM Cereais",
+        "preco_hoje": 2.49
+      }
+    },
+    "mais_barato_hoje": "lidl",
+    "poupanca_eur": 0.1,
+    "poupanca_pct": 3.9,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "lidl": 100.0
+    }
+  },
+  {
+    "produtos": {
+      "aldi": {
+        "nome": "DESCONTO GRESSO Leite Meio-gordo",
+        "preco_hoje": 0.85
+      },
+      "continente": {
+        "nome": "LEITE UHT GRESSO MEIO GORDO/ MAGRO",
+        "preco_hoje": 0.86
+      }
+    },
+    "mais_barato_hoje": "aldi",
+    "poupanca_eur": 0.01,
+    "poupanca_pct": 1.2,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "continente": 100
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "CEREAIS NESQUIK CHOCOLATE",
+        "preco_hoje": 3.34
+      },
+      "lidl": {
+        "nome": "mas lojas Lidl. *Face ao produto sempre disponível. 737/2026 - T.P. NESTLÉ Nesquik Cereais",
+        "preco_hoje": 3.34
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
       "lidl": 100
     }
@@ -128,127 +539,542 @@
   {
     "produtos": {
       "aldi": {
-        "nome": "compras realizadas nas suas lojas. Sabe mais em aldi.pt. RUFFLES Batatas Fritas Onduladas",
-        "preco": 1.39
+        "nome": "NUTELLA Creme para Barrar",
+        "preco_hoje": 7.99
       },
-      "continente": {
-        "nome": "BATATAS FRITAS RUFFLES SAL",
-        "preco": 2.19
-      }
-    },
-    "mais_barato": "aldi",
-    "poupanca_eur": 0.8,
-    "poupanca_pct": 36.5,
-    "pontuacoes_correspondencia": {
-      "continente": 100
-    }
-  },
-  {
-    "produtos": {
-      "lidl": {
-        "nome": "FRESHONA Cogumelos Laminados",
-        "preco": 0.75
-      },
-      "continente": {
-        "nome": "COGUMELOS CONTINENTE LAMINADOS",
-        "preco": 1.29
-      }
-    },
-    "mais_barato": "lidl",
-    "poupanca_eur": 0.54,
-    "poupanca_pct": 41.9,
-    "pontuacoes_correspondencia": {
-      "continente": 100
-    }
-  },
-  {
-    "produtos": {
-      "continente": {
-        "nome": "MOELAS DE FRANGO CONGELADAS",
-        "preco": 2.49
-      },
-      "aldi": {
-        "nome": "Moelas de Frango",
-        "preco": 1.99
-      }
-    },
-    "mais_barato": "aldi",
-    "poupanca_eur": 0.5,
-    "poupanca_pct": 20.1,
-    "pontuacoes_correspondencia": {
-      "aldi": 100
-    }
-  },
-  {
-    "produtos": {
-      "continente": {
-        "nome": "UVA BRANCA S/ GRAINHA CONTINENTE",
-        "preco": 1.99
-      },
-      "aldi": {
-        "nome": "Uva Branca sem Grainha/ Preta sem Grainha",
-        "preco": 2.19
-      }
-    },
-    "mais_barato": "continente",
-    "poupanca_eur": 0.2,
-    "poupanca_pct": 9.1,
-    "pontuacoes_correspondencia": {
-      "aldi": 100
-    }
-  },
-  {
-    "produtos": {
-      "aldi": {
-        "nome": "DESCONTO GRESSO Leite Meio-gordo",
-        "preco": 0.85
-      },
-      "continente": {
-        "nome": "LEITE UHT GRESSO MEIO GORDO/ MAGRO",
-        "preco": 0.86
-      }
-    },
-    "mais_barato": "aldi",
-    "poupanca_eur": 0.01,
-    "poupanca_pct": 1.2,
-    "pontuacoes_correspondencia": {
-      "continente": 100
-    }
-  },
-  {
-    "produtos": {
       "continente": {
         "nome": "CREME DE BARRAR NUTELLA",
-        "preco": 7.99
-      },
-      "aldi": {
-        "nome": "NUTELLA Creme para Barrar",
-        "preco": 7.99
+        "preco_hoje": 7.99
       }
     },
-    "mais_barato": "continente",
+    "mais_barato_hoje": "aldi",
     "poupanca_eur": 0.0,
     "poupanca_pct": 0.0,
+    "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "aldi": 100
+      "continente": 100
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "ERVILHAS IGLO ULTRACONGELADAS",
+        "preco_hoje": 5.39
+      },
+      "lidl": {
+        "nome": "IGLO Ervilhas",
+        "preco_hoje": 5.39
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "lidl": 100
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "MAÇÃ GALA",
+        "preco_hoje": 1.59
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": {
+      "loja": "lidl",
+      "preco": 0.65,
+      "a_partir_de": "2026-09-14"
+    },
+    "pontuacoes_correspondencia": {
+      "lidl": 100.0,
+      "aldi": 100.0
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "BIFE DA PÁ DE NOVILHO ANGUS",
+        "preco_hoje": 15.99
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": {
+      "loja": "aldi",
+      "preco": 5.99,
+      "a_partir_de": "2026-09-14"
+    },
+    "pontuacoes_correspondencia": {
+      "aldi": 80.0
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "TIRAS DE ENTRECOSTO DE PORCO PIANO CONTINENTE",
+        "preco_hoje": 6.99
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": {
+      "loja": "aldi",
+      "preco": 4.79,
+      "a_partir_de": "2026-09-14"
+    },
+    "pontuacoes_correspondencia": {
+      "aldi": 95.0
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "CACHAÇO DE PORCO P/ ASSAR S/ OSSO CONTINENTE",
+        "preco_hoje": 5.29
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": {
+      "loja": "aldi",
+      "preco": 4.99,
+      "a_partir_de": "2026-09-14"
+    },
+    "pontuacoes_correspondencia": {
+      "aldi": 78.78787878787878
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "ENTRECOSTO DE PORCO CONTINENTE",
+        "preco_hoje": 6.29
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": {
+      "loja": "aldi",
+      "preco": 4.99,
+      "a_partir_de": "2026-09-14"
+    },
+    "pontuacoes_correspondencia": {
+      "aldi": 86.36363636363636
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "CARNE PICADA MISTA CONTINENTE",
+        "preco_hoje": 8.99
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": {
+      "loja": "aldi",
+      "preco": 3.99,
+      "a_partir_de": "2026-09-14"
+    },
+    "pontuacoes_correspondencia": {
+      "aldi": 76.59574468085106
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "QUEIJO FLAMENGO CAMPAINHA",
+        "preco_hoje": 6.99
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": {
+      "loja": "lidl",
+      "preco": 4.59,
+      "a_partir_de": "2026-09-14"
+    },
+    "pontuacoes_correspondencia": {
+      "lidl": 75.0
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "ÓLEO ALIMENTAR PÔR DO SOL",
+        "preco_hoje": 1.55
+      },
+      "lidl": {
+        "nome": "ADE PREÇO SEGUNDO OS CONSUMIDORES** EM **Sabe mais na capa do folheto. SAMI Óleo Alimentar",
+        "preco_hoje": 1.55
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "lidl": 80.95238095238095
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "AZEITE VIRGEM EXTRA ESPORÃO VIRGEM EXTRA",
+        "preco_hoje": 9.99
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": {
+      "loja": "aldi",
+      "preco": 1.19,
+      "a_partir_de": "2026-09-14"
+    },
+    "pontuacoes_correspondencia": {
+      "aldi": 82.6086956521739
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "MASSA PROTEÍNA MILANEZA ESPIRAIS/ PENNE RIGATE",
+        "preco_hoje": 1.39
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": {
+      "loja": "lidl",
+      "preco": 0.99,
+      "a_partir_de": "2026-09-14"
+    },
+    "pontuacoes_correspondencia": {
+      "lidl": 100.0,
+      "aldi": 76.19047619047619
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "AÇÚCAR BRANCO RAR EMBALAGEM PAPEL",
+        "preco_hoje": 1.09
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": {
+      "loja": "lidl",
+      "preco": 0.95,
+      "a_partir_de": "2026-09-14"
+    },
+    "pontuacoes_correspondencia": {
+      "lidl": 100.0
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "ATUM SELVAGEM RAMIREZ POSTA EM AZEITE",
+        "preco_hoje": 1.49
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "lidl": 100.0
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "BATATAS FRITAS LAY’S GOURMET WAVY SAL",
+        "preco_hoje": 1.69
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": {
+      "loja": "aldi",
+      "preco": 0.8,
+      "a_partir_de": "2026-09-14"
+    },
+    "pontuacoes_correspondencia": {
+      "aldi": 82.14285714285714
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "TABLETE CHOCOLATE DOLCA LEITE",
+        "preco_hoje": 1.59
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 88.46153846153847
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "LEITE UHT AGROS MAGRO/ MEIO GORDO",
+        "preco_hoje": 0.88
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "lidl": 82.05128205128204
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "FILETES IGLO PEIXE",
+        "preco_hoje": 7.99
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": {
+      "loja": "aldi",
+      "preco": 2.79,
+      "a_partir_de": "2026-09-14"
+    },
+    "pontuacoes_correspondencia": {
+      "aldi": 83.87096774193549
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "GELADO CORNETTO PISTACHIO/ BRIGADEIRO/ MANGA E BAUNILHA",
+        "preco_hoje": 3.99
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": {
+      "loja": "aldi",
+      "preco": 1.99,
+      "a_partir_de": "2026-09-14"
+    },
+    "pontuacoes_correspondencia": {
+      "aldi": 76.92307692307692
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "DETERGENTE LÍQUIDO P/ MÁQUINA DA ROUPA SOFLAN",
+        "preco_hoje": 4.49
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": {
+      "loja": "lidl",
+      "preco": 1.95,
+      "a_partir_de": "2026-09-14"
+    },
+    "pontuacoes_correspondencia": {
+      "lidl": 76.05633802816902
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "SPRAY LIMPA TUDO INFINITE CLEAN CIF LAVANDA/ EUCALIPTO",
+        "preco_hoje": 3.99
+      },
+      "lidl": {
+        "nome": "CIF Spray Infinite Clean Eucalipto",
+        "preco_hoje": 3.99
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "lidl": 100.0
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "LIXÍVIA NEOBLANC TRADICIONAL",
+        "preco_hoje": 3.09
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": {
+      "loja": "aldi",
+      "preco": 2.99,
+      "a_partir_de": "2026-09-14"
+    },
+    "pontuacoes_correspondencia": {
+      "aldi": 100.0
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "LIMPEZA SANITÁRIO CONTINENTE PÓ ATIVO",
+        "preco_hoje": 1.89
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "lidl": 76.66666666666667
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "DETERGENTE MANUAL LOIÇA FAIRY ALOE VERA",
+        "preco_hoje": 2.49
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": {
+      "loja": "aldi",
+      "preco": 1.99,
+      "a_partir_de": "2026-09-14"
+    },
+    "pontuacoes_correspondencia": {
+      "aldi": 85.29411764705883
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "PAPEL HIGIÉNICO FOXY SEDA 3 FOLHAS",
+        "preco_hoje": 2.99
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "lidl": 81.15942028985508,
+      "aldi": 82.75862068965517
     }
   },
   {
     "produtos": {
       "lidl": {
-        "nome": "mas lojas Lidl. *Face ao produto sempre disponível. 737/2026 - T.P. NESTLÉ Nesquik Cereais",
-        "preco": 3.34
-      },
-      "continente": {
-        "nome": "CEREAIS NESQUIK CHOCOLATE",
-        "preco": 3.34
+        "nome": "Hambúrguer de Porco Preto",
+        "preco_hoje": 6.75
       }
     },
-    "mais_barato": "lidl",
+    "mais_barato_hoje": "lidl",
     "poupanca_eur": 0.0,
     "poupanca_pct": 0.0,
+    "proxima_alteracao": {
+      "loja": "aldi",
+      "preco": 2.99,
+      "a_partir_de": "2026-09-14"
+    },
     "pontuacoes_correspondencia": {
-      "continente": 100
+      "aldi": 75.67567567567568
+    }
+  },
+  {
+    "produtos": {
+      "aldi": {
+        "nome": "CADA DOSE PERSIL Detergente Cápsulas para Máquina da Roupa Universal 40 doses",
+        "preco_hoje": 9.99
+      }
+    },
+    "mais_barato_hoje": "aldi",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": {
+      "loja": "lidl",
+      "preco": 4.99,
+      "a_partir_de": "2026-09-14"
+    },
+    "pontuacoes_correspondencia": {
+      "aldi": 76.05633802816902
+    }
+  },
+  {
+    "produtos": {
+      "lidl": {
+        "nome": "Strogonoff de Frango",
+        "preco_hoje": 7.49
+      }
+    },
+    "mais_barato_hoje": "lidl",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 100.0
+    }
+  },
+  {
+    "produtos": {
+      "lidl": {
+        "nome": "GULLÓN Bolachas Choco Bom Chocolate Branco/ Leite",
+        "preco_hoje": 1.29
+      }
+    },
+    "mais_barato_hoje": "lidl",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 78.48101265822785
+    }
+  },
+  {
+    "produtos": {
+      "aldi": {
+        "nome": "IGLO Ervilhas",
+        "preco_hoje": 3.49
+      }
+    },
+    "mais_barato_hoje": "aldi",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 100.0
     }
   }
 ]
