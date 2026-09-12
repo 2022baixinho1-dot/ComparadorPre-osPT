@@ -501,6 +501,17 @@
     el('#legend').innerHTML = lojas.map(l => `<span><span class="swatch"></span>${l}</span>`).join('');
   }
 
+  const MESES_ABREV = ['jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov','dez'];
+
+  function formatarValidade(validoDe, validoAte) {
+    if (!validoDe || !validoAte) return '';
+    const fmt = (iso) => {
+      const [ano, mes, dia] = iso.split('-');
+      return `${parseInt(dia, 10)} ${MESES_ABREV[parseInt(mes, 10) - 1]}`;
+    };
+    return `${fmt(validoDe)} a ${fmt(validoAte)}`;
+  }
+
   // tenta carregar os 3 ficheiros reais mais recentes; usa o exemplo se falhar
   Promise.all([
     fetch('./dados/continente/latest.json').then(r => r.ok ? r.json() : null).catch(() => null),
@@ -509,12 +520,14 @@
   ]).then(([c, l, a]) => {
     if (!c && !l && !a) { render(DADOS_EXEMPLO, "11 de setembro de 2026"); return; }
     const produtos = [];
+    const hojeISO = new Date().toISOString().slice(0, 10);
     const juntar = (dados, loja) => {
       if (!dados) return;
       (dados.produtos || []).forEach((p) => produtos.push({
         loja, nome: p.nome, preco: parseFloat(String(p.preco).replace(',', '.')),
         unidade: p.preco_unidade || null,
-        validade: `${dados.valido_de || ''} a ${dados.valido_ate || ''}`,
+        validade: formatarValidade(p.valido_de, p.valido_ate),
+        aComecar: !!(p.valido_de && p.valido_de > hojeISO),
       }));
     };
     juntar(c, 'Continente'); juntar(l, 'Lidl'); juntar(a, 'Aldi');
