@@ -210,11 +210,23 @@
 
   .produto .validade.a-comecar{ color:var(--accent); }
 
+  .subcat-label{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11px;
+    letter-spacing:0.06em;
+    text-transform:uppercase;
+    color:var(--ink-faint);
+    padding: 16px 0 6px 50px;
+  }
+  .subcat-label:first-child{ padding-top:2px; }
+  .subcat-label + .produto{ border-top:none; }
+
   @media (max-width:600px){
     .produto{ grid-template-columns: 1fr auto; padding-left:38px; }
     .produto .preco-unid{ grid-column:2; margin-top:2px; }
     .cat-title{ font-size:18px; }
     header.top h1{ font-size:34px; }
+    .subcat-label{ padding-left:38px; }
   }
 
   footer.page-footer{
@@ -283,6 +295,74 @@
     "Higiene e Limpeza","Outros"
   ];
 
+  // ---------- subcategorias, dentro de cada categoria ----------
+  // Só as categorias listadas aqui ficam subdivididas; as restantes
+  // (Ovos, Snacks e Aperitivos, Congelados, Outros) mostram-se como
+  // lista única, ordenada alfabeticamente. A ordem de cada array é a
+  // ordem de apresentação das subsecções (não é alfabética).
+  const SUBCATEGORIAS = {
+    "Frutas e Legumes": [
+      ["Frutas", /banana|maç[ãa]|pera\b|laranja|limão|kiwi|uva|melão|melancia|morango|framboesa|mirtilo|nectarina|pêssego|manga|abacate/i],
+      ["Legumes", /tomate|cebola|batata(?!s? frit)|cenoura|alface|pepino|abóbora|cogumelo|alho|feijão verde|espinafre|couve|br[óo]colos/i],
+    ],
+    "Talho": [
+      ["Carne de Porco", /porco|entrecosto|entremeada|febras?|bacon\b/i],
+      ["Carne de Vaca", /novilho|bovino|\bvaca\b|alcatra|acém|chambão|vazia/i],
+      ["Carne de Frango", /frango|peru\b/i],
+      ["Carne Mista e Outras", /hamb[úu]rguer|salsicha|coelho|borrego|picada|mista|almôndegas?|costeleta|\bbife\b|lombo/i],
+    ],
+    "Peixaria": [
+      ["Peixe", /salmão|bacalhau|pescada|sardinha|robalo|dourada|atum fresco|peixe\b|corvina|carapau/i],
+      ["Marisco", /camar[ãa]o|choco\b|lula|polvo|amêijoa|mexilh[ãa]o|marisco/i],
+    ],
+    "Laticínios": [
+      ["Leite", /\bleite\b/i],
+      ["Manteiga e Margarina", /manteiga|margarina|creme de barrar/i],
+      ["Natas", /\bnatas\b/i],
+    ],
+    "Iogurtes, Sobremesas e Gelados": [
+      ["Iogurtes", /iogurte|kefir|kéfir|skyr/i],
+      ["Sobremesas e Pudins", /sobremesa|pudim|mousse/i],
+      ["Gelados", /gelado/i],
+    ],
+    "Charcutaria e Queijos": [
+      ["Queijos", /queijo/i],
+      ["Charcutaria", /fiambre|chourição|chouriço|presunto|mortadela|fuet|salame|paio\b|bacon|charcutaria/i],
+    ],
+    "Padaria e Pastelaria": [
+      ["Pão", /p[ãa]o\b|baguete|broa/i],
+      ["Pastelaria e Bolos", /croissant|\bbolo\b|folhado|pastelaria|donuts?|bolacha|napolitana/i],
+    ],
+    "Bebidas": [
+      ["Águas e Refrigerantes", /água|refrigerante/i],
+      ["Sumos e Néctares", /sumo|néctar/i],
+      ["Vinhos e Espumantes", /vinho|espumante/i],
+      ["Cervejas e Sidras", /cerveja|sidra/i],
+      ["Bebidas Espirituosas", /licor|whisky|gin\b|rum\b|vodka/i],
+    ],
+    "Café e Mercearia": [
+      ["Café e Chá", /caf[ée]|chá\b/i],
+      ["Arroz, Massa e Cereais", /\barroz\b|massa\b|esparguete|cereais/i],
+      ["Azeite e Óleos", /azeite|óleo alimentar/i],
+      ["Conservas e Molhos", /atum em|conserva|molho|ketchup/i],
+      ["Açúcar e Mercearia Básica", /farinha|açúcar|especiarias/i],
+    ],
+    "Higiene e Limpeza": [
+      ["Higiene Pessoal", /champô|gel de banho|creme corpo|desodorizante|pasta de dentes/i],
+      ["Limpeza da Casa", /detergente|amaciador|lixívia/i],
+      ["Bebé", /fralda/i],
+    ],
+  };
+
+  function subcategorizar(cat, nome) {
+    const regras = SUBCATEGORIAS[cat];
+    if (!regras) return null; // esta categoria não tem subdivisão
+    for (const [sub, regex] of regras) {
+      if (regex.test(nome)) return sub;
+    }
+    return "Outros";
+  }
+
   function monograma(cat) {
     // duas iniciais para categorias compostas, uma letra para as simples
     const partes = cat.split(/[, ]+/).filter(w => w.length > 2 && !/^e$/i.test(w));
@@ -336,6 +416,44 @@
     return grupos;
   }
 
+  function produtoHTML(p) {
+    return `
+      <div class="produto">
+        <div class="nome"><span class="tag-loja">${p.loja}</span>${p.nome}</div>
+        <div class="preco">${eur(p.preco)}</div>
+        <div class="preco-unid">${p.unidade || ''}</div>
+        <div class="validade${p.aComecar ? ' a-comecar' : ''}">${p.aComecar ? 'a partir de ' : 'válido '}${p.validade}</div>
+      </div>
+    `;
+  }
+
+  const porNome = (a, b) => a.nome.localeCompare(b.nome, 'pt');
+
+  function corpoDaCategoria(cat, itens) {
+    const regrasSub = SUBCATEGORIAS[cat];
+
+    if (!regrasSub) {
+      // sem subdivisão: lista única, ordenada alfabeticamente
+      return itens.slice().sort(porNome).map(produtoHTML).join('');
+    }
+
+    // agrupa por subcategoria, mantendo a ordem definida em SUBCATEGORIAS
+    const grupos = {};
+    itens.forEach((p) => {
+      const sub = subcategorizar(cat, p.nome) || 'Outros';
+      (grupos[sub] = grupos[sub] || []).push(p);
+    });
+
+    const ordemSub = [...regrasSub.map(([sub]) => sub), 'Outros'];
+    return ordemSub
+      .filter((sub) => grupos[sub] && grupos[sub].length)
+      .map((sub) => `
+        <div class="subcat-label">${sub}</div>
+        ${grupos[sub].sort(porNome).map(produtoHTML).join('')}
+      `)
+      .join('');
+  }
+
   function iconePara(cat) { return monograma(cat); }
   const CHEVRON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>';
 
@@ -365,20 +483,7 @@
       body.className = 'cat-body';
       const inner = document.createElement('div');
       inner.className = 'cat-body-inner';
-
-      itens
-        .sort((a, b) => a.nome.localeCompare(b.nome, 'pt'))
-        .forEach((p) => {
-          const row = document.createElement('div');
-          row.className = 'produto';
-          row.innerHTML = `
-            <div class="nome"><span class="tag-loja">${p.loja}</span>${p.nome}</div>
-            <div class="preco">${eur(p.preco)}</div>
-            <div class="preco-unid">${p.unidade || ''}</div>
-            <div class="validade${p.aComecar ? ' a-comecar' : ''}">${p.aComecar ? 'a partir de ' : 'válido '}${p.validade}</div>
-          `;
-          inner.appendChild(row);
-        });
+      inner.innerHTML = corpoDaCategoria(cat, itens);
 
       body.appendChild(inner);
       secao.appendChild(header);
