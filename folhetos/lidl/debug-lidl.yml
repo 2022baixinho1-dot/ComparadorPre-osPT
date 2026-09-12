@@ -1,0 +1,23 @@
+name: DEBUG - Texto bruto Lidl (temporário)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descarregar o código do repositório
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependências
+        run: pip install -r folhetos/lidl/requirements.txt
+
+      - name: Mostrar texto bruto à volta do Abacate
+        working-directory: folhetos/lidl
+        run: python debug_texto.py
