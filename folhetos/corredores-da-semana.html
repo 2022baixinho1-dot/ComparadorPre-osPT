@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Corredores — Promoções da Semana</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FBFAF6;
+    --page-bg:#EFEDE5;
+    --ink:#211F1C;
+    --ink-soft:#726D62;
+    --ink-faint:#A6A192;
+    --accent:#2E3F6E;
+    --accent-soft:#E4E8F1;
+    --rule:#D9D4C6;
+    --rule-strong:#C7C1B0;
+    --max-w:880px;
+  }
+
+  *{ box-sizing:border-box; }
+
+  html,body{
+    margin:0;
+    background:var(--page-bg);
+    color:var(--ink);
+    font-family:'IBM Plex Mono', monospace;
+    font-size:14.5px;
+    line-height:1.5;
+  }
+
+  a{ color:inherit; }
+
+  .wrap{ max-width:var(--max-w); margin:0 auto; padding:0 24px 100px; }
+
+  header.top{
+    padding: 56px 0 32px;
+    text-align:left;
+    border-bottom: 1.5px solid var(--rule-strong);
+    margin-bottom: 6px;
+  }
+
+  header.top .kicker{
+    font-size:12px;
+    letter-spacing:0.03em;
+    color:var(--ink-soft);
+    margin-bottom:10px;
+  }
+
+  header.top h1{
+    font-family:'Fraunces', serif;
+    font-weight:600;
+    font-size:44px;
+    line-height:1.05;
+    margin:0 0 14px;
+    letter-spacing:-0.01em;
+    max-width:14ch;
+  }
+
+  header.top p.lede{
+    font-family:'Fraunces', serif;
+    font-weight:400;
+    font-style:italic;
+    font-size:17px;
+    color:var(--ink-soft);
+    max-width:52ch;
+    margin:0 0 22px;
+  }
+
+  .legend{
+    display:flex;
+    gap:18px;
+    flex-wrap:wrap;
+    font-size:12px;
+    color:var(--ink-soft);
+  }
+  .legend span{ display:inline-flex; align-items:center; gap:6px; }
+  .legend .swatch{
+    width:9px; height:9px; border:1.3px solid var(--ink-soft); border-radius:1px;
+  }
+
+  /* ---------- categorias (acordeão) ---------- */
+
+  .categoria{
+    border-bottom: 1.5px solid var(--rule);
+  }
+
+  .cat-header{
+    display:flex;
+    align-items:center;
+    gap:16px;
+    width:100%;
+    background:none;
+    border:none;
+    padding:22px 0;
+    cursor:pointer;
+    text-align:left;
+    font-family:inherit;
+    color:inherit;
+  }
+
+  .cat-header:hover{ background:var(--accent-soft); }
+  .cat-header:hover, .cat-header:hover ~ .cat-body { }
+
+  .cat-icon{
+    flex:none;
+    width:38px; height:38px;
+    display:flex; align-items:center; justify-content:center;
+    border:1.3px solid var(--ink);
+    border-radius:50%;
+    font-family:'Fraunces', serif;
+    font-style:italic;
+    font-weight:500;
+    font-size:14px;
+    letter-spacing:0.01em;
+    color:var(--ink);
+  }
+
+  .cat-title{
+    font-family:'Fraunces', serif;
+    font-weight:500;
+    font-size:21px;
+    flex:1;
+  }
+
+  .cat-count{
+    font-size:12px;
+    color:var(--ink-faint);
+    margin-right:6px;
+  }
+
+  .cat-chevron{
+    flex:none;
+    width:16px; height:16px;
+    transition: transform 220ms ease;
+    color:var(--ink-soft);
+  }
+  .categoria.open .cat-chevron{ transform: rotate(180deg); }
+
+  .cat-body{
+    max-height:0;
+    overflow:hidden;
+    transition: max-height 320ms ease;
+  }
+  .categoria.open .cat-body{ max-height:4000px; }
+
+  .cat-body-inner{ padding: 2px 0 26px; }
+
+  @media (prefers-reduced-motion: reduce){
+    .cat-body{ transition:none; }
+  }
+
+  /* ---------- linhas de produto ---------- */
+
+  .produto{
+    display:grid;
+    grid-template-columns: 1fr auto auto;
+    gap: 4px 18px;
+    align-items:baseline;
+    padding: 13px 0 13px 50px;
+    border-top: 1px dashed var(--rule);
+  }
+  .produto:first-child{ border-top:none; }
+
+  .produto .nome{
+    font-family:'Fraunces', serif;
+    font-size:15.5px;
+    grid-column: 1;
+  }
+
+  .produto .tag-loja{
+    display:inline-block;
+    font-size:10px;
+    letter-spacing:0.02em;
+    color:var(--ink-soft);
+    border:1px solid var(--rule-strong);
+    border-radius:2px;
+    padding:1px 5px;
+    margin-right:8px;
+    transform:translateY(-1px);
+  }
+
+  .produto .preco{
+    grid-column:2;
+    text-align:right;
+    font-weight:600;
+    font-variant-numeric:tabular-nums;
+    white-space:nowrap;
+  }
+
+  .produto .preco-unid{
+    grid-column:3;
+    text-align:right;
+    font-size:12px;
+    color:var(--ink-faint);
+    font-variant-numeric:tabular-nums;
+    white-space:nowrap;
+    min-width:92px;
+  }
+
+  .produto .validade{
+    grid-column: 1;
+    font-size:11.5px;
+    color:var(--ink-faint);
+    margin-top:2px;
+  }
+
+  .produto .validade.a-comecar{ color:var(--accent); }
+
+  @media (max-width:600px){
+    .produto{ grid-template-columns: 1fr auto; padding-left:38px; }
+    .produto .preco-unid{ grid-column:2; margin-top:2px; }
+    .cat-title{ font-size:18px; }
+    header.top h1{ font-size:34px; }
+  }
+
+  footer.page-footer{
+    text-align:center;
+    padding:40px 0 0;
+    font-size:11.5px;
+    color:var(--ink-faint);
+    line-height:1.7;
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <header class="top">
+    <div class="kicker">comparador de preços · promoções desta semana</div>
+    <h1>Os corredores desta semana</h1>
+    <p class="lede">Tudo o que está em promoção no Continente, Lidl e Aldi, arrumado por corredor — como se estivesses lá dentro.</p>
+    <div class="legend" id="legend"></div>
+  </header>
+
+  <div id="categorias"></div>
+
+  <footer class="page-footer">
+    gerado automaticamente a partir dos folhetos semanais · atualizado em <span id="gerado-em">—</span><br>
+    preços e validade tal como publicados por cada loja
+  </footer>
+
+</div>
+
+<script>
+(function () {
+
+  // ---------- categorização por palavras-chave ----------
+  // Ordem importa: categorias mais específicas primeiro, "Frutas e
+  // Legumes" quase no fim, para não ser enganada por palavras de sabor
+  // (ex: "Kéfir ... Mirtilos", "Sumo de Manga") nem por "batata frita".
+  const REGRAS_CATEGORIA = [
+    ["Ovos", /\bovos?\b/i],
+    ["Laticínios", /\bleite\b|manteiga|margarina|\bnatas\b|creme de barrar/i],
+    ["Iogurtes, Sobremesas e Gelados", /iogurte|kefir|kéfir|sobremesa|pudim|gelado|mousse|skyr/i],
+    ["Charcutaria e Queijos", /queijo|fiambre|chourição|chouriço|presunto|mortadela|fuet|salame|paio\b|bacon|charcutaria/i],
+    ["Talho", /frango|porco|novilho|vitela|bovino|peru\b|coelho|borrego|entrecosto|\bbife\b|lombo|costeleta|hamb[úu]rguer|salsicha|entremeada|acém|alcatra|chambão|carne\b/i],
+    ["Peixaria", /salmão|bacalhau|pescada|sardinha|robalo|dourada|camar[ãa]o|choco\b|lula|polvo|amêijoa|mexilh[ãa]o|atum fresco|peixe|marisco|corvina|carapau/i],
+    ["Padaria e Pastelaria", /p[ãa]o\b|baguete|croissant|\bbolo\b|folhado|padaria|pastelaria|donuts?|bolacha|napolitana|broa/i],
+    ["Snacks e Aperitivos", /batatas? frit|snacks?\b|aperitivo|chips\b/i],
+    ["Bebidas", /água|sumo|néctar|refrigerante|cerveja|vinho|licor|whisky|gin\b|rum\b|vodka|sidra|espumante|energ[ée]tic/i],
+    ["Café e Mercearia", /caf[ée]|\barroz\b|massa\b|esparguete|azeite|óleo alimentar|farinha|açúcar|cereais|atum em|conserva|molho|ketchup|especiarias|chá\b/i],
+    ["Congelados", /congelad|ultracongelad/i],
+    ["Higiene e Limpeza", /detergente|champô|gel de banho|amaciador|lixívia|papel higiénico|fralda|creme corpo|desodorizante|pasta de dentes/i],
+    ["Frutas e Legumes", /banana|maç[ãa]|pera\b|laranja|limão|kiwi|uva|melão|melancia|morango|framboesa|mirtilo|nectarina|pêssego|manga|abacate|tomate|cebola|batata(?!s? frit)|cenoura|alface|pepino|abóbora|cogumelo|alho|feijão verde|espinafre|couve|br[óo]colos/i],
+  ];
+
+  function categorizar(nome) {
+    for (const [cat, regex] of REGRAS_CATEGORIA) {
+      if (regex.test(nome)) return cat;
+    }
+    return "Outros";
+  }
+
+  const ORDEM_CATEGORIAS = [
+    "Frutas e Legumes","Talho","Peixaria","Padaria e Pastelaria",
+    "Charcutaria e Queijos","Ovos","Laticínios","Iogurtes, Sobremesas e Gelados",
+    "Snacks e Aperitivos","Bebidas","Café e Mercearia","Congelados",
+    "Higiene e Limpeza","Outros"
+  ];
+
+  function monograma(cat) {
+    // duas iniciais para categorias compostas, uma letra para as simples
+    const partes = cat.split(/[, ]+/).filter(w => w.length > 2 && !/^e$/i.test(w));
+    if (partes.length >= 2) return (partes[0][0] + partes[1][0]).toUpperCase();
+    return cat.slice(0, 2).toUpperCase();
+  }
+
+  // ---------- dados de exemplo (usados como fallback) ----------
+  const DADOS_EXEMPLO = [
+    { loja:"Continente", nome:"Nectarina Plana", preco:1.99, unidade:"3,98€/kg", validade:"8–14 set" },
+    { loja:"Aldi", nome:"Nectarina", preco:1.79, unidade:null, validade:"7–13 set" },
+    { loja:"Continente", nome:"Bifanas de Porco Continente", preco:4.99, unidade:null, validade:"8–14 set" },
+    { loja:"Lidl", nome:"Bife de Peru Embalagem Familiar", preco:8.19, unidade:null, validade:"7–13 set" },
+    { loja:"Aldi", nome:"Frango Inteiro Sem Miúdos", preco:2.49, unidade:null, validade:"7–13 set" },
+    { loja:"Continente", nome:"Frango do Campo Inteiro c/ Miúdos", preco:3.99, unidade:null, validade:"8–14 set" },
+    { loja:"Lidl", nome:"Camarão Cozido 30/50", preco:4.99, unidade:null, validade:"7–13 set" },
+    { loja:"Continente", nome:"Camarão 30/50 Cozido", preco:10.99, unidade:null, validade:"8–14 set" },
+    { loja:"Continente", nome:"Queijo Flamengo Campainha", preco:6.99, unidade:"8,74€/kg", validade:"8–14 set" },
+    { loja:"Lidl", nome:"Oliveira da Serra Azeite Virgem Extra Clássico", preco:5.79, unidade:"7,72€/L", validade:"7–13 set" },
+    { loja:"Continente", nome:"Azeite Virgem Extra Oliveira da Serra Spray", preco:2.59, unidade:"12,95€/L", validade:"8–14 set" },
+    { loja:"Continente", nome:"Pão de Assinatura", preco:1.69, unidade:"3,38€/kg", validade:"8–14 set" },
+    { loja:"Lidl", nome:"Pão de Rio Maior", preco:1.19, unidade:"2,22€/kg", validade:"11–13 set", aComecar:true },
+    { loja:"Continente", nome:"Ovos Classe L de Galinhas Criadas no Solo", preco:3.29, unidade:null, validade:"8–14 set" },
+    { loja:"Continente", nome:"Leite Uht Gresso Meio Gordo/ Magro", preco:0.86, unidade:null, validade:"8–14 set" },
+    { loja:"Lidl", nome:"Gresso Leite Magro/ Meio-Gordo", preco:0.84, unidade:null, validade:"7–13 set" },
+    { loja:"Aldi", nome:"Gresso Leite Meio-gordo", preco:0.85, unidade:null, validade:"7–13 set" },
+    { loja:"Continente", nome:"Kéfir Activia Natural/ Mirtilos", preco:1.69, unidade:"6,04€/kg", validade:"8–14 set" },
+    { loja:"Continente", nome:"Água c/ Gás Pedras Salgadas", preco:5.39, unidade:null, validade:"8–14 set" },
+    { loja:"Aldi", nome:"Cerveja Schulten", preco:0.99, unidade:null, validade:"7–13 set" },
+    { loja:"Aldi", nome:"Vinho Monte Velho Regional Alentejano", preco:1.80, unidade:null, validade:"7–13 set" },
+    { loja:"Continente", nome:"Vinho Monte Velho Alentejo, Branco/ Rosé/ Tinto", preco:3.59, unidade:"4,79€/L", validade:"8–14 set" },
+    { loja:"Aldi", nome:"Gelado Cone Magnum Almond/ White Cookies", preco:3.99, unidade:"14€/kg", validade:"7–13 set" },
+    { loja:"Continente", nome:"Filetes Iglo Peixe", preco:7.99, unidade:"1,33€/Unid", validade:"8–14 set" },
+    { loja:"Continente", nome:"Cereais Kellogg's Special K Clássico", preco:5.29, unidade:"7,56€/kg", validade:"8–14 set" },
+    { loja:"Aldi", nome:"Nestlé Cereais Chocapic", preco:3.49, unidade:null, validade:"7–13 set" },
+    { loja:"Continente", nome:"Batatas Fritas Ruffles Sal", preco:2.19, unidade:"8,83€/kg", validade:"8–14 set" },
+    { loja:"Aldi", nome:"Ruffles Batatas Fritas Onduladas", preco:1.39, unidade:"8,69€/kg", validade:"7–13 set" },
+    { loja:"Continente", nome:"Papel Higiénico 3 Folhas Continente Perfumado", preco:3.99, unidade:"0,33€/rolo", validade:"8–14 set" },
+    { loja:"Continente", nome:"Detergente Manual Loiça Fairy Aloe Vera", preco:2.49, unidade:"4,79€/L", validade:"8–14 set" },
+  ];
+
+  const el = (s) => document.querySelector(s);
+  const eur = (v) => v.toLocaleString('pt-PT', { style:'currency', currency:'EUR' });
+
+  function agrupar(produtos) {
+    const grupos = {};
+    produtos.forEach((p) => {
+      const cat = categorizar(p.nome);
+      (grupos[cat] = grupos[cat] || []).push(p);
+    });
+    return grupos;
+  }
+
+  function iconePara(cat) { return monograma(cat); }
+  const CHEVRON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>';
+
+  function render(produtos, geradoEm) {
+    const grupos = agrupar(produtos);
+    const cont = el('#categorias');
+    cont.innerHTML = '';
+
+    ORDEM_CATEGORIAS.forEach((cat) => {
+      const itens = grupos[cat];
+      if (!itens || itens.length === 0) return;
+
+      const secao = document.createElement('div');
+      secao.className = 'categoria';
+
+      const header = document.createElement('button');
+      header.className = 'cat-header';
+      header.innerHTML = `
+        <span class="cat-icon">${iconePara(cat)}</span>
+        <span class="cat-title">${cat}</span>
+        <span class="cat-count">${itens.length} em promoção</span>
+        <span class="cat-chevron">${CHEVRON}</span>
+      `;
+      header.addEventListener('click', () => secao.classList.toggle('open'));
+
+      const body = document.createElement('div');
+      body.className = 'cat-body';
+      const inner = document.createElement('div');
+      inner.className = 'cat-body-inner';
+
+      itens
+        .sort((a, b) => a.nome.localeCompare(b.nome, 'pt'))
+        .forEach((p) => {
+          const row = document.createElement('div');
+          row.className = 'produto';
+          row.innerHTML = `
+            <div class="nome"><span class="tag-loja">${p.loja}</span>${p.nome}</div>
+            <div class="preco">${eur(p.preco)}</div>
+            <div class="preco-unid">${p.unidade || ''}</div>
+            <div class="validade${p.aComecar ? ' a-comecar' : ''}">${p.aComecar ? 'a partir de ' : 'válido '}${p.validade}</div>
+          `;
+          inner.appendChild(row);
+        });
+
+      body.appendChild(inner);
+      secao.appendChild(header);
+      secao.appendChild(body);
+      cont.appendChild(secao);
+    });
+
+    // abre a primeira categoria por omissão
+    const primeira = cont.querySelector('.categoria');
+    if (primeira) primeira.classList.add('open');
+
+    el('#gerado-em').textContent = geradoEm || '—';
+
+    const lojas = [...new Set(produtos.map((p) => p.loja))].sort();
+    el('#legend').innerHTML = lojas.map(l => `<span><span class="swatch"></span>${l}</span>`).join('');
+  }
+
+  // tenta carregar os 3 ficheiros reais mais recentes; usa o exemplo se falhar
+  Promise.all([
+    fetch('./dados/continente/latest.json').then(r => r.ok ? r.json() : null).catch(() => null),
+    fetch('./dados/lidl/latest.json').then(r => r.ok ? r.json() : null).catch(() => null),
+    fetch('./dados/aldi/latest.json').then(r => r.ok ? r.json() : null).catch(() => null),
+  ]).then(([c, l, a]) => {
+    if (!c && !l && !a) { render(DADOS_EXEMPLO, "11 de setembro de 2026"); return; }
+    const produtos = [];
+    const juntar = (dados, loja) => {
+      if (!dados) return;
+      (dados.produtos || []).forEach((p) => produtos.push({
+        loja, nome: p.nome, preco: parseFloat(String(p.preco).replace(',', '.')),
+        unidade: p.preco_unidade || null,
+        validade: `${dados.valido_de || ''} a ${dados.valido_ate || ''}`,
+      }));
+    };
+    juntar(c, 'Continente'); juntar(l, 'Lidl'); juntar(a, 'Aldi');
+    render(produtos, new Date().toLocaleDateString('pt-PT', { day:'numeric', month:'long', year:'numeric' }));
+  }).catch(() => render(DADOS_EXEMPLO, "11 de setembro de 2026"));
+
+})();
+</script>
+
+</body>
+</html>
