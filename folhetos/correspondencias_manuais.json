@@ -9,7 +9,13 @@
     ["ATUM BOM PETISCO ÓLEO", "BOM PETISCO Atum ao Natural"],
     ["MANTEIGA MIMOSA C/ SAL/ S/ SAL", "O OS CONSUMIDORES** EM **Sabe mais na capa do folheto. MIMOSA Manteiga com Sal sem Lactose"],
     ["DETERGENTE LÍQUIDO P/ MÁQUINA DA ROUPA SOFLAN", "CADA DOSE PERSIL Detergente Cápsulas para Máquina da Roupa Universal 40 doses"],
-    ["QUEIJO FLAMENGO CAMPAINHA", "MILBONA Queijo Flamengo em Fatias Original/ Light Pack Familiar"]
+    ["QUEIJO FLAMENGO CAMPAINHA", "MILBONA Queijo Flamengo em Fatias Original/ Light Pack Familiar"],
+    ["BATATAS FRITAS RUFFLES SAL", "RUFFLES Batata Fritas de Ketchup"],
+    ["TABLETES DE CHOCOLATE EXTRAFINO NESTLÉ AMÊNDOAS/ AVELÃS", "Chocolate de Leite/ com Avelãs"],
+    ["PAPEL HIGIÉNICO FOXY SEDA 3 FOLHAS", "SOLO ® Papel Higiénico de Fibra Natu­ral Compacto Extra suave; 2 folhas PACK DE 12"],
+    ["ATUM MINERVA NATURAL", "BOM PETISCO Atum ao Natural"],
+    ["BOLACHAS RECHEADAS BISCOFF CHOCOLATE/ CREME/ BAUNILHA", "OREO Mini Bolachas Recheadas com Creme"],
+    ["BATATAS FRITAS LAY’S SAL", "compras realizadas nas suas lojas. Sabe mais em aldi.pt. RUFFLES Batatas Fritas Onduladas"]
   ],
 
   "confirmadas": [
@@ -23,6 +29,9 @@
     ["CREME DE BARRAR NUTELLA", "NUTELLA Creme para Barrar"],
     ["LEITE UHT GRESSO MEIO GORDO/ MAGRO", "DESCONTO GRESSO Leite Meio-gordo"],
     ["ERVILHAS IGLO ULTRACONGELADAS", "IGLO Ervilhas"],
-    ["NÉCTAR COMPAL TUTTI FRUTTI/ PÊSSEGO/ MANGA,LARANJA", "COMPAL Néctar 100% Manga"]
+    ["NÉCTAR COMPAL TUTTI FRUTTI/ PÊSSEGO/ MANGA,LARANJA", "COMPAL Néctar 100% Manga"],
+    ["CHOURIÇO CORRENTE CONTINENTE", "FUMADINHO Chouriço Corrente"],
+    ["UVA BRANCA S/ GRAINHA CONTINENTE", "Uva Branca sem Grainha/ Preta sem Grainha"],
+    ["CEREAIS NESQUIK CHOCOLATE", "mas lojas Lidl. *Face ao produto sempre disponível. 737/2026 - T.P. NESTLÉ Nesquik Cereais"]
   ]
 }
