@@ -22,7 +22,7 @@ import re
 PRICE_RE = re.compile(r'(\d{1,3})\.\s(\d{2})\b')
 
 # Info de embalagem/venda: separa o nome do produto do resto dos detalhes
-PACKAGING_RE = re.compile(r'\d+\s?(?:g|kg|ml|l)\s(?:embalagem|unidade)\b', re.IGNORECASE)
+PACKAGING_RE = re.compile(r'\d+\s?(?:g|kg|ml|l)\s(?:embalagem|unidade)\b|\bA granel\b', re.IGNORECASE)
 
 # Preço por unidade: "(kg = 6.86)" ou "(l = 14.77)"
 UNIT_PRICE_RE = re.compile(r'\((kg|l)\s*=\s*([\d]+[.,][\d]+)\)', re.IGNORECASE)
@@ -46,6 +46,23 @@ def _preco_unidade(window: str) -> str | None:
     return f"{valor}€/{unidade}"
 
 
+A_GRANEL_RE = re.compile(r'A granel', re.IGNORECASE)
+
+
+def _preco_unidade_ou_a_granel(window: str, price: str) -> str | None:
+    """
+    Como _preco_unidade, mas se não encontrar nada e o produto for
+    claramente vendido ao quilo ("A granel"), usa o próprio preço como
+    preço por kg — o folheto não o repete à parte nesses casos.
+    """
+    unit_price = _preco_unidade(window)
+    if unit_price:
+        return unit_price
+    if A_GRANEL_RE.search(window):
+        return f"{price.replace('.', ',')}€/KG"
+    return None
+
+
 def parse_products(page_text: str) -> list[dict]:
     """Extrai produtos (nome, preço, preço por unidade) do texto de uma página do folheto."""
     products = []
@@ -56,7 +73,7 @@ def parse_products(page_text: str) -> list[dict]:
         start = matches[i - 1].end() if i > 0 else 0
         window = page_text[start:m.start()]
 
-        preco_unidade = _preco_unidade(window)
+        preco_unidade = _preco_unidade_ou_a_granel(window, price)
 
         name_part = PACKAGING_RE.split(window)[0]
         pieces = [p for p in NOISE_RE.split(name_part) if p.strip()]
