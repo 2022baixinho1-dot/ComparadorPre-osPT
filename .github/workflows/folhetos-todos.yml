@@ -1,0 +1,56 @@
+name: Folhetos - Todos (Continente + Aldi + Lidl + Comparar)
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Todas as segundas-feiras às 6:00 UTC, uma hora antes dos 4
+    # workflows individuais (ver comparar-precos.yml) — corre os 4
+    # passos em sequência de uma só vez
+    - cron: "0 5 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  atualizar-tudo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descarregar o código do repositório
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependências (Continente)
+        run: pip install -r folhetos/requirements.txt
+
+      - name: Correr Continente
+        run: python folhetos/main.py
+
+      - name: Instalar dependências (Aldi)
+        run: pip install -r folhetos/aldi/requirements.txt
+
+      - name: Correr Aldi
+        run: python folhetos/aldi/main_aldi.py
+
+      - name: Instalar dependências (Lidl)
+        run: pip install -r folhetos/lidl/requirements.txt
+
+      - name: Correr Lidl
+        run: python folhetos/lidl/main_lidl.py
+
+      - name: Instalar dependências (Comparar)
+        run: pip install -r folhetos/requirements-comparacao.txt
+
+      - name: Correr comparação de preços
+        run: python folhetos/comparar.py
+
+      - name: Guardar o resultado no repositório (commit)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add folhetos/dados/
+          git diff --staged --quiet || git commit -m "Atualiza folhetos e comparação (execução manual conjunta)"
+          git push
