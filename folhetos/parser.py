@@ -14,6 +14,11 @@ pequena percentagem dos nomes pode ficar com texto residual a mais
 no fim. Para efeitos de comparação de preços entre supermercados,
 isto não impede a correspondência (o preço e a maior parte do nome
 estão corretos).
+
+Produtos vendidos ao quilo (ex: "Apenas 4,99€ KG BIFANAS DE PORCO"):
+o preço mostrado já É o preço por kg — o folheto não repete essa
+informação à parte. Nesses casos, quando não há um preço por unidade
+explícito no texto, usa-se o próprio preço como preco_unidade.
 """
 
 import re
@@ -56,10 +61,14 @@ def parse_products(page_text: str) -> list[dict]:
         name = name.strip(" ,")[:NOME_MAX_LEN].strip(" ,")
 
         unit_price_match = UNIT_PRICE_RE.search(window)
-        unit_price = (
-            f"{unit_price_match.group(1)}€/{unit_price_match.group(2)}"
-            if unit_price_match else None
-        )
+        if unit_price_match:
+            unit_price = f"{unit_price_match.group(1)}€/{unit_price_match.group(2)}"
+        elif m.group(3) == "KG":
+            # produto vendido ao quilo (ex: "Apenas 4,99€ KG BIFANAS...") —
+            # o preço mostrado JÁ é o preço por kg, o folheto não o repete.
+            unit_price = f"{price}€/KG"
+        else:
+            unit_price = None
 
         # ignora entradas sem nome (normalmente ruído de badges genéricos)
         if name and len(name) > 2:
