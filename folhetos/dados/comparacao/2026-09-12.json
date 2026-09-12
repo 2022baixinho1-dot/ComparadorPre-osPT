@@ -177,13 +177,13 @@
   },
   {
     "produtos": {
-      "continente": {
-        "nome": "VINHO MONTE VELHO ALENTEJO, BRANCO/ ROSÉ/ TINTO",
-        "preco_hoje": 3.59
-      },
       "aldi": {
         "nome": "MONTE VELHO Vinho Regional Branco/ Tinto",
         "preco_hoje": 1.8
+      },
+      "continente": {
+        "nome": "VINHO MONTE VELHO ALENTEJO, BRANCO/ ROSÉ/ TINTO",
+        "preco_hoje": 3.59
       }
     },
     "mais_barato_hoje": "aldi",
@@ -191,18 +191,18 @@
     "poupanca_pct": 49.9,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "aldi": 100
+      "continente": 100
     }
   },
   {
     "produtos": {
-      "continente": {
-        "nome": "FRANGO DO CAMPO INTEIRO C/ MIÚDOS CONTINENTE SELEÇÃO 40",
-        "preco_hoje": 3.99
-      },
       "aldi": {
         "nome": "C ° Frango Inteiro Sem Miudos",
         "preco_hoje": 2.49
+      },
+      "continente": {
+        "nome": "FRANGO DO CAMPO INTEIRO C/ MIÚDOS CONTINENTE SELEÇÃO 40",
+        "preco_hoje": 3.99
       }
     },
     "mais_barato_hoje": "aldi",
@@ -210,7 +210,7 @@
     "poupanca_pct": 37.6,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "aldi": 100
+      "continente": 100
     }
   },
   {
@@ -310,13 +310,13 @@
   },
   {
     "produtos": {
-      "continente": {
-        "nome": "BATATAS FRITAS RUFFLES SAL",
-        "preco_hoje": 2.19
-      },
       "aldi": {
         "nome": "compras realizadas nas suas lojas. Sabe mais em aldi.pt. RUFFLES Batatas Fritas Onduladas",
         "preco_hoje": 1.39
+      },
+      "continente": {
+        "nome": "BATATAS FRITAS RUFFLES SAL",
+        "preco_hoje": 2.19
       }
     },
     "mais_barato_hoje": "aldi",
@@ -324,7 +324,7 @@
     "poupanca_pct": 36.5,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "aldi": 100
+      "continente": 100
     }
   },
   {
@@ -386,13 +386,13 @@
   },
   {
     "produtos": {
-      "continente": {
-        "nome": "MOELAS DE FRANGO CONGELADAS",
-        "preco_hoje": 2.49
-      },
       "aldi": {
         "nome": "Moelas de Frango",
         "preco_hoje": 1.99
+      },
+      "continente": {
+        "nome": "MOELAS DE FRANGO CONGELADAS",
+        "preco_hoje": 2.49
       }
     },
     "mais_barato_hoje": "aldi",
@@ -400,7 +400,7 @@
     "poupanca_pct": 20.1,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "aldi": 100
+      "continente": 100
     }
   },
   {
@@ -520,44 +520,6 @@
   {
     "produtos": {
       "continente": {
-        "nome": "CEREAIS NESQUIK CHOCOLATE",
-        "preco_hoje": 3.34
-      },
-      "lidl": {
-        "nome": "mas lojas Lidl. *Face ao produto sempre disponível. 737/2026 - T.P. NESTLÉ Nesquik Cereais",
-        "preco_hoje": 3.34
-      }
-    },
-    "mais_barato_hoje": "continente",
-    "poupanca_eur": 0.0,
-    "poupanca_pct": 0.0,
-    "proxima_alteracao": null,
-    "pontuacoes_correspondencia": {
-      "lidl": 100
-    }
-  },
-  {
-    "produtos": {
-      "aldi": {
-        "nome": "NUTELLA Creme para Barrar",
-        "preco_hoje": 7.99
-      },
-      "continente": {
-        "nome": "CREME DE BARRAR NUTELLA",
-        "preco_hoje": 7.99
-      }
-    },
-    "mais_barato_hoje": "aldi",
-    "poupanca_eur": 0.0,
-    "poupanca_pct": 0.0,
-    "proxima_alteracao": null,
-    "pontuacoes_correspondencia": {
-      "continente": 100
-    }
-  },
-  {
-    "produtos": {
-      "continente": {
         "nome": "ERVILHAS IGLO ULTRACONGELADAS",
         "preco_hoje": 5.39
       },
@@ -572,6 +534,44 @@
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
       "lidl": 100
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "CREME DE BARRAR NUTELLA",
+        "preco_hoje": 7.99
+      },
+      "aldi": {
+        "nome": "NUTELLA Creme para Barrar",
+        "preco_hoje": 7.99
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 100
+    }
+  },
+  {
+    "produtos": {
+      "lidl": {
+        "nome": "mas lojas Lidl. *Face ao produto sempre disponível. 737/2026 - T.P. NESTLÉ Nesquik Cereais",
+        "preco_hoje": 3.34
+      },
+      "continente": {
+        "nome": "CEREAIS NESQUIK CHOCOLATE",
+        "preco_hoje": 3.34
+      }
+    },
+    "mais_barato_hoje": "lidl",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "continente": 100
     }
   },
   {
