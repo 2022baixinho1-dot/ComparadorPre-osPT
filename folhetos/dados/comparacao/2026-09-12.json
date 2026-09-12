@@ -20,13 +20,13 @@
   },
   {
     "produtos": {
-      "continente": {
-        "nome": "CAMARÃO 30/50 COZIDO 66 30 %",
-        "preco_hoje": 10.99
-      },
       "lidl": {
         "nome": "Camarão Cozido 30/ 50",
         "preco_hoje": 4.99
+      },
+      "continente": {
+        "nome": "CAMARÃO 30/50 COZIDO 66 30 %",
+        "preco_hoje": 10.99
       }
     },
     "mais_barato_hoje": "lidl",
@@ -34,7 +34,7 @@
     "poupanca_pct": 54.6,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "lidl": 100
+      "continente": 100
     }
   },
   {
@@ -177,13 +177,13 @@
   },
   {
     "produtos": {
-      "aldi": {
-        "nome": "MONTE VELHO Vinho Regional Branco/ Tinto",
-        "preco_hoje": 1.8
-      },
       "continente": {
         "nome": "VINHO MONTE VELHO ALENTEJO, BRANCO/ ROSÉ/ TINTO",
         "preco_hoje": 3.59
+      },
+      "aldi": {
+        "nome": "MONTE VELHO Vinho Regional Branco/ Tinto",
+        "preco_hoje": 1.8
       }
     },
     "mais_barato_hoje": "aldi",
@@ -191,7 +191,7 @@
     "poupanca_pct": 49.9,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "continente": 100
+      "aldi": 100
     }
   },
   {
@@ -310,13 +310,13 @@
   },
   {
     "produtos": {
-      "lidl": {
-        "nome": "FUMADINHO Chouriço Corrente",
-        "preco_hoje": 4.19
-      },
       "continente": {
         "nome": "CHOURIÇO CORRENTE CONTINENTE",
         "preco_hoje": 4.99
+      },
+      "lidl": {
+        "nome": "FUMADINHO Chouriço Corrente",
+        "preco_hoje": 4.19
       }
     },
     "mais_barato_hoje": "lidl",
@@ -324,7 +324,7 @@
     "poupanca_pct": 16.0,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "continente": 100
+      "lidl": 100
     }
   },
   {
@@ -386,13 +386,13 @@
   },
   {
     "produtos": {
-      "continente": {
-        "nome": "MOELAS DE FRANGO CONGELADAS",
-        "preco_hoje": 2.49
-      },
       "aldi": {
         "nome": "Moelas de Frango",
         "preco_hoje": 1.99
+      },
+      "continente": {
+        "nome": "MOELAS DE FRANGO CONGELADAS",
+        "preco_hoje": 2.49
       }
     },
     "mais_barato_hoje": "aldi",
@@ -400,7 +400,7 @@
     "poupanca_pct": 20.1,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "aldi": 100
+      "continente": 100
     }
   },
   {
@@ -500,37 +500,18 @@
   },
   {
     "produtos": {
-      "continente": {
-        "nome": "LEITE UHT GRESSO MEIO GORDO/ MAGRO",
-        "preco_hoje": 0.86
-      },
       "aldi": {
         "nome": "DESCONTO GRESSO Leite Meio-gordo",
         "preco_hoje": 0.85
+      },
+      "continente": {
+        "nome": "LEITE UHT GRESSO MEIO GORDO/ MAGRO",
+        "preco_hoje": 0.86
       }
     },
     "mais_barato_hoje": "aldi",
     "poupanca_eur": 0.01,
     "poupanca_pct": 1.2,
-    "proxima_alteracao": null,
-    "pontuacoes_correspondencia": {
-      "aldi": 100
-    }
-  },
-  {
-    "produtos": {
-      "aldi": {
-        "nome": "NUTELLA Creme para Barrar",
-        "preco_hoje": 7.99
-      },
-      "continente": {
-        "nome": "CREME DE BARRAR NUTELLA",
-        "preco_hoje": 7.99
-      }
-    },
-    "mais_barato_hoje": "aldi",
-    "poupanca_eur": 0.0,
-    "poupanca_pct": 0.0,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
       "continente": 100
@@ -572,6 +553,25 @@
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
       "lidl": 100
+    }
+  },
+  {
+    "produtos": {
+      "aldi": {
+        "nome": "NUTELLA Creme para Barrar",
+        "preco_hoje": 7.99
+      },
+      "continente": {
+        "nome": "CREME DE BARRAR NUTELLA",
+        "preco_hoje": 7.99
+      }
+    },
+    "mais_barato_hoje": "aldi",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "continente": 100
     }
   },
   {
