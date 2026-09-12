@@ -39,13 +39,13 @@
   },
   {
     "produtos": {
-      "lidl": {
-        "nome": "Camarão Cozido 30/ 50",
-        "preco_hoje": 4.99
-      },
       "continente": {
         "nome": "CAMARÃO 30/50 COZIDO 66 30 %",
         "preco_hoje": 10.99
+      },
+      "lidl": {
+        "nome": "Camarão Cozido 30/ 50",
+        "preco_hoje": 4.99
       }
     },
     "mais_barato_hoje": "lidl",
@@ -53,7 +53,7 @@
     "poupanca_pct": 54.6,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "continente": 100
+      "lidl": 100
     }
   },
   {
@@ -196,13 +196,13 @@
   },
   {
     "produtos": {
-      "continente": {
-        "nome": "VINHO MONTE VELHO ALENTEJO, BRANCO/ ROSÉ/ TINTO",
-        "preco_hoje": 3.59
-      },
       "aldi": {
         "nome": "MONTE VELHO Vinho Regional Branco/ Tinto",
         "preco_hoje": 1.8
+      },
+      "continente": {
+        "nome": "VINHO MONTE VELHO ALENTEJO, BRANCO/ ROSÉ/ TINTO",
+        "preco_hoje": 3.59
       }
     },
     "mais_barato_hoje": "aldi",
@@ -210,18 +210,18 @@
     "poupanca_pct": 49.9,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "aldi": 100
+      "continente": 100
     }
   },
   {
     "produtos": {
-      "continente": {
-        "nome": "FRANGO DO CAMPO INTEIRO C/ MIÚDOS CONTINENTE SELEÇÃO 40",
-        "preco_hoje": 3.99
-      },
       "aldi": {
         "nome": "C ° Frango Inteiro Sem Miudos",
         "preco_hoje": 2.49
+      },
+      "continente": {
+        "nome": "FRANGO DO CAMPO INTEIRO C/ MIÚDOS CONTINENTE SELEÇÃO 40",
+        "preco_hoje": 3.99
       }
     },
     "mais_barato_hoje": "aldi",
@@ -229,7 +229,7 @@
     "poupanca_pct": 37.6,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "aldi": 100
+      "continente": 100
     }
   },
   {
@@ -329,25 +329,6 @@
   },
   {
     "produtos": {
-      "aldi": {
-        "nome": "compras realizadas nas suas lojas. Sabe mais em aldi.pt. RUFFLES Batatas Fritas Onduladas",
-        "preco_hoje": 1.39
-      },
-      "continente": {
-        "nome": "BATATAS FRITAS RUFFLES SAL",
-        "preco_hoje": 2.19
-      }
-    },
-    "mais_barato_hoje": "aldi",
-    "poupanca_eur": 0.8,
-    "poupanca_pct": 36.5,
-    "proxima_alteracao": null,
-    "pontuacoes_correspondencia": {
-      "continente": 100
-    }
-  },
-  {
-    "produtos": {
       "lidl": {
         "nome": "FUMADINHO Chouriço Corrente",
         "preco_hoje": 4.19
@@ -367,13 +348,32 @@
   },
   {
     "produtos": {
-      "lidl": {
-        "nome": "FRESHONA Cogumelos Laminados",
-        "preco_hoje": 0.75
+      "aldi": {
+        "nome": "compras realizadas nas suas lojas. Sabe mais em aldi.pt. RUFFLES Batatas Fritas Onduladas",
+        "preco_hoje": 1.39
       },
+      "continente": {
+        "nome": "BATATAS FRITAS RUFFLES SAL",
+        "preco_hoje": 2.19
+      }
+    },
+    "mais_barato_hoje": "aldi",
+    "poupanca_eur": 0.8,
+    "poupanca_pct": 36.5,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "continente": 100
+    }
+  },
+  {
+    "produtos": {
       "continente": {
         "nome": "COGUMELOS CONTINENTE LAMINADOS",
         "preco_hoje": 1.29
+      },
+      "lidl": {
+        "nome": "FRESHONA Cogumelos Laminados",
+        "preco_hoje": 0.75
       }
     },
     "mais_barato_hoje": "lidl",
@@ -381,7 +381,7 @@
     "poupanca_pct": 41.9,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "continente": 100
+      "lidl": 100
     }
   },
   {
@@ -405,13 +405,13 @@
   },
   {
     "produtos": {
-      "aldi": {
-        "nome": "Moelas de Frango",
-        "preco_hoje": 1.99
-      },
       "continente": {
         "nome": "MOELAS DE FRANGO CONGELADAS",
         "preco_hoje": 2.49
+      },
+      "aldi": {
+        "nome": "Moelas de Frango",
+        "preco_hoje": 1.99
       }
     },
     "mais_barato_hoje": "aldi",
@@ -419,7 +419,7 @@
     "poupanca_pct": 20.1,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "continente": 100
+      "aldi": 100
     }
   },
   {
@@ -462,13 +462,13 @@
   },
   {
     "produtos": {
-      "aldi": {
-        "nome": "Uva Branca sem Grainha/ Preta sem Grainha",
-        "preco_hoje": 2.19
-      },
       "continente": {
         "nome": "UVA BRANCA S/ GRAINHA CONTINENTE",
         "preco_hoje": 1.99
+      },
+      "aldi": {
+        "nome": "Uva Branca sem Grainha/ Preta sem Grainha",
+        "preco_hoje": 2.19
       }
     },
     "mais_barato_hoje": "continente",
@@ -476,7 +476,7 @@
     "poupanca_pct": 9.1,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "continente": 100
+      "aldi": 100
     }
   },
   {
@@ -519,13 +519,13 @@
   },
   {
     "produtos": {
-      "aldi": {
-        "nome": "DESCONTO GRESSO Leite Meio-gordo",
-        "preco_hoje": 0.85
-      },
       "continente": {
         "nome": "LEITE UHT GRESSO MEIO GORDO/ MAGRO",
         "preco_hoje": 0.86
+      },
+      "aldi": {
+        "nome": "DESCONTO GRESSO Leite Meio-gordo",
+        "preco_hoje": 0.85
       }
     },
     "mais_barato_hoje": "aldi",
@@ -533,7 +533,7 @@
     "poupanca_pct": 1.2,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "continente": 100
+      "aldi": 100
     }
   },
   {
@@ -576,21 +576,21 @@
   },
   {
     "produtos": {
-      "lidl": {
-        "nome": "IGLO Ervilhas",
-        "preco_hoje": 5.39
-      },
       "continente": {
         "nome": "ERVILHAS IGLO ULTRACONGELADAS",
         "preco_hoje": 5.39
+      },
+      "lidl": {
+        "nome": "IGLO Ervilhas",
+        "preco_hoje": 5.39
       }
     },
-    "mais_barato_hoje": "lidl",
+    "mais_barato_hoje": "continente",
     "poupanca_eur": 0.0,
     "poupanca_pct": 0.0,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "continente": 100
+      "lidl": 100
     }
   },
   {
