@@ -2,7 +2,7 @@
 Parser de produtos do Folheto Semanal do Lidl Portugal.
 
 Recebe o texto extraído do PDF do folheto (ver scraper_lidl.get_flyer_pdf_text)
-e devolve uma lista de produtos com nome e preço.
+e devolve uma lista de produtos com nome, preço e preço por unidade.
 
 Padrão típico de cada produto no texto do PDF:
     MARCA
@@ -18,7 +18,10 @@ Estratégia: ancorar no preço final, que é sempre o primeiro número
 decimal a aparecer depois do código "nº...". O nome do produto é o
 texto que vem antes disso, depois de remover ruído (preços residuais
 e badges do produto anterior, que por vezes ficam colados por causa
-da ordem de leitura do PDF).
+da ordem de leitura do PDF). O preço por unidade ("1 kg = X.XX" ou
+"1 L = X.XX") aparece tipicamente logo antes do código "nº...", por
+isso é procurado na mesma janela de texto usada para extrair o nome,
+antes de essa janela ser recortada.
 
 Exceção: produtos em destaque com o selo "Nº1 Qualidade Preço" têm
 uma ordem invertida — o preço aparece ANTES do nome e do código, não
@@ -38,6 +41,11 @@ CODIGO_RE = re.compile(r'nº[\d/\s]+')
 # Um preço "solto", sem contexto de código associado.
 PRECO_SOLTO_RE = re.compile(r'(\d+\.\d{2})')
 
+# Preço por unidade: "1 kg = 14.98" ou "1 L = 7.72" (aparece antes do "nº...").
+# Usa o primeiro que encontrar — nos casos com variante "c/ LP" (preço com
+# cartão de fidelização), a linha normal vem sempre primeiro no texto.
+UNIT_PRICE_RE = re.compile(r'1\s*(kg|[lL])\s*=\s*([\d]+[.,][\d]+)')
+
 # Ruído comum entre produtos: preços residuais, percentagens, badges e
 # frases promocionais genéricas que não fazem parte do nome do produto.
 NOISE_RE = re.compile(
@@ -55,8 +63,17 @@ FIM_DO_NOME_RE = re.compile(r'\bEmb\.|\bVendido ao kg\b|\bCada emb\.')
 NOME_MAX_LEN = 90
 
 
+def _preco_unidade(window: str) -> str | None:
+    """Procura o padrão '1 kg = X.XX' / '1 L = X.XX' numa janela de texto."""
+    m = UNIT_PRICE_RE.search(window)
+    if not m:
+        return None
+    unidade, valor = m.group(1).upper(), m.group(2).replace(".", ",")
+    return f"{valor}€/{unidade}"
+
+
 def parse_products(pdf_text: str) -> list[dict]:
-    """Extrai produtos (nome, preço) do texto extraído do PDF do folheto."""
+    """Extrai produtos (nome, preço, preço por unidade) do texto do PDF do folheto."""
     products = []
     matches = list(CODE_PRICE_RE.finditer(pdf_text))
 
@@ -65,13 +82,15 @@ def parse_products(pdf_text: str) -> list[dict]:
         start_window = matches[i - 1].end() if i > 0 else 0
         window = pdf_text[start_window:m.start()]
 
+        preco_unidade = _preco_unidade(window)
+
         name_part = FIM_DO_NOME_RE.split(window)[0]
         pieces = [p for p in NOISE_RE.split(name_part) if p.strip()]
         name = " ".join(pieces[-1].split()) if pieces else " ".join(name_part.split())
         name = name[-NOME_MAX_LEN:].strip() if len(name) > NOME_MAX_LEN else name
 
         if name and len(name) > 2:
-            products.append({"nome": name, "preco": price})
+            products.append({"nome": name, "preco": price, "preco_unidade": preco_unidade})
 
     # 2ª passagem: produtos em destaque, onde o preço vem antes do nome.
     for cm in CODIGO_RE.finditer(pdf_text):
@@ -86,6 +105,7 @@ def parse_products(pdf_text: str) -> list[dict]:
 
         price = precos[-1].group(1)
         window = trecho[precos[-1].end():]
+        preco_unidade = _preco_unidade(trecho)
 
         name_part = FIM_DO_NOME_RE.split(window)[0]
         pieces = [p for p in NOISE_RE.split(name_part) if p.strip()]
@@ -100,7 +120,7 @@ def parse_products(pdf_text: str) -> list[dict]:
         name = name[-NOME_MAX_LEN:].strip() if len(name) > NOME_MAX_LEN else name
 
         if name and len(name) > 2:
-            products.append({"nome": name, "preco": price})
+            products.append({"nome": name, "preco": price, "preco_unidade": preco_unidade})
 
     return products
 
