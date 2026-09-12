@@ -46,12 +46,26 @@ if __name__ == "__main__":
     folhetos = get_folhetos_nacionais_validos()
     print(f"Encontrados {len(folhetos)} folhetos válidos.")
 
+    todos_produtos = []
+
     for flyer in folhetos:
         print(f"\n=== [{flyer['_categoria']}] {flyer['title']} ({flyer['offerStartDate']}) ===")
 
         pdf_text = get_flyer_pdf_text(flyer)
         produtos = parse_products(pdf_text)
+        todos_produtos.extend(produtos)
         print(f"Extraídos {len(produtos)} produtos.")
 
         caminho = guardar_historico(flyer, produtos, hoje)
         print(f"Guardado em: {caminho}")
+
+    # cópia combinada (os 4 folhetos), para a página web
+    caminho_latest = os.path.join(DADOS_DIR, "latest.json")
+    conteudo_latest = {
+        "data_execucao": hoje,
+        "total_produtos": len(todos_produtos),
+        "produtos": todos_produtos,
+    }
+    with open(caminho_latest, "w", encoding="utf-8") as f:
+        json.dump(conteudo_latest, f, ensure_ascii=False, indent=2)
+    print(f"Latest combinado guardado em: {caminho_latest}")
