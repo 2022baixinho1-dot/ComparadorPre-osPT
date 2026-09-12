@@ -4,7 +4,7 @@
   "folheto": "A partir de 07/09",
   "valido_de": "2026-09-07",
   "valido_ate": "2026-09-13",
-  "total_produtos": 45,
+  "total_produtos": 53,
   "produtos": [
     {
       "nome": "A partir de sex. 11/9 a dom. 13/9 Salsichas Frescas de Porco",
@@ -185,6 +185,38 @@
     {
       "nome": "S** EM **Sabe mais na capa do folheto. A partir de sex. 11/9 a dom. 13/9 Moda e Acessórios",
       "preco": "11.99"
+    },
+    {
+      "nome": "Highlights de FoodPARKSIDE Serra Telescópica 20 V sem Bateria",
+      "preco": "4.59"
+    },
+    {
+      "nome": "E Serra Telescópica 20 V sem Bateria nº494224 PARKSIDE Aspirador Vertical 20 V sem Bateria",
+      "preco": "4.59"
+    },
+    {
+      "nome": "Ramo de Flores da Época Nacional",
+      "preco": "2.19"
+    },
+    {
+      "nome": "20 Litros Molho de Rosas",
+      "preco": "3.99"
+    },
+    {
+      "nome": "Crisântemo Multiflora Planta de interior e exterior Vaso: 13 cm",
+      "preco": "1.99"
+    },
+    {
+      "nome": "Sanseveria Mix Planta de interior Vaso: 12 cm",
+      "preco": "5.99"
+    },
+    {
+      "nome": "Tira da Vazia da América do Sul",
+      "preco": "29.99"
+    },
+    {
+      "nome": "PARKSIDE Ferramenta para Jardim",
+      "preco": "9.99"
     }
   ]
 }

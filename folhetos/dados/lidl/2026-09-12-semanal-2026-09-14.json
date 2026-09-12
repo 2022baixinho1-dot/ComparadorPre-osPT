@@ -4,7 +4,7 @@
   "folheto": "A partir de 14/09",
   "valido_de": "2026-09-14",
   "valido_ate": "2026-09-20",
-  "total_produtos": 81,
+  "total_produtos": 96,
   "produtos": [
     {
       "nome": "Nº1 QUALIDADE PREÇO SEGUNDO OS CONSUMIDORES** EM PARKSIDE Serra Circular 1350 W",
@@ -329,6 +329,66 @@
     {
       "nome": "-1€",
       "preco": "1.79"
+    },
+    {
+      "nome": "€ Frango Fresco com Miúdos",
+      "preco": "84.68"
+    },
+    {
+      "nome": "nº83251 Kiwi",
+      "preco": "0.74"
+    },
+    {
+      "nome": "Banana Rainforest Alliance",
+      "preco": "1.05"
+    },
+    {
+      "nome": "Maçã Fuji",
+      "preco": "1.99"
+    },
+    {
+      "nome": "Tabuleiro de 6 Plantas Planta de exterior Vaso: 9 cm",
+      "preco": "1.49"
+    },
+    {
+      "nome": "Jarros em Vaso de Cerâmica Planta de interior Vaso: 12 cm",
+      "preco": "6.99"
+    },
+    {
+      "nome": "Regador com Flores Planta de interior Vaso: 6 cm",
+      "preco": "6.99"
+    },
+    {
+      "nome": "Caladium Planta de interior Vaso: 12 cm",
+      "preco": "5.99"
+    },
+    {
+      "nome": "Bolbos de Narcisos Planta de exterior",
+      "preco": "5.99"
+    },
+    {
+      "nome": "Lavanda em Vaso de Cerâmica Planta de interior e exterior Vaso: 12 cm",
+      "preco": "6.99"
+    },
+    {
+      "nome": "nº5900350 Bifes do Lombo de Porco Embalagem Familiar",
+      "preco": "5.10"
+    },
+    {
+      "nome": "Escalopes de Novilho dos Açores",
+      "preco": "6.99"
+    },
+    {
+      "nome": "CHEF SELECT Salada Exótica",
+      "preco": "1.29"
+    },
+    {
+      "nome": "RENOVA Papel Higiénico Olé 2 Folhas",
+      "preco": "8.99"
+    },
+    {
+      "nome": "CAMPO LARGO Feijão Frade",
+      "preco": "1.95"
     }
   ]
 }

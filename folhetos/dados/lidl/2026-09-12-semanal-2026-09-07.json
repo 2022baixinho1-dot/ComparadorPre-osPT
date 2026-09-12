@@ -4,7 +4,7 @@
   "folheto": "A partir de 07/09",
   "valido_de": "2026-09-07",
   "valido_ate": "2026-09-13",
-  "total_produtos": 101,
+  "total_produtos": 110,
   "produtos": [
     {
       "nome": "Manga Maturada",
@@ -409,6 +409,42 @@
     {
       "nome": "-1€",
       "preco": "14.99"
+    },
+    {
+      "nome": "nº82713 Batata Doce Nacional",
+      "preco": "3.98"
+    },
+    {
+      "nome": "Uva Branca sem Grainha",
+      "preco": "3.69"
+    },
+    {
+      "nome": "nº5911775 PESCANOVA Mimos de Pescada",
+      "preco": "17.11"
+    },
+    {
+      "nome": "Ovos Classe L de Galinhas Criadas no Solo",
+      "preco": "3.75"
+    },
+    {
+      "nome": "Lírio da Paz Planta de interior Vaso: 17 cm",
+      "preco": "2.99"
+    },
+    {
+      "nome": "z Planta de interior Vaso: 17 cm nº143494 Orquídea 2 Hastes Planta de interior Vaso: 12 cm",
+      "preco": "2.99"
+    },
+    {
+      "nome": "Plantas Verdes Mix Cerâmica Planta de interior Vaso: 12 cm",
+      "preco": "8.99"
+    },
+    {
+      "nome": "Kalanchoe em Vaso de Cerâmica e Ardósia Planta de interior e exterior Vaso: 8 cm",
+      "preco": "5.99"
+    },
+    {
+      "nome": "Bolbos de Flores \"Lovely\"/ Mix de Cores Planta de exterior",
+      "preco": "7.99"
     }
   ]
 }

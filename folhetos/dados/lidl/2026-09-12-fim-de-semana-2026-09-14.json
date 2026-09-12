@@ -4,7 +4,7 @@
   "folheto": "A partir de 18/09",
   "valido_de": "2026-09-14",
   "valido_ate": "2026-09-20",
-  "total_produtos": 36,
+  "total_produtos": 43,
   "produtos": [
     {
       "nome": "o deixes escapar ESMARA Pijama para Homem/ Senhora nº481229/ 481223 ESMARA Calças Wide Leg",
@@ -149,6 +149,34 @@
     {
       "nome": "-20% 9.99",
       "preco": "1.99"
+    },
+    {
+      "nome": "Maçã Gala de Alcobaça IGP",
+      "preco": "2.09"
+    },
+    {
+      "nome": "Maçã Gala de Alcobaça IGP",
+      "preco": "0.49"
+    },
+    {
+      "nome": "Plantas e flores cheias de frescura! Plantas Verdes Cerâmica Planta de interior Vaso: 6 cm",
+      "preco": "2.99"
+    },
+    {
+      "nome": "flores cheias de frescura! Plantas Verdes Cerâmica Planta de interior Vaso: 6 cm nº935353",
+      "preco": "2.99"
+    },
+    {
+      "nome": "Medalhões da Alcatra da América do Sul",
+      "preco": "4.99"
+    },
+    {
+      "nome": "Medalhões da Alcatra da América do Sul",
+      "preco": "4.99"
+    },
+    {
+      "nome": "nº3082 BELBAKE Farinha de Trigo sem Fermento",
+      "preco": "7.96"
     }
   ]
 }

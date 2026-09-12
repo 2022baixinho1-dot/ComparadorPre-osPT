@@ -2,6 +2,25 @@
   {
     "produtos": {
       "continente": {
+        "nome": "VAZIA DE BOVINO AMÉRICA DO SUL CONTINENTE CONGELADA",
+        "preco_hoje": 19.99
+      },
+      "lidl": {
+        "nome": "Tira da Vazia da América do Sul",
+        "preco_hoje": 29.99
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 10.0,
+    "poupanca_pct": 33.3,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "lidl": 83.33333333333333
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
         "nome": "DETERGENTE LÍQUIDO P/ MÁQUINA DA ROUPA SKIP ACTIVE CLEAN",
         "preco_hoje": 7.99
       },
@@ -20,13 +39,13 @@
   },
   {
     "produtos": {
-      "lidl": {
-        "nome": "Camarão Cozido 30/ 50",
-        "preco_hoje": 4.99
-      },
       "continente": {
         "nome": "CAMARÃO 30/50 COZIDO 66 30 %",
         "preco_hoje": 10.99
+      },
+      "lidl": {
+        "nome": "Camarão Cozido 30/ 50",
+        "preco_hoje": 4.99
       }
     },
     "mais_barato_hoje": "lidl",
@@ -34,7 +53,7 @@
     "poupanca_pct": 54.6,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "continente": 100
+      "lidl": 100
     }
   },
   {
@@ -177,13 +196,13 @@
   },
   {
     "produtos": {
-      "continente": {
-        "nome": "VINHO MONTE VELHO ALENTEJO, BRANCO/ ROSÉ/ TINTO",
-        "preco_hoje": 3.59
-      },
       "aldi": {
         "nome": "MONTE VELHO Vinho Regional Branco/ Tinto",
         "preco_hoje": 1.8
+      },
+      "continente": {
+        "nome": "VINHO MONTE VELHO ALENTEJO, BRANCO/ ROSÉ/ TINTO",
+        "preco_hoje": 3.59
       }
     },
     "mais_barato_hoje": "aldi",
@@ -191,18 +210,18 @@
     "poupanca_pct": 49.9,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "aldi": 100
+      "continente": 100
     }
   },
   {
     "produtos": {
-      "continente": {
-        "nome": "FRANGO DO CAMPO INTEIRO C/ MIÚDOS CONTINENTE SELEÇÃO 40",
-        "preco_hoje": 3.99
-      },
       "aldi": {
         "nome": "C ° Frango Inteiro Sem Miudos",
         "preco_hoje": 2.49
+      },
+      "continente": {
+        "nome": "FRANGO DO CAMPO INTEIRO C/ MIÚDOS CONTINENTE SELEÇÃO 40",
+        "preco_hoje": 3.99
       }
     },
     "mais_barato_hoje": "aldi",
@@ -210,7 +229,7 @@
     "poupanca_pct": 37.6,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "aldi": 100
+      "continente": 100
     }
   },
   {
@@ -234,13 +253,13 @@
   },
   {
     "produtos": {
-      "continente": {
-        "nome": "CEREAIS CHOCAPIC ORIGINAL",
-        "preco_hoje": 3.49
-      },
       "aldi": {
         "nome": "NESTLÉ Cereais Chocapic",
         "preco_hoje": 4.69
+      },
+      "continente": {
+        "nome": "CEREAIS CHOCAPIC ORIGINAL",
+        "preco_hoje": 3.49
       }
     },
     "mais_barato_hoje": "continente",
@@ -248,7 +267,7 @@
     "poupanca_pct": 25.6,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "aldi": 100
+      "continente": 100
     }
   },
   {
@@ -310,13 +329,13 @@
   },
   {
     "produtos": {
-      "continente": {
-        "nome": "CHOURIÇO CORRENTE CONTINENTE",
-        "preco_hoje": 4.99
-      },
       "lidl": {
         "nome": "FUMADINHO Chouriço Corrente",
         "preco_hoje": 4.19
+      },
+      "continente": {
+        "nome": "CHOURIÇO CORRENTE CONTINENTE",
+        "preco_hoje": 4.99
       }
     },
     "mais_barato_hoje": "lidl",
@@ -324,18 +343,18 @@
     "poupanca_pct": 16.0,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "lidl": 100
+      "continente": 100
     }
   },
   {
     "produtos": {
-      "continente": {
-        "nome": "BATATAS FRITAS RUFFLES SAL",
-        "preco_hoje": 2.19
-      },
       "aldi": {
         "nome": "compras realizadas nas suas lojas. Sabe mais em aldi.pt. RUFFLES Batatas Fritas Onduladas",
         "preco_hoje": 1.39
+      },
+      "continente": {
+        "nome": "BATATAS FRITAS RUFFLES SAL",
+        "preco_hoje": 2.19
       }
     },
     "mais_barato_hoje": "aldi",
@@ -343,7 +362,7 @@
     "poupanca_pct": 36.5,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "aldi": 100
+      "continente": 100
     }
   },
   {
@@ -443,13 +462,13 @@
   },
   {
     "produtos": {
-      "aldi": {
-        "nome": "Uva Branca sem Grainha/ Preta sem Grainha",
-        "preco_hoje": 2.19
-      },
       "continente": {
         "nome": "UVA BRANCA S/ GRAINHA CONTINENTE",
         "preco_hoje": 1.99
+      },
+      "aldi": {
+        "nome": "Uva Branca sem Grainha/ Preta sem Grainha",
+        "preco_hoje": 2.19
       }
     },
     "mais_barato_hoje": "continente",
@@ -457,7 +476,7 @@
     "poupanca_pct": 9.1,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "continente": 100
+      "aldi": 100
     }
   },
   {
@@ -500,13 +519,13 @@
   },
   {
     "produtos": {
-      "aldi": {
-        "nome": "DESCONTO GRESSO Leite Meio-gordo",
-        "preco_hoje": 0.85
-      },
       "continente": {
         "nome": "LEITE UHT GRESSO MEIO GORDO/ MAGRO",
         "preco_hoje": 0.86
+      },
+      "aldi": {
+        "nome": "DESCONTO GRESSO Leite Meio-gordo",
+        "preco_hoje": 0.85
       }
     },
     "mais_barato_hoje": "aldi",
@@ -514,26 +533,26 @@
     "poupanca_pct": 1.2,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "continente": 100
+      "aldi": 100
     }
   },
   {
     "produtos": {
-      "continente": {
-        "nome": "CEREAIS NESQUIK CHOCOLATE",
-        "preco_hoje": 3.34
-      },
       "lidl": {
         "nome": "mas lojas Lidl. *Face ao produto sempre disponível. 737/2026 - T.P. NESTLÉ Nesquik Cereais",
         "preco_hoje": 3.34
+      },
+      "continente": {
+        "nome": "CEREAIS NESQUIK CHOCOLATE",
+        "preco_hoje": 3.34
       }
     },
-    "mais_barato_hoje": "continente",
+    "mais_barato_hoje": "lidl",
     "poupanca_eur": 0.0,
     "poupanca_pct": 0.0,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "lidl": 100
+      "continente": 100
     }
   },
   {
@@ -586,7 +605,7 @@
     "poupanca_pct": 0.0,
     "proxima_alteracao": {
       "loja": "lidl",
-      "preco": 0.65,
+      "preco": 0.49,
       "a_partir_de": "2026-09-14"
     },
     "pontuacoes_correspondencia": {
@@ -1060,6 +1079,25 @@
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
       "aldi": 78.48101265822785
+    }
+  },
+  {
+    "produtos": {
+      "lidl": {
+        "nome": "nº82713 Batata Doce Nacional",
+        "preco_hoje": 3.98
+      }
+    },
+    "mais_barato_hoje": "lidl",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": {
+      "loja": "aldi",
+      "preco": 1.99,
+      "a_partir_de": "2026-09-14"
+    },
+    "pontuacoes_correspondencia": {
+      "aldi": 100.0
     }
   },
   {
