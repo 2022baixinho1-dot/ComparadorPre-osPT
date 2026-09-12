@@ -36,6 +36,11 @@ def guardar_historico(flyer_url: str, produtos: list[dict]) -> str:
     with open(caminho, "w", encoding="utf-8") as f:
         json.dump(conteudo, f, ensure_ascii=False, indent=2)
 
+    # cópia com nome fixo, para a página web ler sem saber a data de hoje
+    caminho_latest = os.path.join(DADOS_DIR, "latest.json")
+    with open(caminho_latest, "w", encoding="utf-8") as f:
+        json.dump(conteudo, f, ensure_ascii=False, indent=2)
+
     return caminho
 
 
