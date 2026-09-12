@@ -8,215 +8,321 @@
   "produtos": [
     {
       "nome": "A partir de sex. 11/9 a dom. 13/9 Salsichas Frescas de Porco",
-      "preco": "5.29"
+      "preco": "5.29",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "Camarão Cozido 30/ 50",
-      "preco": "4.99"
+      "preco": "4.99",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "MILBONA Queijo Flamengo em Fatias Original/ Light Pack Familiar",
-      "preco": "3.49"
+      "preco": "3.49",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "ALESTO Mix de Frutos Secos",
-      "preco": "2.15"
+      "preco": "2.15",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "BARESA Polpa de Tomate",
-      "preco": "1.39"
+      "preco": "1.39",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "Batata de Conservação Vermelha Nacional",
-      "preco": "10.39"
+      "preco": "10.39",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "-20% 12.99",
-      "preco": "9112910.49"
+      "preco": "9112910.49",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "Laranja Nacional IGP Citrinos do Algarve",
-      "preco": "0.95"
+      "preco": "0.95",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "6 unid. por Banana da Madeira",
-      "preco": "2.39"
+      "preco": "2.39",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "Batata de Conservação Vermelha Nacional",
-      "preco": "5.29"
+      "preco": "5.29",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "Perninha de Frango com Pimentão",
-      "preco": "5.99"
+      "preco": "5.99",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "Hambúrguer de Porco Preto",
-      "preco": "6.75"
+      "preco": "6.75",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "Tira da Vazia da América do Sul",
-      "preco": "12910.99"
+      "preco": "12910.99",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "Camarão Cozido 30/ 50",
-      "preco": "4.99"
+      "preco": "4.99",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "OCEAN SEA Lombos de Bacalhau",
-      "preco": "19.99"
+      "preco": "19.99",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "OCEAN SEA Migas de Paloco",
-      "preco": "2.59"
+      "preco": "2.59",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "PESCANOVA Postas de Pescada Nº3 do Cabo para Cozer",
-      "preco": "6.69"
+      "preco": "6.69",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "O OS CONSUMIDORES** EM **Sabe mais na capa do folheto. MIMOSA Manteiga com Sal sem Lactose",
-      "preco": "1.59"
+      "preco": "1.59",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "MILBONA Queijo Mozzarella Ralado",
-      "preco": "2.89"
+      "preco": "2.89",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "MCENNEDY Panquecas ao Estilo Americano",
-      "preco": "2.49"
+      "preco": "2.49",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "MILBONA Queijo Flamengo em Fatias Original/ Light Pack Familiar",
-      "preco": "3.49"
+      "preco": "3.49",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "FUMADINHO Chouriço Corrente",
-      "preco": "4.19"
+      "preco": "4.19",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "CHEF SELECT Cheeseburger de Frango",
-      "preco": "2.49"
+      "preco": "2.49",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "MONISSA Rissóis de Camarão XXL",
-      "preco": "1.99"
+      "preco": "1.99",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "mas lojas Lidl. *Face ao produto sempre disponível. 737/2026 - T.P. NESTLÉ Nesquik Cereais",
-      "preco": "3.34"
+      "preco": "3.34",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "OREO Bolachas Original",
-      "preco": "2.79"
+      "preco": "2.79",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "CALVÉ Maionese XXL",
-      "preco": "2.15"
+      "preco": "2.15",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "BOM PETISCO Atum ao Natural",
-      "preco": "1.29"
+      "preco": "1.29",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "CUÉTARA Bolacha Maria de Chocolate",
-      "preco": "1.29"
+      "preco": "1.29",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "RUFFLES Batata Fritas de Ketchup",
-      "preco": "1.39"
+      "preco": "1.39",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "BARESA Polpa de Tomate",
-      "preco": "1.39"
+      "preco": "1.39",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "FRESHONA Cogumelos Laminados",
-      "preco": "0.75"
+      "preco": "0.75",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "DO OS CONSUMIDORES** EM **Sabe mais na capa do folheto. FREEWAY Bebida Cola 0% Sem Cafeína",
-      "preco": "3.85"
+      "preco": "3.85",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "BANDIDA Sidra de Frutos Vermelhos",
-      "preco": "0.89"
+      "preco": "0.89",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "FRIZE Água com Gás Maracujá Pack 4x250 ml",
-      "preco": "2.29"
+      "preco": "2.29",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "JOI Refrigerante Laranja/ Maracujá",
-      "preco": "1.29"
+      "preco": "1.29",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "COMPAL Sumo 100% Maçã",
-      "preco": "1.49"
+      "preco": "1.49",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "COMPAL Néctar 100% Manga",
-      "preco": "1.49"
+      "preco": "1.49",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "FREEWAY Ice Tea Pêssego",
-      "preco": "0.99"
+      "preco": "0.99",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "L 1 L =",
-      "preco": "4.29"
+      "preco": "4.29",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "nº5906413 GARNIER Creme de Pentear Fructis Hidra Caracóis",
-      "preco": "6.29"
+      "preco": "6.29",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "COLHOGAR Papel Higiénico Ultra Suave",
-      "preco": "5.19"
+      "preco": "5.19",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "Perfume Utür Al-Yaqut Mulher/ Homem",
-      "preco": "9.99"
+      "preco": "9.99",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "COMFORT Amaciador para Roupa Creations Jasmim & Mirtilos 110 Doses",
-      "preco": "4.99"
+      "preco": "4.99",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "S** EM **Sabe mais na capa do folheto. A partir de sex. 11/9 a dom. 13/9 Moda e Acessórios",
-      "preco": "11.99"
+      "preco": "11.99",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "Highlights de FoodPARKSIDE Serra Telescópica 20 V sem Bateria",
-      "preco": "4.59"
+      "preco": "4.59",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "E Serra Telescópica 20 V sem Bateria nº494224 PARKSIDE Aspirador Vertical 20 V sem Bateria",
-      "preco": "4.59"
+      "preco": "4.59",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "Ramo de Flores da Época Nacional",
-      "preco": "2.19"
+      "preco": "2.19",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "20 Litros Molho de Rosas",
-      "preco": "3.99"
+      "preco": "3.99",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "Crisântemo Multiflora Planta de interior e exterior Vaso: 13 cm",
-      "preco": "1.99"
+      "preco": "1.99",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "Sanseveria Mix Planta de interior Vaso: 12 cm",
-      "preco": "5.99"
+      "preco": "5.99",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "Tira da Vazia da América do Sul",
-      "preco": "29.99"
+      "preco": "29.99",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     },
     {
       "nome": "PARKSIDE Ferramenta para Jardim",
-      "preco": "9.99"
+      "preco": "9.99",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
     }
   ]
 }

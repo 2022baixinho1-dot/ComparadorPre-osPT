@@ -329,13 +329,13 @@
   },
   {
     "produtos": {
-      "lidl": {
-        "nome": "FUMADINHO Chouriço Corrente",
-        "preco_hoje": 4.19
-      },
       "continente": {
         "nome": "CHOURIÇO CORRENTE CONTINENTE",
         "preco_hoje": 4.99
+      },
+      "lidl": {
+        "nome": "FUMADINHO Chouriço Corrente",
+        "preco_hoje": 4.19
       }
     },
     "mais_barato_hoje": "lidl",
@@ -343,18 +343,18 @@
     "poupanca_pct": 16.0,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "continente": 100
+      "lidl": 100
     }
   },
   {
     "produtos": {
-      "continente": {
-        "nome": "BATATAS FRITAS RUFFLES SAL",
-        "preco_hoje": 2.19
-      },
       "aldi": {
         "nome": "compras realizadas nas suas lojas. Sabe mais em aldi.pt. RUFFLES Batatas Fritas Onduladas",
         "preco_hoje": 1.39
+      },
+      "continente": {
+        "nome": "BATATAS FRITAS RUFFLES SAL",
+        "preco_hoje": 2.19
       }
     },
     "mais_barato_hoje": "aldi",
@@ -362,7 +362,7 @@
     "poupanca_pct": 36.5,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "aldi": 100
+      "continente": 100
     }
   },
   {
@@ -405,13 +405,13 @@
   },
   {
     "produtos": {
-      "aldi": {
-        "nome": "Moelas de Frango",
-        "preco_hoje": 1.99
-      },
       "continente": {
         "nome": "MOELAS DE FRANGO CONGELADAS",
         "preco_hoje": 2.49
+      },
+      "aldi": {
+        "nome": "Moelas de Frango",
+        "preco_hoje": 1.99
       }
     },
     "mais_barato_hoje": "aldi",
@@ -419,7 +419,7 @@
     "poupanca_pct": 20.1,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "continente": 100
+      "aldi": 100
     }
   },
   {
@@ -462,13 +462,13 @@
   },
   {
     "produtos": {
-      "continente": {
-        "nome": "UVA BRANCA S/ GRAINHA CONTINENTE",
-        "preco_hoje": 1.99
-      },
       "aldi": {
         "nome": "Uva Branca sem Grainha/ Preta sem Grainha",
         "preco_hoje": 2.19
+      },
+      "continente": {
+        "nome": "UVA BRANCA S/ GRAINHA CONTINENTE",
+        "preco_hoje": 1.99
       }
     },
     "mais_barato_hoje": "continente",
@@ -476,7 +476,7 @@
     "poupanca_pct": 9.1,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "aldi": 100
+      "continente": 100
     }
   },
   {
@@ -538,35 +538,16 @@
   },
   {
     "produtos": {
-      "continente": {
-        "nome": "CEREAIS NESQUIK CHOCOLATE",
-        "preco_hoje": 3.34
-      },
       "lidl": {
         "nome": "mas lojas Lidl. *Face ao produto sempre disponível. 737/2026 - T.P. NESTLÉ Nesquik Cereais",
         "preco_hoje": 3.34
-      }
-    },
-    "mais_barato_hoje": "continente",
-    "poupanca_eur": 0.0,
-    "poupanca_pct": 0.0,
-    "proxima_alteracao": null,
-    "pontuacoes_correspondencia": {
-      "lidl": 100
-    }
-  },
-  {
-    "produtos": {
-      "aldi": {
-        "nome": "NUTELLA Creme para Barrar",
-        "preco_hoje": 7.99
       },
       "continente": {
-        "nome": "CREME DE BARRAR NUTELLA",
-        "preco_hoje": 7.99
+        "nome": "CEREAIS NESQUIK CHOCOLATE",
+        "preco_hoje": 3.34
       }
     },
-    "mais_barato_hoje": "aldi",
+    "mais_barato_hoje": "lidl",
     "poupanca_eur": 0.0,
     "poupanca_pct": 0.0,
     "proxima_alteracao": null,
@@ -591,6 +572,25 @@
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
       "lidl": 100
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "CREME DE BARRAR NUTELLA",
+        "preco_hoje": 7.99
+      },
+      "aldi": {
+        "nome": "NUTELLA Creme para Barrar",
+        "preco_hoje": 7.99
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 100
     }
   },
   {

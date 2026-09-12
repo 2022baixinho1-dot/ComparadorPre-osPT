@@ -8,387 +8,579 @@
   "produtos": [
     {
       "nome": "Nº1 QUALIDADE PREÇO SEGUNDO OS CONSUMIDORES** EM PARKSIDE Serra Circular 1350 W",
-      "preco": "39.99"
+      "preco": "39.99",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "Frango Fresco com Miúdos",
-      "preco": "7.35"
+      "preco": "7.35",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "JP Vinho Tinto/ Branco Regional Península de Setúbal",
-      "preco": "2.19"
+      "preco": "2.19",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "Banana Rainforest Alliance",
-      "preco": "3.49"
+      "preco": "3.49",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "Cebola Nacional",
-      "preco": "2.19"
+      "preco": "2.19",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "Tomate Coração de Boi Nacional",
-      "preco": "5.49"
+      "preco": "5.49",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "Batata de Conservação Vermelha",
-      "preco": "2.29"
+      "preco": "2.29",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "Abacate",
-      "preco": "0.65"
+      "preco": "0.65",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "Melão Verde Nacional",
-      "preco": "1.59"
+      "preco": "1.59",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "Maçã Fuji",
-      "preco": "0.79"
+      "preco": "0.79",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "Banana",
-      "preco": "1.19"
+      "preco": "1.19",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "petivas insígnias. Compara e poupa Bolbos Floração de Primavera Planta de exterior nº51325",
-      "preco": "0.76"
+      "preco": "0.76",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "DO OS CONSUMIDORES** EM **Sabe mais na capa do folheto. Preparado de Carne Picada de Porco",
-      "preco": "15.99"
+      "preco": "15.99",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "Perninha de Peru",
-      "preco": "2.99"
+      "preco": "2.99",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "Escalopes de Novilho dos Açores",
-      "preco": "14.99"
+      "preco": "14.99",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "*Face ao produto sempre disponível. 738/2026 - T.P. PESCANOVA Postas Pescada Nº5 do Chile",
-      "preco": "8.99"
+      "preco": "8.99",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "PESCANOVA Medalhões de Pescada do Cabo",
-      "preco": "6.99"
+      "preco": "6.99",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "Robalo Escalado",
-      "preco": "13.99"
+      "preco": "13.99",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "PESCANOVA Lula Limpa",
-      "preco": "2.99"
+      "preco": "2.99",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "Salada Tex Mex",
-      "preco": "2.49"
+      "preco": "2.49",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "FUMADINHO Fiambre da Perna Extra",
-      "preco": "1.49"
+      "preco": "1.49",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "MILBONA Queijo Flamengo Fatias Redondas XXL",
-      "preco": "4.59"
+      "preco": "4.59",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "TRATTORIA ALFREDO Pizza Marguerita XXL",
-      "preco": "3.99"
+      "preco": "3.99",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "GELATELLI Gelado Chocolate Crisp",
-      "preco": "1.49"
+      "preco": "1.49",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "GELATELLI Tarte Gelada",
-      "preco": "1.95"
+      "preco": "1.95",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "CHEF SELECT Salada Exótica",
-      "preco": "2.75"
+      "preco": "2.75",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "CHAPARRO Azeite XXL",
-      "preco": "19.99"
+      "preco": "19.99",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "Ovos M/L Galinhas Criadas no Solo",
-      "preco": "4.95"
+      "preco": "4.95",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "MARIBEL Manteiga de Caju & Avelã/ Amêndoa",
-      "preco": "2.99"
+      "preco": "2.99",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "SNACK DAY Batata Frita Palha XXL",
-      "preco": "1.99"
+      "preco": "1.99",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "is com Lidl Plus de poupança semanal 62€ Dá Alesto à tua vida. ALESTO Amendoim com Mel XXL",
-      "preco": "1.99"
+      "preco": "1.99",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "1+1 Grátis 2 emb. por BELBAKE Avelãs",
-      "preco": "3.49"
+      "preco": "3.49",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "DUC DE COEUR Mini Gratinados Disponível em diversas variedades",
-      "preco": "3.49"
+      "preco": "3.49",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "DUC DE COEUR Crepes Açúcarados",
-      "preco": "1.89"
+      "preco": "1.89",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "l. 1338/2026 - T.P. Stock limitado DUC DE COEUR Trança de Brioche com Pedaços de Chocolate",
-      "preco": "3.99"
+      "preco": "3.99",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "DUC DE COEUR Trança de Brioche",
-      "preco": "3.29"
+      "preco": "3.29",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "DUC DE COEUR Brioche Chinois Clássico",
-      "preco": "2.99"
+      "preco": "2.99",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "DUC DE COEUR Brioche Chinois com Chocolate",
-      "preco": "3.49"
+      "preco": "3.49",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": ". A partir de seg. 14/9 a dom. 20/9 Stock limitado DUC DE COEUR Doce de Leite da Normandia",
-      "preco": "1.99"
+      "preco": "1.99",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "nº2514 IGLO Ervilhas",
-      "preco": "5.39"
+      "preco": "5.39",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "nº724/ 5914488 CARTE D'OR Gelado Tiramisu",
-      "preco": "3.99"
+      "preco": "3.99",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "ADE PREÇO SEGUNDO OS CONSUMIDORES** EM **Sabe mais na capa do folheto. CIGALA Arroz Agulha",
-      "preco": "2.50"
+      "preco": "2.50",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "RAMIREZ Atum em Azeite",
-      "preco": "3.99"
+      "preco": "3.99",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "GULLÓN Bolachas Vitalday Crocante Original/ Fruta e Fibras",
-      "preco": "1.29"
+      "preco": "1.29",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "MILANEZA Espirais",
-      "preco": "0.99"
+      "preco": "0.99",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "RAR Açúcar Amarelo",
-      "preco": "1.49"
+      "preco": "1.49",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "RAR Açúcar Branco",
-      "preco": "0.95"
+      "preco": "0.95",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "MIMOSA Leite Meio Gordo",
-      "preco": "0.89"
+      "preco": "0.89",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "LUSO Água Mineral",
-      "preco": "1.69"
+      "preco": "1.69",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "MONSTER Bebida Energy Green/ Ultra White sem Açúcar",
-      "preco": "2.19"
+      "preco": "2.19",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "SUPER BOCK Cerveja Pack Económico Pack 12x330 ml 1 L =",
-      "preco": "9.49"
+      "preco": "9.49",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "MINA DE PIAS Vinho Tinto",
-      "preco": "5.49"
+      "preco": "5.49",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "COMPAL Clássico Néctar de Pêra",
-      "preco": "10.49"
+      "preco": "10.49",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "51 Cachaça Pirassununga",
-      "preco": "1.39"
+      "preco": "1.39",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "BANG Spray Limpeza Pack Duplo Pack 2x500 ml nº8858 BREF Bloco Sanitário Poder Ativo Pinho",
-      "preco": "4.79"
+      "preco": "4.79",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "PERSIL Detergente em Gel para Máquina da Roupa Universal",
-      "preco": "1.95"
+      "preco": "1.95",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "SKIP Detergente para Máquina da Roupa Active Clean Cápsulas 3 em 1",
-      "preco": "14.99"
+      "preco": "14.99",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "COMFORT Amaciador para a Roupa Essência Azul 105 Doses",
-      "preco": "4.49"
+      "preco": "4.49",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "RENOVA Papel Higiénico Olé 2 Folhas",
-      "preco": "12.99"
+      "preco": "12.99",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "a Exclusivo Lidl A MELHOR SELEÇÃO DE VINHOS da tua região PAPA FIGOS Vinho Tinto Douro DOC",
-      "preco": "5.99"
+      "preco": "5.99",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "BARQUINHA Vinho Tinto Douro DOC Reserva",
-      "preco": "2.79"
+      "preco": "2.79",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "MURALHAS DE MONÇÃO Vinho Verde Rosé DOC",
-      "preco": "3.59"
+      "preco": "3.59",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "CASAL GARCIA Vinho Verde DOC",
-      "preco": "2.99"
+      "preco": "2.99",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "Exclusivo Lidl 91 88 91 87 88 Exclusivo Lidl 90 89 PACHECA Vinho Tinto Douro DOC Escolha",
-      "preco": "5.49"
+      "preco": "5.49",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "Lidl. *Face ao produto sempre disponível. VILA REAL Vinho Tinto/ Branco Douro DOC Premium",
-      "preco": "4.99"
+      "preco": "4.99",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "VINHA DO ROSÁRIO Vinho Tinto Regional Península de Setúbal",
-      "preco": "2.19"
+      "preco": "2.19",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "Mais de 200vinhos em loja SÃO BRAZ Vinho Tinto Regional Alentejano Reserva",
-      "preco": "2.99"
+      "preco": "2.99",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "MONSARAZ Vinho Tinto Regional Alentejano",
-      "preco": "3.49"
+      "preco": "3.49",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "HERDADE DOS GROUS Vinho Tinto Regional Alentejano",
-      "preco": "11.99"
+      "preco": "11.99",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "EA Vinho Tinto Regional Alentejano Reserva",
-      "preco": "6.99"
+      "preco": "6.99",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "ADEGA DE BORBA Vinho Tinto Alentejo DOC",
-      "preco": "2.89"
+      "preco": "2.89",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "ALMOCREVE Vinho Tinto Regional Alentejano Reserva",
-      "preco": "2.59"
+      "preco": "2.59",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "CASAL GARCIA Sangria Frutos Vermelhos",
-      "preco": "3.99"
+      "preco": "3.99",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "CAMPO LARGO Feijão Frade",
-      "preco": "2.29"
+      "preco": "2.29",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "OCEAN SEA Choco Limpo",
-      "preco": "5.99"
+      "preco": "5.99",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "CHEF SELECT Pizza Fiambre & Dupla Mozzarella",
-      "preco": "2.49"
+      "preco": "2.49",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "MORENAZOS Chocolate Preto",
-      "preco": "0.59"
+      "preco": "0.59",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "VITA D'OR Óleo Alimentar",
-      "preco": "1.99"
+      "preco": "1.99",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "nto da marcha em vazio 0–2800 rpm Capacidade de corte máx. 200 mm (madeira), 20 mm (metal)",
-      "preco": "9.99"
+      "preco": "9.99",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "-1€",
-      "preco": "27.99"
+      "preco": "27.99",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "-1€",
-      "preco": "1.79"
+      "preco": "1.79",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "€ Frango Fresco com Miúdos",
-      "preco": "84.68"
+      "preco": "84.68",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "nº83251 Kiwi",
-      "preco": "0.74"
+      "preco": "0.74",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "Banana Rainforest Alliance",
-      "preco": "1.05"
+      "preco": "1.05",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "Maçã Fuji",
-      "preco": "1.99"
+      "preco": "1.99",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "Tabuleiro de 6 Plantas Planta de exterior Vaso: 9 cm",
-      "preco": "1.49"
+      "preco": "1.49",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "Jarros em Vaso de Cerâmica Planta de interior Vaso: 12 cm",
-      "preco": "6.99"
+      "preco": "6.99",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "Regador com Flores Planta de interior Vaso: 6 cm",
-      "preco": "6.99"
+      "preco": "6.99",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "Caladium Planta de interior Vaso: 12 cm",
-      "preco": "5.99"
+      "preco": "5.99",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "Bolbos de Narcisos Planta de exterior",
-      "preco": "5.99"
+      "preco": "5.99",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "Lavanda em Vaso de Cerâmica Planta de interior e exterior Vaso: 12 cm",
-      "preco": "6.99"
+      "preco": "6.99",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "nº5900350 Bifes do Lombo de Porco Embalagem Familiar",
-      "preco": "5.10"
+      "preco": "5.10",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "Escalopes de Novilho dos Açores",
-      "preco": "6.99"
+      "preco": "6.99",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "CHEF SELECT Salada Exótica",
-      "preco": "1.29"
+      "preco": "1.29",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "RENOVA Papel Higiénico Olé 2 Folhas",
-      "preco": "8.99"
+      "preco": "8.99",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     },
     {
       "nome": "CAMPO LARGO Feijão Frade",
-      "preco": "1.95"
+      "preco": "1.95",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
     }
   ]
 }
