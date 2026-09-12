@@ -18,6 +18,8 @@ import json
 import os
 import re
 import unicodedata
+from collections import Counter
+from itertools import combinations
 
 from rapidfuzz import fuzz
 
@@ -97,6 +99,21 @@ def preco_razoavel(preco_str: str) -> bool:
         return False
 
 
+# Palavras genéricas de embalagem/preço/tamanho que, sozinhas, não
+# identificam produto nenhum. Vistas em produção como fragmentos
+# inteiros do parser do Aldi (ex: "CADA DOSE", "Mais cores",
+# "1 kg pack XXL") que passavam pelo filtro de nome_informativo por
+# terem 2+ palavras "normais", mas sem nenhuma delas dizer o que é o
+# produto.
+STOPWORDS_GENERICAS = {
+    "mais", "cores", "cor", "cada", "dose", "doses", "conjunto", "conjuntos",
+    "unidade", "unidades", "pack", "pares", "par", "anos", "ano",
+    "profissional", "couro", "variante", "variantes", "detalhe", "sortido",
+    "sortidas", "sortidos", "tamanhos", "tamanho", "medidas", "medida",
+    "aprox", "capacidade", "kg", "xxl", "xl",
+}
+
+
 def nome_informativo(nome: str, minimo_tokens: int = 2, tamanho_min_token: int = 3) -> bool:
     """
     Verifica se um nome de produto tem informação suficiente para uma
@@ -108,11 +125,16 @@ def nome_informativo(nome: str, minimo_tokens: int = 2, tamanho_min_token: int =
     por serem tão curtos e genéricos, acabam a corresponder por engano
     a qualquer produto que contenha essa palavra algures no nome (ex:
     "PREGUINHO DE VITELA EMBALADO" <-> "embalado"). Exigir pelo menos
-    duas palavras "a sério" (3+ letras) evita esse tipo de falso
-    positivo.
+    duas palavras "a sério" (3+ letras, e fora de STOPWORDS_GENERICAS)
+    evita esse tipo de falso positivo — incluindo casos como
+    "CADA DOSE" ou "Mais cores", que têm 2 palavras normais mas nenhuma
+    delas identifica o produto.
     """
     tokens = normalizar(nome).split()
-    tokens_uteis = [t for t in tokens if t.isalpha() and len(t) >= tamanho_min_token]
+    tokens_uteis = [
+        t for t in tokens
+        if t.isalpha() and len(t) >= tamanho_min_token and t not in STOPWORDS_GENERICAS
+    ]
     return len(tokens_uteis) >= minimo_tokens
 
 
@@ -387,6 +409,23 @@ def montar_resultado(grupos: list[dict]) -> list[dict]:
     return resultado
 
 
+def contar_por_par_lojas(resultado: list[dict]) -> Counter:
+    """
+    Conta quantas correspondências existem entre cada par de lojas
+    (ex: continente-aldi, continente-lidl, aldi-lidl). Útil para
+    perceber se alguma loja está a ficar sistematicamente de fora das
+    correspondências (pode ser sinal de um problema no parser dessa
+    loja, ou de um limiar mal calibrado). Um grupo com mais de 2 lojas
+    conta para todos os pares que o compõem.
+    """
+    contagem = Counter()
+    for item in resultado:
+        lojas_envolvidas = sorted(item["produtos"].keys())
+        for par in combinations(lojas_envolvidas, 2):
+            contagem[par] += 1
+    return contagem
+
+
 if __name__ == "__main__":
     rejeitadas, confirmadas = carregar_correcoes_manuais()
     print(f"Memória de correções: {len(confirmadas)} confirmada(s), {len(rejeitadas)} rejeitada(s)")
@@ -403,6 +442,9 @@ if __name__ == "__main__":
     resultado = montar_resultado(grupos)
 
     print(f"\nEncontrados {len(resultado)} produtos correspondentes entre pelo menos 2 lojas.")
+
+    for (loja_x, loja_y), n in contar_por_par_lojas(resultado).most_common():
+        print(f"  {loja_x} <-> {loja_y}: {n}")
 
     os.makedirs(os.path.join(DADOS_DIR, "comparacao"), exist_ok=True)
     caminho = os.path.join(DADOS_DIR, "comparacao", f"{datetime.date.today().isoformat()}.json")
