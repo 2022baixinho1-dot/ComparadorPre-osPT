@@ -72,6 +72,23 @@ def _preco_unidade(window: str) -> str | None:
     return f"{valor}€/{unidade}"
 
 
+VENDIDO_AO_KG_RE = re.compile(r'Vendido ao kg', re.IGNORECASE)
+
+
+def _preco_unidade_ou_vendido_ao_kg(window: str, price: str) -> str | None:
+    """
+    Como _preco_unidade, mas se não encontrar nada e o produto for
+    claramente vendido ao quilo ("Vendido ao kg"), usa o próprio preço
+    como preço por kg — o folheto não o repete à parte nesses casos.
+    """
+    unit_price = _preco_unidade(window)
+    if unit_price:
+        return unit_price
+    if VENDIDO_AO_KG_RE.search(window):
+        return f"{price.replace('.', ',')}€/KG"
+    return None
+
+
 def parse_products(pdf_text: str) -> list[dict]:
     """Extrai produtos (nome, preço, preço por unidade) do texto do PDF do folheto."""
     products = []
@@ -82,7 +99,7 @@ def parse_products(pdf_text: str) -> list[dict]:
         start_window = matches[i - 1].end() if i > 0 else 0
         window = pdf_text[start_window:m.start()]
 
-        preco_unidade = _preco_unidade(window)
+        preco_unidade = _preco_unidade_ou_vendido_ao_kg(window, price)
 
         name_part = FIM_DO_NOME_RE.split(window)[0]
         pieces = [p for p in NOISE_RE.split(name_part) if p.strip()]
@@ -105,7 +122,7 @@ def parse_products(pdf_text: str) -> list[dict]:
 
         price = precos[-1].group(1)
         window = trecho[precos[-1].end():]
-        preco_unidade = _preco_unidade(trecho)
+        preco_unidade = _preco_unidade_ou_vendido_ao_kg(trecho, price)
 
         name_part = FIM_DO_NOME_RE.split(window)[0]
         pieces = [p for p in NOISE_RE.split(name_part) if p.strip()]
