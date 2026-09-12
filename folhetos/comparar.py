@@ -353,8 +353,12 @@ def montar_resultado(grupos: list[dict], hoje: str | None = None) -> list[dict]:
 
         resultado.append({
             "produtos": {
-                loja: {"nome": p["nome"], "preco_hoje": precos_hoje.get(loja)}
-                for loja, p in produtos.items()
+                # só as lojas com preço válido HOJE — uma loja que só
+                # tenha oferta futura neste grupo não entra aqui (mas o
+                # preço futuro dela continua a ser considerado acima,
+                # em melhor_futuro)
+                loja: {"nome": produtos[loja]["nome"], "preco_hoje": preco}
+                for loja, preco in precos_hoje.items()
             },
             "mais_barato_hoje": loja_mais_barata,
             "poupanca_eur": poupanca_eur,
