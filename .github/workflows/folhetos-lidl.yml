@@ -2,9 +2,7 @@ name: Folhetos - Lidl
 
 on:
   workflow_dispatch:
-  schedule:
-    # Todas as segundas-feiras às 6:00 UTC, tal como o do Continente
-    - cron: "0 6 * * 1"
+
 
 permissions:
   contents: write
