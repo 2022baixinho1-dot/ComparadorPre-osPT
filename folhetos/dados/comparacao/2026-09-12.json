@@ -20,78 +20,6 @@
   {
     "produtos": {
       "continente": {
-        "nome": "DETERGENTE LÍQUIDO P/ MÁQUINA DA ROUPA SOFLAN",
-        "preco": 4.49
-      },
-      "aldi": {
-        "nome": "CADA DOSE PERSIL Detergente Cápsulas para Máquina da Roupa Universal 40 doses",
-        "preco": 9.99
-      }
-    },
-    "mais_barato": "continente",
-    "poupanca_eur": 5.5,
-    "poupanca_pct": 55.1,
-    "pontuacoes_correspondencia": {
-      "aldi": 76.05633802816902
-    }
-  },
-  {
-    "produtos": {
-      "continente": {
-        "nome": "VINHO VENTOZELO RESERVA, DOURO, BRANCO/ TINTO",
-        "preco": 7.99
-      },
-      "aldi": {
-        "nome": "VILA REAL Vinho Vinho Reserva DOC Branco/ Tinto",
-        "preco": 2.62
-      }
-    },
-    "mais_barato": "aldi",
-    "poupanca_eur": 5.37,
-    "poupanca_pct": 67.2,
-    "pontuacoes_correspondencia": {
-      "aldi": 80.48780487804878
-    }
-  },
-  {
-    "produtos": {
-      "continente": {
-        "nome": "QUEIJO FLAMENGO CAMPAINHA",
-        "preco": 6.99
-      },
-      "lidl": {
-        "nome": "MILBONA Queijo Flamengo em Fatias Original/ Light Pack Familiar",
-        "preco": 3.49
-      }
-    },
-    "mais_barato": "lidl",
-    "poupanca_eur": 3.5,
-    "poupanca_pct": 50.1,
-    "pontuacoes_correspondencia": {
-      "lidl": 75.0
-    }
-  },
-  {
-    "produtos": {
-      "continente": {
-        "nome": "VINHO LAGAR DE BURMESTER RESERVA, DOURO, BRANCO/ TINTO",
-        "preco": 5.49
-      },
-      "aldi": {
-        "nome": "CEVÊR Vinho Reserva DOC Tinto/ Branco Origem: Douro DOC;",
-        "preco": 3.49
-      }
-    },
-    "mais_barato": "aldi",
-    "poupanca_eur": 2.0,
-    "poupanca_pct": 36.4,
-    "pontuacoes_correspondencia": {
-      "aldi": 77.10843373493975
-    }
-  },
-  {
-    "produtos": {
-      "continente": {
         "nome": "ERVILHAS IGLO ULTRACONGELADAS",
         "preco": 5.39
       },
@@ -105,24 +33,6 @@
     "poupanca_pct": 35.3,
     "pontuacoes_correspondencia": {
       "aldi": 100
-    }
-  },
-  {
-    "produtos": {
-      "continente": {
-        "nome": "VINHO EA ALENTEJO, BRANCO/ ROSÉ/ TINTO",
-        "preco": 3.99
-      },
-      "aldi": {
-        "nome": "DESCONTO FIDALGO DOS PERDIGÕES Vinho Regional Branco/ Tinto/ Rosé",
-        "preco": 2.19
-      }
-    },
-    "mais_barato": "aldi",
-    "poupanca_eur": 1.8,
-    "poupanca_pct": 45.1,
-    "pontuacoes_correspondencia": {
-      "aldi": 79.3103448275862
     }
   },
   {
@@ -357,24 +267,6 @@
     "poupanca_pct": 5.4,
     "pontuacoes_correspondencia": {
       "aldi": 77.41935483870968
-    }
-  },
-  {
-    "produtos": {
-      "continente": {
-        "nome": "VINHO FRISANTE CASA PACIÊNCIA ROSÉ/ BRANCO",
-        "preco": 1.59
-      },
-      "aldi": {
-        "nome": "ALMA FRESCA Vinho Frisante Rosé",
-        "preco": 1.49
-      }
-    },
-    "mais_barato": "aldi",
-    "poupanca_eur": 0.1,
-    "poupanca_pct": 6.3,
-    "pontuacoes_correspondencia": {
-      "aldi": 76.0
     }
   },
   {
