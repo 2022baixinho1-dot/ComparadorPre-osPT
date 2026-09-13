@@ -4,7 +4,7 @@ Parser de produtos do Folheto Semanal do Lidl Portugal.
 Recebe o texto extraído do PDF do folheto (ver scraper_lidl.get_flyer_pdf_text)
 e devolve uma lista de produtos com nome, preço e preço por unidade.
 
-Padrão típico de cada produto no texto do PDF:
+Padrão "normal" de cada produto no texto do PDF:
     MARCA
     Nome do Produto
     Emb. 750 ml
@@ -14,57 +14,63 @@ Padrão típico de cada produto no texto do PDF:
     PVPR -46% 10.89
     Stock limitado
 
-Estratégia: ancorar no preço final, que é sempre o primeiro número
-decimal a aparecer depois do código "nº...". O nome do produto é o
-texto que vem antes disso, depois de remover ruído (preços residuais
-e badges do produto anterior, que por vezes ficam colados por causa
-da ordem de leitura do PDF). O preço por unidade ("1 kg = X.XX" ou
-"1 L = X.XX") aparece tipicamente logo antes do código "nº...", por
-isso é procurado na mesma janela de texto usada para extrair o nome,
-antes de essa janela ser recortada.
+Padrão "invertido" (muito comum em frutas, legumes e produtos vendidos
+ao quilo — descoberto ao investigar um caso real em que o Abacate
+aparecia com o preço do Melão, e o Melão com o preço da Maçã Fuji):
+    0.65
+    0.89-26%
+    Melão Verde
+    Nacional
+    Vendido ao kg
+    nº75/ 80580
 
-Exceção: produtos em destaque com o selo "Nº1 Qualidade Preço" têm
-uma ordem invertida — o preço aparece ANTES do nome e do código, não
-depois. Para esses casos, uma segunda passagem procura o preço solto
-que precede imediatamente o nome, sem texto de ruído pelo meio (para
-não confundir com o preço de outro produto mais distante no texto).
+Ou seja, aqui o preço vem ANTES do nome, logo a seguir ao preço (e
+código) do produto anterior — por isso, se só se olhar para "o
+primeiro número a seguir ao código", o código de UM produto acaba
+ligado ao preço do produto SEGUINTE por engano (o código está
+fisicamente colado ao preço errado no texto extraído do PDF).
+
+Estratégia (3 passagens, por ordem de prioridade):
+1. Padrão invertido: procura-se primeiro o par bem específico e fiável
+   "X.XX \n Y.YY-Z%" (preço final + preço anterior riscado + desconto).
+   O nome é o texto que vem A SEGUIR a este par, até ao código deste
+   mesmo produto. Esta zona de texto fica "reservada", para as
+   passagens seguintes não lhe voltarem a mexer.
+2. Padrão normal: código seguido do preço final, tal como descrito
+   acima — mas ignorando qualquer código/preço que já tenha sido
+   reservado pela passagem 1.
+3. Casos residuais (ex: selo "Nº1 Qualidade Preço"): quando um código
+   não tem preço nenhum a seguir, procura-se para trás o preço solto
+   mais próximo (sem ultrapassar uma zona já reservada, e sem repetir
+   um preço já usado por outro produto).
+
+O preço por unidade ("1 kg = X.XX" ou "1 L = X.XX") é sempre procurado
+na mesma janela de texto usada para o nome, antes de essa janela ser
+limpa — e é ignorado como candidato a "preço final" nas passagens 2/3,
+para não ser confundido com o preço do produto.
 """
 
 import re
 
-# Preço final: primeiro decimal depois do código "nº..."
 CODE_PRICE_RE = re.compile(r'nº[\d/\s]+?(\d+\.\d{2})', re.DOTALL)
-
-# Qualquer ocorrência de um código "nº...", com ou sem preço a seguir.
 CODIGO_RE = re.compile(r'nº[\d/\s]+')
-
-# Um preço "solto", sem contexto de código associado.
 PRECO_SOLTO_RE = re.compile(r'(\d+\.\d{2})')
-
-# Preço por unidade: "1 kg = 14.98" ou "1 L = 7.72" (aparece antes do "nº...").
-# Usa o primeiro que encontrar — nos casos com variante "c/ LP" (preço com
-# cartão de fidelização), a linha normal vem sempre primeiro no texto.
 UNIT_PRICE_RE = re.compile(r'1\s*(kg|[lL])\s*=\s*([\d]+[.,][\d]+)')
 
-# Ruído comum entre produtos: preços residuais, percentagens, badges e
-# frases promocionais genéricas que não fazem parte do nome do produto.
+# NOVO: par "preço final + preço anterior-desconto%" que aparece ANTES
+# do nome (ordem invertida) — comum em frutas/legumes/produtos ao kg.
+PRECO_INVERTIDO_RE = re.compile(r'(\d+\.\d{2})\s*\n?\s*(\d+\.\d{2})-\d+%')
+
 NOISE_RE = re.compile(
     r'-?\d+[.,]\d+\s*€?|PVPR|Stock limitado|Com Lidl Plus|Promoção|'
     r'Oportunidade\s+da\s+semana|PVP\s*\d+|-\s?\d+%|'
     r'Descobre\s+mais\s+no\s+nosso\s+folheto\s+especial\s+em\s+Lidl\.pt'
 )
-
-# O nome termina sempre antes de uma destas palavras (info de embalagem
-# ou modo de venda).
-FIM_DO_NOME_RE = re.compile(r'\bEmb\.|\bVendido ao kg\b|\bCada emb\.')
-
-# Comprimento máximo razoável — acima disto é quase certo que apanhámos
-# texto legal de rodapé (repete-se em todas as páginas) em vez do nome.
+FIM_DO_NOME_RE = re.compile(r'\bEmb\.|\bVendido ao kg\b|\bVendido à unid\.|\bCada emb\.')
 NOME_MAX_LEN = 90
 
 
-def _preco_unidade(window: str) -> str | None:
-    """Procura o padrão '1 kg = X.XX' / '1 L = X.XX' numa janela de texto."""
+def _preco_unidade(window: str):
     m = UNIT_PRICE_RE.search(window)
     if not m:
         return None
@@ -75,12 +81,7 @@ def _preco_unidade(window: str) -> str | None:
 VENDIDO_AO_KG_RE = re.compile(r'Vendido ao kg', re.IGNORECASE)
 
 
-def _preco_unidade_ou_vendido_ao_kg(window: str, price: str) -> str | None:
-    """
-    Como _preco_unidade, mas se não encontrar nada e o produto for
-    claramente vendido ao quilo ("Vendido ao kg"), usa o próprio preço
-    como preço por kg — o folheto não o repete à parte nesses casos.
-    """
+def _preco_unidade_ou_vendido_ao_kg(window: str, price: str):
     unit_price = _preco_unidade(window)
     if unit_price:
         return unit_price
@@ -89,47 +90,94 @@ def _preco_unidade_ou_vendido_ao_kg(window: str, price: str) -> str | None:
     return None
 
 
-def parse_products(pdf_text: str) -> list[dict]:
-    """Extrai produtos (nome, preço, preço por unidade) do texto do PDF do folheto."""
+def _limpar_nome(name_part, pegar_primeiro=False):
+    pieces = [p for p in NOISE_RE.split(name_part) if p.strip() and len(p.strip()) > 2]
+    if not pieces:
+        return " ".join(name_part.split())
+    escolhido = pieces[0] if pegar_primeiro else pieces[-1]
+    return " ".join(escolhido.split())
+
+
+def parse_products(pdf_text: str) -> list:
     products = []
-    matches = list(CODE_PRICE_RE.finditer(pdf_text))
+    zonas_usadas = []
+
+    # --- passagem 1: padrão invertido (preço ANTES do nome) ---
+    invertidos = list(PRECO_INVERTIDO_RE.finditer(pdf_text))
+    for i, m in enumerate(invertidos):
+        price = m.group(1)
+        fim = m.end()
+        limite = invertidos[i + 1].start() if i + 1 < len(invertidos) else len(pdf_text)
+        prox_codigo = CODIGO_RE.search(pdf_text, fim)
+        if prox_codigo and prox_codigo.start() < limite:
+            limite = prox_codigo.end()
+
+        window = pdf_text[fim:limite]
+        preco_unidade = _preco_unidade_ou_vendido_ao_kg(window, price)
+        name_part = FIM_DO_NOME_RE.split(window)[0]
+        name = _limpar_nome(name_part, pegar_primeiro=True)
+        name = name[-NOME_MAX_LEN:].strip() if len(name) > NOME_MAX_LEN else name
+
+        if name and len(name) > 2:
+            products.append({"nome": name, "preco": price, "preco_unidade": preco_unidade})
+            zonas_usadas.append((m.start(), limite))
+
+    def em_zona_usada(pos):
+        return any(a <= pos < b for a, b in zonas_usadas)
+
+    # --- passagem 2: ordem normal (código -> preço a seguir) ---
+    matches = [m for m in CODE_PRICE_RE.finditer(pdf_text) if not em_zona_usada(m.start(1))]
+    fins_zonas = sorted(fim for (_, fim) in zonas_usadas)
 
     for i, m in enumerate(matches):
         price = m.group(1)
-        start_window = matches[i - 1].end() if i > 0 else 0
+        fim_anterior = matches[i - 1].end() if i > 0 else 0
+        # nunca recuar para antes do fim de uma zona já reservada pela
+        # passagem 1, mesmo que o match anterior nesta lista (já
+        # filtrada) fique bem mais atrás no texto
+        fins_zona_antes = [f for f in fins_zonas if f <= m.start()]
+        start_window = max([fim_anterior] + fins_zona_antes)
         window = pdf_text[start_window:m.start()]
-
         preco_unidade = _preco_unidade_ou_vendido_ao_kg(window, price)
-
         name_part = FIM_DO_NOME_RE.split(window)[0]
-        pieces = [p for p in NOISE_RE.split(name_part) if p.strip()]
-        name = " ".join(pieces[-1].split()) if pieces else " ".join(name_part.split())
+        name = _limpar_nome(name_part, pegar_primeiro=False)
         name = name[-NOME_MAX_LEN:].strip() if len(name) > NOME_MAX_LEN else name
 
         if name and len(name) > 2:
             products.append({"nome": name, "preco": price, "preco_unidade": preco_unidade})
 
-    # 2ª passagem: produtos em destaque, onde o preço vem antes do nome.
+    # --- passagem 3: código sem preço a seguir (casos residuais) ---
+    precos_usados = set()
     for cm in CODIGO_RE.finditer(pdf_text):
+        if em_zona_usada(cm.start()):
+            continue
         if CODE_PRICE_RE.match(pdf_text, cm.start()):
-            continue  # já foi apanhado na 1ª passagem
+            continue
 
         inicio = max(0, cm.start() - 250)
+        fins_zona_antes = [f for f in fins_zonas if inicio <= f <= cm.start()]
+        if fins_zona_antes:
+            inicio = max(inicio, max(fins_zona_antes))
         trecho = pdf_text[inicio:cm.start()]
-        precos = list(PRECO_SOLTO_RE.finditer(trecho))
+
+        # ignora números que sejam o "preço por kg/L" (ex: "1 kg = 0.74"),
+        # para não confundir esse valor com o preço final do produto
+        zonas_unidade = [u.span() for u in UNIT_PRICE_RE.finditer(trecho)]
+        precos = [
+            p for p in PRECO_SOLTO_RE.finditer(trecho)
+            if not any(a <= p.start() < b for a, b in zonas_unidade)
+            and (inicio + p.start()) not in precos_usados
+        ]
         if not precos:
             continue
 
-        price = precos[-1].group(1)
+        price_match = precos[-1]
+        price = price_match.group(1)
         window = trecho[precos[-1].end():]
         preco_unidade = _preco_unidade_ou_vendido_ao_kg(trecho, price)
-
         name_part = FIM_DO_NOME_RE.split(window)[0]
-        pieces = [p for p in NOISE_RE.split(name_part) if p.strip()]
 
-        # só aceita quando não há ruído a mais entre o preço e o nome
-        # (evita apanhar por engano um preço de um produto mais distante,
-        # como acontece em referências/banners genéricos no folheto)
+        pieces = [p for p in NOISE_RE.split(name_part) if p.strip() and len(p.strip()) > 2]
         if len(pieces) != 1:
             continue
 
@@ -138,6 +186,7 @@ def parse_products(pdf_text: str) -> list[dict]:
 
         if name and len(name) > 2:
             products.append({"nome": name, "preco": price, "preco_unidade": preco_unidade})
+            precos_usados.add(inicio + price_match.start())
 
     return products
 
