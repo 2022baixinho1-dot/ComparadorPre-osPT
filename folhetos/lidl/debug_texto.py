@@ -12,8 +12,8 @@ from scraper_lidl import get_folhetos_nacionais_validos, get_flyer_pdf_text
 folhetos = get_folhetos_nacionais_validos()
 for flyer in folhetos:
     pdf_text = get_flyer_pdf_text(flyer)
-    if "Uva Branca" in pdf_text:
-        i = pdf_text.find("Uva Branca")
+    if "Alcobaça" in pdf_text:
+        i = pdf_text.find("Alcobaça")
         print(f"=== [{flyer['_categoria']}] {flyer['title']} ===")
-        print(repr(pdf_text[max(0, i - 400): i + 800]))
+        print(repr(pdf_text[max(0, i - 400): i + 400]))
         print()
