@@ -12,10 +12,8 @@ from scraper_lidl import get_folhetos_nacionais_validos, get_flyer_pdf_text
 folhetos = get_folhetos_nacionais_validos()
 for flyer in folhetos:
     pdf_text = get_flyer_pdf_text(flyer)
-    if "Abacate" in pdf_text:
-        i = pdf_text.find("Abacate")
+    if "Uva Branca" in pdf_text:
+        i = pdf_text.find("Uva Branca")
         print(f"=== [{flyer['_categoria']}] {flyer['title']} ===")
-        # janela bem maior: 200 antes, 2000 depois — para apanhar
-        # também o Melão e a Maçã Fuji que vêm a seguir na mesma zona
-        print(repr(pdf_text[max(0, i - 200): i + 2000]))
+        print(repr(pdf_text[max(0, i - 400): i + 800]))
         print()
