@@ -4,8 +4,204 @@
   "folheto": "A partir de 14/09",
   "valido_de": "2026-09-14",
   "valido_ate": "2026-09-20",
-  "total_produtos": 96,
+  "total_produtos": 107,
   "produtos": [
+    {
+      "nome": "JP Vinho Tinto/ Branco Regional Península de Setúbal",
+      "preco": "7.35",
+      "preco_unidade": "2,92€/L",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
+    },
+    {
+      "nome": "Marcas até",
+      "preco": "2.19",
+      "preco_unidade": "2,19€/KG",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
+    },
+    {
+      "nome": "Cebola Nacional",
+      "preco": "0.99",
+      "preco_unidade": "0,99€/KG",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
+    },
+    {
+      "nome": "Tomate Coração de Boi Nacional",
+      "preco": "2.19",
+      "preco_unidade": "2,19€/KG",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
+    },
+    {
+      "nome": "Abacate",
+      "preco": "2.29",
+      "preco_unidade": "3,28€/KG",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
+    },
+    {
+      "nome": "Mix de Frutos Vermelhos Nacional",
+      "preco": "4.79",
+      "preco_unidade": "11,98€/KG",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
+    },
+    {
+      "nome": "Melão Verde Nacional",
+      "preco": "0.65",
+      "preco_unidade": "0,65€/KG",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
+    },
+    {
+      "nome": "Maçã Fuji",
+      "preco": "1.59",
+      "preco_unidade": null,
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
+    },
+    {
+      "nome": "Perninha de Peru",
+      "preco": "15.99",
+      "preco_unidade": "15,99€/KG",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
+    },
+    {
+      "nome": "5.79 Promoção 6.19",
+      "preco": "2.99",
+      "preco_unidade": null,
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
+    },
+    {
+      "nome": "Escalopes de Novilho dos Açores",
+      "preco": "5.99",
+      "preco_unidade": "5,99€/KG",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
+    },
+    {
+      "nome": "MILBONA Queijo Flamengo Fatias Redondas XXL",
+      "preco": "1.49",
+      "preco_unidade": "9,18€/KG",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
+    },
+    {
+      "nome": "GELATELLI Gelado Chocolate Crisp",
+      "preco": "4.09",
+      "preco_unidade": "6,82€/L",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
+    },
+    {
+      "nome": "GELATELLI Tarte Gelada",
+      "preco": "1.49",
+      "preco_unidade": "2,29€/L",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
+    },
+    {
+      "nome": "ADE PREÇO SEGUNDO OS CONSUMIDORES** EM **Sabe mais na capa do folheto. CIGALA Arroz Agulha",
+      "preco": "14.99",
+      "preco_unidade": "1,25€/KG",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
+    },
+    {
+      "nome": "FINISH Ultimate Plus Pastilhas para Máquina de Loiça",
+      "preco": "7.35",
+      "preco_unidade": null,
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
+    },
+    {
+      "nome": "MURALHAS DE MONÇÃO Vinho Verde Rosé DOC",
+      "preco": "3.49",
+      "preco_unidade": "4,79€/L",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
+    },
+    {
+      "nome": "Lidl. *Face ao produto sempre disponível. VILA REAL Vinho Tinto/ Branco Douro DOC Premium",
+      "preco": "5.49",
+      "preco_unidade": "4,25€/L",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
+    },
+    {
+      "nome": "88 90",
+      "preco": "2.45",
+      "preco_unidade": null,
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
+    },
+    {
+      "nome": "JP Vinho Tinto/ Branco Regional Península de Setúbal",
+      "preco": "1.67",
+      "preco_unidade": "2,92€/L",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
+    },
+    {
+      "nome": "sponíveis em algumas lojas Lidl. *Face ao produto sempre disponível. 38/2026 - T.P. 21 WIP",
+      "preco": "2.19",
+      "preco_unidade": "3,99€/L",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
+    },
+    {
+      "nome": "artir de seg. 14/9 a dom. 20/9 mais os preços baixar ainda Em setembro, vale mesmo a pena.",
+      "preco": "1.85",
+      "preco_unidade": null,
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
+    },
+    {
+      "nome": "CAMPO LARGO Feijão Frade",
+      "preco": "1.49",
+      "preco_unidade": null,
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
+    },
+    {
+      "nome": "OCEAN SEA Choco Limpo",
+      "preco": "2.29",
+      "preco_unidade": "7,49€/KG",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
+    },
+    {
+      "nome": "CHEF SELECT Pizza Fiambre & Dupla Mozzarella",
+      "preco": "5.99",
+      "preco_unidade": "5,66€/KG",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
+    },
+    {
+      "nome": "MORENAZOS Chocolate Preto",
+      "preco": "0.89",
+      "preco_unidade": "5,93€/KG",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
+    },
+    {
+      "nome": "VITA D'OR Óleo Alimentar",
+      "preco": "0.59",
+      "preco_unidade": "1,66€/L",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
+    },
+    {
+      "nome": "da da profundidade com batente de revólver de 6 níveis e 7 velocidades de rotação nº525250",
+      "preco": "1.99",
+      "preco_unidade": null,
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
+    },
     {
       "nome": "Nº1 QUALIDADE PREÇO SEGUNDO OS CONSUMIDORES** EM PARKSIDE Serra Circular 1350 W",
       "preco": "39.99",
@@ -14,63 +210,14 @@
       "valido_ate": "2026-09-20"
     },
     {
-      "nome": "Frango Fresco com Miúdos",
-      "preco": "7.35",
-      "preco_unidade": "7,35€/KG",
-      "valido_de": "2026-09-14",
-      "valido_ate": "2026-09-20"
-    },
-    {
-      "nome": "JP Vinho Tinto/ Branco Regional Península de Setúbal",
-      "preco": "2.19",
-      "preco_unidade": "2,92€/L",
-      "valido_de": "2026-09-14",
-      "valido_ate": "2026-09-20"
-    },
-    {
-      "nome": "Banana Rainforest Alliance",
+      "nome": "Nectarina",
       "preco": "3.49",
-      "preco_unidade": "3,49€/KG",
+      "preco_unidade": null,
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
     {
-      "nome": "Cebola Nacional",
-      "preco": "2.19",
-      "preco_unidade": "2,19€/KG",
-      "valido_de": "2026-09-14",
-      "valido_ate": "2026-09-20"
-    },
-    {
-      "nome": "Tomate Coração de Boi Nacional",
-      "preco": "5.49",
-      "preco_unidade": "5,49€/KG",
-      "valido_de": "2026-09-14",
-      "valido_ate": "2026-09-20"
-    },
-    {
-      "nome": "Batata de Conservação Vermelha",
-      "preco": "2.29",
-      "preco_unidade": "0,74€/KG",
-      "valido_de": "2026-09-14",
-      "valido_ate": "2026-09-20"
-    },
-    {
-      "nome": "Abacate",
-      "preco": "0.65",
-      "preco_unidade": "3,28€/KG",
-      "valido_de": "2026-09-14",
-      "valido_ate": "2026-09-20"
-    },
-    {
-      "nome": "Melão Verde Nacional",
-      "preco": "1.59",
-      "preco_unidade": "1,59€/KG",
-      "valido_de": "2026-09-14",
-      "valido_ate": "2026-09-20"
-    },
-    {
-      "nome": "Maçã Fuji",
+      "nome": "Pepino Doce",
       "preco": "0.79",
       "preco_unidade": null,
       "valido_de": "2026-09-14",
@@ -91,21 +238,7 @@
       "valido_ate": "2026-09-20"
     },
     {
-      "nome": "DO OS CONSUMIDORES** EM **Sabe mais na capa do folheto. Preparado de Carne Picada de Porco",
-      "preco": "15.99",
-      "preco_unidade": "6,65€/KG",
-      "valido_de": "2026-09-14",
-      "valido_ate": "2026-09-20"
-    },
-    {
-      "nome": "Perninha de Peru",
-      "preco": "2.99",
-      "preco_unidade": "2,99€/KG",
-      "valido_de": "2026-09-14",
-      "valido_ate": "2026-09-20"
-    },
-    {
-      "nome": "Escalopes de Novilho dos Açores",
+      "nome": "Lombinhos de Frango",
       "preco": "14.99",
       "preco_unidade": "14,99€/KG",
       "valido_de": "2026-09-14",
@@ -147,37 +280,9 @@
       "valido_ate": "2026-09-20"
     },
     {
-      "nome": "FUMADINHO Fiambre da Perna Extra",
-      "preco": "1.49",
-      "preco_unidade": "7,45€/KG",
-      "valido_de": "2026-09-14",
-      "valido_ate": "2026-09-20"
-    },
-    {
-      "nome": "MILBONA Queijo Flamengo Fatias Redondas XXL",
-      "preco": "4.59",
-      "preco_unidade": "9,18€/KG",
-      "valido_de": "2026-09-14",
-      "valido_ate": "2026-09-20"
-    },
-    {
       "nome": "TRATTORIA ALFREDO Pizza Marguerita XXL",
       "preco": "3.99",
       "preco_unidade": "3,33€/KG",
-      "valido_de": "2026-09-14",
-      "valido_ate": "2026-09-20"
-    },
-    {
-      "nome": "GELATELLI Gelado Chocolate Crisp",
-      "preco": "1.49",
-      "preco_unidade": "6,82€/L",
-      "valido_de": "2026-09-14",
-      "valido_ate": "2026-09-20"
-    },
-    {
-      "nome": "GELATELLI Tarte Gelada",
-      "preco": "1.95",
-      "preco_unidade": "2,29€/L",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
@@ -294,13 +399,6 @@
       "valido_ate": "2026-09-20"
     },
     {
-      "nome": "ADE PREÇO SEGUNDO OS CONSUMIDORES** EM **Sabe mais na capa do folheto. CIGALA Arroz Agulha",
-      "preco": "2.50",
-      "preco_unidade": "1,25€/KG",
-      "valido_de": "2026-09-14",
-      "valido_ate": "2026-09-20"
-    },
-    {
       "nome": "RAMIREZ Atum em Azeite",
       "preco": "3.99",
       "preco_unidade": "12,42€/KG",
@@ -413,13 +511,6 @@
       "valido_ate": "2026-09-20"
     },
     {
-      "nome": "RENOVA Papel Higiénico Olé 2 Folhas",
-      "preco": "12.99",
-      "preco_unidade": null,
-      "valido_de": "2026-09-14",
-      "valido_ate": "2026-09-20"
-    },
-    {
       "nome": "a Exclusivo Lidl A MELHOR SELEÇÃO DE VINHOS da tua região PAPA FIGOS Vinho Tinto Douro DOC",
       "preco": "5.99",
       "preco_unidade": "7,99€/L",
@@ -434,13 +525,6 @@
       "valido_ate": "2026-09-20"
     },
     {
-      "nome": "MURALHAS DE MONÇÃO Vinho Verde Rosé DOC",
-      "preco": "3.59",
-      "preco_unidade": "4,79€/L",
-      "valido_de": "2026-09-14",
-      "valido_ate": "2026-09-20"
-    },
-    {
       "nome": "CASAL GARCIA Vinho Verde DOC",
       "preco": "2.99",
       "preco_unidade": "3,99€/L",
@@ -448,30 +532,9 @@
       "valido_ate": "2026-09-20"
     },
     {
-      "nome": "Exclusivo Lidl 91 88 91 87 88 Exclusivo Lidl 90 89 PACHECA Vinho Tinto Douro DOC Escolha",
-      "preco": "5.49",
-      "preco_unidade": "7,32€/L",
-      "valido_de": "2026-09-14",
-      "valido_ate": "2026-09-20"
-    },
-    {
-      "nome": "Lidl. *Face ao produto sempre disponível. VILA REAL Vinho Tinto/ Branco Douro DOC Premium",
+      "nome": "VILA REAL Vinho Tinto/ Branco Douro DOC Reserva",
       "preco": "4.99",
-      "preco_unidade": "4,25€/L",
-      "valido_de": "2026-09-14",
-      "valido_ate": "2026-09-20"
-    },
-    {
-      "nome": "VINHA DO ROSÁRIO Vinho Tinto Regional Península de Setúbal",
-      "preco": "2.19",
-      "preco_unidade": "2,23€/L",
-      "valido_de": "2026-09-14",
-      "valido_ate": "2026-09-20"
-    },
-    {
-      "nome": "Mais de 200vinhos em loja SÃO BRAZ Vinho Tinto Regional Alentejano Reserva",
-      "preco": "2.99",
-      "preco_unidade": "3,99€/L",
+      "preco_unidade": "3,27€/L",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
@@ -518,41 +581,6 @@
       "valido_ate": "2026-09-20"
     },
     {
-      "nome": "CAMPO LARGO Feijão Frade",
-      "preco": "2.29",
-      "preco_unidade": "7,16€/KG",
-      "valido_de": "2026-09-14",
-      "valido_ate": "2026-09-20"
-    },
-    {
-      "nome": "OCEAN SEA Choco Limpo",
-      "preco": "5.99",
-      "preco_unidade": "7,49€/KG",
-      "valido_de": "2026-09-14",
-      "valido_ate": "2026-09-20"
-    },
-    {
-      "nome": "CHEF SELECT Pizza Fiambre & Dupla Mozzarella",
-      "preco": "2.49",
-      "preco_unidade": "5,66€/KG",
-      "valido_de": "2026-09-14",
-      "valido_ate": "2026-09-20"
-    },
-    {
-      "nome": "MORENAZOS Chocolate Preto",
-      "preco": "0.59",
-      "preco_unidade": "5,93€/KG",
-      "valido_de": "2026-09-14",
-      "valido_ate": "2026-09-20"
-    },
-    {
-      "nome": "VITA D'OR Óleo Alimentar",
-      "preco": "1.99",
-      "preco_unidade": "1,66€/L",
-      "valido_de": "2026-09-14",
-      "valido_ate": "2026-09-20"
-    },
-    {
       "nome": "nto da marcha em vazio 0–2800 rpm Capacidade de corte máx. 200 mm (madeira), 20 mm (metal)",
       "preco": "9.99",
       "preco_unidade": null,
@@ -581,23 +609,9 @@
       "valido_ate": "2026-09-20"
     },
     {
-      "nome": "nº83251 Kiwi",
-      "preco": "0.74",
-      "preco_unidade": "0,74€/KG",
-      "valido_de": "2026-09-14",
-      "valido_ate": "2026-09-20"
-    },
-    {
       "nome": "Banana Rainforest Alliance",
       "preco": "1.05",
       "preco_unidade": "1,05€/KG",
-      "valido_de": "2026-09-14",
-      "valido_ate": "2026-09-20"
-    },
-    {
-      "nome": "Maçã Fuji",
-      "preco": "1.99",
-      "preco_unidade": "11,98€/KG",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
@@ -644,23 +658,65 @@
       "valido_ate": "2026-09-20"
     },
     {
-      "nome": "nº5900350 Bifes do Lombo de Porco Embalagem Familiar",
-      "preco": "5.10",
-      "preco_unidade": "5,10€/KG",
-      "valido_de": "2026-09-14",
-      "valido_ate": "2026-09-20"
-    },
-    {
-      "nome": "Escalopes de Novilho dos Açores",
-      "preco": "6.99",
-      "preco_unidade": "6,99€/KG",
-      "valido_de": "2026-09-14",
-      "valido_ate": "2026-09-20"
-    },
-    {
       "nome": "CHEF SELECT Salada Exótica",
       "preco": "1.29",
-      "preco_unidade": "6,82€/L",
+      "preco_unidade": null,
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
+    },
+    {
+      "nome": "MARIBEL Manteiga de Caju & Avelã/ Amêndoa",
+      "preco": "4.95",
+      "preco_unidade": "4,00€/L",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
+    },
+    {
+      "nome": "is com Lidl Plus de poupança semanal 62€ Dá Alesto à tua vida. ALESTO Amendoim com Mel XXL",
+      "preco": "1.99",
+      "preco_unidade": "3,98€/KG",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
+    },
+    {
+      "nome": "1+1 Grátis 2 emb. por BELBAKE Avelãs",
+      "preco": "3.49",
+      "preco_unidade": "9,95€/KG",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
+    },
+    {
+      "nome": "nº5602568 DUC DE COEUR Biscoito de Gengibre com Figos e Nozes",
+      "preco": "8.16",
+      "preco_unidade": "11,45€/KG",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
+    },
+    {
+      "nome": "nº724/ 5914488 CARTE D'OR Gelado Tiramisu",
+      "preco": "15.65",
+      "preco_unidade": "12,09€/L",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
+    },
+    {
+      "nome": "RAMIREZ Atum em Azeite",
+      "preco": "2.87",
+      "preco_unidade": "12,42€/KG",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
+    },
+    {
+      "nome": "MONSTER Bebida Energy Green/ Ultra White sem Açúcar",
+      "preco": "1.99",
+      "preco_unidade": "0,24€/L",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
+    },
+    {
+      "nome": "COMPAL Clássico Néctar de Pêssego Pack 3x200 ml 1 L =",
+      "preco": "1.74",
+      "preco_unidade": "14,99€/L",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     },
@@ -672,9 +728,30 @@
       "valido_ate": "2026-09-20"
     },
     {
-      "nome": "CAMPO LARGO Feijão Frade",
-      "preco": "1.95",
-      "preco_unidade": null,
+      "nome": "BARQUINHA Vinho Tinto Douro DOC Reserva",
+      "preco": "8.49",
+      "preco_unidade": "7,99€/L",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
+    },
+    {
+      "nome": "BARQUINHA Vinho Tinto Douro DOC Reserva",
+      "preco": "5.99",
+      "preco_unidade": "7,99€/L",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
+    },
+    {
+      "nome": "VINHA DO ROSÁRIO Vinho Tinto Regional Península de Setúbal",
+      "preco": "6.99",
+      "preco_unidade": "2,65€/L",
+      "valido_de": "2026-09-14",
+      "valido_ate": "2026-09-20"
+    },
+    {
+      "nome": "ALMOCREVE Vinho Tinto Regional Alentejano Reserva",
+      "preco": "3.99",
+      "preco_unidade": "9,32€/L",
       "valido_de": "2026-09-14",
       "valido_ate": "2026-09-20"
     }

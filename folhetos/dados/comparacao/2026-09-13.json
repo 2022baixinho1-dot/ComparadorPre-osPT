@@ -39,13 +39,13 @@
   },
   {
     "produtos": {
-      "lidl": {
-        "nome": "Camarão Cozido 30/ 50",
-        "preco_hoje": 4.99
-      },
       "continente": {
         "nome": "CAMARÃO 30/50 COZIDO 66 30 %",
         "preco_hoje": 10.99
+      },
+      "lidl": {
+        "nome": "Camarão Cozido 30/ 50",
+        "preco_hoje": 4.99
       }
     },
     "mais_barato_hoje": "lidl",
@@ -53,7 +53,7 @@
     "poupanca_pct": 54.6,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "continente": 100
+      "lidl": 100
     }
   },
   {
@@ -178,6 +178,25 @@
   {
     "produtos": {
       "continente": {
+        "nome": "MELOA GÁLIA/ CANTALUPE INTEIRA",
+        "preco_hoje": 1.49
+      },
+      "lidl": {
+        "nome": "Meloa Gália",
+        "preco_hoje": 3.99
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 2.5,
+    "poupanca_pct": 62.7,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "lidl": 100.0
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
         "nome": "LAVA TUDO AJAX LIMÃO/ LAVANDA/ CLÁSSICO",
         "preco_hoje": 2.99
       },
@@ -215,6 +234,25 @@
   },
   {
     "produtos": {
+      "lidl": {
+        "nome": "FUMADINHO Chouriço Corrente",
+        "preco_hoje": 3.49
+      },
+      "continente": {
+        "nome": "CHOURIÇO CORRENTE CONTINENTE",
+        "preco_hoje": 4.99
+      }
+    },
+    "mais_barato_hoje": "lidl",
+    "poupanca_eur": 1.5,
+    "poupanca_pct": 30.1,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "continente": 100
+    }
+  },
+  {
+    "produtos": {
       "continente": {
         "nome": "FRANGO DO CAMPO INTEIRO C/ MIÚDOS CONTINENTE SELEÇÃO 40",
         "preco_hoje": 3.99
@@ -239,7 +277,7 @@
         "preco_hoje": 2.99
       },
       "lidl": {
-        "nome": "FORMIL Spray Tira Nódoas",
+        "nome": ".79 FORMIL Spray Tira Nódoas",
         "preco_hoje": 4.49
       }
     },
@@ -310,13 +348,13 @@
   },
   {
     "produtos": {
-      "continente": {
-        "nome": "NÉCTAR COMPAL TUTTI FRUTTI/ PÊSSEGO/ MANGA,LARANJA",
-        "preco_hoje": 2.39
-      },
       "lidl": {
         "nome": "COMPAL Néctar 100% Manga",
         "preco_hoje": 1.49
+      },
+      "continente": {
+        "nome": "NÉCTAR COMPAL TUTTI FRUTTI/ PÊSSEGO/ MANGA,LARANJA",
+        "preco_hoje": 2.39
       }
     },
     "mais_barato_hoje": "lidl",
@@ -324,23 +362,23 @@
     "poupanca_pct": 37.7,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "lidl": 100
+      "continente": 100
     }
   },
   {
     "produtos": {
-      "lidl": {
-        "nome": "FUMADINHO Chouriço Corrente",
-        "preco_hoje": 4.19
+      "aldi": {
+        "nome": "compras realizadas nas suas lojas. Sabe mais em aldi.pt. RUFFLES Batatas Fritas Onduladas",
+        "preco_hoje": 1.39
       },
       "continente": {
-        "nome": "CHOURIÇO CORRENTE CONTINENTE",
-        "preco_hoje": 4.99
+        "nome": "BATATAS FRITAS RUFFLES SAL",
+        "preco_hoje": 2.19
       }
     },
-    "mais_barato_hoje": "lidl",
+    "mais_barato_hoje": "aldi",
     "poupanca_eur": 0.8,
-    "poupanca_pct": 16.0,
+    "poupanca_pct": 36.5,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
       "continente": 100
@@ -349,20 +387,20 @@
   {
     "produtos": {
       "continente": {
-        "nome": "BATATAS FRITAS RUFFLES SAL",
-        "preco_hoje": 2.19
+        "nome": "ARROZ BASMATI ORIENTE",
+        "preco_hoje": 3.99
       },
-      "aldi": {
-        "nome": "compras realizadas nas suas lojas. Sabe mais em aldi.pt. RUFFLES Batatas Fritas Onduladas",
-        "preco_hoje": 1.39
+      "lidl": {
+        "nome": "CAMPO LARGO Arroz Basmati XXL",
+        "preco_hoje": 3.29
       }
     },
-    "mais_barato_hoje": "aldi",
-    "poupanca_eur": 0.8,
-    "poupanca_pct": 36.5,
+    "mais_barato_hoje": "lidl",
+    "poupanca_eur": 0.7,
+    "poupanca_pct": 17.5,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "aldi": 100
+      "lidl": 76.47058823529412
     }
   },
   {
@@ -424,25 +462,6 @@
   },
   {
     "produtos": {
-      "continente": {
-        "nome": "MELOA GÁLIA/ CANTALUPE INTEIRA",
-        "preco_hoje": 1.49
-      },
-      "lidl": {
-        "nome": "Meloa Gália",
-        "preco_hoje": 0.99
-      }
-    },
-    "mais_barato_hoje": "lidl",
-    "poupanca_eur": 0.5,
-    "poupanca_pct": 33.6,
-    "proxima_alteracao": null,
-    "pontuacoes_correspondencia": {
-      "lidl": 100.0
-    }
-  },
-  {
-    "produtos": {
       "lidl": {
         "nome": "MIMOSA Leite com Chocolate Pack 4x200 ml 1 L =",
         "preco_hoje": 1.68
@@ -462,13 +481,13 @@
   },
   {
     "produtos": {
-      "continente": {
-        "nome": "UVA BRANCA S/ GRAINHA CONTINENTE",
-        "preco_hoje": 1.99
-      },
       "aldi": {
         "nome": "Uva Branca sem Grainha/ Preta sem Grainha",
         "preco_hoje": 2.19
+      },
+      "continente": {
+        "nome": "UVA BRANCA S/ GRAINHA CONTINENTE",
+        "preco_hoje": 1.99
       }
     },
     "mais_barato_hoje": "continente",
@@ -476,7 +495,7 @@
     "poupanca_pct": 9.1,
     "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
-      "aldi": 100
+      "continente": 100
     }
   },
   {
@@ -538,25 +557,6 @@
   },
   {
     "produtos": {
-      "aldi": {
-        "nome": "NUTELLA Creme para Barrar",
-        "preco_hoje": 7.99
-      },
-      "continente": {
-        "nome": "CREME DE BARRAR NUTELLA",
-        "preco_hoje": 7.99
-      }
-    },
-    "mais_barato_hoje": "aldi",
-    "poupanca_eur": 0.0,
-    "poupanca_pct": 0.0,
-    "proxima_alteracao": null,
-    "pontuacoes_correspondencia": {
-      "continente": 100
-    }
-  },
-  {
-    "produtos": {
       "lidl": {
         "nome": "IGLO Ervilhas",
         "preco_hoje": 5.39
@@ -567,6 +567,25 @@
       }
     },
     "mais_barato_hoje": "lidl",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "continente": 100
+    }
+  },
+  {
+    "produtos": {
+      "aldi": {
+        "nome": "NUTELLA Creme para Barrar",
+        "preco_hoje": 7.99
+      },
+      "continente": {
+        "nome": "CREME DE BARRAR NUTELLA",
+        "preco_hoje": 7.99
+      }
+    },
+    "mais_barato_hoje": "aldi",
     "poupanca_eur": 0.0,
     "poupanca_pct": 0.0,
     "proxima_alteracao": null,
@@ -605,7 +624,7 @@
     "poupanca_pct": 0.0,
     "proxima_alteracao": {
       "loja": "lidl",
-      "preco": 0.49,
+      "preco": 0.39,
       "a_partir_de": "2026-09-14"
     },
     "pontuacoes_correspondencia": {
@@ -649,6 +668,21 @@
     },
     "pontuacoes_correspondencia": {
       "aldi": 95.0
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "LOMBINHOS DE PORCO CONTINENTE 10",
+        "preco_hoje": 6.99
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "lidl": 77.41935483870968
     }
   },
   {
@@ -720,7 +754,7 @@
     "poupanca_pct": 0.0,
     "proxima_alteracao": {
       "loja": "lidl",
-      "preco": 4.59,
+      "preco": 1.49,
       "a_partir_de": "2026-09-14"
     },
     "pontuacoes_correspondencia": {
@@ -1017,7 +1051,7 @@
     "produtos": {
       "lidl": {
         "nome": "Hambúrguer de Porco Preto",
-        "preco_hoje": 6.75
+        "preco_hoje": 5.99
       }
     },
     "mais_barato_hoje": "lidl",
@@ -1030,6 +1064,21 @@
     },
     "pontuacoes_correspondencia": {
       "aldi": 75.67567567567568
+    }
+  },
+  {
+    "produtos": {
+      "lidl": {
+        "nome": "Bifes de Frango Panados",
+        "preco_hoje": 6.75
+      }
+    },
+    "mais_barato_hoje": "lidl",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 76.92307692307692
     }
   },
   {
@@ -1055,7 +1104,7 @@
     "produtos": {
       "lidl": {
         "nome": "Strogonoff de Frango",
-        "preco_hoje": 7.49
+        "preco_hoje": 3.99
       }
     },
     "mais_barato_hoje": "lidl",
@@ -1083,19 +1132,15 @@
   },
   {
     "produtos": {
-      "lidl": {
-        "nome": "nº82713 Batata Doce Nacional",
-        "preco_hoje": 3.98
+      "aldi": {
+        "nome": "IGLO Ervilhas",
+        "preco_hoje": 3.49
       }
     },
-    "mais_barato_hoje": "lidl",
+    "mais_barato_hoje": "aldi",
     "poupanca_eur": 0.0,
     "poupanca_pct": 0.0,
-    "proxima_alteracao": {
-      "loja": "aldi",
-      "preco": 1.99,
-      "a_partir_de": "2026-09-14"
-    },
+    "proxima_alteracao": null,
     "pontuacoes_correspondencia": {
       "aldi": 100.0
     }
@@ -1103,8 +1148,8 @@
   {
     "produtos": {
       "aldi": {
-        "nome": "IGLO Ervilhas",
-        "preco_hoje": 3.49
+        "nome": "VILA REAL Vinho Vinho Reserva DOC Branco/ Tinto",
+        "preco_hoje": 2.62
       }
     },
     "mais_barato_hoje": "aldi",

@@ -4,19 +4,180 @@
   "folheto": "A partir de 07/09",
   "valido_de": "2026-09-07",
   "valido_ate": "2026-09-13",
-  "total_produtos": 110,
+  "total_produtos": 118,
   "produtos": [
     {
-      "nome": "Manga Maturada",
+      "nome": "Bife de Peru Embalagem Familiar",
       "preco": "2.29",
       "preco_unidade": "2,29€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
-      "nome": "Bife de Peru Embalagem Familiar",
-      "preco": "8.19",
-      "preco_unidade": "8,19€/KG",
+      "nome": "Ameixa",
+      "preco": "1.19",
+      "preco_unidade": "1,78€/KG",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
+    },
+    {
+      "nome": "Figo",
+      "preco": "2.89",
+      "preco_unidade": "2,89€/KG",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
+    },
+    {
+      "nome": "Meloa Gália",
+      "preco": "3.99",
+      "preco_unidade": "3,99€/KG",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
+    },
+    {
+      "nome": "Uva Branca Nacional",
+      "preco": "1.69",
+      "preco_unidade": "1,69€/KG",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
+    },
+    {
+      "nome": "Uva Preta sem Grainha",
+      "preco": "2.39",
+      "preco_unidade": "3,98€/KG",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
+    },
+    {
+      "nome": "Strogonoff de Frango",
+      "preco": "3.99",
+      "preco_unidade": "3,99€/KG",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
+    },
+    {
+      "nome": "CHEF SELECT & YOU Salada com Coentros XXL",
+      "preco": "0.99",
+      "preco_unidade": "6,95€/KG",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
+    },
+    {
+      "nome": "eto. A partir de seg. 7/9 a dom. 13/9 Verão com o Lidl BON GELATI Gelado Caracol de Canela",
+      "preco": "0.60",
+      "preco_unidade": "2,99€/L",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
+    },
+    {
+      "nome": "Ovos Classe L de Galinhas Criadas no Solo",
+      "preco": "1.99",
+      "preco_unidade": null,
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
+    },
+    {
+      "nome": "PORTAL DO MINHO Vinho Verde Branco DOC Alvarinho",
+      "preco": "2.45",
+      "preco_unidade": "3,72€/L",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
+    },
+    {
+      "nome": "Mais de 200vinhos em loja ESTEVA Vinho Tinto Douro DOC",
+      "preco": "2.79",
+      "preco_unidade": "5,99€/L",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
+    },
+    {
+      "nome": "BARQUINHA Vinho Tinto Douro DOC Reserva",
+      "preco": "3.49",
+      "preco_unidade": "4,65€/L",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
+    },
+    {
+      "nome": "1 .41",
+      "preco": "1.99",
+      "preco_unidade": "7,38€/KG",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
+    },
+    {
+      "nome": "GUARANÁ Antarctica",
+      "preco": "1.35",
+      "preco_unidade": "1,23€/L",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
+    },
+    {
+      "nome": "setembro, vale mesmo a pena. SOLEVITA Néctar de Manga- -Laranja Light Pack 6x200 ml 1 L =",
+      "preco": "7.99",
+      "preco_unidade": "1,08€/L",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
+    },
+    {
+      "nome": "CONFISERIE FIRENZE Bolos com Cobertura de Chocolate",
+      "preco": "1.29",
+      "preco_unidade": "4,98€/KG",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
+    },
+    {
+      "nome": "CAMPO LARGO Feijão Branco",
+      "preco": "1.99",
+      "preco_unidade": null,
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
+    },
+    {
+      "nome": "CHEF SELECT Lasanha",
+      "preco": "1.49",
+      "preco_unidade": "5,48€/KG",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
+    },
+    {
+      "nome": "MILBONA Iogurte com Bolitas/ Ursitos",
+      "preco": "2.19",
+      "preco_unidade": "2,80€/KG",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
+    },
+    {
+      "nome": "COMBINO Laços",
+      "preco": "0.49",
+      "preco_unidade": "1,58€/KG",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
+    },
+    {
+      "nome": "CROWNFIELD Flocos Aveia Finos Formato Familiar",
+      "preco": "0.79",
+      "preco_unidade": null,
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
+    },
+    {
+      "nome": "HARVEST BASKET Batatas Rústicas",
+      "preco": "1.19",
+      "preco_unidade": "1,59€/KG",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
+    },
+    {
+      "nome": "BARESA Azeitonas Verdes Descaroçadas",
+      "preco": "1.09",
+      "preco_unidade": "6,41€/L",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
+    },
+    {
+      "nome": "Pack Poupança",
+      "preco": "7.99",
+      "preco_unidade": "0,93€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -35,51 +196,9 @@
       "valido_ate": "2026-09-13"
     },
     {
-      "nome": "Ameixa",
-      "preco": "0.89",
-      "preco_unidade": "1,78€/KG",
-      "valido_de": "2026-09-07",
-      "valido_ate": "2026-09-13"
-    },
-    {
-      "nome": "Framboesa Nacional",
-      "preco": "2.89",
-      "preco_unidade": "11,56€/KG",
-      "valido_de": "2026-09-07",
-      "valido_ate": "2026-09-13"
-    },
-    {
-      "nome": "Figo",
-      "preco": "3.99",
-      "preco_unidade": "3,99€/KG",
-      "valido_de": "2026-09-07",
-      "valido_ate": "2026-09-13"
-    },
-    {
-      "nome": "Meloa Gália",
-      "preco": "0.99",
-      "preco_unidade": "0,99€/KG",
-      "valido_de": "2026-09-07",
-      "valido_ate": "2026-09-13"
-    },
-    {
-      "nome": "6 - T.P. © 2026 & TM Spin Master Ltd. All rights reserved. Uva Rosada sem Grainha Nacional",
-      "preco": "1.69",
-      "preco_unidade": "3,38€/KG",
-      "valido_de": "2026-09-07",
-      "valido_ate": "2026-09-13"
-    },
-    {
-      "nome": "Uva Branca Nacional",
-      "preco": "2.39",
-      "preco_unidade": "2,39€/KG",
-      "valido_de": "2026-09-07",
-      "valido_ate": "2026-09-13"
-    },
-    {
-      "nome": "Uva Preta sem Grainha",
+      "nome": "Uva Preta Nacional",
       "preco": "2.99",
-      "preco_unidade": "3,98€/KG",
+      "preco_unidade": "2,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -133,13 +252,6 @@
       "valido_ate": "2026-09-13"
     },
     {
-      "nome": "Strogonoff de Frango",
-      "preco": "7.49",
-      "preco_unidade": "7,49€/KG",
-      "valido_de": "2026-09-07",
-      "valido_ate": "2026-09-13"
-    },
-    {
       "nome": "Bife de Peru Embalagem Familiar",
       "preco": "8.19",
       "preco_unidade": "8,19€/KG",
@@ -182,16 +294,9 @@
       "valido_ate": "2026-09-13"
     },
     {
-      "nome": "FUMADINHO Fiambre da Pá Finíssimo",
-      "preco": "0.99",
-      "preco_unidade": "6,60€/KG",
-      "valido_de": "2026-09-07",
-      "valido_ate": "2026-09-13"
-    },
-    {
-      "nome": "CHEF SELECT & YOU Salada com Coentros XXL",
+      "nome": "nº5909912 PRIMOR Manteiga",
       "preco": "3.99",
-      "preco_unidade": "6,95€/KG",
+      "preco_unidade": "9,98€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -199,20 +304,6 @@
       "nome": "CHEF SELECT Pizza Fiambre e Queijo",
       "preco": "2.15",
       "preco_unidade": "5,18€/KG",
-      "valido_de": "2026-09-07",
-      "valido_ate": "2026-09-13"
-    },
-    {
-      "nome": "MILBONA Iogurte Skyr com Fruta",
-      "preco": "0.60",
-      "preco_unidade": "4,00€/KG",
-      "valido_de": "2026-09-07",
-      "valido_ate": "2026-09-13"
-    },
-    {
-      "nome": "eto. A partir de seg. 7/9 a dom. 13/9 Verão com o Lidl BON GELATI Gelado Caracol de Canela",
-      "preco": "2.69",
-      "preco_unidade": "2,99€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -238,14 +329,7 @@
       "valido_ate": "2026-09-13"
     },
     {
-      "nome": "idl Por cada compra acumulas pontos que valem produtos e cupões monetários ALESTO Amêndoas",
-      "preco": "1.99",
-      "preco_unidade": "9,95€/KG",
-      "valido_de": "2026-09-07",
-      "valido_ate": "2026-09-13"
-    },
-    {
-      "nome": "Ovos Classe L de Galinhas Criadas no Solo",
+      "nome": "CAMPO LARGO Arroz Basmati XXL",
       "preco": "3.29",
       "preco_unidade": "1,65€/KG",
       "valido_de": "2026-09-07",
@@ -273,23 +357,9 @@
       "valido_ate": "2026-09-13"
     },
     {
-      "nome": "PORTAL DO MINHO Vinho Verde Branco DOC Alvarinho",
-      "preco": "2.79",
-      "preco_unidade": "3,72€/L",
-      "valido_de": "2026-09-07",
-      "valido_ate": "2026-09-13"
-    },
-    {
-      "nome": "Mais de 200vinhos em loja ESTEVA Vinho Tinto Douro DOC",
+      "nome": "Exclusivo Lidl 88 87 88 ESPÍRITO DO CÔA Vinho Tinto Douro DOC Reserva",
       "preco": "4.49",
       "preco_unidade": "5,99€/L",
-      "valido_de": "2026-09-07",
-      "valido_ate": "2026-09-13"
-    },
-    {
-      "nome": "BARQUINHA Vinho Tinto Douro DOC Reserva",
-      "preco": "4.49",
-      "preco_unidade": "4,65€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -329,9 +399,9 @@
       "valido_ate": "2026-09-13"
     },
     {
-      "nome": "ALMOCREVE Vinho Tinto Regional Alentejano",
+      "nome": "SUNNY DELIGHT Refrigerante Califórnia",
       "preco": "1.99",
-      "preco_unidade": "1,88€/L",
+      "preco_unidade": "1,55€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -504,20 +574,6 @@
       "valido_ate": "2026-09-13"
     },
     {
-      "nome": "COMPAL Néctar Vital Equilíbrio Manga Laranja",
-      "preco": "1.35",
-      "preco_unidade": null,
-      "valido_de": "2026-09-07",
-      "valido_ate": "2026-09-13"
-    },
-    {
-      "nome": "GUARANÁ Antarctica",
-      "preco": "1.85",
-      "preco_unidade": "1,23€/L",
-      "valido_de": "2026-09-07",
-      "valido_ate": "2026-09-13"
-    },
-    {
       "nome": "MACIEIRA Cream",
       "preco": "14.99",
       "preco_unidade": "21,41€/L",
@@ -602,65 +658,9 @@
       "valido_ate": "2026-09-13"
     },
     {
-      "nome": "TESORI Amaciador para a Roupa Disponível em diversas variedades",
-      "preco": "1.29",
-      "preco_unidade": "3,93€/L",
-      "valido_de": "2026-09-07",
-      "valido_ate": "2026-09-13"
-    },
-    {
-      "nome": "CONFISERIE FIRENZE Bolos com Cobertura de Chocolate",
-      "preco": "1.99",
-      "preco_unidade": "4,98€/KG",
-      "valido_de": "2026-09-07",
-      "valido_ate": "2026-09-13"
-    },
-    {
-      "nome": "CAMPO LARGO Feijão Branco",
-      "preco": "1.49",
-      "preco_unidade": null,
-      "valido_de": "2026-09-07",
-      "valido_ate": "2026-09-13"
-    },
-    {
-      "nome": "CHEF SELECT Lasanha",
-      "preco": "2.19",
-      "preco_unidade": "5,48€/KG",
-      "valido_de": "2026-09-07",
-      "valido_ate": "2026-09-13"
-    },
-    {
-      "nome": "MILBONA Iogurte com Bolitas/ Ursitos",
-      "preco": "0.49",
-      "preco_unidade": "2,80€/KG",
-      "valido_de": "2026-09-07",
-      "valido_ate": "2026-09-13"
-    },
-    {
-      "nome": "COMBINO Laços",
-      "preco": "0.79",
-      "preco_unidade": "1,58€/KG",
-      "valido_de": "2026-09-07",
-      "valido_ate": "2026-09-13"
-    },
-    {
-      "nome": "CROWNFIELD Flocos Aveia Finos Formato Familiar",
-      "preco": "0.99",
-      "preco_unidade": null,
-      "valido_de": "2026-09-07",
-      "valido_ate": "2026-09-13"
-    },
-    {
-      "nome": "HARVEST BASKET Batatas Rústicas",
-      "preco": "1.09",
-      "preco_unidade": "1,59€/KG",
-      "valido_de": "2026-09-07",
-      "valido_ate": "2026-09-13"
-    },
-    {
-      "nome": "BARESA Azeitonas Verdes Descaroçadas",
+      "nome": "SEGUNDO OS CONSUMIDORES* EM *Sabe mais na capa do folheto. W5 Spray Multiusos com Lixívia",
       "preco": "1.79",
-      "preco_unidade": "6,41€/L",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -686,14 +686,7 @@
       "valido_ate": "2026-09-13"
     },
     {
-      "nome": "Pack Poupança DOUSSY Amaciador Concentrado",
-      "preco": "1.79",
-      "preco_unidade": "0,93€/L",
-      "valido_de": "2026-09-07",
-      "valido_ate": "2026-09-13"
-    },
-    {
-      "nome": "FORMIL Spray Tira Nódoas",
+      "nome": ".79 FORMIL Spray Tira Nódoas",
       "preco": "4.49",
       "preco_unidade": "1,69€/L",
       "valido_de": "2026-09-07",
@@ -714,42 +707,105 @@
       "valido_ate": "2026-09-13"
     },
     {
-      "nome": "nº82713 Batata Doce Nacional",
-      "preco": "3.98",
-      "preco_unidade": "1,49€/KG",
+      "nome": "Mix Uva sem Grainha",
+      "preco": "2.99",
+      "preco_unidade": "2,98€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Uva Branca sem Grainha",
       "preco": "3.69",
-      "preco_unidade": "3,98€/KG",
+      "preco_unidade": "2,98€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
-      "nome": "nº5911775 PESCANOVA Mimos de Pescada",
-      "preco": "17.11",
+      "nome": "Uva Branca sem Grainha",
+      "preco": "2.99",
+      "preco_unidade": "2,98€/KG",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
+    },
+    {
+      "nome": "SWEETA Uva Branca sem Grainha",
+      "preco": "2.69",
+      "preco_unidade": "2,98€/KG",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
+    },
+    {
+      "nome": "CANEIRA Entremeada de Porco Assada",
+      "preco": "8.79",
+      "preco_unidade": "14,98€/KG",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
+    },
+    {
+      "nome": "CANEIRA Entremeada de Porco Assada",
+      "preco": "8.19",
+      "preco_unidade": "14,98€/KG",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
+    },
+    {
+      "nome": "OCEAN SEA Miolo de Camarão 20/40 XXL",
+      "preco": "5.99",
+      "preco_unidade": "29,16€/KG",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
+    },
+    {
+      "nome": "OCEAN SEA Miolo de Camarão 20/40 XXL",
+      "preco": "7.99",
       "preco_unidade": "8,88€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
-      "nome": "Ovos Classe L de Galinhas Criadas no Solo",
-      "preco": "3.75",
-      "preco_unidade": "9,95€/KG",
+      "nome": "91 88 PACHECA Vinho Branco Douro DOC Escolha",
+      "preco": "5.99",
+      "preco_unidade": "5,99€/L",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
+    },
+    {
+      "nome": "MONTE VELHO Vinho Tinto/ Branco/ Rosé Regional Alentejano",
+      "preco": "3.49",
+      "preco_unidade": "2,23€/L",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
+    },
+    {
+      "nome": "ALMOCREVE Vinho Tinto Regional Alentejano",
+      "preco": "7.99",
+      "preco_unidade": "15,99€/L",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
+    },
+    {
+      "nome": "CUÉTARA Flakes Cream Bomb",
+      "preco": "3.99",
+      "preco_unidade": "14,84€/KG",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
+    },
+    {
+      "nome": "VITALIS Água",
+      "preco": "9.89",
+      "preco_unidade": "0,99€/L",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
+    },
+    {
+      "nome": "TESORI Amaciador para a Roupa Disponível em diversas variedades",
+      "preco": "27.49",
+      "preco_unidade": "3,93€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
       "nome": "Lírio da Paz Planta de interior Vaso: 17 cm",
-      "preco": "2.99",
-      "preco_unidade": null,
-      "valido_de": "2026-09-07",
-      "valido_ate": "2026-09-13"
-    },
-    {
-      "nome": "z Planta de interior Vaso: 17 cm nº143494 Orquídea 2 Hastes Planta de interior Vaso: 12 cm",
       "preco": "2.99",
       "preco_unidade": null,
       "valido_de": "2026-09-07",

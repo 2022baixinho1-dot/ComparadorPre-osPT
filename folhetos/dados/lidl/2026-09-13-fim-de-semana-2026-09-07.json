@@ -4,33 +4,82 @@
   "folheto": "A partir de 07/09",
   "valido_de": "2026-09-07",
   "valido_ate": "2026-09-13",
-  "total_produtos": 53,
+  "total_produtos": 48,
   "produtos": [
     {
-      "nome": "A partir de sex. 11/9 a dom. 13/9 Salsichas Frescas de Porco",
+      "nome": "Camarão Cozido 30/ 50",
+      "preco": "5.29",
+      "preco_unidade": "9,98€/KG",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
+    },
+    {
+      "nome": "ALESTO Mix de Frutos Secos",
+      "preco": "3.49",
+      "preco_unidade": "10,75€/KG",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
+    },
+    {
+      "nome": "Ou 1 unid. por",
+      "preco": "0.95",
+      "preco_unidade": "0,95€/KG",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
+    },
+    {
+      "nome": "2 .49",
       "preco": "5.29",
       "preco_unidade": "5,29€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
-      "nome": "Camarão Cozido 30/ 50",
-      "preco": "4.99",
-      "preco_unidade": "9,98€/KG",
+      "nome": "Hambúrguer de Porco Preto",
+      "preco": "5.99",
+      "preco_unidade": "12,45€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
-      "nome": "MILBONA Queijo Flamengo em Fatias Original/ Light Pack Familiar",
+      "nome": "OCEAN SEA Lombos de Bacalhau",
+      "preco": "3.99",
+      "preco_unidade": "24,99€/KG",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
+    },
+    {
+      "nome": "MCENNEDY Panquecas ao Estilo Americano",
+      "preco": "2.89",
+      "preco_unidade": "8,30€/KG",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
+    },
+    {
+      "nome": "FUMADINHO Chouriço Corrente",
       "preco": "3.49",
-      "preco_unidade": "6,98€/KG",
+      "preco_unidade": null,
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
     {
-      "nome": "ALESTO Mix de Frutos Secos",
-      "preco": "2.15",
-      "preco_unidade": "10,75€/KG",
+      "nome": "MONISSA Rissóis de Camarão XXL",
+      "preco": "2.49",
+      "preco_unidade": "3,38€/KG",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
+    },
+    {
+      "nome": "BANDIDA Sidra de Frutos Vermelhos",
+      "preco": "3.85",
+      "preco_unidade": "2,70€/L",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
+    },
+    {
+      "nome": "vel. 937/2026 - T.P. COLGATE Pasta dos Dentes Total Regular Pack Duplo Pack 2x75 ml; 1 L =",
+      "preco": "4.29",
+      "preco_unidade": "33,20€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -56,37 +105,9 @@
       "valido_ate": "2026-09-13"
     },
     {
-      "nome": "Laranja Nacional IGP Citrinos do Algarve",
-      "preco": "0.95",
-      "preco_unidade": "0,95€/KG",
-      "valido_de": "2026-09-07",
-      "valido_ate": "2026-09-13"
-    },
-    {
-      "nome": "6 unid. por Banana da Madeira",
-      "preco": "2.39",
-      "preco_unidade": "2,39€/KG",
-      "valido_de": "2026-09-07",
-      "valido_ate": "2026-09-13"
-    },
-    {
-      "nome": "Batata de Conservação Vermelha Nacional",
-      "preco": "5.29",
-      "preco_unidade": "0,74€/KG",
-      "valido_de": "2026-09-07",
-      "valido_ate": "2026-09-13"
-    },
-    {
-      "nome": "Perninha de Frango com Pimentão",
-      "preco": "5.99",
-      "preco_unidade": "5,99€/KG",
-      "valido_de": "2026-09-07",
-      "valido_ate": "2026-09-13"
-    },
-    {
-      "nome": "Hambúrguer de Porco Preto",
+      "nome": "Bifes de Frango Panados",
       "preco": "6.75",
-      "preco_unidade": "12,45€/KG",
+      "preco_unidade": "6,75€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -101,13 +122,6 @@
       "nome": "Camarão Cozido 30/ 50",
       "preco": "4.99",
       "preco_unidade": "9,98€/KG",
-      "valido_de": "2026-09-07",
-      "valido_ate": "2026-09-13"
-    },
-    {
-      "nome": "OCEAN SEA Lombos de Bacalhau",
-      "preco": "19.99",
-      "preco_unidade": "24,99€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -129,48 +143,6 @@
       "nome": "O OS CONSUMIDORES** EM **Sabe mais na capa do folheto. MIMOSA Manteiga com Sal sem Lactose",
       "preco": "1.59",
       "preco_unidade": "9,76€/KG",
-      "valido_de": "2026-09-07",
-      "valido_ate": "2026-09-13"
-    },
-    {
-      "nome": "MILBONA Queijo Mozzarella Ralado",
-      "preco": "2.89",
-      "preco_unidade": "5,78€/KG",
-      "valido_de": "2026-09-07",
-      "valido_ate": "2026-09-13"
-    },
-    {
-      "nome": "MCENNEDY Panquecas ao Estilo Americano",
-      "preco": "2.49",
-      "preco_unidade": "8,30€/KG",
-      "valido_de": "2026-09-07",
-      "valido_ate": "2026-09-13"
-    },
-    {
-      "nome": "MILBONA Queijo Flamengo em Fatias Original/ Light Pack Familiar",
-      "preco": "3.49",
-      "preco_unidade": "6,98€/KG",
-      "valido_de": "2026-09-07",
-      "valido_ate": "2026-09-13"
-    },
-    {
-      "nome": "FUMADINHO Chouriço Corrente",
-      "preco": "4.19",
-      "preco_unidade": null,
-      "valido_de": "2026-09-07",
-      "valido_ate": "2026-09-13"
-    },
-    {
-      "nome": "CHEF SELECT Cheeseburger de Frango",
-      "preco": "2.49",
-      "preco_unidade": "7,78€/KG",
-      "valido_de": "2026-09-07",
-      "valido_ate": "2026-09-13"
-    },
-    {
-      "nome": "MONISSA Rissóis de Camarão XXL",
-      "preco": "1.99",
-      "preco_unidade": "3,38€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -231,20 +203,6 @@
       "valido_ate": "2026-09-13"
     },
     {
-      "nome": "DO OS CONSUMIDORES** EM **Sabe mais na capa do folheto. FREEWAY Bebida Cola 0% Sem Cafeína",
-      "preco": "3.85",
-      "preco_unidade": "0,35€/L",
-      "valido_de": "2026-09-07",
-      "valido_ate": "2026-09-13"
-    },
-    {
-      "nome": "BANDIDA Sidra de Frutos Vermelhos",
-      "preco": "0.89",
-      "preco_unidade": "2,70€/L",
-      "valido_de": "2026-09-07",
-      "valido_ate": "2026-09-13"
-    },
-    {
       "nome": "FRIZE Água com Gás Maracujá Pack 4x250 ml",
       "preco": "2.29",
       "preco_unidade": null,
@@ -280,16 +238,9 @@
       "valido_ate": "2026-09-13"
     },
     {
-      "nome": "L 1 L =",
-      "preco": "4.29",
-      "preco_unidade": "1,43€/L",
-      "valido_de": "2026-09-07",
-      "valido_ate": "2026-09-13"
-    },
-    {
-      "nome": "nº5906413 GARNIER Creme de Pentear Fructis Hidra Caracóis",
+      "nome": "GARNIER Creme de Pentear Fructis Hidra Caracóis",
       "preco": "6.29",
-      "preco_unidade": "33,20€/L",
+      "preco_unidade": "15,73€/L",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
@@ -330,7 +281,14 @@
     },
     {
       "nome": "E Serra Telescópica 20 V sem Bateria nº494224 PARKSIDE Aspirador Vertical 20 V sem Bateria",
-      "preco": "4.59",
+      "preco": "3.29",
+      "preco_unidade": "0,74€/KG",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
+    },
+    {
+      "nome": "Batata de Conservação Vermelha Nacional",
+      "preco": "2.99",
       "preco_unidade": "0,74€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
@@ -366,7 +324,14 @@
     {
       "nome": "Tira da Vazia da América do Sul",
       "preco": "29.99",
-      "preco_unidade": "12,45€/KG",
+      "preco_unidade": "29,99€/KG",
+      "valido_de": "2026-09-07",
+      "valido_ate": "2026-09-13"
+    },
+    {
+      "nome": "CALVÉ Maionese XXL",
+      "preco": "4.29",
+      "preco_unidade": "5,34€/KG",
       "valido_de": "2026-09-07",
       "valido_ate": "2026-09-13"
     },
