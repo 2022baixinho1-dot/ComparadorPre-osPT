@@ -1,0 +1,185 @@
+{
+  "data_execucao": "2026-10-05",
+  "categoria": "fim-de-semana",
+  "folheto": "A partir de 09/10",
+  "valido_de": "2026-10-09",
+  "valido_ate": "2026-10-11",
+  "total_produtos": 25,
+  "produtos": [
+    {
+      "nome": "GLEBA Cacetinho Cada unid. 70 g 100 g =",
+      "preco": "3.19",
+      "preco_unidade": null,
+      "valido_de": "2026-10-09",
+      "valido_ate": "2026-10-11"
+    },
+    {
+      "nome": "Alho Seco Nacional",
+      "preco": "3.49",
+      "preco_unidade": "3,49€/KG",
+      "valido_de": "2026-10-09",
+      "valido_ate": "2026-10-11"
+    },
+    {
+      "nome": "Hambúrguer Misto",
+      "preco": "3.19",
+      "preco_unidade": "6,86€/KG",
+      "valido_de": "2026-10-09",
+      "valido_ate": "2026-10-11"
+    },
+    {
+      "nome": "OCEAN SEA Peixe Espada Preto à Posta",
+      "preco": "7.99",
+      "preco_unidade": "9,99€/KG",
+      "valido_de": "2026-10-09",
+      "valido_ate": "2026-10-11"
+    },
+    {
+      "nome": "Plus de poupança semanal 50€ MILBONA Iogurte Líquido Magro de Morango Pack 4x170 g; 1 kg =",
+      "preco": "1.39",
+      "preco_unidade": "1,75€/KG",
+      "valido_de": "2026-10-09",
+      "valido_ate": "2026-10-11"
+    },
+    {
+      "nome": "CHEF SELECT Caldo Verde com Chouriço",
+      "preco": "1.19",
+      "preco_unidade": "2,73€/KG",
+      "valido_de": "2026-10-09",
+      "valido_ate": "2026-10-11"
+    },
+    {
+      "nome": "T.P. Nº1 QUALIDADE PREÇO SEGUNDO OS CONSUMIDORES** EM **Sabe mais na capa do folheto. Até",
+      "preco": "0.59",
+      "preco_unidade": "1,00€/L",
+      "valido_de": "2026-10-09",
+      "valido_ate": "2026-10-11"
+    },
+    {
+      "nome": "CIEN Creme Facial Dia/ Noite Gold",
+      "preco": "1.79",
+      "preco_unidade": null,
+      "valido_de": "2026-10-09",
+      "valido_ate": "2026-10-11"
+    },
+    {
+      "nome": "T.P. Nº1 QUALIDADE PREÇO SEGUNDO OS CONSUMIDORES** EM **Sabe mais na capa do folheto. Até",
+      "preco": "3.99",
+      "preco_unidade": null,
+      "valido_de": "2026-10-09",
+      "valido_ate": "2026-10-11"
+    },
+    {
+      "nome": "LUSO Água Mineral",
+      "preco": "0.99",
+      "preco_unidade": "0,45€/L",
+      "valido_de": "2026-10-09",
+      "valido_ate": "2026-10-11"
+    },
+    {
+      "nome": "5+1 Grátis",
+      "preco": "19.99",
+      "preco_unidade": null,
+      "valido_de": "2026-10-09",
+      "valido_ate": "2026-10-11"
+    },
+    {
+      "nome": "Banana Rainforest Alliance",
+      "preco": "0.99",
+      "preco_unidade": "0,99€/KG",
+      "valido_de": "2026-10-09",
+      "valido_ate": "2026-10-11"
+    },
+    {
+      "nome": "flores cheias de frescura! Crisântemo Multiflora Planta de interior e exterior Vaso: 13 cm",
+      "preco": "1.99",
+      "preco_unidade": null,
+      "valido_de": "2026-10-09",
+      "valido_ate": "2026-10-11"
+    },
+    {
+      "nome": "em algumas lojas Lidl. *Face ao produto sempre disponível. 541/2026 - T.P. Salmão em Posta",
+      "preco": "14.99",
+      "preco_unidade": "14,99€/KG",
+      "valido_de": "2026-10-09",
+      "valido_ate": "2026-10-11"
+    },
+    {
+      "nome": "Dourada",
+      "preco": "3.99",
+      "preco_unidade": "16,63€/KG",
+      "valido_de": "2026-10-09",
+      "valido_ate": "2026-10-11"
+    },
+    {
+      "nome": "nº1009150 FUMADINHO Peito de Frango Finíssimo",
+      "preco": "3.95",
+      "preco_unidade": "3,21€/KG",
+      "valido_de": "2026-10-09",
+      "valido_ate": "2026-10-11"
+    },
+    {
+      "nome": "mpre disponível. 741/2026 - T.P. GULLÓN Vitalday Bolachas Crocantes de Cereais e Chocolate",
+      "preco": "1.00",
+      "preco_unidade": "4,96€/KG",
+      "valido_de": "2026-10-09",
+      "valido_ate": "2026-10-11"
+    },
+    {
+      "nome": "nº1800062 TORRE DE FERRO Vinho Tinto Branco/ Rosé Dão DOC",
+      "preco": "1.79",
+      "preco_unidade": "1,26€/L",
+      "valido_de": "2026-10-09",
+      "valido_ate": "2026-10-11"
+    },
+    {
+      "nome": "RED BULL Bebida Energética Classic",
+      "preco": "1.19",
+      "preco_unidade": "5,00€/L",
+      "valido_de": "2026-10-09",
+      "valido_ate": "2026-10-11"
+    },
+    {
+      "nome": "5+1 Grátis",
+      "preco": "4.95",
+      "preco_unidade": "11,95€/L",
+      "valido_de": "2026-10-09",
+      "valido_ate": "2026-10-11"
+    },
+    {
+      "nome": "iro. Para mais informações, consulta o regulamento do concurso em www.lidl.pt o que achas?",
+      "preco": "24.99",
+      "preco_unidade": null,
+      "valido_de": "2026-10-09",
+      "valido_ate": "2026-10-11"
+    },
+    {
+      "nome": "Suculentas Mix Nacionais Planta de interior ou exterior Vaso: 14 cm",
+      "preco": "3.99",
+      "preco_unidade": null,
+      "valido_de": "2026-10-09",
+      "valido_ate": "2026-10-11"
+    },
+    {
+      "nome": "nº5915607 DULANO Salsichas Bockwurst",
+      "preco": "4.96",
+      "preco_unidade": "8,86€/KG",
+      "valido_de": "2026-10-09",
+      "valido_ate": "2026-10-11"
+    },
+    {
+      "nome": "nº76409 CIEN Creme Hidratante",
+      "preco": "3.58",
+      "preco_unidade": "11,95€/L",
+      "valido_de": "2026-10-09",
+      "valido_ate": "2026-10-11"
+    },
+    {
+      "nome": "nas autoafiáveis em aço inoxidável Até 40 minutos de autonomia Inclui 4 cabeças acessórias",
+      "preco": "55.99",
+      "preco_unidade": null,
+      "valido_de": "2026-10-09",
+      "valido_ate": "2026-10-11"
+    }
+  ]
+}

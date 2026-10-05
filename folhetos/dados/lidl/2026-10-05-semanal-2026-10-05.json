@@ -1,0 +1,549 @@
+{
+  "data_execucao": "2026-10-05",
+  "categoria": "semanal",
+  "folheto": "Halloween",
+  "valido_de": "2026-10-05",
+  "valido_ate": "2026-11-01",
+  "total_produtos": 77,
+  "produtos": [
+    {
+      "nome": "CONSUMIDORES** EM Do disfarce à doçura, um Halloween de loucura! HULTÉN Caveira com Doces",
+      "preco": "5.99",
+      "preco_unidade": "16,49€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "HALLOWEEN Caramelos de Fruta",
+      "preco": "5.49",
+      "preco_unidade": "4,99€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "Cada emb.",
+      "preco": "2.59",
+      "preco_unidade": "13,27€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "HALLOWEEN Morcegos/ Vampiros de Chocolate",
+      "preco": "2.99",
+      "preco_unidade": null,
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "HALLOWEEN Figuras de Chocolate",
+      "preco": "0.99",
+      "preco_unidade": "19,93€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "s em algumas lojas Lidl. *Face ao produto sempre disponível. 341/2026 - T.P. SMARTIES Mini",
+      "preco": "3.99",
+      "preco_unidade": "21,34€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "NESTLÉ Kit Kat 3 Un.",
+      "preco": "2.99",
+      "preco_unidade": "24,02€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "Sempre disponível KITKAT Chunky Peanut Butter",
+      "preco": "1.09",
+      "preco_unidade": "21,37€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "Sempre disponível REESE'S Chocolate Peanut Butter Cups",
+      "preco": "1.79",
+      "preco_unidade": null,
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "veis em algumas lojas Lidl. *Face ao produto sempre disponível. 4 41/2026 - T.P. LION Mini",
+      "preco": "3.19",
+      "preco_unidade": "12,58€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "Sempre disponível MISTER CHOC Mini Barras de Amendoim e Chocolate",
+      "preco": "2.99",
+      "preco_unidade": "8,54€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "Sempre disponível MISTER CHOC Mini Party Selection",
+      "preco": "3.99",
+      "preco_unidade": "7,98€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "Sempre disponível TWIX/ MARS/SNICKERS Minis",
+      "preco": "1.19",
+      "preco_unidade": "17,58€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "O vício do Drácula! KINDER Chocolate Happy Halloween",
+      "preco": "3.69",
+      "preco_unidade": "30,25€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "KINDER Chocolate Mini",
+      "preco": "1.89",
+      "preco_unidade": "20,75€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "HALLOWEEN Brownies",
+      "preco": "2.19",
+      "preco_unidade": "15,75€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "HALLOWEEN Bolachas de Abóbora com Cobertura de Chocolate",
+      "preco": "1.99",
+      "preco_unidade": "10,95€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "HALLOWEEN Bolachas de Chocolate com Drageias de Chocolate",
+      "preco": "4.49",
+      "preco_unidade": "12,60€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "DR. OETKER Brownies Assustadores",
+      "preco": "1.55",
+      "preco_unidade": "14,53€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "RAGOLDS Caveiras Ácidas",
+      "preco": "2.99",
+      "preco_unidade": null,
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "MINIONS Gomas",
+      "preco": "1.29",
+      "preco_unidade": "12,46€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "TROLLI Gomas Fruta Tarântula",
+      "preco": "5.49",
+      "preco_unidade": "6,86€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "TROLLI Gomas Fruta Halloween Sweet&Sour",
+      "preco": "4.49",
+      "preco_unidade": "12,47€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "l. *Face ao produto sempre disponível. 941/2026 - T.P. SWEET CORNER Gomas Doces Crocodilos",
+      "preco": "1.65",
+      "preco_unidade": "5,50€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "Sempre disponível SWEET CORNER Gomas Sortidas Doces e Ácidas em Caixa",
+      "preco": "5.99",
+      "preco_unidade": "5,45€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "Sempre disponível SWEET CORNER Gomas Ácidas Minhocas",
+      "preco": "1.99",
+      "preco_unidade": "4,98€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "Sempre disponível SWEET CORNER Party Mix",
+      "preco": "2.99",
+      "preco_unidade": "7,04€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "as Lidl. *Face ao produto sempre disponível. 10 41/2026 - T.P. SWEET CORNER Gomas Cool Mix",
+      "preco": "1.65",
+      "preco_unidade": "5,50€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "Sempre disponível SWEET CORNER Gomas Space Mix",
+      "preco": "1.65",
+      "preco_unidade": "5,50€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "Sempre disponível SWEET CORNER Gomas Frutas Tropicais",
+      "preco": "1.69",
+      "preco_unidade": "5,63€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "Sempre disponível HARIBO Mega-Roulette",
+      "preco": "0.59",
+      "preco_unidade": null,
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "HALLOWEEN Gomas Drácula",
+      "preco": "4.99",
+      "preco_unidade": "6,95€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "HALLOWEEN Gomas Scary Mix",
+      "preco": "3.99",
+      "preco_unidade": null,
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "HALLOWEEN Gomas Ácidas Party Mix",
+      "preco": "7.99",
+      "preco_unidade": "16,49€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "Caveira",
+      "preco": "5.49",
+      "preco_unidade": null,
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "Chupa Chupa",
+      "preco": "2.99",
+      "preco_unidade": null,
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "CRAZY BONES Chupa-Chupas",
+      "preco": "2.69",
+      "preco_unidade": null,
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "HALLOWEEN Pipocas Caramelizadas",
+      "preco": "2.99",
+      "preco_unidade": "7,13€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "Lidl. *Face ao produto sempre disponível. 1541/2026 - T.P. SWEET CORNER Caramelos de Nata",
+      "preco": "1.99",
+      "preco_unidade": "9,95€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "Sempre disponível FRITT Caramelos Macios",
+      "preco": "0.99",
+      "preco_unidade": null,
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "Sempre disponível Feitiço frutado. SWEET CORNER Caramelos de Fruta",
+      "preco": "5.89",
+      "preco_unidade": "4,98€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "HALLOWEEN Rebuçados",
+      "preco": "1.79",
+      "preco_unidade": null,
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "HALLOWEEN Pinta Línguas",
+      "preco": "5.99",
+      "preco_unidade": null,
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "HALLOWEEN Caramelos de Fruta",
+      "preco": "1.69",
+      "preco_unidade": "4,99€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "HALLOWEEN Aperitivo Vampiros Ketchup/ Sour Cream",
+      "preco": "1.69",
+      "preco_unidade": "7,45€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "HALLOWEEN Aperitivo Vampiros Disponível em diversas variedades",
+      "preco": "2.29",
+      "preco_unidade": "2,98€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "HALLOWEEN Mini Argolas",
+      "preco": "3.99",
+      "preco_unidade": "13,58€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "HALLOWEEN Mini Pizzas",
+      "preco": "1.99",
+      "preco_unidade": "11,08€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "HALLOWEEN Iogurte Disponível em diversas variedades",
+      "preco": "3.99",
+      "preco_unidade": "3,94€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "HALLOWEEN Nuggets de Frango",
+      "preco": "2.99",
+      "preco_unidade": "9,98€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "r de 5/10 nº529615 Halloween à porta? Decora. Surpreende. Arrepia. 260 °c Max. 260 °c Max.",
+      "preco": "6.99",
+      "preco_unidade": null,
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "Fato de Halloween A partir de 5/10",
+      "preco": "6.99",
+      "preco_unidade": "16,49€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "A partir de 5/10 nº522429/ 522428 SILVERCREST Panela em Forma de Abóbora A partir de 5/10",
+      "preco": "5.49",
+      "preco_unidade": "4,99€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "A partir de 5/10",
+      "preco": "1.41",
+      "preco_unidade": null,
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "Sempre disponível KITKAT Chunky Peanut Butter",
+      "preco": "2.99",
+      "preco_unidade": "21,34€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "Sempre disponível TWIX/ MARS/SNICKERS Minis",
+      "preco": "3.99",
+      "preco_unidade": "8,54€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "KINDER Chocolate Mini",
+      "preco": "3.69",
+      "preco_unidade": "30,25€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "KINDER Bueno Mini",
+      "preco": "3.39",
+      "preco_unidade": "30,25€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "HALLOWEEN Bolachas de Abóbora com Cobertura de Chocolate",
+      "preco": "2.19",
+      "preco_unidade": "10,95€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "HALLOWEEN Bolachas de Chocolate com Drageias de Chocolate",
+      "preco": "1.89",
+      "preco_unidade": "13,27€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "DR. OETKER Brownies Assustadores",
+      "preco": "6.52",
+      "preco_unidade": "8,30€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "MINIONS Gomas",
+      "preco": "2.99",
+      "preco_unidade": "12,46€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "HALLOWEEN Gomas Drácula",
+      "preco": "1.39",
+      "preco_unidade": "6,95€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "A partir de 5/10",
+      "preco": "6.95",
+      "preco_unidade": "6,95€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "A partir de 5/10",
+      "preco": "6.65",
+      "preco_unidade": null,
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "A partir de 5/10",
+      "preco": "13.83",
+      "preco_unidade": null,
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "A partir de 5/10",
+      "preco": "19.98",
+      "preco_unidade": "16,49€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "A partir de 5/10",
+      "preco": "10.76",
+      "preco_unidade": null,
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "HALLOWEEN Pipocas Caramelizadas",
+      "preco": "2.69",
+      "preco_unidade": "7,13€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "A partir de 5/10",
+      "preco": "4.26",
+      "preco_unidade": "5,42€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "Sempre disponível Feitiço frutado. SWEET CORNER Caramelos de Fruta",
+      "preco": "0.99",
+      "preco_unidade": "9,95€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "HALLOWEEN Caramelos de Fruta",
+      "preco": "5.99",
+      "preco_unidade": "4,99€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "HALLOWEEN Aperitivo Vampiros Ketchup/ Sour Cream",
+      "preco": "1.69",
+      "preco_unidade": "8,79€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "HALLOWEEN Aperitivo Vampiros Disponível em diversas variedades",
+      "preco": "1.69",
+      "preco_unidade": "7,45€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "PALADIN Maionese Preta Alhoween",
+      "preco": "1.69",
+      "preco_unidade": "2,98€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "HALLOWEEN Mini Pizzas",
+      "preco": "3.99",
+      "preco_unidade": "6,94€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    },
+    {
+      "nome": "HALLOWEEN Nuggets de Frango",
+      "preco": "3.99",
+      "preco_unidade": "3,94€/KG",
+      "valido_de": "2026-10-05",
+      "valido_ate": "2026-11-01"
+    }
+  ]
+}
