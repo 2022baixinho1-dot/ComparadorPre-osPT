@@ -1,0 +1,311 @@
+{
+  "data_execucao": "2026-10-12",
+  "categoria": "fim-de-semana",
+  "folheto": "A partir de 16/10",
+  "valido_de": "2026-10-16",
+  "valido_ate": "2026-10-18",
+  "total_produtos": 43,
+  "produtos": [
+    {
+      "nome": "FUMADINHO Peito de Frango Forno a Lenha",
+      "preco": "0.65",
+      "preco_unidade": "9,93€/KG",
+      "valido_de": "2026-10-16",
+      "valido_ate": "2026-10-18"
+    },
+    {
+      "nome": "Cenoura Nacional",
+      "preco": "1.49",
+      "preco_unidade": "0,75€/KG",
+      "valido_de": "2026-10-16",
+      "valido_ate": "2026-10-18"
+    },
+    {
+      "nome": "Kiwi",
+      "preco": "3.49",
+      "preco_unidade": "3,49€/KG",
+      "valido_de": "2026-10-16",
+      "valido_ate": "2026-10-18"
+    },
+    {
+      "nome": "Tomate Coração de Boi Nacional",
+      "preco": "2.29",
+      "preco_unidade": "2,29€/KG",
+      "valido_de": "2026-10-16",
+      "valido_ate": "2026-10-18"
+    },
+    {
+      "nome": "Preparado de Carne Picada de Frango",
+      "preco": "2.29",
+      "preco_unidade": "5,73€/KG",
+      "valido_de": "2026-10-16",
+      "valido_ate": "2026-10-18"
+    },
+    {
+      "nome": "OCEAN SEA Delícias do Mar sem Glúten",
+      "preco": "10.99",
+      "preco_unidade": "3,67€/KG",
+      "valido_de": "2026-10-16",
+      "valido_ate": "2026-10-18"
+    },
+    {
+      "nome": "DELUXE Rissóis de Camarão e Lagosta para Forno",
+      "preco": "4.69",
+      "preco_unidade": "8,30€/KG",
+      "valido_de": "2026-10-16",
+      "valido_ate": "2026-10-18"
+    },
+    {
+      "nome": "1 .49",
+      "preco": "2.39",
+      "preco_unidade": "9,93€/KG",
+      "valido_de": "2026-10-16",
+      "valido_ate": "2026-10-18"
+    },
+    {
+      "nome": "0.85 0.95 Com Lidl Plus -10%",
+      "preco": "1.09",
+      "preco_unidade": null,
+      "valido_de": "2026-10-16",
+      "valido_ate": "2026-10-18"
+    },
+    {
+      "nome": "1 .49",
+      "preco": "0.65",
+      "preco_unidade": "6,15€/KG",
+      "valido_de": "2026-10-16",
+      "valido_ate": "2026-10-18"
+    },
+    {
+      "nome": "0.99 1.19 Com Lidl Plus -16% 5.99 6.95 Com Lidl Plus -13%",
+      "preco": "0.39",
+      "preco_unidade": null,
+      "valido_de": "2026-10-16",
+      "valido_ate": "2026-10-18"
+    },
+    {
+      "nome": "RED BULL Bebida Energética",
+      "preco": "3.19",
+      "preco_unidade": "4,97€/L",
+      "valido_de": "2026-10-16",
+      "valido_ate": "2026-10-18"
+    },
+    {
+      "nome": "1 .49",
+      "preco": "1.99",
+      "preco_unidade": "9,38€/L",
+      "valido_de": "2026-10-16",
+      "valido_ate": "2026-10-18"
+    },
+    {
+      "nome": "A partir de sex. 16/10 a dom. 18/10 BARESA Polpa de Tomate",
+      "preco": "1.49",
+      "preco_unidade": null,
+      "valido_de": "2026-10-16",
+      "valido_ate": "2026-10-18"
+    },
+    {
+      "nome": "OCEAN SEA Posta de Maruca",
+      "preco": "7.99",
+      "preco_unidade": "7,99€/KG",
+      "valido_de": "2026-10-16",
+      "valido_ate": "2026-10-18"
+    },
+    {
+      "nome": "Alho Francês Nacional",
+      "preco": "2.39",
+      "preco_unidade": "3,58€/KG",
+      "valido_de": "2026-10-16",
+      "valido_ate": "2026-10-18"
+    },
+    {
+      "nome": "Cactos com Flor de Palha Planta de interior nº935806",
+      "preco": "5.99",
+      "preco_unidade": "5,99€/KG",
+      "valido_de": "2026-10-16",
+      "valido_ate": "2026-10-18"
+    },
+    {
+      "nome": "Bifanas da Pá Extra-Finas",
+      "preco": "3.39",
+      "preco_unidade": "3,39€/KG",
+      "valido_de": "2026-10-16",
+      "valido_ate": "2026-10-18"
+    },
+    {
+      "nome": "Frango Partido XXL",
+      "preco": "14.95",
+      "preco_unidade": "14,95€/KG",
+      "valido_de": "2026-10-16",
+      "valido_ate": "2026-10-18"
+    },
+    {
+      "nome": "Bife de Novilho",
+      "preco": "2.65",
+      "preco_unidade": "6,63€/KG",
+      "valido_de": "2026-10-16",
+      "valido_ate": "2026-10-18"
+    },
+    {
+      "nome": "OCEAN SEA Bacalhau Posta Tradicional",
+      "preco": "7.99",
+      "preco_unidade": "7,99€/KG",
+      "valido_de": "2026-10-16",
+      "valido_ate": "2026-10-18"
+    },
+    {
+      "nome": "OCEAN SEA Salmão Fumado",
+      "preco": "4.99",
+      "preco_unidade": "24,95€/KG",
+      "valido_de": "2026-10-16",
+      "valido_ate": "2026-10-18"
+    },
+    {
+      "nome": "MILBONA Iogurte com Proteína Pack 8x125 g",
+      "preco": "2.95",
+      "preco_unidade": null,
+      "valido_de": "2026-10-16",
+      "valido_ate": "2026-10-18"
+    },
+    {
+      "nome": "PLANTA Creme Vegetal",
+      "preco": "1.99",
+      "preco_unidade": "7,40€/KG",
+      "valido_de": "2026-10-16",
+      "valido_ate": "2026-10-18"
+    },
+    {
+      "nome": "s lojas Lidl. *Face ao produto sempre disponível. 942/2026 - T.P. MATINAL Leite Meio-gordo",
+      "preco": "3.99",
+      "preco_unidade": "5,70€/KG",
+      "valido_de": "2026-10-16",
+      "valido_ate": "2026-10-18"
+    },
+    {
+      "nome": "CIGALA Arroz Agulha",
+      "preco": "1.00",
+      "preco_unidade": null,
+      "valido_de": "2026-10-16",
+      "valido_ate": "2026-10-18"
+    },
+    {
+      "nome": "FREEWAY Refrigerante de Lima Limão 0%",
+      "preco": "0.59",
+      "preco_unidade": "0,30€/L",
+      "valido_de": "2026-10-16",
+      "valido_ate": "2026-10-18"
+    },
+    {
+      "nome": "LUSO Água Mineral",
+      "preco": "0.60",
+      "preco_unidade": "0,40€/L",
+      "valido_de": "2026-10-16",
+      "valido_ate": "2026-10-18"
+    },
+    {
+      "nome": "CASAL GARCIA Sangria Branca/ Tinta",
+      "preco": "5.29",
+      "preco_unidade": "3,99€/L",
+      "valido_de": "2026-10-16",
+      "valido_ate": "2026-10-18"
+    },
+    {
+      "nome": "SURF Detergente Líquido Extra Eficácia",
+      "preco": "9.99",
+      "preco_unidade": "2,64€/L",
+      "valido_de": "2026-10-16",
+      "valido_ate": "2026-10-18"
+    },
+    {
+      "nome": "Cozinha e Cuidado do Lar",
+      "preco": "49.99",
+      "preco_unidade": null,
+      "valido_de": "2026-10-16",
+      "valido_ate": "2026-10-18"
+    },
+    {
+      "nome": "Cada par sai a",
+      "preco": "6.00",
+      "preco_unidade": null,
+      "valido_de": "2026-10-16",
+      "valido_ate": "2026-10-18"
+    },
+    {
+      "nome": "Cada unid. sai a 2€",
+      "preco": "6.00",
+      "preco_unidade": null,
+      "valido_de": "2026-10-16",
+      "valido_ate": "2026-10-18"
+    },
+    {
+      "nome": "Cada unid. sai a 2€",
+      "preco": "19.99",
+      "preco_unidade": null,
+      "valido_de": "2026-10-16",
+      "valido_ate": "2026-10-18"
+    },
+    {
+      "nome": "as e Jardim PARKSIDE Calçado de Segurança S3 Tam. 41 ao 45 consoante modelo nº517522 1. 49",
+      "preco": "13.99",
+      "preco_unidade": null,
+      "valido_de": "2026-10-16",
+      "valido_ate": "2026-10-18"
+    },
+    {
+      "nome": "Alho Francês Nacional",
+      "preco": "2.39",
+      "preco_unidade": "3,58€/KG",
+      "valido_de": "2026-10-16",
+      "valido_ate": "2026-10-18"
+    },
+    {
+      "nome": "Kalanchoe Halloween Planta de interior Vaso: 12 cm",
+      "preco": "1.99",
+      "preco_unidade": null,
+      "valido_de": "2026-10-16",
+      "valido_ate": "2026-10-18"
+    },
+    {
+      "nome": "Crisântemo Planta de interior e exterior Vaso: 12 cm",
+      "preco": "1.99",
+      "preco_unidade": null,
+      "valido_de": "2026-10-16",
+      "valido_ate": "2026-10-18"
+    },
+    {
+      "nome": "Plantas e flores cheias de frescura!",
+      "preco": "2.99",
+      "preco_unidade": null,
+      "valido_de": "2026-10-16",
+      "valido_ate": "2026-10-18"
+    },
+    {
+      "nome": "Bife de Novilho",
+      "preco": "16.19",
+      "preco_unidade": "16,19€/KG",
+      "valido_de": "2026-10-16",
+      "valido_ate": "2026-10-18"
+    },
+    {
+      "nome": "PLANTA Creme Vegetal",
+      "preco": "3.29",
+      "preco_unidade": "7,40€/KG",
+      "valido_de": "2026-10-16",
+      "valido_ate": "2026-10-18"
+    },
+    {
+      "nome": "nº51050 CIEN Gel/ Champô para Homem Black",
+      "preco": "3.98",
+      "preco_unidade": "21,00€/L",
+      "valido_de": "2026-10-16",
+      "valido_ate": "2026-10-18"
+    },
+    {
+      "nome": "a par Ferramentas e Jardim PARKSIDE Calçado de Segurança S3 Tam. 41 ao 45 consoante modelo",
+      "preco": "21.99",
+      "preco_unidade": null,
+      "valido_de": "2026-10-16",
+      "valido_ate": "2026-10-18"
+    }
+  ]
+}
