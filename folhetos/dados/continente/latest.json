@@ -1,2954 +1,2842 @@
 {
-  "data_execucao": "2026-10-12",
-  "url_folheto": "https://folhetos.continente.pt/2026/10/semanal-41-tr55/",
-  "total_produtos": 421,
+  "data_execucao": "2026-10-19",
+  "url_folheto": "https://folhetos.continente.pt/2026/10/semanal-42-sp90/",
+  "total_produtos": 405,
   "produtos": [
     {
-      "nome": "BAIXOS ASSIM TODA A GENTE COME MELHOR ABACAXI INTEIRO 721766",
-      "preco": "1,19",
-      "preco_unidade": "1,19€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "BACALHAU CRESCIDO DE 1ª DA NORUEGA CONTINENTE SALGADO SECO INTEIRO",
+      "preco": "18,99",
+      "preco_unidade": "18,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "DOURADA GRANDE +600G FRESCA 725519 30",
-      "preco": "8,99",
-      "preco_unidade": "8,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "ENTRECOSTO DE PORCO CONTINENTE",
+      "preco": "4,79",
+      "preco_unidade": "4,79€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "CAMARÃO GRANDE 20/30 VANNAMEI CONGELADO 726614",
-      "preco": "8,99",
-      "preco_unidade": "8,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "COSTELETAS MISTAS DE PORCO CONTINENTE 723012 10 %",
-      "preco": "4,49",
-      "preco_unidade": "4,49€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "UVA PRETA/ ROSADA S/ GRAINHA CONTINENTE",
-      "preco": "1,79",
-      "preco_unidade": "3,58€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "PEITO DE PERU CONTINENTE (BALCÃO DE ATENDIMENTO) 723024 25",
-      "preco": "7,99",
-      "preco_unidade": "7,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "COSTELETAS DE VITELÃO (BALCÃO DE ATENDIMENTO) 723450 15",
-      "preco": "13,49",
-      "preco_unidade": "13,49€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "ARROZ CONTINENTE VAPORIZADO",
-      "preco": "1,09",
-      "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "PUDIM +PROTEÍNA CONTINENTE VÁRIOS SABORES",
-      "preco": "0,89",
-      "preco_unidade": "4,45€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "Postas altas ou lombos 722082 722083 BACALHAU ESPECIAL DE 1ª DA NORUEGA CONTINENTE SALGADO",
-      "preco": "21,99",
-      "preco_unidade": "21,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "CARAS DE BACALHAU CONTINENTE SALGADO SECO 722077 10 %",
-      "preco": "5,99",
-      "preco_unidade": "18,86€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "726582 BACALHAU DESFIADO MSC CONTINENTE DEMOLHADO CONGELADO",
-      "preco": "8,99",
-      "preco_unidade": "17,98€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "SUPREMAS BACALHAU PESCANOVA CONGELADO",
-      "preco": "8,99",
-      "preco_unidade": "22,48€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "FILETES DE PALOCO DO PACÍFICO CONTINENTE SALGADO SECO",
-      "preco": "4,99",
-      "preco_unidade": "12,48€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "726587 POSTA DE BACALHAU MSC CONTINENTE DEMOLHADA CONGELADA (BALCÃO DE ATENDIMENTO)",
-      "preco": "19,99",
-      "preco_unidade": "7,98€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "FILETES DE PALOCO MSC CONGELADO",
-      "preco": "4,99",
-      "preco_unidade": "6,24€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "DOURADA NACIONAL 200G-600G FRESCA 722080 ENCOMENDE AQUI A FRESCURA QUE VEM DO MAR ESCOLHA",
-      "preco": "8,99",
-      "preco_unidade": "8,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "RAIA +1KG FRESCA 722224 15 %",
-      "preco": "4,99",
-      "preco_unidade": "4,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "CHOCO C/ TINTA 200G-800G FRESCO 722225 20",
-      "preco": "10,99",
-      "preco_unidade": "10,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "PARGO MULATO FRESCO 722231",
-      "preco": "6,99",
-      "preco_unidade": "6,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "PORÇÃO DE SALMÃO FRESCO",
-      "preco": "2,99",
-      "preco_unidade": "19,93€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "SALMÃO INTEIRO PEQUENO 1-3KG FRESCO 722075",
-      "preco": "8,99",
-      "preco_unidade": "8,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "POSTAS DE PERCA DO NILO FRESCAS 726611 Experimente a frescura e qualidade do nosso mar à s",
-      "preco": "11,99",
-      "preco_unidade": "11,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "POSTA PREGADO CONTINENTE FRESCA 722087 Apto para air fryer 4",
-      "preco": "23,99",
-      "preco_unidade": "23,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "FILETES DE DOURADA CONTINENTE FRESCOS",
-      "preco": "6,99",
-      "preco_unidade": "29,13€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "TAMBORIL FRESCO 722237 Apto para air fryer loja, site e app",
-      "preco": "11,99",
-      "preco_unidade": "11,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "SOLHA GRANDE CONGELADA (BALCÃO DE ATENDIMENTO) CONVENIÊNCIA EM DOSE CERTA: FILETES PRÁTICO",
-      "preco": "5,99",
-      "preco_unidade": "5,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "FILETES DE PEIXE GALO CONTINENTE CONGELADO",
-      "preco": "7,99",
-      "preco_unidade": "31,96€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "FILETES DE DOURADA ASC CONTINENTE CONGELADOS",
-      "preco": "8,99",
-      "preco_unidade": "35,96€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "FILETES DE ROBALO ASC CONTINENTE CONGELADOS",
-      "preco": "8,99",
-      "preco_unidade": "35,96€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "LULAS LIMPAS CONTINENTE CONGELADAS",
-      "preco": "4,49",
-      "preco_unidade": "11,23€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "BIFES DE ATUM CONTINENTE CONGELADOS",
-      "preco": "5,99",
-      "preco_unidade": "14,98€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "LOMBOS DE PERCA CONTINENTE CONGELADOS",
-      "preco": "7,99",
-      "preco_unidade": "19,98€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "POSTAS DE MARUCA CONTINENTE CONGELADAS",
-      "preco": "5,99",
-      "preco_unidade": "9,98€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "CARAPAU PELÍM CONGELADO",
-      "preco": "5,79",
-      "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "POSTAS DE PEIXE ESPADA PRETO CONGELADAS",
-      "preco": "8,99",
-      "preco_unidade": "12,84€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "LULINHAS PESCANOVA ULTRACONGELADAS",
-      "preco": "4,99",
-      "preco_unidade": "9,98€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "FILETE SALMÃO C/ ALHO/ LIMÃO E ERVAS CONTINENTE FRESCO",
-      "preco": "6,99",
-      "preco_unidade": "23,30€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "CAMARÃO TIGRE SELVAGEM GRANDE CONGELADO 722238",
-      "preco": "39,99",
-      "preco_unidade": "39,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "726581 SAPATEIRA COZIDA GRANDE CONTINENTE SELEÇÃO CONGELADA 20 %",
-      "preco": "14,99",
-      "preco_unidade": "14,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "722222 MIOLO DE CAMARÃO 60/80 COZIDO CONTINENTE CONGELADO",
-      "preco": "3,99",
-      "preco_unidade": "15,96€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "AMÊIJOA VIETNAMITA CASTANHA CONGELADA 722234 35",
-      "preco": "3,99",
-      "preco_unidade": "3,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "CAMARÃO BLACK TIGER 20/30 CONGELADO 722236",
-      "preco": "9,99",
-      "preco_unidade": "9,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "MIOLO DE AMÊIJOA DOURADA CONTINENTE CONGELADA",
-      "preco": "2,99",
-      "preco_unidade": "11,96€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "723218 MIOLO GAMBÃO 21/40 MSC IGLO ULTRACONGELADO",
-      "preco": "6,99",
-      "preco_unidade": "29,37€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "AMÊIJOA BRANCA GRANDE FRESCA 726580 7",
-      "preco": "12,99",
-      "preco_unidade": "12,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "CAMARÃO 25/35 722226 COZIDO 15 %",
-      "preco": "11,99",
-      "preco_unidade": "11,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "CAMARÃO CONTINENTE 30/50 COZIDO",
-      "preco": "6,99",
-      "preco_unidade": "11,65€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "CAMARÃO PESCANOVA 40/60 COZIDO",
-      "preco": "6,49",
-      "preco_unidade": "12,98€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "UVA BRANCA S/ GRAINHA 721765",
-      "preco": "3,99",
-      "preco_unidade": "3,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "MAÇÃ VERMELHA ZER0% DESPERDÍCIO EMBALADA 722000",
-      "preco": "1,59",
-      "preco_unidade": "1,59€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "PEPINO 726534",
-      "preco": "1,59",
-      "preco_unidade": "1,59€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "COUVE BRÓCOLO INTEIRO 726533 8 20 %",
-      "preco": "2,79",
-      "preco_unidade": "2,79€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "MANGA DE AVIÃO PALMER 721762 25 %",
-      "preco": "3,99",
-      "preco_unidade": "3,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "MINI TOMATE CACHO CONTINENTE",
-      "preco": "2,99",
-      "preco_unidade": "5,98€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "CEBOLA NOVA 726531 20 %",
-      "preco": "1,49",
-      "preco_unidade": "1,49€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "DIÓSPIRO DE ROER 721767",
-      "preco": "3,99",
-      "preco_unidade": "3,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "LARANJA 726532 15",
-      "preco": "1,49",
-      "preco_unidade": "1,49€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "AMEIXA PRETA/ VERMELHA 721761 20",
+      "nome": "PERNA DE FRANGO CONTINENTE BALCÃO DE ATENDIMENTO",
       "preco": "2,49",
       "preco_unidade": "2,49€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "TOMATE CORAÇÃO DE BOI 721562 20 %",
-      "preco": "2,25",
-      "preco_unidade": "2,25€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "POSTAS DE SALMÃO FRESCAS",
+      "preco": "11,99",
+      "preco_unidade": "11,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "CENOURA CONTINENTE",
-      "preco": "0,95",
-      "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "BIFE DA PÁ E ACÉM DE NOVILHO CONTINENTE BALCÃO DE ATENDIMENTO",
+      "preco": "11,99",
+      "preco_unidade": "11,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "PERA ROCHA DOP OESTE 721993 10",
-      "preco": "1,99",
-      "preco_unidade": "1,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "POLVO 800G A 1,5KG CONTINENTE CONGELADO MARCA DA SEMANA 5D0EC3A5R0R€INCAHDOAS",
+      "preco": "11,99",
+      "preco_unidade": "11,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "SACO MIX MAÇÃ E PERA ROCHA ALCOBAÇA KIDS CONTINENTE",
-      "preco": "1,19",
-      "preco_unidade": "1,49€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "TOMATE REDONDO 721558 loja, site e app",
-      "preco": "1,35",
-      "preco_unidade": "1,35€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "SALADA DA FAMÍLIA VITACRESS",
-      "preco": "2,78",
-      "preco_unidade": "9,27€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "BATATA BRANCA MÉDIA VITACRESS",
-      "preco": "1,79",
-      "preco_unidade": "2,98€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "SALADA DA CASA VITACRESS",
-      "preco": "2,78",
-      "preco_unidade": "9,27€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "ESPINAFRE BABY FLORETTE",
-      "preco": "1,75",
-      "preco_unidade": "10€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "SALADA CROCANTE ICEBERG VITACRESS",
-      "preco": "1,61",
-      "preco_unidade": "6,44€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "COENTROS NATURA VITACRESS",
-      "preco": "0,98",
-      "preco_unidade": "32,67€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "721909 BANANA DA MADEIRA BIOLÓGICA CONTINENTE BIO EMBALADA",
-      "preco": "4,39",
-      "preco_unidade": "4,39€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "CEBOLA BIOLÓGICA CONTINENTE BIO",
-      "preco": "1,99",
-      "preco_unidade": "2,65€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "CURGETE BIOLÓGICA CONTINENTE BIO",
-      "preco": "2,59",
-      "preco_unidade": "5,18€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "SEMENTES DE CHIA ORIGENS BIO",
-      "preco": "2,45",
-      "preco_unidade": "16,33€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "721989 COCO FRESCO GENUINE COCONUT DRINK&EAT",
-      "preco": "1,79",
-      "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "CALDO VERDE CONTINENTE",
-      "preco": "1,75",
-      "preco_unidade": "4,38€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "AMENDOIM C/ CASCA TORRADO CONTINENTE",
-      "preco": "1,99",
-      "preco_unidade": "3,98€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "CAJU C/ SAL CONTINENTE POUPANÇA",
-      "preco": "4,99",
-      "preco_unidade": "12,48€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "BABY BEEF DE BOVINO (BALCÃO DE ATENDIMENTO) 723451",
-      "preco": "17,99",
-      "preco_unidade": "17,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "ESTUFAR (PEITO) DE NOVILHO ANGUS 722650",
-      "preco": "13,99",
-      "preco_unidade": "13,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "BIFE DA ALCATRA DE NOVILHO ANGUS 722649",
-      "preco": "18,99",
-      "preco_unidade": "18,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "722644 BOM BOM DE BOVINO AMÉRICA DO SUL (EMBALADO)",
+      "nome": "BACALHAU GRAÚDO CONTINENTE E CONTINENTE SELEÇÃO SALGADO SECO INTEIRO BACALHAU COM BROA Ass",
       "preco": "19,99",
       "preco_unidade": "19,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "MAMINHA DE BOVINO UK/ ESCÓCIA (EMBALADA) 722645 10",
-      "preco": "14,99",
-      "preco_unidade": "14,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "PALOCO DO PACÍFICO DESFIADO CONTINENTE SALGADO SECO EMB :400 G",
+      "preco": "3,49",
+      "preco_unidade": "8,73€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "722658 PICANHA DE BOVINO FATIADA SKP ANGUS",
-      "preco": "26,99",
-      "preco_unidade": "26,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "CALDEIRADA BACALHAU CONTINENTE SALGADO SECO EMB :700 G",
+      "preco": "5,99",
+      "preco_unidade": "8,56€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "ESTUFAR DE NOVILHO NACIONAL CONTINENTE (EMBALADO) 722660",
-      "preco": "12,99",
-      "preco_unidade": "12,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "CALDEIRADA DE BACALHAU MSC CONTINENTE DEMOLHADO CONGELADO EMB :700 G",
+      "preco": "5,49",
+      "preco_unidade": "7,84€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "VAZIO ALTO C/ OSSO DE NOVILHO LIMOUSINE 722651",
-      "preco": "18,99",
-      "preco_unidade": "18,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "PÁ DE NOVILHO LIMOUSINE (BALCÃO DE ATENDIMENTO) 722648",
-      "preco": "15,99",
-      "preco_unidade": "15,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "ESTUFAR (CHAMBÃO) NOVILHO LIMOUSINE 722652",
-      "preco": "13,99",
-      "preco_unidade": "13,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "722646 PICANHA AMÉRICA DO SUL FATIADA (CONGELADA)",
-      "preco": "19,99",
-      "preco_unidade": "19,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "722662 ENTRECÔTE DE BOVINO AMÉRICA DO SUL CONTINENTE (CONGELADO) loja, site e app",
-      "preco": "19,99",
-      "preco_unidade": "19,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "BIFANAS DE PORCO CONTINENTE 723013",
-      "preco": "4,99",
-      "preco_unidade": "4,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "ENTREMEADA DE PORCO CONTINENTE 723016",
-      "preco": "4,89",
-      "preco_unidade": "4,89€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "PÁ DE PORCO C/ OSSO CONTINENTE 723021",
-      "preco": "4,49",
-      "preco_unidade": "4,49€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "LOMBINHOS DE PORCO CONTINENTE 723045",
-      "preco": "6,99",
-      "preco_unidade": "6,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "723040 BOCHECHAS DE PORCO CONTINENTE (BALCÃO DE ATENDIMENTO) 11",
-      "preco": "8,49",
-      "preco_unidade": "8,49€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "CACHAÇO DE PORCO P/ ASSAR S/ OSSO CONTINENTE 723014",
-      "preco": "5,29",
-      "preco_unidade": "5,29€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "ENTRECOSTO DE PORCO CONTINENTE 723015",
-      "preco": "6,29",
-      "preco_unidade": "6,29€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "ROJÕES DE PORCO CONTINENTE (EMBALADOS) 723027",
-      "preco": "4,99",
-      "preco_unidade": "4,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "LOMBO DE PORCO S/ OSSO CONTINENTE 723019",
-      "preco": "5,29",
-      "preco_unidade": "5,29€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "723028 TIRAS DE ENTRECOSTO DE PORCO (PIANO) CONTINENTE loja, site e app",
-      "preco": "6,99",
-      "preco_unidade": "6,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "BORREGO PICANHA 722657 24 LOMBO DE BOVINO AMÉRICA SUL (CONGELADO) 7226 A 6 p 1 enas 99 , €",
-      "preco": "23,99",
-      "preco_unidade": "23,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "FRANGO INTEIRO CONTINENTE 723018",
-      "preco": "2,49",
-      "preco_unidade": "11,65€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "PERNA DE FRANGO CONTINENTE (BALCÃO DE ATENDIMENTO) 723025",
-      "preco": "2,99",
-      "preco_unidade": "2,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "PEITO DE FRANGO CONTINENTE (BALCÃO DE ATENDIMENTO) 723023",
+      "nome": "BACALHAU DO PACÍFICO DESFIADO MSC CONTINENTE DEMOLHADO CONGELADO EMB :500 G",
       "preco": "6,49",
-      "preco_unidade": "6,49€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "preco_unidade": "12,98€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "723017 FRANGO DO CAMPO INTEIRO C/ MIÚDOS CONTINENTE SELEÇÃO",
-      "preco": "4,49",
-      "preco_unidade": "4,49€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "POSTA DE BACALHAU MSC CONTINENTE DEMOLHADA CONGELADA BALCÃO DE ATENDIMENTO 30",
+      "preco": "19,99",
+      "preco_unidade": "28,32€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "723043 COXAS DE FRANGO DESOSSADAS (BALCÃO DE ATENDIMENTO)",
-      "preco": "6,59",
-      "preco_unidade": "6,59€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "PERNA DE PERU CONTINENTE (BALCÃO DE ATENDIMENTO) 723026",
-      "preco": "4,99",
-      "preco_unidade": "4,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "FRANGO P/ CHURRASCO CONTINENTE (EMBALADO) 723044 12",
-      "preco": "3,39",
-      "preco_unidade": "3,39€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "COXAS DE FRANGO CONTINENTE CONGELADAS",
-      "preco": "3,49",
-      "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "MOELAS DE FRANGO CONGELADAS",
-      "preco": "2,49",
-      "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "PATO INTEIRO FRESCO 723022 loja, site e app",
-      "preco": "4,49",
-      "preco_unidade": "4,49€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "MINI SALSICHAS DE PORCO KIDS CONTINENTE",
-      "preco": "3,09",
-      "preco_unidade": "6,18€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "ROLO DE CARNE DE PORCO RECHEADO CONTINENTE ESPINAFRES E QUEIJO/ COGUMELOS, BACON E QUEIJO/",
-      "preco": "6,79",
-      "preco_unidade": "6,79€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "723472 MINI HAMBÚRGUER DE BOVINO KIDS CONTINENTE",
-      "preco": "4,79",
-      "preco_unidade": "15,97€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "ALMÔNDEGAS/ CARNE PICADA/ HAMBÚRGUER MISTO CONTINENTE",
-      "preco": "4,09",
-      "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "723477 ALMÔNDEGAS DE BOVINO DOP MERTOLENGA CONTINENTE SELEÇÃO",
-      "preco": "8,39",
-      "preco_unidade": "16,78€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "HAMBÚRGUER BOVINO DOP MERTOLENGA CONTINENTE SELEÇÃO",
-      "preco": "8,39",
-      "preco_unidade": "18,24€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "HAMBÚRGUER 100% PICANHA CONGELADO",
-      "preco": "8,59",
-      "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "HAMBÚRGUER 100% CARNE CHAKALL PRIME MEAT (CONGELADO)",
-      "preco": "9,89",
-      "preco_unidade": "15,45€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "SPOONY NINHO E DOCE DE LEITE/ GOIABADA E COCO/ BROWNIE DOCE DE LEITE/ PISTÁCIO E QUEIJO CR",
-      "preco": "4,99",
-      "preco_unidade": "14,68€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "NOSSO CROISSANT MILKYBAR 726465",
-      "preco": "1,89",
-      "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "COOKIE BROWNIE/ BANANA BREAD 726464",
-      "preco": "1,29",
-      "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "723488 FOLHADO FRANGO CEBOLA CARAMELIZADA",
-      "preco": "0,69",
-      "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "TARTE LIMA 723490",
-      "preco": "8,99",
-      "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "BOLA DE QUINOA 721398 25 %",
-      "preco": "0,49",
-      "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "FOLHADO C/ RECHEIO DE PIZZA PACK POUPANÇA",
-      "preco": "2,89",
-      "preco_unidade": "0,96€/UNID",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "MERENDA MISTA PACK POUPANÇA",
-      "preco": "3,35",
-      "preco_unidade": "0,84€/UNID",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "LÍNGUAS DE VEADO",
-      "preco": "4,99",
-      "preco_unidade": "8,32€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "PÃO ESCURO RIO MAIOR C/ SEMENTES",
-      "preco": "1,99",
-      "preco_unidade": "3,75€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "PÃO ABÓBORA E NOZES",
-      "preco": "0,49",
-      "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "BOLO KRAPFEN DULCESOL 4 UNID",
-      "preco": "1,49",
-      "preco_unidade": "8,28€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "BOLO-REI TRADICIONAL 723487",
-      "preco": "9,27",
-      "preco_unidade": "9,27€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "PÃO PADEIRA",
-      "preco": "0,70",
-      "preco_unidade": "1,75€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "721399 MINI FAGOLOSI CLASSIC/ PIZZA GRISSINBON",
-      "preco": "3,49",
-      "preco_unidade": "21,15€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "PÃO DE FORMA BAUDUCCO",
-      "preco": "1,99",
-      "preco_unidade": "5,10€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "CREME DE COUVE FLOR/ COENTROS/ SOPA ABÓBORA CAMARÃO E COENTROS COZINHA CONTINENTE EQUILÍBR",
-      "preco": "1,79",
-      "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "SOPA FEIJÃO VERDE/ CREME DE CENOURA/ LEGUMES/ CALDO VERDE COZINHA CONTINENTE EQUILÍBRIO",
-      "preco": "2,49",
-      "preco_unidade": "3,11€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "PERNAS FRANGO ASSADO COZINHA CONTINENTE 721841",
-      "preco": "8,49",
-      "preco_unidade": "8,49€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "BACALHAU À BRÁS/ ESPIRITUAL COZINHA CONTINENTE",
+      "nome": "ROBALO NACIONAL 200G 600G FRESCO ROBALO NACIONAL É DE TODOS OS QUE GOSTAM DO QUE É BOM ORI",
       "preco": "9,99",
-      "preco_unidade": "14,27€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "preco_unidade": "9,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "PIZZA ROMANA/ FIAMBRE E QUEIJO CONTINENTE",
-      "preco": "2,69",
-      "preco_unidade": "6,48€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "722921 FUSILLI BOLONHESA/ PENNE CARBONARA EM COPO COME A CASA",
-      "preco": "1,99",
-      "preco_unidade": "6,63€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "ESPARGUETE À CARBONARA COZINHA CONTINENTE",
+      "nome": "FILETE DE DOURADA/ ROBALO FRESCO EMB :120 G",
       "preco": "2,99",
-      "preco_unidade": "9,97€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "preco_unidade": "24,92€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "SALADA CÉSAR COZINHA CONTINENTE",
-      "preco": "2,99",
-      "preco_unidade": "14,24€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "CARIL DE FRANGO C/ ARROZ COZINHA CONTINENTE",
-      "preco": "3,99",
-      "preco_unidade": "13,30€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "SANDES ATUM / DELÍCIAS DO MAR / FRANGO/ FIAMBRE E QUEIJO COZINHA CONTINENTE",
-      "preco": "1,89",
-      "preco_unidade": "10,80€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "TABOULÉ ORIENTAL CONTINENTE",
-      "preco": "2,29",
-      "preco_unidade": "4,58€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "722922 DESFIADO DE PATO C/ CALDA QUINTA DA MARINHA",
-      "preco": "8,99",
-      "preco_unidade": "14,98€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "EMPADA DE FRANGO/ PATO COZINHA CONTINENTE 720730",
-      "preco": "0,99",
-      "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "CARNE DE PORCO À PORTUGUESA COZINHA CONTINENTE",
-      "preco": "4,59",
-      "preco_unidade": "13,11€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "BIFANA NO PÃO COZINHA CONTINENTE",
-      "preco": "2,99",
-      "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "GRAN TORTELLO CARNE/ RAVIOLI C/ QUEIJO/ C/ RICOTTA E ESPINAFRES/ C/ QUEIJO E FIAMBRE COZIN",
-      "preco": "1,79",
-      "preco_unidade": "7,16€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "CANNELLONI BOLONHESA CONTINENTE",
-      "preco": "4,99",
-      "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "QUEIJO FLAMENGO LIMIANO FATIAS GROSSÍSSIMAS",
-      "preco": "2,35",
-      "preco_unidade": "11,75€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "QUEIJO VACA/ OVELHA AMANTEIGADO LIMIANO FATIAS",
-      "preco": "2,35",
-      "preco_unidade": "13,06€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "QUEIJO FLAMENGO RALADO CAMPAINHA",
-      "preco": "1,49",
-      "preco_unidade": "9,93€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "QUEIJO FLAMENGO CAMPAINHA",
+      "nome": "PARGO MULATO FRESCO 4",
       "preco": "6,99",
-      "preco_unidade": "8,74€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "preco_unidade": "6,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "718166 QUEIJO FRESCO DE VACA MÉDIO SANTIAGO REGULAR/ MAGRO",
-      "preco": "1,69",
-      "preco_unidade": "8,45€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "718161 QUEIJO FRESCO BARRAR ORIGINAL/ LIGHT MATINAL",
-      "preco": "1,75",
-      "preco_unidade": "9,72€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "718155 QUEIJO REGULAR/ LIGHT A VACA QUE RI 8 PORÇÕES",
-      "preco": "1,79",
-      "preco_unidade": "14,32€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "718156 QUEIJO FLAMENGO TERRA NOSTRA 1/4",
-      "preco": "3,49",
-      "preco_unidade": "9,97€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "721999 QUEIJO FRESCO LONGA DURAÇÃO MATINAL S/ LACTOSE",
-      "preco": "2,28",
-      "preco_unidade": "10,56€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "722008 SALMÃO FUMADO -30% SAL CONTINENTE SELEÇÃO",
-      "preco": "3,99",
-      "preco_unidade": "49,88€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "723257 FIAMBRE PERNA EXTRA DUROC/ PEITO PERU 1954 ELPOZO",
-      "preco": "2,39",
-      "preco_unidade": "19,92€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "723261 PEITO PERU/ FRANGO PACK FAMILIAR CONTINENTE",
-      "preco": "3,49",
-      "preco_unidade": "11,63€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "MORTADELA SICILIANA/C/ AZEITONAS ELPOZO",
-      "preco": "2,19",
-      "preco_unidade": "9,73€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "BACON INGLÊS PRIMOR FATIAS",
-      "preco": "2,59",
-      "preco_unidade": "17,27€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "FIAMBRE CUBOS CONTINENTE",
-      "preco": "1,29",
-      "preco_unidade": "8,60€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "CHOURIÇO CUBOS CONTINENTE",
-      "preco": "1,29",
-      "preco_unidade": "8,60€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "PRESUNTO MINI CUBOS CONTINENTE",
-      "preco": "2,49",
-      "preco_unidade": "16,60€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "721996 FATIADO ERVAS MEDITERRÂNEAS/ SABOR A FRANGO NOBRE VEGALIA",
-      "preco": "1,69",
-      "preco_unidade": "16,90€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "SALSICHA BOCKWURST CONTINENTE",
-      "preco": "3,59",
-      "preco_unidade": "9,97€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "723255 MORTADELA DE PERU/ PERU C/ AZEITONAS CAMPOFRIO 10",
-      "preco": "7,99",
-      "preco_unidade": "7,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "LINGUIÇA CORRENTE DAMATTA",
-      "preco": "2,29",
-      "preco_unidade": "13,47€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "PEITO PERU/ FRANGO CAMPOFRIO 723256 15 %",
-      "preco": "15,29",
-      "preco_unidade": "15,29€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "SALAME PALACIEGO CAMPOFRIO 723248 15 %",
-      "preco": "17,79",
-      "preco_unidade": "17,79€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "CHOURIÇO GRAN DOBLÓN CAMPOFRIO 723259 10",
-      "preco": "21,19",
-      "preco_unidade": "21,19€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "723251 PRESUNTO SERRANO 100% NATURAL DELIZIAS NOEL",
-      "preco": "3,69",
-      "preco_unidade": "36,90€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "TIRAS DE BACON MARION",
-      "preco": "3,89",
-      "preco_unidade": "14,96€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "BACON FUMADO CONTINENTE MINI TIRAS",
+      "nome": "PORÇÃO DE SALMÃO FRESCO EMB :150 G",
       "preco": "2,99",
       "preco_unidade": "19,93€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "CHOURIÇO SABOR PORTUGUÊS DAMATTA",
-      "preco": "3,69",
-      "preco_unidade": "9,23€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "CORVINA SELVAGEM 1KG 3 KG FRESCA",
+      "preco": "11,99",
+      "preco_unidade": "11,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "FIAMBRE DA PERNA EXTRA NOBRE 723249 10",
-      "preco": "16,99",
-      "preco_unidade": "16,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "FILETE DE SALMÃO CONTINENTE FRESCO EMB :300 G",
+      "preco": "6,89",
+      "preco_unidade": "22,97€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "QUEIJO SAINT AGUR HAUTE FROMAGE 722007 loja, site e app",
-      "preco": "26,99",
-      "preco_unidade": "26,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "CAVALA FRESCA 15 %",
+      "preco": "2,99",
+      "preco_unidade": "2,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "AZUL DE VENTOZELO SIGNATURE, DOURO, TINTO",
-      "preco": "6,99",
-      "preco_unidade": "9,32€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "CANTARIL DA COSTA FRESCO 20 %",
+      "preco": "10,99",
+      "preco_unidade": "10,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "CHOURIÇA PICANTE SIGNATURE CONTINENTE SELEÇÃO",
-      "preco": "3,59",
-      "preco_unidade": "14,36€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "COUTADA VELHA SIGNATURE, ALENTEJO, BRANCO",
-      "preco": "5,99",
-      "preco_unidade": "7,99€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "MISTO ENCHIDOS CHURRASCO CONTINENTE",
-      "preco": "1,99",
-      "preco_unidade": "9,95€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "MISTO PETISCO ORELHA CONTINENTE",
-      "preco": "3,59",
-      "preco_unidade": "11,97€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "723239 CHOURIÇO DE PORCO PRETO ALENTEJO CONTINENTE SELEÇÃO",
-      "preco": "1,79",
-      "preco_unidade": "13,77€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "723236 BACON FUMADO NACOS FUMEIRO DE ARGANIL",
-      "preco": "4,29",
-      "preco_unidade": "17,16€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "723448 CORAÇÃO DE QUEIJO DA ILHA A NOSSA QUEIJARIA",
-      "preco": "1,99",
-      "preco_unidade": "16,58€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "FARINHEIRA FUNDÃO PRESUNTO FUMEIRO DA GARDUNHA",
-      "preco": "1,99",
-      "preco_unidade": "9,95€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "723443 QUEIJO DE CABRA CASCA PRETA CASA MATIAS 10",
-      "preco": "8,49",
-      "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "QUEIJO PECORINO ROMANO CONTINENTE",
+      "nome": "CARAPAU MÉDIO/ PEQUENO FRESCO 15 %",
       "preco": "3,99",
-      "preco_unidade": "26,60€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "preco_unidade": "3,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "723446 QUEIJO DE MISTURA/ APIMENTADO SERRAS DE PENELA",
-      "preco": "6,69",
-      "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "CHOCO C/ TINTA 200G 800G FRESCO Experimente a frescura e qualidade do nosso mar à sua mesa",
+      "preco": "10,99",
+      "preco_unidade": "10,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "723250 ALHEIRA TRANSMONTANA PACK FAMILIAR CONTINENTE",
-      "preco": "2,69",
-      "preco_unidade": "6,73€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "718171 QUEIJO DE CABRA RÚSTICO PALHAIS METADES 20",
-      "preco": "9,79",
-      "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "723449 QUEIJO DE VACA CURADO MEIO GORDO/ PIMENTÃO CASTELÕES 20",
-      "preco": "5,99",
-      "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "723447 QUEIJO MEIO GORDO/ AMANTEIGADO/ APIMENTADO FONTE MOURISCA",
+      "nome": "OVAS DE BACALHAU CONTINENTE COZIDAS EMB :250 G",
       "preco": "9,99",
-      "preco_unidade": "149,86€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "preco_unidade": "39,96€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "723444 QUEIJO OVELHA BARRADO/ CURADO SERRAMONTE 10",
+      "nome": "FILETE DE ROBALO CONTINENTE FRESCO EMB :220 G",
+      "preco": "7,99",
+      "preco_unidade": "36,32€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "MARUCA MÉDIA CONGELADA BALCÃO DE ATENDIMENTO",
+      "preco": "9,99",
+      "preco_unidade": "9,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "RED FISH MÉDIO CONGELADO BALCÃO DE ATENDIMENTO",
+      "preco": "4,99",
+      "preco_unidade": "4,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "POTAS CONGELADAS BALCÃO DE ATENDIMENTO 25 %",
+      "preco": "4,99",
+      "preco_unidade": "4,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "PESCADA MÉDIA DO CHILE CONGELADA BALCÃO DE ATENDIMENTO",
+      "preco": "8,99",
+      "preco_unidade": "8,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "ASAS DE RAIA CONGELADAS BALCÃO DE ATENDIMENTO CRIE O SEU PRÓPRIO SASHIMI: DESCONGELE, CORT",
+      "preco": "9,25",
+      "preco_unidade": "21,98€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "SASHIMI PEIXE DOURADO CONTINENTE SELEÇÃO CONGELADO EMB :200 G",
+      "preco": "4,29",
+      "preco_unidade": "21,45€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "SASHIMI SALMÃO CONTINENTE SELEÇÃO CONGELADO EMB :200 G",
+      "preco": "4,29",
+      "preco_unidade": "21,45€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "BIFES DE ATUM CONTINENTE CONGELADOS EMB :400 G",
+      "preco": "5,59",
+      "preco_unidade": "13,98€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "SASHIMI ATUM CONTINENTE SELEÇÃO CONGELADO EMB :200 G",
+      "preco": "4,29",
+      "preco_unidade": "21,45€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "FILETES DE DOURADA/ ROBALO ASC IGLO ULTRACONGELADOS EMB :200 G",
+      "preco": "6,99",
+      "preco_unidade": "34,95€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "FILETES DE GAROUPA CONTINENTE CONGELADOS EMB :500 G",
+      "preco": "5,99",
+      "preco_unidade": "11,98€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "POSTAS DE SOLHA CONTINENTE CONGELADAS EMB :800 G",
+      "preco": "5,99",
+      "preco_unidade": "7,49€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "FILETES DE PANGASIUS PESCANOVA ULTRACONGELADOS EMB :600 G",
+      "preco": "4,49",
+      "preco_unidade": "7,48€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "CAMARÃO BLACK TIGER 20/30 CONGELADO 30",
+      "preco": "10,99",
+      "preco_unidade": "10,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "SAPATEIRA COZIDA GRANDE CONTINENTE SELEÇÃO CONGELADA",
+      "preco": "14,99",
+      "preco_unidade": "14,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "PREPARADO P/ MARISCADA S/ GLÚTEN CONTINENTE CONGELADO EMB :700 G",
+      "preco": "4,99",
+      "preco_unidade": "7,13€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "DELÍCIAS DO MAR S/ GLÚTEN PESCANOVA ULTRACONGELADO EMB :500 G",
+      "preco": "3,39",
+      "preco_unidade": "6,78€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "MEXILHÃO FRESCO 6",
+      "preco": "1,99",
+      "preco_unidade": "1,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "GAMBÃO GRANDE DA ARGENTINA SELVAGEM 20/30 CONGELADO 20 %",
+      "preco": "12,99",
+      "preco_unidade": "12,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "CAMARÃO MÉDIO 60/80 VANNAMEI CONGELADO 25",
+      "preco": "7,99",
+      "preco_unidade": "7,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "PREPARADO P/ ARROZ DE MARISCO S/ GLÚTEN CONTINENTE CONGELADO EMB :800 G",
+      "preco": "5,99",
+      "preco_unidade": "7,49€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "CAMARÃO SELVAGEM MOÇAMBIQUE +150 PEÇAS CONTINENTE EMB :350 G",
+      "preco": "4,49",
+      "preco_unidade": "12,83€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "MIOLO GAMBÃO 21/40 MSC IGLO ULTRACONGELADO EMB :238 G",
+      "preco": "7,01",
+      "preco_unidade": "29,45€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "CAMARÃO 30/50 COZIDO",
+      "preco": "9,99",
+      "preco_unidade": "9,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "CAMARÃO CONTINENTE 60/80 COZIDO EMB :600 G",
+      "preco": "6,29",
+      "preco_unidade": "10,48€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "KIWI VERDE ZESPRI 20 %",
+      "preco": "3,99",
+      "preco_unidade": "3,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "ANONA 20 %",
+      "preco": "3,99",
+      "preco_unidade": "3,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "COUVE FLOR INTEIRA 20 %",
+      "preco": "1,99",
+      "preco_unidade": "1,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "TOMATE CHUCHA 7",
+      "preco": "1,75",
+      "preco_unidade": "1,75€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "UVA BRANCA S/ GRAINHA CONTINENTE EMB :500 G",
+      "preco": "1,99",
+      "preco_unidade": "3,98€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "PERA ROCHA ZER0% DESPERDÍCIO EMB :1 KG",
+      "preco": "1,39",
+      "preco_unidade": null,
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "CENOURA 20 %",
+      "preco": "0,89",
+      "preco_unidade": "0,89€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "ALFACE FRISADA 10 %",
+      "preco": "1,59",
+      "preco_unidade": "1,59€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "CLEMENTINA 25 %",
+      "preco": "1,79",
+      "preco_unidade": "1,79€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "ROMÃ",
+      "preco": "2,99",
+      "preco_unidade": "2,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "UVA RED GLOBE",
+      "preco": "2,49",
+      "preco_unidade": "2,49€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "MAÇÃ GALA ALCOBAÇA IGP EMB :1 KG",
+      "preco": "1,69",
+      "preco_unidade": null,
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "LARANJA CONTINENTE EMB :2 KG 2 KG FICA A",
+      "preco": "1,49",
+      "preco_unidade": "1,49€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "MAÇÃ REINETA ALCOBAÇA IGP SEM RESIDUOS",
+      "preco": "2,09",
+      "preco_unidade": "2,09€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "BATATA ASSAR CONTINENTE EMB :2 KG 2 KG FICA A",
+      "preco": "1,13",
+      "preco_unidade": "1,13€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "CURGETE VERDE 2 KG FICA A",
+      "preco": "1,59",
+      "preco_unidade": "1,59€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "ESPINAFRE BABY LEAF CONTINENTE EMB :170 G 7€/KG",
+      "preco": "1,19",
+      "preco_unidade": "7€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "SALADA CAMPONESA CONTINENTE EMB :250 G",
+      "preco": "1,15",
+      "preco_unidade": "4,60€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "SOPA FEIJÃO VERDE C/ CENOURA CONTINENTE EMB :400 G",
+      "preco": "4,25",
+      "preco_unidade": "10,63€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "RÚCULA SELVAGEM VITACRESS EMB :75 G",
+      "preco": "1,34",
+      "preco_unidade": "17,87€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "NOZ CONTINENTE METADES EMB :200 G",
+      "preco": "2,15",
+      "preco_unidade": "10,75€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "FRAMBOESA BIOLÓGICA CONTINENTE BIO EMB :125 G",
+      "preco": "3,59",
+      "preco_unidade": "28,72€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "ABÓBORA FATIADA BIOLÓGICA CONTINENTE BIO EMBALADA 8",
+      "preco": "2,99",
+      "preco_unidade": "2,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "BATATA DOCE LARANJA BIOLÓGICA CONTINENTE BIO EMB :1 KG",
+      "preco": "2,39",
+      "preco_unidade": null,
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "COUVE CORAÇÃO BIOLÓGICA CONTINENTE BIO EMB :700 G",
+      "preco": "2,89",
+      "preco_unidade": "4,13€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "AGRIÃO FLORETTE EMB :125 G",
+      "preco": "1,83",
+      "preco_unidade": "14,64€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "MISTURA DE FRUTOS DO BOSQUE CONTINENTE POUPANÇA EMB :400 G",
+      "preco": "4,79",
+      "preco_unidade": "11,98€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "LIMÃO BIOLÓGICO CONTINENTE BIO EMB :500 G",
+      "preco": "2,99",
+      "preco_unidade": "5,98€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "SEMENTES CHIA BIOLÓGICAS CONTINENTE BIO EMB :150 G",
+      "preco": "1,69",
+      "preco_unidade": "11,27€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "CHAMBÃO DE NOVILHO P/ ESTUFAR ANGUS BEM-ESTAR PARA TODOS Trabalhamos com produtores que cu",
+      "preco": "13,99",
+      "preco_unidade": "13,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "BIFE DA PÁ DE NOVILHO ANGUS",
+      "preco": "15,99",
+      "preco_unidade": "15,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "VAZIO ALTO C/ OSSO DE NOVILHO ANGUS",
       "preco": "18,99",
       "preco_unidade": "18,99€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "718163 QUEIJO AMANTEIGADO DE OVELHA PASTOR DA BEIRA ALTA loja, site e app",
-      "preco": "19,29",
-      "preco_unidade": "19,29€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "NOVILHO P/ ASSAR NACIONAL CONTINENTE EMBALADO",
+      "preco": "13,99",
+      "preco_unidade": "13,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "VINHO EA TOURIGA NACIONAL, ALENTEJO, TINTO 722585",
+      "nome": "FRALDINHA DE BOVINO AMÉRICA DO SUL EMBALADO",
+      "preco": "19,99",
+      "preco_unidade": "19,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "TOMAHAWK DE BOVINO CONGELADO BLUE SMOKE 9",
+      "preco": "17,99",
+      "preco_unidade": "17,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "CLUB STEAK DE BOVINO BLUE SMOKE CONGELADO",
+      "preco": "17,99",
+      "preco_unidade": "17,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "ALCATRA DE NOVILHO LIMOUSINE",
+      "preco": "18,99",
+      "preco_unidade": "18,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "ACÉM COMPRIDO DE NOVILHO LIMOUSINE BALCÃO DE ATENDIMENTO",
+      "preco": "15,99",
+      "preco_unidade": "15,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "PICANHA DE BOVINO FATIADA UE CONTINENTE EMBALADA",
+      "preco": "18,99",
+      "preco_unidade": "18,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "T BONE STEAK DE BOVINO BLUE SMOKE CONGELADO",
+      "preco": "19,99",
+      "preco_unidade": "19,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "COWBOY STEAK DE BOVINO BLUE SMOKE CONGELADO loja, site e app",
+      "preco": "19,99",
+      "preco_unidade": "19,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "COSTELETAS MISTAS DE PORCO CONTINENTE",
       "preco": "4,99",
-      "preco_unidade": "6,65€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "preco_unidade": "4,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "VINHO GUARDA RIOS ALENTEJO, TINTO/ BRANCO/ ROSÉ",
-      "preco": "2,99",
-      "preco_unidade": "3,99€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "ENTREMEADA DE PORCO CONTINENTE",
+      "preco": "4,89",
+      "preco_unidade": "4,89€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "VINHO EA ALENTEJO, TINTO/ 722590 BRANCO/ ROSÉ",
-      "preco": "3,89",
-      "preco_unidade": "5,19€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "LOMBO DE PORCO S/ OSSO CONTINENTE",
+      "preco": "5,29",
+      "preco_unidade": "5,29€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "VINHO CICONIA PREMIUM, ALENTEJO, 722589 TINTO/ BRANCO",
-      "preco": "4,79",
-      "preco_unidade": "6,39€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "PÁ DE PORCO C/ OSSO CONTINENTE",
+      "preco": "4,49",
+      "preco_unidade": "4,49€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "722591 VINHO QUINTA DO CARMO ALENTEJO, BRANCO",
-      "preco": "8,99",
-      "preco_unidade": "11,99€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "VINHO LAGOSTA VERDE, BRANCO/ ROSÉ",
-      "preco": "3,29",
-      "preco_unidade": "4,39€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "VINHO BICO AMARELO ESPORÃO VERDE, BRANCO",
-      "preco": "4,19",
-      "preco_unidade": "5,59€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "VINHO EA SYRAH, ALENTEJO, TINTO",
-      "preco": "4,99",
-      "preco_unidade": "6,65€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "VINHO DONA ERMELINDA PALMELA, TINTO/ BRANCO/ ROSÉ 726579",
-      "preco": "3,99",
-      "preco_unidade": "5,32€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "VINHO JOÃO PIRES PENÍNSULA DE SETÚBAL, BRANCO/ ROSÉ",
-      "preco": "3,49",
-      "preco_unidade": "4,65€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "VINHO REDE DOURO, TINTO/ BRANCO",
-      "preco": "4,79",
-      "preco_unidade": "6,39€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "VINHO TRINCA BOLOTAS ALENTEJO, TINTO/ 722597 BRANCO/ ROSÉ",
-      "preco": "5,19",
-      "preco_unidade": "6,92€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "VINHO BOM MALANDRO DOURO, TINTO/ 722599 BRANCO",
-      "preco": "5,99",
-      "preco_unidade": "7,99€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "VINHO MONTE VELHO ALENTEJO, TINTO/ BRANCO/ ROSÉ",
-      "preco": "3,79",
-      "preco_unidade": "5,05€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "722601 VINHO MARQUÊS DE BORBA ALENTEJO, TINTO/ BRANCO",
-      "preco": "4,79",
-      "preco_unidade": "6,39€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "VINHO AZUL VENTOZELO SIGNATURE, DOURO, 722595 TINTO",
+      "nome": "TIRAS DE ENTRECOSTO DE PORCO PIANO CONTINENTE 10",
       "preco": "6,99",
-      "preco_unidade": "9,32€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "preco_unidade": "6,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "VINHO FAISÃO ROSÉ/ BRANCO/ TINTO",
-      "preco": "2,09",
-      "preco_unidade": "2,79€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "BIFANAS DE PORCO CONTINENTE COSTELETAS DE PORCO Versáteis e cheias de sabor",
+      "preco": "4,99",
+      "preco_unidade": "4,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "ESPUMANTE FREIXENET ICE, MEIO SECO, BRANCO/ ROSÉ",
-      "preco": "9,59",
-      "preco_unidade": "12,79€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "CACHAÇO DE PORCO P/ASSAR S/OSSO CONTINENTE",
+      "preco": "5,29",
+      "preco_unidade": "5,29€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "ESPUMANTE FREIXENET CORDON NEGRO, PREMIUM CAVA, BRUTO, BRANCO",
-      "preco": "7,99",
-      "preco_unidade": "10,65€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "ROJÕES DE PORCO CONTINENTE EMBALADOS",
+      "preco": "4,99",
+      "preco_unidade": "4,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "VINHO DO PORTO CRUZ 725370 SIGNATURE, RUBY RESERVE",
-      "preco": "7,49",
-      "preco_unidade": "9,99€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "LOMBINHOS DE PORCO CONTINENTE",
+      "preco": "6,99",
+      "preco_unidade": "6,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "725368 MOSCATEL DE SETÚBAL CHAFARIZ D",
-      "preco": "3,25",
-      "preco_unidade": "4,33€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "BOCHECHAS DE PORCO CONTINENTE BALCÃO DE ATENDIMENTO loja, site e app",
+      "preco": "8,49",
+      "preco_unidade": "8,49€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "BEBIDA VEGETAL ALPRO NOT MILK",
-      "preco": "1,99",
+      "nome": "FRANGO INTEIRO CONTINENTE GRANDES OPORTUNIDADES MÃO DE VITELA S/ OSSO CONTINENTE CONGELADA",
+      "preco": "2,49",
+      "preco_unidade": "11,65€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "PEITO DE FRANGO CONTINENTE BALCÃO DE ATENDIMENTO",
+      "preco": "6,49",
+      "preco_unidade": "6,49€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "FRANGO DO CAMPO INTEIRO C/ MIÚDOS CONTINENTE SELEÇÃO",
+      "preco": "4,49",
+      "preco_unidade": "4,49€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "PEITO DE PERU CONTINENTE BALCÃO DE ATENDIMENTO",
+      "preco": "8,49",
+      "preco_unidade": "8,49€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "COXAS DE FRANGO DESOSSADAS BALCÃO DE ATENDIMENTO 11",
+      "preco": "6,59",
+      "preco_unidade": "6,59€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "PERNA DE PERU CONTINENTE BALCÃO DE ATENDIMENTO",
+      "preco": "4,99",
+      "preco_unidade": "4,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "PATO INTEIRO FRESCO",
+      "preco": "4,49",
+      "preco_unidade": "4,49€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "MOELAS DE FRANGO CONGELADAS EMB :1 KG loja, site e app",
+      "preco": "2,49",
       "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "GRANULADO SALUTEM PROTI SOJA",
-      "preco": "1,72",
-      "preco_unidade": "4,30€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "HAMBÚRGUER DE NOVILHO SMASH PRIME MEAT CONGELADO EMB :640 G",
+      "preco": "9,19",
+      "preco_unidade": "14,36€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "CREME CULINÁRIO MIMOSA VEGETAL COCO",
-      "preco": "1,29",
-      "preco_unidade": "6,45€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "ROLO DE CARNE DE PORCO RECHEADO CONTINENTE ESPINAFRES E QUEIJO / COGUMELOS, BACON E QUEIJO",
+      "preco": "6,79",
+      "preco_unidade": "6,79€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "BEBIDA VEGETAL PLENO AMÊNDOA/ AVEIA/ COCO",
-      "preco": "1,89",
+      "nome": "BOLINHAS DE FALAFEL ZERO% CARNE CONTINENTE EMB :240 G",
+      "preco": "3,19",
+      "preco_unidade": "13,29€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "HAMBÚRGUER VEGAN CONTINENTE EMB :200 G",
+      "preco": "3,19",
+      "preco_unidade": "15,95€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "PICADO VEGAN CONTINENTE POWERED BY PLANTS EMB :250 G",
+      "preco": "3,59",
+      "preco_unidade": "14,36€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "HAMBÚRGUER FRANGO DO CAMPO CAMPOAVES CONGELADO EMB :4 X 100 G",
+      "preco": "6,29",
+      "preco_unidade": "15,73€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "HAMBÚRGUER 100% PICANHA CONGELADO EMB :4X140G",
+      "preco": "8,59",
       "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "BEBIDA VEGETAL ALPRO SOJA S/ AÇÚCAR/ COCO S/",
-      "preco": "1,99",
+      "nome": "HAMBÚRGUER 100% CARNE CHAKALL PRIME MEAT CONGELADO EMB :640 G",
+      "preco": "9,79",
+      "preco_unidade": "15,30€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "VAZIA DE BOVINO AMÉRICA DO SUL BALCÃO DE ATENDIMENTO",
+      "preco": "19,99",
+      "preco_unidade": "19,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "BOVINO FÍGADO FATIADO CONTINENTE CHEGAR, VER E COMER Preparado diariamente, com cortes var",
+      "preco": "6,99",
+      "preco_unidade": "6,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "LOMBO P/ ASSAR PORCO DUROC CONTINENTE SELEÇÃO EMBALADO BORREGO",
+      "preco": "6,49",
+      "preco_unidade": "6,49€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "PERNA DE BORREGO FATIADA CONTINENTE EMBALADA AVES",
+      "preco": "16,99",
+      "preco_unidade": "16,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "FRANGO P/ CHURRASCO CONTINENTE EMBALADO PREPARADOS",
+      "preco": "3,39",
+      "preco_unidade": "3,39€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "MINI HAMBÚRGUER DE BOVINO KIDS CONTINENTE EMB :300 G",
+      "preco": "4,79",
+      "preco_unidade": "15,97€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "ENTRECOSTO PORCO DUROC CONTINENTE SELEÇÃO EMBALADO",
+      "preco": "6,49",
+      "preco_unidade": "6,49€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "COSTELETAS DE BORREGO CONTINENTE EMBALADAS",
+      "preco": "21,99",
+      "preco_unidade": "21,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "COXAS DE FRANGO CONTINENTE CONGELADAS EMB :1 KG",
+      "preco": "3,49",
       "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "723489 MINI MUFFINS S/ GLÚTEN LIMÃO/ CHOCOLATE MUSEU DO PÃO",
-      "preco": "2,59",
-      "preco_unidade": "21,58€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "MINI SALSICHAS DE PORCO KIDS CONTINENTE EMB :500 G",
+      "preco": "3,49",
+      "preco_unidade": "6,98€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "BEBIDA VEGETAL CONTINENTE",
-      "preco": "0,79",
+      "nome": "QUEIJO GOUDA FATIAS CONTINENTE S/ LACTOSE EMB :150 G",
+      "preco": "1,79",
+      "preco_unidade": "11,93€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "QUEIJO FLAMENGO LIMIANO BOLA PEQUENA 10",
+      "preco": "5,89",
       "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "721401 PÃO DE FORMA INTEGRAL S/ GLÚTEN CONTINENTE",
-      "preco": "2,75",
-      "preco_unidade": "9,17€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "PÃO TRIGO SARRACENO BIO",
-      "preco": "2,59",
-      "preco_unidade": "5,18€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "MANTEIGA DE AMENDOIM PROZIS CROCANTE/ CREMOSA",
-      "preco": "7,19",
-      "preco_unidade": "0,16€/UNID",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "BCAA EM PÓ WAYUP 722193 FRUTOS TROPICAIS/ LARANJA",
-      "preco": "7,99",
-      "preco_unidade": "31,96€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "AZEITE GALLO SUBTIL",
-      "preco": "4,69",
-      "preco_unidade": "6,25€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "722265 AZEITE VIRGEM EXTRA OLIVEIRA DA SERRA SELECIONADO",
-      "preco": "9,99",
-      "preco_unidade": "5€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "50 CACRORIMNPHROASS DE N3O50V€ALCOARDDAE OTSOMDEOSSES 722247 30 %",
-      "preco": "1,99",
-      "preco_unidade": "9,95€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "ÓLEO ALIMENTAR FULA",
-      "preco": "6,39",
-      "preco_unidade": "2,13€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "ARROZ BASMATI ORIENTE",
-      "preco": "3,99",
-      "preco_unidade": "2€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "RISOTTO SCOTTI ARBORIO",
-      "preco": "1,59",
-      "preco_unidade": "3,18€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "ÓLEO GIRASSOL CONTINENTE",
-      "preco": "1,89",
+      "nome": "QUEIJO MISTURA CURADO LAGOS 15",
+      "preco": "6,99",
       "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "722272 AZEITE BIOLÓGICO CONTINENTE BIO EXTRA VIRGEM",
-      "preco": "4,69",
-      "preco_unidade": "9,38€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "QUEIJO FLAMENGO PAIVA BOLA 30",
+      "preco": "10,39",
+      "preco_unidade": "10,39€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "ARROZ AGULHA CONTINENTE",
-      "preco": "0,95",
+      "nome": "QUEIJO AMANTEIGADO/ LIGHT/ APIMENTADO/ MEIO GORDO PAIVA 20",
+      "preco": "8,95",
+      "preco_unidade": "8,95€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "QUEIJO APIMENTADO/ MEIO GORDO/ AMANTEIGADO PAIVA 20",
+      "preco": "5,99",
       "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "ARROZ THAI JASMIM ORIENTE FRAGRANT JADE",
+      "nome": "QUEIJO PRATO ILHA AZUL 1/2 EMB :500 G",
+      "preco": "4,99",
+      "preco_unidade": "9,98€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "QUEIJO ILHA DOP 7 MESES SÃO JORGE CUNHA EMB :300 G",
+      "preco": "4,95",
+      "preco_unidade": "16,50€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "REQUEIJÃO SANTIAGO NATURAL/ LIGHT EMB :170 G",
+      "preco": "1,39",
+      "preco_unidade": "8,18€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "QUEIJO FRESCO SANTIAGO CABRA EMB :130 G 13€/KG",
+      "preco": "1,69",
+      "preco_unidade": "13€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "QUEIJO P/ SALADAS C/ PIRI PIRI AKADIA EMB :100 G",
+      "preco": "1,49",
+      "preco_unidade": "14,90€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "QUEIJO P/ SALADAS C/ AZEITONAS/ C/ ALHO CONTINENTE EMB :100 G",
+      "preco": "1,39",
+      "preco_unidade": "13,90€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "SALMÃO FUMADO NORUEGA MARINADO CONTINENTE SELEÇÃO EMB :80 G",
       "preco": "3,89",
-      "preco_unidade": "1,95€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "preco_unidade": "48,63€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "QUEIJO BARRA MILHAFRE 15 %",
+      "preco": "8,49",
+      "preco_unidade": "8,49€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "PAIO YORK SUAVE SABOR NOBRE 15 %",
+      "preco": "13,39",
+      "preco_unidade": "13,39€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "PEITO FRANGO FORNO LENHA CAMPOFRIO 15 15 %",
+      "preco": "16,99",
+      "preco_unidade": "16,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "PEITO PERU FORNO LENHA CAMPOFRIO 20 %",
+      "preco": "16,99",
+      "preco_unidade": "16,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "MARMELADA 0% AÇUCAR PRISCA 15 %",
+      "preco": "13,75",
+      "preco_unidade": "13,75€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "BACON EXTRA NOBRE loja, site e app",
+      "preco": "21,49",
+      "preco_unidade": "21,49€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "PRESUNTO SERRANO 9MESES CONTINENTE EMB :200 G",
+      "preco": "3,49",
+      "preco_unidade": "17,45€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "PRESUNTO PORCO PRETO 24 MESES CONTINENTE SELEÇÃO EMB :80 G",
+      "preco": "5,99",
+      "preco_unidade": "74,88€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "FARINHEIRA DE PORCO PRETO ALENTEJO CONTINENTE SELEÇÃO EMB :160 G",
+      "preco": "1,89",
+      "preco_unidade": "11,81€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "MORCELA ASSAR FUNDÃO CONTINENTE EMB :200 G",
+      "preco": "1,85",
+      "preco_unidade": "9,25€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "TORRESMOS DO RISSOL PORCO PRETO CONTINENTE SELEÇÃO EMB :150 G",
+      "preco": "5,99",
+      "preco_unidade": "39,93€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "FARINHEIRA DE PORCO PRETO SEGREDOS DE BARRANCOS EMB :180 G",
+      "preco": "2,19",
+      "preco_unidade": "12,17€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "CHOURIÇO DE CARNE DO FUNDÃO CONTINENTE EMB :220 G",
+      "preco": "2,29",
+      "preco_unidade": "10,41€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "CHOURIÇO PORCO PRETO SEGREDOS DE BARRANCOS EMB :180 G",
+      "preco": "3,39",
+      "preco_unidade": "18,83€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "CHOURIÇO PRETO DE PORCO PRETO ALENTEJO CONTINENTE SELEÇÃO EMB :150 G",
+      "preco": "2,19",
+      "preco_unidade": "14,60€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "TÁBUA PAIO/ SALSICHÃO/ PALETA CONTINENTE SELEÇÃO EMB :90 G",
+      "preco": "5,39",
+      "preco_unidade": "59,89€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "LINGUIÇA CALABRESA IPANEMA EMB :280 G",
+      "preco": "3,19",
+      "preco_unidade": "11,39€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "PAIO PORCO PRETO SEGREDOS DE BARRANCOS EMB :200 G",
+      "preco": "4,39",
+      "preco_unidade": "21,95€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "SALSICHA TOSCANA IPANEMA EMB :340 G",
+      "preco": "3,89",
+      "preco_unidade": "11,44€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "SALSICHÃO DE PORCO PRETO SEGREDOS DE BARRANCOS EMB :200 G",
+      "preco": "4,89",
+      "preco_unidade": "24,45€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "FIAMBRE PERNA EXTRA CONTINENTE FATIAS FINAS EMB :200 G",
+      "preco": "1,79",
+      "preco_unidade": "8,95€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "PEITO PERU FORNO DE LENHA CONTINENTE EMB :150 G",
+      "preco": "1,88",
+      "preco_unidade": "12,53€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "FIAMBRE DE FRANGO NOBRE EMB :140 G",
+      "preco": "1,79",
+      "preco_unidade": "12,79€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "FIAMBRE PÁ EXTRA IZIDORO FATIAS FINAS EMB :150 G",
+      "preco": "1,49",
+      "preco_unidade": "9,93€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "SALSICHÃO/ CHOURIÇO/ SALAME ELPOZO EMB :70 G",
+      "preco": "1,99",
+      "preco_unidade": "28,43€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "LINGUIÇA EXTRA CONTINENTE EMB :150 G",
+      "preco": "1,15",
+      "preco_unidade": "7,67€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "FIAMBRE PERNA EXTRA NOBRE FATIAS FINAS EMB :120 G",
+      "preco": "1,99",
+      "preco_unidade": "16,58€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "PEITO DE PERU EXTRA NOBRE FATIAS FINISSIMAS EMB :110 G",
+      "preco": "2,39",
+      "preco_unidade": "21,73€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "PEITO DE PERU/ FRANGO FORNO DE LENHA CAMPOFRIO FATIAS FINAS EMB :120 G",
+      "preco": "2,39",
+      "preco_unidade": "19,92€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "LINGUIÇA PICANTE CONTINENTE EMB :150 G",
+      "preco": "1,15",
+      "preco_unidade": "7,67€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "SALSICHAS HOTDOG PÃO NOBRE EMB :250 G",
+      "preco": "1,79",
+      "preco_unidade": "7,16€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "CHOURIÇÃO CONTINENTE FATIAS EMB :200 G",
+      "preco": "1,59",
+      "preco_unidade": "7,95€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "SALSICHAS HOTDOG PRATO NOBRE EMB :350 G",
+      "preco": "2,39",
+      "preco_unidade": "6,83€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "CHOURIÇO CARNE CORRENTE CONTINENTE EMB :400 G",
+      "preco": "2,39",
+      "preco_unidade": "5,98€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "BOLA DE QUINOA DIA MUNDIAL DO PÃO 16 OUTUBRO",
+      "preco": "0,49",
+      "preco_unidade": null,
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "PÃO C/ CHOURIÇO EMB :100 G",
+      "preco": "0,99",
+      "preco_unidade": "9,90€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "PÃO DE LEITÃO",
+      "preco": "1,49",
+      "preco_unidade": null,
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "PÃO DE FORMA RIO MAIOR EMB :500 G",
+      "preco": "1,49",
+      "preco_unidade": "2,98€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "PÃO DE ASSINATURA EMB :500 G",
+      "preco": "1,69",
+      "preco_unidade": "3,38€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "MERENDA MISTA PACK POUPANÇA EMB :4 UNID",
+      "preco": "3,35",
+      "preco_unidade": "0,84€/UNID",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "QUEQUE PACK POUPANÇA EMB :4 UNID",
+      "preco": "2,75",
+      "preco_unidade": "0,69€/UNID",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "PASTEL NATA PASTELARIA ALOMA Edição especial - Melhor Pastel de Nata de Lisboa",
+      "preco": "0,90",
+      "preco_unidade": null,
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "NOSSO CROISSANT C/ OVOS MOLES Ovos moles de Aveiro",
+      "preco": "1,89",
+      "preco_unidade": null,
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "TARTE DE NATA DA PASTELARIA EMB :600 G",
+      "preco": "6,99",
+      "preco_unidade": "11,65€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "SPOONY NINHO E DOCE DE LEITE/ GOIABADA E COCO/ PISTÁCIO EMB :340 G/280 G",
+      "preco": "4,99",
+      "preco_unidade": "14,68€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "BOLO REI TRADICIONAL 700G FICA A",
+      "preco": "9,27",
+      "preco_unidade": "11,11€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "BISNAGUINHA BAUDUCCO EMB :260 G",
+      "preco": "2,65",
+      "preco_unidade": "10,19€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "TOSTA PÃO ALENTEJANO/ C/ ALHO E COENTROS EMB :100 G",
+      "preco": "1,99",
+      "preco_unidade": "19,90€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "PÃO RÚSTICO TRIGO/ MISTURA/ CEREAIS/ CENTEIO EMB :450 G",
+      "preco": "2,15",
+      "preco_unidade": "4,78€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "NOODLES C/ LEGUMES/ PATO E LEGUMES COZINHA CONTINENTE EMB :300 G",
+      "preco": "3,99",
+      "preco_unidade": "13,30€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "CROQUETES DE CARNE/ PATO/ COGUMELOS/ BOLINHAS DE CARNE 100% BOVINO COZINHA CONTINENTE",
+      "preco": "0,89",
+      "preco_unidade": null,
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "SOPA DE AGRIÃO COZINHA CONTINENTE EMB :800 G",
+      "preco": "2,49",
+      "preco_unidade": "3,11€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "FEIJOADA À TRANSMONTANA C/ ARROZ COZINHA CONTINENTE EMB :330 G",
+      "preco": "3,79",
+      "preco_unidade": "11,48€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "HAMBÚRGUER PORCO C/ QUEIJO GOUDA/ VACA/ AVES C/ QUEIJO GOUDA/ FALAFEL CONTINENTE EMB :2 X",
+      "preco": "2,49",
+      "preco_unidade": null,
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "CANNELLONIS ESPINAFRES E RICOTTA CONTINENTE EMB :1 KG 20",
+      "preco": "5,69",
+      "preco_unidade": null,
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "EMPANADILHA DE ATUM/ FRANGO E COGUMELOS COZINHA CONTINENTE",
+      "preco": "0,99",
+      "preco_unidade": null,
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "FRANCESINHA COZINHA CONTINENTE EMB :500 G",
+      "preco": "6,99",
+      "preco_unidade": "13,98€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "BIFRANGA C/ MOLHO LIMÃO LUSIAVES",
+      "preco": "2,99",
+      "preco_unidade": null,
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "BACALHAU ESPIRITUAL COZINHA CONTINENTE",
+      "preco": "12,99",
+      "preco_unidade": "12,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "SALADA DE GRÃO C/ ATUM E OVO COZINHA CONTINENTE EMB :285 G",
+      "preco": "3,49",
+      "preco_unidade": "12,25€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "PIZZA 4 QUEIJOS/ CARBONARA/ HAVAIANA CONTINENTE EMB :400 G/410 G/420 G",
+      "preco": "2,89",
+      "preco_unidade": "7,23€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "LOMBO ASSADO HM CANEIRA EMB :400 G",
+      "preco": "4,99",
+      "preco_unidade": "12,48€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "FRANGO ASSADO COZINHA CONTINENTE",
+      "preco": "7,99",
+      "preco_unidade": "7,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "MASSA C/ QUEIJO TOMATE PIMENTOS/ FUSILLI C/ ATUM TOMATE SECO COZINHA CONTINENTE EMB :1KG",
+      "preco": "12,99",
+      "preco_unidade": "12,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "CALZONE FIAMBRE E QUEIJO GUAPIZZIMA EMB :360 G",
+      "preco": "3,49",
+      "preco_unidade": "9,69€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "BEBIDA VEGETAL CONTINENTE EQUILÍBRIO SOJA/ AVEIA/ AMÊNDOA",
+      "preco": "0,94",
+      "preco_unidade": null,
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "BISCOITOS CANELA/ LARANJA/ CLÁSSICOS S/ GLÚTEN MUSEU DO PÃO",
+      "preco": "2,99",
+      "preco_unidade": "27,18€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "PÃO SEMENTES PACHAMAMA",
+      "preco": "2,99",
+      "preco_unidade": "6,64€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "ELETRÓLITOS WAYUP MANGA E MARACUJÁ",
+      "preco": "4,49",
+      "preco_unidade": null,
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
       "nome": "ÓLEO ALIMENTAR CONTINENTE",
-      "preco": "4,99",
-      "preco_unidade": "1,66€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "AZEITE CONTINENTE",
-      "preco": "3,29",
-      "preco_unidade": "4,39€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "AÇÚCAR AMARELO CONTINENTE",
-      "preco": "1,15",
+      "preco": "1,79",
       "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "FARINHA DE TRIGO BRANCA DE NEVE FINA C/ FERMENTO P/ BOLOS",
-      "preco": "1,99",
-      "preco_unidade": "1,86€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "ARROZ EXTRA LONGO CAÇAROLA AGULHA",
+      "preco": "2,49",
+      "preco_unidade": "1,25€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "MASSA MILANEZA ESPARGUETE 722254",
-      "preco": "0,89",
-      "preco_unidade": "1,78€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "ARROZ CIGALA BASMATI",
+      "preco": "3,99",
+      "preco_unidade": "2€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "MASSA MILANEZA FETTUCCINE/ LINGUINE/ QUADRITI/ SPAGHETTONI 722258",
-      "preco": "1,09",
-      "preco_unidade": "2,18€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "ARROZ VAPORIZADO ORIENTE",
+      "preco": "2,69",
+      "preco_unidade": "1,35€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "MASSA PROTEÍNA MILANEZA ESPIRAIS/ PENNE RIGATE",
+      "nome": "ESPARGUETE CONTINENTE",
+      "preco": "0,69",
+      "preco_unidade": "1,38€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "MASSA NINHOS C/ OVO CONTINENTE",
+      "preco": "1,89",
+      "preco_unidade": "3,78€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "ARROZ CAROLINO ORIENTE",
+      "preco": "2,49",
+      "preco_unidade": "1,25€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "ARROZ JASMIM PERFUMADO TOUCH EXTRA LONGO",
+      "preco": "7,99",
+      "preco_unidade": "1,60€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "ARROZ AGULHA SELECIONADO CONTINENTE",
       "preco": "1,39",
-      "preco_unidade": "2,78€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "ATUM BOM PETISCO ÓLEO",
-      "preco": "1,20",
-      "preco_unidade": "15,38€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "ATUM POSTA SANTA CATARINA AZEITE 721753",
-      "preco": "1,38",
-      "preco_unidade": "17,69€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "MASSA MILANEZA CONCHAS/ LAÇOS/ HÉLICES/ LÍRIOS",
-      "preco": "1,09",
-      "preco_unidade": "2,18€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "AÇÚCAR BRANCO SIDUL FINO",
-      "preco": "1,52",
       "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "FARINHA P.A.N",
-      "preco": "2,35",
-      "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "ATUM MINERVA NATURAL",
-      "preco": "1,29",
-      "preco_unidade": "15,36€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
       "nome": "ATUM EM ÓLEO PITÉU",
       "preco": "0,89",
       "preco_unidade": "12,36€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "SALSICHAS NOBRE FRANKFURT 10 UNID",
+      "nome": "ATUM POSTA SANTA CATARINA AZEITE",
+      "preco": "1,38",
+      "preco_unidade": "17,69€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "FILETE DE ATUM EM AZEITE TENÓRIO BIOLÓGICO",
+      "preco": "2,81",
+      "preco_unidade": "36,03€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "AÇÚCAR AMARELO SIDUL",
       "preco": "1,59",
-      "preco_unidade": "6,36€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "SALSICHAS IZIDORO BOCKWURST/ AVES",
-      "preco": "1,98",
-      "preco_unidade": "8,08€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "722207 MOLHOS TOP DOWN/ HEINZ ALHO/ CHURRASCO/ SWEET CHILI",
-      "preco": "1,99",
-      "preco_unidade": "9,05€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "preco_unidade": null,
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
       "nome": "ATUM EM POSTA AO NATURAL CONTINENTE EQUILÍBRIO",
       "preco": "0,94",
       "preco_unidade": "11,06€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "COGUMELOS CONTINENTE LAMINADOS",
-      "preco": "1,14",
-      "preco_unidade": "6,16€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "FEIJÃO/ GRÃO EM LATA CONTINENTE VÁRIAS REFERÊNCIAS/ BICO / PRETO",
+      "preco": "1,09",
+      "preco_unidade": "2,10€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
       "nome": "SALSICHAS FRANKFURT CONTINENTE 10 UNID",
       "preco": "1,19",
       "preco_unidade": "3,13€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "GRÃO/ FEIJÃO CONTINENTE",
-      "preco": "0,84",
-      "preco_unidade": "3,23€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "COGUMELOS CONTINENTE LAMINADOS",
+      "preco": "1,14",
+      "preco_unidade": "6,16€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "ATUM EM AZEITE CONTINENTE",
+      "preco": "1,15",
+      "preco_unidade": "13,53€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "MILHO DOCE BONDUELLE",
+      "preco": "2,59",
+      "preco_unidade": "6,17€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
       "nome": "ATUM TRITÃO EM ÓLEO",
       "preco": "0,93",
       "preco_unidade": "12,92€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "FEIJÃO/ GRÃO CONTINENTE",
-      "preco": "0,84",
-      "preco_unidade": "3,23€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "TOMATE EM PEDAÇOS CONTINENTE VÁRIAS REFERÊNCIAS",
+      "preco": "0,99",
+      "preco_unidade": "2,61€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "BATATAS FRITAS LAY’S SAL",
+      "nome": "MOLHO BARBECUE CONTINENTE",
+      "preco": "1,49",
+      "preco_unidade": "4,66€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "MOLHO MOSTARDA E MEL CONTINENTE",
+      "preco": "1,19",
+      "preco_unidade": "4,18€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "BATATAS FRITAS ONDULADAS RUFFLES C/ SAL",
       "preco": "1,44",
       "preco_unidade": "9€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "BATATAS FRITAS LAY’S CAMPONESA",
+      "nome": "BATATAS FRITAS ONDULADAS RUFFLES YORKESO",
       "preco": "1,44",
       "preco_unidade": "9,60€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "BATATAS FRITAS LAY’S GOURMET WAVY SAL",
+      "nome": "BATATAS FRITAS LAY’S MEDITERRÂNEAS",
+      "preco": "1,44",
+      "preco_unidade": "10,29€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "BATATAS FRITAS ONDULADAS RUFFLES PRESUNTO",
+      "preco": "1,44",
+      "preco_unidade": "9,60€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "BATATAS FRITAS GOURMET LAY’S CORTE FINO",
       "preco": "1,69",
-      "preco_unidade": "11,27€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "preco_unidade": "9,94€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "722068 SNACKS DE BATATAS FORNO LAY’S C/ SAL/ CAMPONESAS",
-      "preco": "1,69",
-      "preco_unidade": "11,27€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "BATATAS FRITAS PÁLA-PÁLA PALHA",
-      "preco": "2,09",
-      "preco_unidade": "5,73€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "BATATAS FRITAS RUFFLES PRESUNTO",
+      "nome": "BATATAS FRITAS LAY’S CAMPONESAS",
       "preco": "2,19",
-      "preco_unidade": "9,01€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "BATATAS FRITAS A SALOINHA RODELA",
-      "preco": "1,39",
-      "preco_unidade": "6,95€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "SNACKS LAY’S BOCABITS",
-      "preco": "1,29",
-      "preco_unidade": "17,20€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "SNACKS CHEETOS FUTEBOLAS",
-      "preco": "1,69",
-      "preco_unidade": "13€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "NOODLES BANZAI CIGALA CARIL/ CARNE/ GALINHA/ CAMARÃO",
-      "preco": "1,15",
-      "preco_unidade": "17,16€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "SNACKS CHEETOS COLA & BAUNILHA",
-      "preco": "1,59",
-      "preco_unidade": "21,20€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "preco_unidade": "9,05€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
       "nome": "SNACKS CHEETOS PINK LEMONADE",
       "preco": "1,59",
       "preco_unidade": "21,20€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "PIPOCAS SPOP DOCES",
-      "preco": "0,99",
-      "preco_unidade": "6,60€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "SNACKS DORITOS CANELA",
+      "preco": "1,59",
+      "preco_unidade": "11,36€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
       "nome": "SNACK MULTICEREAIS CONTINENTE SOUR CREAM",
       "preco": "1,39",
       "preco_unidade": "14,63€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "BATATA FRITA PALHA CONTINENTE REDUÇÃO GORDURA",
-      "preco": "1,49",
-      "preco_unidade": "7,45€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "LUNCH BOWL BONDUELLE BULGUR/ ESPELTA/ QUINOA",
+      "preco": "2,76",
+      "preco_unidade": "11,04€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "NACHOS PACK POUPANÇA CONTINENTE 721857 QUEIJO C/ SAL/ QUEIJO",
-      "preco": "1,99",
-      "preco_unidade": "6,63€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "TAPIOCA DA TERRINHA HIDRATADA",
+      "preco": "3,19",
+      "preco_unidade": "6,38€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "BATATAS FRITAS PACK POUPANÇA CONTINENTE 721835 ONDULADA/ LISA",
-      "preco": "1,49",
-      "preco_unidade": "5,96€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "PIPOCAS DOCES CANELA CONTINENTE",
+      "nome": "SNACKS LAY’S BOCABITS",
       "preco": "1,29",
-      "preco_unidade": "8,60€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "preco_unidade": "17,20€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "CAFÉ TORRADO MOÍDO DELTA 722777 COLÔMBIA/ BRASIL/ ANGOLA/ TIMOR",
-      "preco": "3,89",
-      "preco_unidade": "17,68€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "CÁPSULAS DE CAFÉ DOLCE GUSTO NEO CAFÉ AU LAIT/ CAPPUCCINO/ HOT CHOCOLATE",
-      "preco": "4,49",
-      "preco_unidade": "0,37€/CÁPSULA",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "CEREAIS KELLOGG’S XXL FROSTIES/ XXL 722995 SMACKS",
-      "preco": "4,99",
-      "preco_unidade": "8,05€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "CEREAIS SPECIAL K KELLOGG’S CLÁSSICO",
-      "preco": "2,89",
-      "preco_unidade": "8,63€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "CEREAIS FITNESS 0% AÇÚCAR CACAU",
-      "preco": "2,99",
-      "preco_unidade": "9,65€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "CEREAIS KIT KAT AVELÃ 722989",
-      "preco": "2,99",
-      "preco_unidade": "9,06€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "CEREAIS CONTINENTE POUPANÇA PÉTALAS CHOCOLATE",
-      "preco": "3,49",
-      "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "FLOCOS CEREAIS CHOCOLATE CONTINENTE",
-      "preco": "1,89",
-      "preco_unidade": "7,56€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "BARRAS CONTINENTE PÉTALAS 725358 CHOCOLATE / BOLAS DE MEL",
-      "preco": "1,39",
-      "preco_unidade": "11,58€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "GRANOLA BITES CONTINENTE EQUILÍBRIO CACAU/ AMENDOIM / CANELA",
-      "preco": "0,89",
-      "preco_unidade": "17,80€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "PURÉ DE FRUTA NESTLÉ 7 FRUTOS/ VÁRIOS SABORES",
-      "preco": "2,54",
-      "preco_unidade": "6,35€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "PURÉ DE FRUTA BLEDINA FRUTAPURA 722976 VÁRIOS SABORES",
-      "preco": "2,14",
-      "preco_unidade": "5,63€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "BOLACHAS CHIPS AHOY! ORIGINAL",
-      "preco": "1,59",
-      "preco_unidade": "12,42€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "BOLACHAS RECHEADAS OREO GINGERBREAD",
-      "preco": "1,49",
-      "preco_unidade": "9,68€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "BOLACHAS PRINCE MINI",
-      "preco": "1,84",
-      "preco_unidade": "11,50€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "MUFFIN LITTLE BITES",
-      "preco": "2,84",
-      "preco_unidade": "16,90€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "BOLACHAS FAVORITAS CONTINENTE TRADICIONAL",
+      "nome": "SNACKS FRITOS MATUTANO BARBECUE",
       "preco": "1,29",
-      "preco_unidade": "5,86€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "preco_unidade": "9,92€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "TABLETE DE CHOCOLATE/ MILKA PEANUT CARAMEL/ OREO BROWNIE/ CREME / AVELÃS/ 45% CACAU",
-      "preco": "1,99",
-      "preco_unidade": "22,11€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "BATATAS FRITAS CONTINENTE ONDULADA SABOR A PAPRIKA",
+      "preco": "1,49",
+      "preco_unidade": "9,93€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "COOKIES C/ PEPITAS DE CHOCOLATE CONTINENTE",
-      "preco": "1,09",
-      "preco_unidade": "7,27€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "BATATAS FRITAS CONTINENTE KETCHUP",
+      "preco": "1,29",
+      "preco_unidade": "7,59€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "TARTELETES CONTINENTE CHOCOLATE/ MORANGO",
-      "preco": "1,09",
-      "preco_unidade": "7,27€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "BOMBONS MERCI",
-      "preco": "7,99",
-      "preco_unidade": "31,96€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "TABLETE DE CHOCOLATE DOLCA LEITE",
-      "preco": "1,59",
-      "preco_unidade": "15,90€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "722524 TABLETE DE CHOCOLATE NESTLÉ EXTRAFINO LEITE/ AMÊNDOAS",
+      "nome": "CAFÉ TORRADO LOTE CHÁVENA DELTA GRÃO/ MOAGEM SACO/ MOAGEM MÁQUINA",
       "preco": "3,99",
       "preco_unidade": "15,96€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "BOMBONS RAFFAELLO CLÁSSICO T15",
-      "preco": "3,74",
-      "preco_unidade": "24,93€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "CÁPSULAS DE CAFÉ DOLCE GUSTO BUONDI/ SICAL/ BUONDI INTENSO",
+      "preco": "19,99",
+      "preco_unidade": "0,31€/CÁPSULA",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "CARAMELOS NATA DUROS CONTINENTE",
+      "nome": "CÁPSULAS DE CAFÉ DOLCE GUSTO BUONDI/ SICAL",
+      "preco": "9,89",
+      "preco_unidade": "0,33€/CÁPSULA",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "CAFÉ GINGA INTENSIDADE 14/ 12",
       "preco": "2,49",
-      "preco_unidade": "12,45€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "preco_unidade": "0,25€/CÁPSULA",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "PASTA CONTINENTE EQUILÍBRIO 100% PISTÁCIO",
-      "preco": "4,49",
-      "preco_unidade": "44,90€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "CAFÉ BELLISSIMO INTENSO/ SUPREMO",
+      "preco": "8,79",
+      "preco_unidade": "0,29€/CÁPSULA",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "CHOCOLATE CONTINENTE CULINÁRIA",
-      "preco": "2,39",
-      "preco_unidade": "11,95€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "CÁPSULAS DE CAFÉ COMPATÍVEL C/ DELTA Q CONTINENTE",
+      "preco": "2,09",
+      "preco_unidade": "0,21€/CÁPSULA",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "BEBIDA STARBUCKS MACCHIATO/ CAPPUCCINO/ SKINNY LATTE",
-      "preco": "1,89",
-      "preco_unidade": "8,59€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "CEREAIS FITNESS ORIGINAL",
+      "preco": "4,64",
+      "preco_unidade": "7,42€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "722690 LEITE UHT PASTAGEM TERRA NOSTRA MEIO GORDO/ MAGRO",
+      "nome": "CEREAIS CRUNCHY MUESLI CONTINENTE",
+      "preco": "3,19",
+      "preco_unidade": null,
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "GRANOLA FITNESS MEL MAXI",
+      "preco": "5,49",
+      "preco_unidade": "9,15€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "GRANOLA BITES CONTINENTE EQUILÍBRIO CANELA/ AMENDOIM / CACAU",
+      "preco": "0,89",
+      "preco_unidade": "17,80€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "BARRAS ALL NUTS CONTINENTE",
+      "preco": "0,99",
+      "preco_unidade": "28,29€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "SAQUETAS DE FRUTA BLEDINA PATRULHA PATA / VÁRIOS SABORES",
+      "preco": "0,89",
+      "preco_unidade": "8,90€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "FARINHA BIO CONTINENTE DO BEBÉ ARROZ",
+      "preco": "1,99",
+      "preco_unidade": "9,95€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "SAQUETAS DE FRUTA FRUTAPURA VÁRIOS SABORES",
+      "preco": "0,64",
+      "preco_unidade": "7,53€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "BOLACHA RECHEADA OREO GINGERBREAD",
+      "preco": "1,49",
+      "preco_unidade": "9,68€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "BOLACHAS RECHEADAS CONTINENTE CHOCOLATE/ BAUNILHA",
+      "preco": "1,59",
+      "preco_unidade": "3,18€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "BOLACHAS MERENDINHA CONTINENTE C/ MEL",
+      "preco": "0,99",
+      "preco_unidade": "4,60€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "BOLACHA CHIPS AHOY! MINI",
+      "preco": "1,84",
+      "preco_unidade": "11,50€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "MADALENAS CONTINENTE CHOCOLATE/ LARANJA",
+      "preco": "1,79",
+      "preco_unidade": "4,48€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "MADALENAS BIMBO 0% AÇÚCAR",
+      "preco": "2,14",
+      "preco_unidade": "9,22€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "TABLETE DE CHOCOLATE MILKA JELLY/ LEITE",
+      "preco": "3,99",
+      "preco_unidade": "15,96€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "BOLACHAS BELGAS SABOROSA HALLOWEEN",
+      "preco": "1,99",
+      "preco_unidade": "9,05€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "BOMBONS FERRERO ROCHER T8",
+      "preco": "2,99",
+      "preco_unidade": "29,90€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "BOMBONS COLLECTION FERRERO T15",
+      "preco": "7,09",
+      "preco_unidade": "40,51€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "BOMBONS DE CHOCOLATE RAFFAELLO",
+      "preco": "2,24",
+      "preco_unidade": "28€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "BOMBONS MON CHÉRI T10",
+      "preco": "3,34",
+      "preco_unidade": "31,81€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "CHOCOLATE CULINÁRIO NESTLÉ 53% CACAU",
+      "preco": "4,04",
+      "preco_unidade": "20,20€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "MISTURA P/ BROWNIE DR",
+      "preco": "4,89",
+      "preco_unidade": "12,54€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "LEITE CONTINENTE MAGRO AÇORES/ MEIO GORDO AÇORES",
+      "preco": "0,87",
+      "preco_unidade": null,
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "LEITE UHT S/ LACTOSE GRESSO MEIO GORDO",
+      "preco": "1,08",
+      "preco_unidade": null,
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "LEITE + PROTEÍNA MIMOSA VÁRIOS SABORES",
+      "preco": "2,97",
+      "preco_unidade": "3,96€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "NATA UHT GRESSO",
+      "preco": "0,85",
+      "preco_unidade": "4,25€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "MANTEIGA MAGRA MATINAL",
+      "preco": "2,49",
+      "preco_unidade": "9,96€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "LEITE UHT MIMOSA MEIO GORDO/ MAGRO",
       "preco": "0,89",
       "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "MANTEIGA MIMOSA C/ SAL/ S/ SAL",
+      "nome": "LEITE UHT SELECIONADO LIVRE MATINAL MEIO GORDO",
+      "preco": "1,25",
+      "preco_unidade": null,
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "CAPPUCCINO/ CARAMEL MACCHIATO DELTA",
+      "preco": "1,59",
+      "preco_unidade": "4,82€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "MOLHO BECHAMEL CONTINENTE",
+      "preco": "1,69",
+      "preco_unidade": "3,38€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "CREME P/ BARRAR FLORA",
+      "preco": "2,96",
+      "preco_unidade": "7,40€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "LEITE 0% AGROS C/ CAFÉ",
+      "preco": "1,60",
+      "preco_unidade": null,
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "MANTEIGA C/ SAL CONTINENTE CUVETE",
+      "preco": "2,09",
+      "preco_unidade": "8,36€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "CREME P/ BARRAR TULICREME CHOCOLATE",
+      "preco": "1,49",
+      "preco_unidade": "7,45€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "LEITE UHT MIMOSA LEITE UHT MIMOSA",
+      "preco": "6,96",
+      "preco_unidade": null,
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "LEITE+PROTEÍNA MIMOSA CACAU S/ LACTOSE",
+      "preco": "2,19",
+      "preco_unidade": null,
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "LEITE C/ CHOCOLATE UCAL",
+      "preco": "2,65",
+      "preco_unidade": "3,53€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "MANTEIGA MILHAFRE C/ SAL",
       "preco": "2,19",
       "preco_unidade": "8,76€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "LEITE UHT AGROS MAGRO/ MEIO GORDO",
-      "preco": "0,88",
-      "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "PUDIM + PROTEÍNA CONTINENTE AVELÃ",
+      "preco": "0,89",
+      "preco_unidade": "4,45€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "LEITE UHT 0% LACTOSE MIMOSA MEIO GORDO/ MAGRO",
-      "preco": "1,14",
-      "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "CHANTILLY MIMOSA SPRAY",
-      "preco": "2,59",
-      "preco_unidade": "10,36€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "LEITE UHT MAGRO CONTINENTE S/LACTOSE",
-      "preco": "1,07",
-      "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "LEITE +PROTEÍNA MIMOSA S/ LACTOSE",
-      "preco": "1,99",
-      "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "NATA S/ LACTOSE PARMALAT CULINÁRIA/ P/ BATER",
-      "preco": "1,19",
-      "preco_unidade": "5,95€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "LEITE UHT MATINAL SELECIONADO LEVE",
-      "preco": "1,10",
-      "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "LEITE C/ CHOCOLATE MIMOSA S/ LACTOSE",
-      "preco": "1,99",
-      "preco_unidade": "2,49€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "LEITE UHT S/ LACTOSE AGROS MEIO GORDO",
-      "preco": "1,12",
-      "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "GALÃO UCAL UCAL",
-      "preco": "2,08",
-      "preco_unidade": "3,47€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "MANTEIGA TERRA NOSTRA C/ SAL",
-      "preco": "2,29",
-      "preco_unidade": "9,16€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "BEM-ESTAR LÍQUIDO CONTINENTE EQUILÍBRIO VÁRIOS SABORES",
-      "preco": "1,69",
-      "preco_unidade": "2,64€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "CREME P/ BARRAR PLANTA C/ SAL",
-      "preco": "1,97",
-      "preco_unidade": "8,76€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "BEM-ESTAR PEDAÇOS CONTINENTE EQUILÍBRIO VÁRIOS SABORES",
-      "preco": "1,69",
-      "preco_unidade": "3,38€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "NATILHAS +PROTEÍNA CONTINENTE CARAMELO",
+      "preco": "1,95",
+      "preco_unidade": "4,06€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
       "nome": "IOGURTE MYTHOS CONTINENTE FRAMBOESA E CHOCOLATE BRANCO",
       "preco": "1,69",
       "preco_unidade": "3,67€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "722694 CREME CULINÁRIO VAQUEIRO FORMATO FAMILIAR",
-      "preco": "2,99",
-      "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "HAMBÚRGUERES S/ GLÚTEN CAPITÃO IGLO FRANGO",
+      "preco": "8,99",
+      "preco_unidade": "18,73€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "CLARA OVO PASTEURIZADA CONTINENTE",
-      "preco": "2,99",
-      "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "IOGURTE CREMOSO BÍFIDUS ACTIVIA COCO/ 0% FRUTOS SILVESTRES/ LIMA LIMÃO",
-      "preco": "1,99",
-      "preco_unidade": "4,33€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "IOGURTE LÍQUIDO ACTIVIA CEREAIS/ AVEIA LINHAÇA",
-      "preco": "1,99",
-      "preco_unidade": "3,21€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "IOGURTE LÍQUIDO TRIPLO 0% ACTIVIA BIFIDUS MORANGO & KIWI/ LIMA & LIMÃO/ ANANÁS",
-      "preco": "1,99",
-      "preco_unidade": "3,21€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "KÉFIR ACTIVIA MORANGO/ NATURAL/ MIRTILOS",
-      "preco": "1,69",
-      "preco_unidade": "6,04€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "IOGURTE PROTEÍNA YO PRO MIRTILO/ MORANGO/ STRACCIATELLA",
-      "preco": "2,99",
-      "preco_unidade": "6,23€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "IOGURTE LÍQUIDO YOPRO VÁRIOS SABORES 722706",
-      "preco": "1,99",
-      "preco_unidade": "6,63€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "PIZZA CASA DI MAMA HAWAII/ BBQ PULLED PORK",
-      "preco": "3,79",
-      "preco_unidade": "9,13€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "DOURADINHOS CAPITÃO IGLO PEIXE",
-      "preco": "4,99",
-      "preco_unidade": "0,33€/UNID",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "CROCANTES DE FRANGO IGLO PARMESÃO & ERVAS/ 722940 ORIGINAL",
+      "nome": "CROCANTES DE FRANGO RECHEADOS IGLO TOMATE & MANJERICÃO/ ALHO & SALSA",
       "preco": "3,99",
       "preco_unidade": "2€/UNID",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "CROCANTES DE FRANGO RECHEADOS IGLO 722946 CORDON BLEU",
-      "preco": "3,99",
-      "preco_unidade": "2€/UNID",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "FILETES CAPITAO IGLO PEIXE",
+      "preco": "7,99",
+      "preco_unidade": "1,33€/UNID",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "NUGGETS CAPITÃO IGLO FRANGO 722967",
-      "preco": "2,99",
-      "preco_unidade": "14,38€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "RECHEIOS MEXICANOS CONTINENTE FAJITAS/ BURRITO",
+      "preco": "1,95",
+      "preco_unidade": "6,50€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "FUSILLI/ PENNE BONDUELLE COURGETE QUEIJO / TOMATE",
-      "preco": "2,55",
-      "preco_unidade": "4,64€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "FILETES DE PESCADA PANADOS PESCANOVA C/ LIMÃO",
+      "preco": "5,49",
+      "preco_unidade": "1,37€/UNID",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "GELADO OLÁ PERNA PAU/ SUPER 722951 MAXI/ CONE PERNA PAU",
+      "nome": "PEIXINHOS DA HORTA CONTINENTE",
+      "preco": "2,79",
+      "preco_unidade": "6,98€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "GELADO MINI SOLERO RED BERRIES",
       "preco": "2,99",
       "preco_unidade": "0,50€/UNID",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "GELADO CORNETTO MORANGO/ 722937 CLÁSSICO/ CHOCOLATE/ LIMÃO",
-      "preco": "3,49",
-      "preco_unidade": "0,58€/UNID",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "MOCHI COOKIE CONTINENTE CANELA",
+      "preco": "2,99",
+      "preco_unidade": "0,50€/UNID",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "GELADOS MARS MARS/ BOUNTY",
-      "preco": "3,89",
-      "preco_unidade": "0,65€/UNID",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "GELADO CARTE D’OR BAUNILHA",
+      "preco": "2,99",
+      "preco_unidade": "2,30€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "722938 GELADO SANDWICH XXL OLÁ FILIPINOS ORIGINAL",
-      "preco": "3,99",
-      "preco_unidade": "1€/UNID",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "BATATA AIRFRYER MINIBRAVA MC CAIN NOISETTES",
+      "preco": "2,24",
+      "preco_unidade": "2,99€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
       "nome": "GELADO OLÁ FRUTOS EXÓTICOS/ CARAMELO SALGADO",
       "preco": "2,99",
       "preco_unidade": "3,32€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "GELADO FAMILIAR CONTINENTE BAUNILHA",
-      "preco": "2,29",
-      "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "722949 ESPARREGADO ESPINAFRE IGLO S/ GLÚTEN",
-      "preco": "3,99",
-      "preco_unidade": "5,32€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "GELADOS AMERICANOS CONTINENTE PIEFECTION/ SPECULOST IN LAYERS/ TROPICAL VOLCANO/ GIVE ME S",
-      "preco": "3,49",
-      "preco_unidade": "6,98€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "YUMMY COOKIES CONTINENTE",
-      "preco": "3,99",
-      "preco_unidade": "0,67€/UNID",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "722931 BATATA PALITO CRINKLE MC CAIN",
-      "preco": "2,84",
-      "preco_unidade": "3,79€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "GELADO GELATARIA CONTINENTE PISTÁCIO",
-      "preco": "3,99",
-      "preco_unidade": "8,87€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "MINI CHURROS CONTINENTE CHOCOLATE",
+      "nome": "CROQUETAS DE JAMÓN CONTINENTE P/ FORNO",
       "preco": "2,69",
-      "preco_unidade": "15,82€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "preco_unidade": "7,69€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "BATATAS PALITOS MC CAIN GOLDEN LONG",
-      "preco": "3,36",
-      "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "SMOOTHIE SUPER BREAKFAST CONTINENTE EQUILÍBRIO VÁRIOS SABORES +",
+      "preco": "1,29",
+      "preco_unidade": "5,16€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "ÁGUA C/ GÁS NATURAL PEDRAS SALGADAS TARA PERDIDA",
-      "preco": "2,95",
-      "preco_unidade": "1,49€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "LIMONADA CONTINENTE VÁRIOS SABORES +",
-      "preco": "1,39",
-      "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "SMOOTHIE CONTINENTE EQUILÍBRIO TROPICAL/ IMMUNITY BOOST/ BERRYLICIOUS/ ENERGY BOOST +0,10",
-      "preco": "1,09",
-      "preco_unidade": "4,36€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "ÁGUA S/ GÁS CALDAS DE PENACOVA",
+      "preco": "0,87",
+      "preco_unidade": "0,28€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
       "nome": "ÁGUA S/ GÁS MONCHIQUE",
-      "preco": "0,95",
-      "preco_unidade": "1,32€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "preco": "1,65",
+      "preco_unidade": "0,33€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
       "nome": "ÁGUA DE COCO CONTINENTE EQUILÍBRIO",
       "preco": "2,29",
       "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "718187 ÁGUA C/ GÁS SABORES CONTINENTE VÁRIOS SABORES",
-      "preco": "2,29",
+      "nome": "ÁGUA C/ GÁS VIMEIRO +0.10€ VALOR DEPÓSITO",
+      "preco": "3,25",
+      "preco_unidade": "2,17€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "ÁGUA S/ GÁS ALCALINA CONTINENTE",
+      "preco": "1,19",
+      "preco_unidade": "0,20€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "ÁGUA C/ GÁS PEDRAS SALGADAS NATURAL/ LEVÍSSIMA",
+      "preco": "2,99",
+      "preco_unidade": "1,51€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "REFRIGERANTE C/ GÁS CONTINENTE COLA ZERO +",
+      "preco": "0,85",
       "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "REFRIGERANTE C/ GÁS SEVEN UP +",
-      "preco": "4,15",
-      "preco_unidade": "2,10€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "ICED TEA CONTINENTE PÊSSEGO/ MANGA/ LIMÃO +",
+      "preco": "1,19",
+      "preco_unidade": "0,60€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "BEBIDA ENERGÉTICA SKAR ANANÁS & COCO/ ORIGINAL +",
+      "nome": "BEBIDA ENERGÉTICA SKAR ANANÁS & COCO/ MANGA ORIGINAL +",
       "preco": "0,95",
       "preco_unidade": "1,90€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "REFRIGERANTE C/ GÁS CONTINENTE LIMA LIMÃO ZERO +",
-      "preco": "0,79",
-      "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "CERVEJA C/ ÁLCOOL SAGRES TARA PERDIDA",
+      "preco": "7,99",
+      "preco_unidade": "2,13€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "CERVEJA C/ ÁLCOOL SUPER BOCK MINI TARA PERDIDA",
+      "preco": "9,99",
+      "preco_unidade": "2,08€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
       "nome": "CERVEJA C/ ÁLCOOL SUPER BOCK TARA PERDIDA",
-      "preco": "1,89",
-      "preco_unidade": "1,78€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "preco": "14,95",
+      "preco_unidade": "1,99€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "CERVEJA C/ ÁLCOOL SAGRES 723121 MINI, TARA PERDIDA",
-      "preco": "4,99",
-      "preco_unidade": "1,87€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "CERVEJA C/ ÁLCOOL SUPER BOCK TARA PERDIDA",
+      "preco": "9,49",
+      "preco_unidade": "2,40€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "CERVEJA S/ ÁLCOOL SUPER BOCK TROPICAL",
+      "nome": "CERVEJA C/ ÁLCOOL STELLA ARTOIS TARA PERDIDA",
+      "preco": "1,69",
+      "preco_unidade": "5,12€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "SIDRA C/ ÁLCOOL SOMERSBY MAÇÃ/ BLACKBERRY TARA PERDIDA",
       "preco": "4,49",
-      "preco_unidade": "2,27€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "preco_unidade": "3,74€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "CERVEJA C/ ÁLCOOL CARLSBERG TARA PERDIDA",
-      "preco": "3,79",
-      "preco_unidade": "2,53€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "CERVEJA C/ ÁLCOOL SAGRES PRETA PRETA / TARA PERDIDA",
+      "preco": "5,69",
+      "preco_unidade": "2,28€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "CERVEJA C/ ÁLCOOL SUPER BOCK STOUT TARA PERDIDA",
-      "preco": "2,99",
-      "preco_unidade": "2,49€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "SIDRA FLECHA MORANGO LIMA/ MANGA MARACUJÁ",
+      "preco": "5,99",
+      "preco_unidade": "3,03€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "SIDRA FLECHA MAÇA",
-      "preco": "7,19",
-      "preco_unidade": "3€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "VINHO OUTEIRO DOS PINHEIROS ALENTEJO,TINTO/ BRANCO/ ROSÉ",
+      "preco": "1,99",
+      "preco_unidade": "2,65€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "ÓLEO CORPORAL MYLABEL COCO/ ARGÃO",
+      "nome": "VINHO CASAL GARCIA LOUREIRO, VERDE, BRANCO",
       "preco": "3,99",
-      "preco_unidade": "19,95€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "preco_unidade": "5,32€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "721851 PASTA DE DENTES INFANTIL CONTINENTE 2-6 ANOS/ +6 ANOS",
-      "preco": "0,99",
-      "preco_unidade": "13,20€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "VINHO CICONIA PREMIUM, ALENTEJO, TINTO/ BRANCO",
+      "preco": "4,79",
+      "preco_unidade": "6,39€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "ELIXIR JÚNIOR CONTINENTE +6 ANOS",
-      "preco": "1,39",
-      "preco_unidade": "2,78€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "VINHO SOALHEIRO ALMA LOUREIRO, VERDE, BRANCO",
+      "preco": "6,99",
+      "preco_unidade": "9,32€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "FIO E FITA DENTÁRIA CONTINENTE",
-      "preco": "1,19",
-      "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "VINHO CAVALO BRAVO TEJO, TINTO/ BRANCO",
+      "preco": "2,29",
+      "preco_unidade": "3,05€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "RESGUARDO DE INCONTINÊNCIA CONTINENTE 60X90CM",
-      "preco": "6,49",
-      "preco_unidade": "0,32€/UNID",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "VINHO GUARDA RIOS ALENTEJO, TINTO/ BRANCO/ ROSÉ",
+      "preco": "3,99",
+      "preco_unidade": "5,32€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "LIGADURA DE ALGODÃO CONTINENTE",
-      "preco": "2,09",
-      "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "VINHO EA SYRAH/TOURIGA NACIONAL, ALENTEJO, TINTO",
+      "preco": "4,99",
+      "preco_unidade": "6,65€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "VINHO AZUL VENTOZELO SIGNATURE, DOURO, TINTO",
+      "preco": "6,99",
+      "preco_unidade": "9,32€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "VINHO CANCELLUS PREMIUM, DOURO, TINTO/ BRANCO",
+      "preco": "7,98",
+      "preco_unidade": "5,32€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "VINHO LAGOSTA ICE VERDE, BRANCO/ ROSÉ",
+      "preco": "3,49",
+      "preco_unidade": "4,65€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "VINHO MULA VELHA PREMIUM, LISBOA, TINTO/ BRANCO",
+      "preco": "4,29",
+      "preco_unidade": "5,72€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "VINHO TAPADA DAS LEBRES SIGNATURE, ALENTEJO,TINTO/ BRANCO",
+      "preco": "4,99",
+      "preco_unidade": "6,65€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "VINHO PIANO PREMIUM, DOURO, TINTO/ BRANCO",
+      "preco": "7,49",
+      "preco_unidade": "9,99€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "VINHO MONTE VELHO ALENTEJO, TINTO",
+      "preco": "8,99",
+      "preco_unidade": "5,99€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "VINHO EA ALENTEJO, TINTO/ BRANCO/ ROSÉ",
+      "preco": "3,99",
+      "preco_unidade": "5,32€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "VINHO CAIADO ADEGA MAYOR ALENTEJO, TINTO/ BRANCO",
+      "preco": "4,49",
+      "preco_unidade": "5,99€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "VINHO LAGAR DE BURMESTER RESERVA, DOURO, TINTO/ BRANCO",
+      "preco": "5,49",
+      "preco_unidade": "7,32€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "VINHO CARM DOURO, TINTO/ BRANCO",
+      "preco": "8,99",
+      "preco_unidade": "11,99€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "GEL CABELO MYLABEL NORMAL/ EFEITO MOLHADO/ EXTRA FORTE",
+      "preco": "1,29",
+      "preco_unidade": "6,45€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "ÓLEO CORPORAL MYLABEL ROSA MOSQUETA",
+      "preco": "4,15",
+      "preco_unidade": "138,33€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "SABONETE SÓLIDO MYLABEL COCO/ LAVANDA",
+      "preco": "0,59",
+      "preco_unidade": "6,56€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "FRALDAS DE INCONTINÊNCIA DIA CONTINENTE S/ M/ L",
+      "preco": "7,29",
+      "preco_unidade": "0,55€/UNID",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "FRALDAS SUAVIDADE CONTINENTE DO BEBÉ T1/ T2",
+      "preco": "3,59",
+      "preco_unidade": "0,13€/UNID",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
       "nome": "DETERGENTE LÍQUIDO P/ MÁQUINA DA ROUPA SOFLAN",
       "preco": "4,49",
       "preco_unidade": "0,20€/DOSE",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "722708 INTENSIFICADOR DE PERFUME PÉROLA ELIXIR COMFORT BRISA/ PURE",
+      "nome": "AMACIADOR CONCENTRADO SURF EXTRA EFICÁCIA",
+      "preco": "1,99",
+      "preco_unidade": "0,03€/DOSE",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "INTENSIFICADOR DE PERFUME QUANTO AZUL/ ROSA",
+      "preco": "3,49",
+      "preco_unidade": "0,10€/DOSE",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "DETERGENTE LÍQUIDO P/ MÁQUINA DE ROUPA CONTINENTE SABÃO NATURAL/ BRISA AZUL",
+      "preco": "3,59",
+      "preco_unidade": "0,09€/DOSE",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "PERFUMADOR CONTINENTE COLÓNIA/ LÍRIOS E MORANGOS/ FLORAL",
+      "preco": "3,15",
+      "preco_unidade": "0,09€/DOSE",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "AMACIADOR + INTENSIFICADOR 2EM1 COMFORT FRESH/ PURE",
       "preco": "5,99",
-      "preco_unidade": "13,02€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "722720 TIRA NÓDOAS SPRAY SKIP",
-      "preco": "2,99",
-      "preco_unidade": "5,98€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "DETERGENTE LÍQUIDO CONTINENTE MÁQUINA ROUPA",
-      "preco": "2,99",
-      "preco_unidade": "0,05€/DOSE",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "DETERGENTE EM CÁPSULAS CONTINENTE ORQUÍDEAS",
-      "preco": "5,69",
-      "preco_unidade": "0,19€/DOSE",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "SPRAY DE LIMPEZA CONTINENTE POWER+",
-      "preco": "1,79",
-      "preco_unidade": "2,39€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "GEL SANITÁRIO POWER CONTINENTE PINHO/ LIXÍVIA/ MARINHO",
-      "preco": "0,99",
       "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "725680 SPRAY MULTISUPERFÍCIES CILLIT BANG ANTI BOLOR",
-      "preco": "2,59",
-      "preco_unidade": "5,18€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "INTENSIFICADOR DE PERFUME PÉROLA ELIXIR COMFORT BRISA/ PURE",
+      "preco": "5,99",
+      "preco_unidade": null,
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "LAVA TUDO PERFUMADO SONASOL VÁRIOS AROMAS",
-      "preco": "2,59",
-      "preco_unidade": "1,73€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "PASTILHAS ANTICALCÁRIO CONTINENTE 3 EM 1",
+      "preco": "4,65",
+      "preco_unidade": "0,08€/UNID",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "LIXÍVIA NEOBLANC TRADICIONAL",
+      "nome": "LIMPEZA SANITÁRIO CONTINENTE PÓ ATIVO",
+      "preco": "1,89",
+      "preco_unidade": "7,88€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "VELA 3 PAVIOS CONTINENTE COLÓNIA/ COCO",
+      "preco": "5,99",
+      "preco_unidade": "19,97€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "SPRAY CREME CIF ORIGINAL/ LIMÃO",
+      "preco": "2,99",
+      "preco_unidade": "3,99€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "ABRASIVO SANITÁRIO PATO OCEANO/ FRESCOR",
+      "preco": "3,25",
+      "preco_unidade": "2,17€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "LAVA TUDO SONASOL MADEIRA/ UNIVERSAL/ FLORAL EUPHORIA/ EUCALIPTO",
+      "preco": "2,99",
+      "preco_unidade": "2,72€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "SPRAY LIMPA VIDROS AJAX ANTI EMBACIAMENTO; CRISTAL/ TRIPLA AÇÃO",
+      "preco": "2,15",
+      "preco_unidade": "4,30€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "SPRAY DE LIMPEZA CILLIT BANG MULTIUSOS",
+      "preco": "4,89",
+      "preco_unidade": null,
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "BLOCO SANITÁRIO BREF",
+      "preco": "6,99",
+      "preco_unidade": "1,40€/UNID",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "LAVA TUDO SONASOL LAVANDA/ CAMOMILA",
+      "preco": "3,99",
+      "preco_unidade": "1,33€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "SPRAY MULTISUPERFÍCIES CIF ANTI BOLORES",
       "preco": "2,49",
-      "preco_unidade": "0,62€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "preco_unidade": "5,72€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "STICKS PERFUMADOS CONTINENTE COLÓNIA/ COCO",
+      "preco": "5,49",
+      "preco_unidade": "54,90€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "AMBIENTADOR ELÉTRICO GLADE RELAXING ZEN",
+      "preco": "4,99",
+      "preco_unidade": null,
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
       "nome": "ESFREGÃO VILEDA ULTRAFRESH",
-      "preco": "1,05",
-      "preco_unidade": "0,53€/UNID",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "preco": "1,45",
+      "preco_unidade": "0,73€/UNID",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "DETERGENTE EM PASTILHAS P/ MÁQUINA DA LOIÇA FAIRY TUDO EM UM LIMÃO",
+      "preco": "7,49",
+      "preco_unidade": "0,26€/DOSE",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "DETERGENTE EM PASTILHAS P/ MÁQUINA DA LOIÇA FINISH QUANTUM",
+      "preco": "6,99",
+      "preco_unidade": "0,35€/DOSE",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "RECARGA AMBIENTADOR AMBIPUR TATAMI",
+      "preco": "5,99",
+      "preco_unidade": "3€/UNID",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
       "nome": "RECARGA MOPA SWIFFER FRESH",
       "preco": "3,45",
       "preco_unidade": "0,19€/UNID",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "VELA CONTINENTE JASMIM/ TROPICAL/ LAVANDA",
-      "preco": "1,79",
+      "nome": "AMBIENTADOR MÁQUINA LOIÇA CONTINENTE LIMÃO",
+      "preco": "1,49",
       "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "DETERGENTE MANUAL DA LOIÇA CONTINENTE DERMA ALOE VERA/ JASMIM",
-      "preco": "1,79",
-      "preco_unidade": "3,58€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "DETERGENTE PASTILHAS LOIÇA CONTINENTE ALL IN ONE GEL",
+      "preco": "4,99",
+      "preco_unidade": "0,17€/DOSE",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "PASTILHA MÁQUINA LOIÇA CONTINENTE CLÁSSICAS",
-      "preco": "3,89",
-      "preco_unidade": "0,06€/UNID",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "DETERGENTE GEL MÁQUINA LIMÃO POWER+ CONTINENTE",
+      "preco": "3,79",
+      "preco_unidade": null,
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "722732 AMBIENTADOR AEROSOL AIRWICK JASMIM E ORVALHO FRESCO/ LAVANDA E LÍRIO",
+      "nome": "DETERGENTE MANUAL MAXI PODER FAIRY LIMÃO/ ORIGINAL",
       "preco": "2,99",
+      "preco_unidade": "6,64€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "DETERGENTE MANUAL P/ LOIÇA + PODER CIF HIGIENE/ LIMÃO",
+      "preco": "2,29",
       "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "722731 AMBIENTADOR ELÉTRICO GLADE RELAXING ZEN",
-      "preco": "4,95",
-      "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "RECARGA FRESH AIRWICK COPACABANA",
-      "preco": "9,99",
-      "preco_unidade": "5€/UNID",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "722745 RECARGA AMBIENTADOR AMBIPUR TATAMI",
-      "preco": "6,35",
-      "preco_unidade": "3,18€/UNID",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "SPRAY DESENGORDURANTE CONTINENTE POWER+",
-      "preco": "1,89",
-      "preco_unidade": "2,52€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "722759 SAL P/ MÁQUINA DE LOIÇA FINISH",
-      "preco": "1,99",
-      "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "SPRAY FAIRY LIMÃO",
-      "preco": "3,99",
-      "preco_unidade": "7,98€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "LIMPA MÁQUINA FINISH",
-      "preco": "7,49",
-      "preco_unidade": "14,98€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
       "nome": "PAPEL HIGIÉNICO FOXY SEDA 3 FOLHAS",
-      "preco": "2,99",
-      "preco_unidade": "0,75€/ROLO",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "preco": "3,29",
+      "preco_unidade": "0,82€/ROLO",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "PAPEL HIGIÉNICO RENOVA SUPER BRANCO 2 FOLHAS",
-      "preco": "9,49",
-      "preco_unidade": "0,20€/ROLO",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "ROLO DE COZINHA MAX ABSORPTION XXL RENOVA",
+      "preco": "1,79",
+      "preco_unidade": "0,90€/UNID",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "DETERGENTE MANUAL LOIÇA FAIRY LIMÃO",
+      "preco": "6,99",
+      "preco_unidade": "3,88€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "DETERGENTE MANUAL LOIÇA SUPER POP LIMÃO / MAÇÃ",
+      "preco": "3,49",
+      "preco_unidade": "2,91€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "PAPEL HIGIÉNICO RENOVA GRAND SUPER 24=48 ROLOS",
+      "preco": "9,99",
+      "preco_unidade": "0,42€/ROLO",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
       "nome": "ROLOS COZINHA FOXY MEGA",
       "preco": "2,99",
       "preco_unidade": "1,50€/ROLO",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "PAPEL HIGIÉNICO CONTINENTE PERFUME TALCO",
-      "preco": "3,99",
-      "preco_unidade": "0,33€/ROLO",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "GUARDANAPO CONTINENTE PACK FAMILIAR",
-      "preco": "2,39",
+      "nome": "ROLO DE COZINHA MULTIUSOS CONTINENTE DECORADO",
+      "preco": "4,69",
       "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "718182 SACOS P/ LIXO PERFUMADOS CONTINENTE MORANGO",
-      "preco": "1,69",
+      "nome": "LENÇOS FACIAIS CONTINENTE",
+      "preco": "1,19",
+      "preco_unidade": "0,01€/UNID",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "1 PLANTA NATURAL VERDE REF.: 8059433 CESTA PLANTAS 14 99 € , UNID",
+      "preco": "8,99",
       "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "(1)ALIMENTO HÚMIDO P/ CÃO CONTINENTE PET BASIC REF.: 8627409 / Melhoria de Qualidade: Comp",
-      "preco": "1,65",
-      "preco_unidade": "1,38€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "1 ALIMENTO SECO P/ CÃO CONTINENTE PET REF.: 8290131 JÚNIOR VITALIDADE",
+      "preco": "3,29",
+      "preco_unidade": "1,65€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "(1)ALIMENTO HÚMIDO P/ CÃO UPPY NATUR REF.: 7144883 721140 CARNE",
-      "preco": "5,84",
-      "preco_unidade": "4,87€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "1 ALIMENTO SECO P/ CÃO CONTINENTE PET REF.: 8290076 VITALIDADE RAÇAS PEQUENAS",
+      "preco": "3,49",
+      "preco_unidade": "2,33€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "(1)ALIMENTO SECO P/ CÃO CONTINENTE PET REF.: 8290268 VITALIDADE RAÇAS PEQUENAS",
-      "preco": "7,99",
-      "preco_unidade": "2€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "(1)ALIMENTO SECO P/ CÃO CONTINENTE PET REF.: 8290133 JÚNIOR VITALIDADE",
-      "preco": "6,29",
-      "preco_unidade": "1,57€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "85 € 0 UNID",
-      "preco": "1,49",
+      "nome": "1 ALIMENTO HÚMIDO P/ CÃO CONTINENTE PET PREMIUM REF.: 8529737/ 8529738/ 8529748/ 8529750/",
+      "preco": "0,85",
       "preco_unidade": "2,83€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "Melhoria de Qualidade: Comprovado com testes de palatibilidade",
-      "preco": "7,50",
-      "preco_unidade": "6,35€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "1 ALIMENTO HÚMIDO P/ CÃO CONTINENTE PET PREMIUM REF.: 8579172/ 8579197 PATÉ PEDAÇOS SALMÃO",
+      "preco": "1,99",
+      "preco_unidade": "4,98€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "Hipoalergénico, reforço do sistema imunitário C/ benefícios p/ o cérebro, visão e sistema",
-      "preco": "6,23",
-      "preco_unidade": "6,11€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "1 SNACK P/ CÃO CONTINENTE REF.: 6118067 MIX BISCOITOS",
+      "preco": "3,05",
+      "preco_unidade": null,
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "(1) SNACK P/ GATO CATISFACTIONS REF.: 8755177 MEGATUBE",
-      "preco": "5,99",
-      "preco_unidade": "17,11€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "1 ALIMENTO SECO P/ GATO CONTINENTE PET BASIC REF.: 8480276/ 8480284 CARNE/ PEIXE",
+      "preco": "2,99",
+      "preco_unidade": "1,50€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "(1)ALIMENTO SECO P/ GATO CONTINENTE PET REF.: 8607736 JÚNIOR FRANGO",
-      "preco": "3,75",
-      "preco_unidade": "2,50€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "1 ALIMENTO SECO P/ GATO CONTINENTE PET REF.: 8607603 JÚNIOR FRANGO",
+      "preco": "1,10",
+      "preco_unidade": "2,75€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "(1) SNACK LÍQUIDO P/ GATO CONTINENTE PET REF.: 8579170 APERITIVO SALMÃO",
-      "preco": "1,95",
-      "preco_unidade": "16,25€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "1 ALIMENTO SECO P/ GATO CONTINENTE PET REF.: 8607739 ADULTO ESTÉRIL SALMÃO",
+      "preco": "3,49",
+      "preco_unidade": "2,33€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "25 %",
+      "nome": "1 ALIMENTO HÚMIDO P/ GATO CONTINENTE PET BASIC REF.: 8627410/ 8627428 PEIXE/ FRANGO EM MOL",
+      "preco": "0,75",
+      "preco_unidade": "1,88€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "1 SNACK P/ GATO APERITIVO LÍQUIDO CONTINENTE PET REF.: 8901997",
+      "preco": "5,59",
+      "preco_unidade": "15,53€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "1 SNACK P/ GATO CONTINENTE REF.: 8415308/ 7512847 ALMOFADINHAS SALMÃO/ AVES E QUEIJO",
+      "preco": "2,65",
+      "preco_unidade": "13,25€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "1 ABSORVENTE P/ GATO CONTINENTE PET SÍLICA GEL",
       "preco": "3,39",
       "preco_unidade": "0,89€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "(1)ALIMENTO SECO P/ GATO FRISKIES REF.: 4651489 / 6101514 DE INTERIOR/ ESTÉRIL",
-      "preco": "9,48",
-      "preco_unidade": "3,16€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "(1)ALIMENTO SECO P/ CÃO FRISKIES REF.: 5973865 / 8753932 MINI MENU VACA/ FRANGO",
-      "preco": "9,09",
-      "preco_unidade": "3,03€/KG",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
-    },
-    {
-      "nome": "(1) REMOVEDOR DE BOLORES E FUNGOS UHU REF.: 6817673",
+      "nome": "1 ABSORVENTE P/ GATO CONTINENTE PET AGLOMERANTE PERFUMADO LAVANDA",
       "preco": "5,99",
-      "preco_unidade": null,
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "preco_unidade": "0,60€/L",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "(1)REMOVEDOR BOLORES FUNGOS UHU REF.: 7356783 S/ CLORO",
+      "nome": "1 ALIMENTO HÚMIDO P/ GATO GOURMET GOLD REF.: 2210474/ 2255635/ 5739886/ 6461914 VÁRIOS SAB",
+      "preco": "0,89",
+      "preco_unidade": "10,47€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "1 ALIMENTO HÚMIDO P/ GATO CONTINENTE PET PREMIUM REF.: 8607685 ESTÉRIL",
+      "preco": "4,99",
+      "preco_unidade": "4,16€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "1 ALIMENTO HÚMIDO P/ GATO CONTINENTE PET REF.: 8579155/ 8579167/ 8579171 ADULTO FRANGO/ VA",
+      "preco": "0,99",
+      "preco_unidade": "2,48€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "1 ALIMENTO HÚMIDO P/ GATO CONTINENTE PET PREMIUM REF.: 8644326 ADULTO MOUSSE MIX",
       "preco": "6,99",
-      "preco_unidade": "13,98€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "preco_unidade": "6,85€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     },
     {
-      "nome": "(1) REMOVEDOR BOLORES E FUNGOS UHU REF.: 7390524 PACK: 2 UNID",
-      "preco": "8,29",
-      "preco_unidade": "16,58€/L",
-      "valido_de": "2026-10-12",
-      "valido_ate": "2026-10-18"
+      "nome": "1 ALIMENTO HÚMIDO P/ GATO CONTINENTE PET PREMIUM REF.: 8607596/ 8607639/ 8607654/ 8607655/",
+      "preco": "0,59",
+      "preco_unidade": "5,90€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
+    },
+    {
+      "nome": "1 ALIMENTO HÚMIDO P/ GATO CONTINENTE PET REF.: 8607687 PEDAÇOS MOLHO MIX",
+      "preco": "6,59",
+      "preco_unidade": "2,75€/KG",
+      "valido_de": "2026-10-19",
+      "valido_ate": "2026-10-25"
     }
   ]
 }
