@@ -1,0 +1,53 @@
+{
+  "data_execucao": "2026-10-20",
+  "supermercado": "Pingo Doce",
+  "tipo_folheto": "Lojas Grandes",
+  "folheto": {
+    "url": "https://folhetos.pingodoce.pt/2026/poupe-esta-semana/continental-lojas-grandes/S43/",
+    "validade_aproximada": null
+  },
+  "produtos": [
+    {
+      "pagina": 6,
+      "nome": "aprox. leg",
+      "preco": 19.95,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 10,
+      "nome": "LEVE CROISSANT",
+      "preco": 0.45,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 23,
+      "nome": "po [ri 3A9€7Unid RE",
+      "preco": 1.75,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 33,
+      "nome": "25 Cereais 10% o, BOLACHAS COOKIES Pack Tubo 154g",
+      "preco": 41.29,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 41,
+      "nome": "GUARDANAPOS a LEVE 2",
+      "preco": 2.86,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 55,
+      "nome": "99€ Fica BSORVENTE PARA “",
+      "preco": 2.95,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 56,
+      "nome": "DETERGENTE EM PÔ P/ROUPA Original 85 Doses",
+      "preco": 29.99,
+      "preco_unidade": null
+    }
+  ]
+}
