@@ -1,0 +1,59 @@
+{
+  "data_execucao": "2026-10-27",
+  "supermercado": "Pingo Doce",
+  "tipo_folheto": "Lojas Grandes",
+  "folheto": {
+    "url": "https://folhetos.pingodoce.pt/2026/poupe-esta-semana/continental-lojas-grandes/S44/",
+    "validade_aproximada": null
+  },
+  "produtos": [
+    {
+      "pagina": 1,
+      "nome": "CROISSANT BRIOCHE",
+      "preco": 0.69,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 4,
+      "nome": "Fica a: MEIO POLVO",
+      "preco": 35.98,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 8,
+      "nome": "LEVE CROISSANT BF",
+      "preco": 0.69,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 8,
+      "nome": "LEVE QUEQUE",
+      "preco": 0.69,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 8,
+      "nome": "LEVE QUEQUE",
+      "preco": 10.69,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 13,
+      "nome": "Barrado Metades 400g",
+      "preco": 18.99,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 15,
+      "nome": "Terra Alegre Ed",
+      "preco": 0.24,
+      "preco_unidade": null
+    },
+    {
+      "pagina": 16,
+      "nome": "SOBRE O Morango/Morango e Banana SOBRE O Morango Pack 6x50 Pack",
+      "preco": 2.59,
+      "preco_unidade": null
+    }
+  ]
+}
