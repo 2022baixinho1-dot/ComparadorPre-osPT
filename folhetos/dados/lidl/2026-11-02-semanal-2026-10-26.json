@@ -1,0 +1,80 @@
+{
+  "data_execucao": "2026-11-02",
+  "categoria": "semanal",
+  "folheto": "Decoração de Natal",
+  "valido_de": "2026-10-26",
+  "valido_ate": "2026-11-22",
+  "total_produtos": 10,
+  "produtos": [
+    {
+      "nome": "RNO Conjunto de Laços Decorativos Com aparência de veludo A partir de 26/10 nº529123 2. 49",
+      "preco": "3.99",
+      "preco_unidade": null,
+      "valido_de": "2026-10-26",
+      "valido_ate": "2026-11-22"
+    },
+    {
+      "nome": "ão de Natal 2026 56 cm LIVARNO Gnomo Decorativo com LED Pilhas incluídas A partir de 26/10",
+      "preco": "7.99",
+      "preco_unidade": null,
+      "valido_de": "2026-10-26",
+      "valido_ate": "2026-11-22"
+    },
+    {
+      "nome": "Decoração de Natal 2026 | 11 LIVARNO Calendário de Natal A partir de 26/10",
+      "preco": "7.99",
+      "preco_unidade": null,
+      "valido_de": "2026-10-26",
+      "valido_ate": "2026-11-22"
+    },
+    {
+      "nome": "molas 61x106 cm 115x43 cm LIVARNO Decoração/ Cesto em Feltro para Natal A partir de 26/10",
+      "preco": "4.49",
+      "preco_unidade": null,
+      "valido_de": "2026-10-26",
+      "valido_ate": "2026-11-22"
+    },
+    {
+      "nome": "IVARNO Quebra-nozes em Madeira Contém 100% madeira com certificação FSC® A partir de 26/10",
+      "preco": "0.79",
+      "preco_unidade": null,
+      "valido_de": "2026-10-26",
+      "valido_ate": "2026-11-22"
+    },
+    {
+      "nome": "de luzes com função de memória Funcionamento solar independente da rede A partir de 26/10",
+      "preco": "4.49",
+      "preco_unidade": null,
+      "valido_de": "2026-10-26",
+      "valido_ate": "2026-11-22"
+    },
+    {
+      "nome": "res 8 Efeitos de iluminação Temporizador de 6 h com repetição automática A partir de 26/10",
+      "preco": "3.99",
+      "preco_unidade": null,
+      "valido_de": "2026-10-26",
+      "valido_ate": "2026-11-22"
+    },
+    {
+      "nome": "dor de 6 h com repetição automática Ligação através de USB-A Com comando A partir de 26/10",
+      "preco": "9.99",
+      "preco_unidade": null,
+      "valido_de": "2026-10-26",
+      "valido_ate": "2026-11-22"
+    },
+    {
+      "nome": "LIVARNO Conjunto de Velas Aromáticas Disponível em: 8 e 24 unidades A partir de 26/10",
+      "preco": "1.19",
+      "preco_unidade": null,
+      "valido_de": "2026-10-26",
+      "valido_ate": "2026-11-22"
+    },
+    {
+      "nome": "0 nº523452 LIVARNO Velas Pequenas LED Luz branca quente Pilhas incluídas A partir de 26/10",
+      "preco": "0.99",
+      "preco_unidade": null,
+      "valido_de": "2026-10-26",
+      "valido_ate": "2026-11-22"
+    }
+  ]
+}

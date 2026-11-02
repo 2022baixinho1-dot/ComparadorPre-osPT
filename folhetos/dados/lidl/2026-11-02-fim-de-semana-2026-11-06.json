@@ -1,0 +1,339 @@
+{
+  "data_execucao": "2026-11-02",
+  "categoria": "fim-de-semana",
+  "folheto": "A partir de 06/11",
+  "valido_de": "2026-11-06",
+  "valido_ate": "2026-11-08",
+  "total_produtos": 47,
+  "produtos": [
+    {
+      "nome": "Sempre disponível",
+      "preco": "0.84",
+      "preco_unidade": "22,42€/KG",
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "mais Baixos Sempre Lidl Melhor Qualidade Frutas Molho de Crisântemos 4 Variedades nº178521",
+      "preco": "3.59",
+      "preco_unidade": null,
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "Sempre disponível FUMADINHO Peito Peru Forno a Lenha",
+      "preco": "2.49",
+      "preco_unidade": "9,93€/KG",
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "Sempre disponível SUNNY DELIGHT Refrigerante Florida",
+      "preco": "2.29",
+      "preco_unidade": "1,59€/L",
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "Sempre disponível",
+      "preco": "1.09",
+      "preco_unidade": null,
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "Sempre disponível",
+      "preco": "0.84",
+      "preco_unidade": "29,97€/KG",
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "479557/ 479564/ 536903/ 514214 Não deixes escapar PARKSIDE Aparafusadora 20 V sem Bateria",
+      "preco": "14.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "NOVA AÇORES Leite Meio -gordo",
+      "preco": "0.99",
+      "preco_unidade": "5,73€/KG",
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "Castanha Nacional",
+      "preco": "1.79",
+      "preco_unidade": "2,39€/KG",
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "cm nº935086",
+      "preco": "5.99",
+      "preco_unidade": "5,99€/KG",
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "Perna de Frango Desossada com Farinheira",
+      "preco": "12.99",
+      "preco_unidade": "12,99€/KG",
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "Picanha Reino Unido/ Escocia/ Irlanda",
+      "preco": "13.39",
+      "preco_unidade": "5,73€/KG",
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "IGLO Salmão Selvagem",
+      "preco": "12.99",
+      "preco_unidade": "29,52€/KG",
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "OCEAN SEA Polvo Pequeno",
+      "preco": "5.99",
+      "preco_unidade": "9,66€/KG",
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "abe mais na capa do folheto. Poupa ainda mais A VACA QUE RI Queijo Fundido Original/ Light",
+      "preco": "3.79",
+      "preco_unidade": "10,11€/KG",
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "MILBONA Queijo Flamengo em Fatias Redondas XXL",
+      "preco": "3.99",
+      "preco_unidade": "7,98€/KG",
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "IGLO Douradinhos de Frango",
+      "preco": "10.99",
+      "preco_unidade": "10,18€/KG",
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "Sempre disponível FUMADINHO Bacon em Pedaços",
+      "preco": "1.75",
+      "preco_unidade": "8,75€/KG",
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "Sempre disponível DA MINHA TERRA Chouriço Alentejano",
+      "preco": "1.79",
+      "preco_unidade": "8,95€/KG",
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "FERRERO ROCHER Bombons de Chocolate",
+      "preco": "8.19",
+      "preco_unidade": "21,84€/KG",
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "A partir de sex. 6/11 a dom. 8/11 DELUXE Pandoro com Creme de Limão",
+      "preco": "7.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "30 unid. DELUXE Chá Disponível em diversas variedades",
+      "preco": "1.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "SCHWEPPES Refrigerante de Limão",
+      "preco": "1.19",
+      "preco_unidade": "0,79€/L",
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "LIPTON Ice Tea em Lata Framboesa/ Laranja-Manga Pack 6x250 ml 1 L =",
+      "preco": "3.99",
+      "preco_unidade": "2,66€/L",
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "SUMOL Refrigerante de Ananás",
+      "preco": "13.59",
+      "preco_unidade": "0,86€/L",
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "LICOR BEIRÃO Miniaturas + 2 Copos Pack 2x50 ml",
+      "preco": "4.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "LICOR BEIRÃO Miniaturas Licor Beirão + Licor Beirão D'Honra Pack 2x50 ml",
+      "preco": "3.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "AMARGUINHA Miniaturas Amarguinha + Miniatura Creme Pack 2x50 ml",
+      "preco": "3.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "ABELHARUCO Vinho Tinto Regional Alentejano Colheita Selecionada",
+      "preco": "2.99",
+      "preco_unidade": "2,87€/L",
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "FORMIL Detergente para Roupa Líquido Azul/ Colónia 46 Doses",
+      "preco": "4.99",
+      "preco_unidade": "0,73€/L",
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "Moda e Acessórios",
+      "preco": "9.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "Cada par sai a",
+      "preco": "2.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "NOVA AÇORES Leite Meio -gordo",
+      "preco": "24.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "NOVA AÇORES Leite Meio -gordo",
+      "preco": "14.99",
+      "preco_unidade": "5,73€/KG",
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "Castanha Nacional",
+      "preco": "5.99",
+      "preco_unidade": "5,99€/KG",
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "Castanha Nacional",
+      "preco": "5.99",
+      "preco_unidade": "5,99€/KG",
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "flores cheias de frescura! Lírio da Paz em Vaso de Cerâmica Planta de interior Vaso: 9 cm",
+      "preco": "4.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "Amores Perfeitos Planta de exterior Vaso:",
+      "preco": "1.19",
+      "preco_unidade": null,
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "Picanha Reino Unido/ Escocia/ Irlanda",
+      "preco": "12.99",
+      "preco_unidade": "12,99€/KG",
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "Preparado de Carne Picada de Frango",
+      "preco": "17.99",
+      "preco_unidade": "5,73€/KG",
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "Jardineira de Novilho",
+      "preco": "13.35",
+      "preco_unidade": "5,73€/KG",
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "OCEAN SEA Polvo Pequeno",
+      "preco": "18.59",
+      "preco_unidade": "29,52€/KG",
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "Dourada",
+      "preco": "10.99",
+      "preco_unidade": "29,52€/KG",
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "OCEAN SEA Bacalhau Posta Média",
+      "preco": "12.29",
+      "preco_unidade": "9,66€/KG",
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "Sempre disponível CHEF SELECT Pizza de Fiambre e Queijo",
+      "preco": "2.29",
+      "preco_unidade": "8,75€/KG",
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "SUMOL Refrigerante de Ananás",
+      "preco": "5.46",
+      "preco_unidade": "0,79€/L",
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    },
+    {
+      "nome": "ABELHARUCO Vinho Tinto Regional Alentejano Colheita Selecionada",
+      "preco": "5.99",
+      "preco_unidade": "2,87€/L",
+      "valido_de": "2026-11-06",
+      "valido_ate": "2026-11-08"
+    }
+  ]
+}
