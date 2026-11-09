@@ -1,0 +1,339 @@
+{
+  "data_execucao": "2026-11-09",
+  "categoria": "fim-de-semana",
+  "folheto": "A partir de 13/11",
+  "valido_de": "2026-11-13",
+  "valido_ate": "2026-11-15",
+  "total_produtos": 47,
+  "produtos": [
+    {
+      "nome": "Cogumelos Marron",
+      "preco": "1.49",
+      "preco_unidade": "4,97€/KG",
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "Sempre disponível FUMADINHO Chouriço Corrente",
+      "preco": "1.79",
+      "preco_unidade": "4,95€/KG",
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "Sempre disponível CHEF SELECT Pizza de Frango",
+      "preco": "0.99",
+      "preco_unidade": "5,35€/KG",
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "Sempre disponível Atum ao Natural",
+      "preco": "0.99",
+      "preco_unidade": "6,27€/KG",
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "Sempre disponível A MINHA PADARIA Mini Tostas",
+      "preco": "0.69",
+      "preco_unidade": "4,54€/KG",
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "Sempre disponível",
+      "preco": "2.19",
+      "preco_unidade": null,
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "Sempre disponível VIDIGUEIRA Vinho Branco Alentejo DOC Seleção",
+      "preco": "2.79",
+      "preco_unidade": "3,72€/L",
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "Face ao produto sempre disponível. 946/2026 - T.P. CIEN Loção Corporal Especial Q10/ Ureia",
+      "preco": "8.99",
+      "preco_unidade": "4,38€/L",
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "Sempre disponível Sempre disponível",
+      "preco": "5.19",
+      "preco_unidade": "1,50€/L",
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "A partir de sex. 13/11 a dom. 15/11 OCEAN SEA Miolo de Camarão 80/ 100",
+      "preco": "1.59",
+      "preco_unidade": "11,00€/KG",
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "BELLAROM Cápsulas de Café Espresso Rossi",
+      "preco": "5.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "Com Lidl Plus -57% PVPR 13.98 Stock limitado 2.99 PVP 2025 -1% 3.99",
+      "preco": "12.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "nº5911291 Mix Pimento Mini",
+      "preco": "1.19",
+      "preco_unidade": "6,36€/KG",
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "Diospiro Nacional",
+      "preco": "5.99",
+      "preco_unidade": "11,98€/KG",
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "Plantas e flores cheias de frescura!",
+      "preco": "2.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "Pato Confitado Fresco",
+      "preco": "12.99",
+      "preco_unidade": "5,90€/KG",
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "Sempre disponível Frango Partido XXL",
+      "preco": "3.35",
+      "preco_unidade": "3,35€/KG",
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "Almôndegas Mistas XXL",
+      "preco": "6.35",
+      "preco_unidade": null,
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "DELUXE Gamba Rosa de Moçambique sem Cabeça",
+      "preco": "7.99",
+      "preco_unidade": "22,48€/KG",
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "Sempre disponível OCEAN SEA Filetes de Paloco",
+      "preco": "4.79",
+      "preco_unidade": "5,32€/KG",
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "Sempre disponível OCEAN SEA Panadinhos de Pescada",
+      "preco": "2.69",
+      "preco_unidade": "5,98€/KG",
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "Sempre disponível Bife de Atum",
+      "preco": "19.89",
+      "preco_unidade": "19,89€/KG",
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "Sempre disponível OCEAN SEA Miolo de Camarão 80/ 100",
+      "preco": "2.75",
+      "preco_unidade": "11,00€/KG",
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "MILBONA Iogurte Líquido Ananás-Coco/ Pêssego-Maracujá",
+      "preco": "1.29",
+      "preco_unidade": null,
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "Sempre disponível FUMADINHO Fiambre Perna Extra Finíssimo",
+      "preco": "1.39",
+      "preco_unidade": "6,18€/KG",
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "Sempre disponível DELUXE Lasanha de Frutos do Mar",
+      "preco": "4.99",
+      "preco_unidade": "9,98€/KG",
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "DELUXE Gelado Mini Disponível em diversas variedades",
+      "preco": "3.39",
+      "preco_unidade": "10,64€/L",
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "e ao produto sempre disponível. 746/2026 - T.P. ARTIACH Mini Dinosaurus Cereais/ Chocolate",
+      "preco": "1.09",
+      "preco_unidade": "9,08€/KG",
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "DELTA Café Portugal Moagem Universal",
+      "preco": "3.99",
+      "preco_unidade": "18,14€/KG",
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "Sempre disponível ALESTO Caju Torrado sem Sal",
+      "preco": "1.59",
+      "preco_unidade": "10,60€/KG",
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "Sempre disponível BELLAROM Cápsulas de Café Espresso Rossi",
+      "preco": "2.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "m lidl.pt Poupa ainda mais com Lidl Plus de poupança semanal 50€ FREEWAY Refrigerante Cola",
+      "preco": "0.99",
+      "preco_unidade": "0,50€/L",
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "% Cada pack 24x250 ml 1 L =",
+      "preco": "6.99",
+      "preco_unidade": "1,17€/L",
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "FUZE TEA Ice Tea Pêssego Hibisco",
+      "preco": "1.39",
+      "preco_unidade": "0,93€/L",
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "Sempre disponível MONSTER Bebida Energética Green/ Ultra White Sem Açúcar",
+      "preco": "1.39",
+      "preco_unidade": "2,78€/L",
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "Sempre disponível COMPAL Clássico Néctar de Pêssego/ Tutti Frutti Cada pack 3x200 ml 1 L =",
+      "preco": "1.39",
+      "preco_unidade": "2,32€/L",
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "CIEN Gel de Aveia",
+      "preco": "1.05",
+      "preco_unidade": "0,26€/L",
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "PALMOLIVE Sabonete Líquido Sensorial",
+      "preco": "3.99",
+      "preco_unidade": "4,43€/L",
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "oportunidade Marcas com Mega RENOVA Papel Higiénico Duplex Chic and Cheap",
+      "preco": "2.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "Lidl Black November",
+      "preco": "14.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "Cada unid. sai a",
+      "preco": "5.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "nº5903457 Diospiro Nacional",
+      "preco": "0.12",
+      "preco_unidade": "11,00€/KG",
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "ROWENTA Aspirador 2 em 1 com Bateria",
+      "preco": "175.00",
+      "preco_unidade": null,
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "Pato Confitado Fresco",
+      "preco": "8.99",
+      "preco_unidade": "5,90€/KG",
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "DELUXE Gamba Rosa de Moçambique sem Cabeça",
+      "preco": "8.99",
+      "preco_unidade": "22,48€/KG",
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "DELUXE Gelado Mini Disponível em diversas variedades",
+      "preco": "4.99",
+      "preco_unidade": "9,98€/KG",
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    },
+    {
+      "nome": "ROWENTA Aspirador 2 em 1 com Bateria",
+      "preco": "175.00",
+      "preco_unidade": null,
+      "valido_de": "2026-11-13",
+      "valido_ate": "2026-11-15"
+    }
+  ]
+}

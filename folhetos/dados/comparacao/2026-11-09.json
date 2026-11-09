@@ -1,0 +1,880 @@
+[
+  {
+    "produtos": {
+      "continente": {
+        "nome": "CREME DE CHOCOLATE NUTELLA",
+        "preco_hoje": 4.99
+      },
+      "lidl": {
+        "nome": "nº5202468 NUTELLA Creme de Avelãs",
+        "preco_hoje": 24.31
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 19.32,
+    "poupanca_pct": 79.5,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "lidl": 76.19047619047619
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "FOFO DE LEITE",
+        "preco_hoje": 0.45
+      },
+      "lidl": {
+        "nome": "Bolinhos de Especiarias e Chocolate Nas variedades: chocolate negro ou chocolate de leite",
+        "preco_hoje": 6.99
+      },
+      "aldi": {
+        "nome": "COMPRA AO MELHOR PREÇO TODOS OS DIAS TERRA NOSTRA Leite de Pastagem Meio-gordo",
+        "preco_hoje": 0.89
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 6.54,
+    "poupanca_pct": 93.6,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "lidl": 76.19047619047619,
+      "aldi": 76.19047619047619
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "CAMARÃO 25/35 COZIDO 25 %",
+        "preco_hoje": 11.99
+      },
+      "lidl": {
+        "nome": "Camarão Cozido 30/ 40",
+        "preco_hoje": 6.69
+      }
+    },
+    "mais_barato_hoje": "lidl",
+    "poupanca_eur": 5.3,
+    "poupanca_pct": 44.2,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "lidl": 82.35294117647058
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "CÁPSULAS DE CAFÉ COMPATÍVEIS C/ DELTA Q CONTINENTE",
+        "preco_hoje": 7.49
+      },
+      "aldi": {
+        "nome": "FINEST CUISINE ® Cápsulas de Café Canela Compatíveis com máquina Delta Q; 10 cápsulas NOVO",
+        "preco_hoje": 2.29
+      }
+    },
+    "mais_barato_hoje": "aldi",
+    "poupanca_eur": 5.2,
+    "poupanca_pct": 69.4,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 81.92771084337349
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "BOCHECHAS DE PORCO CONTINENTE BALCÃO DE ATENDIMENTO loja, site e app 729746 729750 729754",
+        "preco_hoje": 8.49
+      },
+      "aldi": {
+        "nome": "Bochechas de Porco Preto",
+        "preco_hoje": 3.49
+      }
+    },
+    "mais_barato_hoje": "aldi",
+    "poupanca_eur": 5.0,
+    "poupanca_pct": 58.9,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 85.71428571428571
+    }
+  },
+  {
+    "produtos": {
+      "lidl": {
+        "nome": "RAFFAELLO Bombons Lata",
+        "preco_hoje": 8.19
+      },
+      "aldi": {
+        "nome": "Bombons Raffaello",
+        "preco_hoje": 3.69
+      }
+    },
+    "mais_barato_hoje": "aldi",
+    "poupanca_eur": 4.5,
+    "poupanca_pct": 54.9,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 100.0
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "AZEITE EA VIRGEM EXTRA",
+        "preco_hoje": 5.99
+      },
+      "lidl": {
+        "nome": "nº211043/ 211138/ 211065 CHAPARRO Azeite Virgem Extra Selecção 100% Português",
+        "preco_hoje": 1.67
+      },
+      "aldi": {
+        "nome": "CUCINA ® Azeite Virgem Extra Italiano",
+        "preco_hoje": 4.99
+      }
+    },
+    "mais_barato_hoje": "lidl",
+    "poupanca_eur": 4.32,
+    "poupanca_pct": 72.1,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "lidl": 92.6829268292683,
+      "aldi": 92.6829268292683
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "QUEIJO FLAMENGO PACK XL TERRA NOSTRA FATIAS",
+        "preco_hoje": 6.29
+      },
+      "aldi": {
+        "nome": "C ° TERRA NOSTRA Queijo Flamengo em Fatias",
+        "preco_hoje": 2.29
+      }
+    },
+    "mais_barato_hoje": "aldi",
+    "poupanca_eur": 4.0,
+    "poupanca_pct": 63.6,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 93.33333333333333
+    }
+  },
+  {
+    "produtos": {
+      "lidl": {
+        "nome": "EM **Sabe mais na capa do folheto. A partir de seg. 9/11 a dom. 15/11 Ovos Classe Classe M",
+        "preco_hoje": 1.99
+      },
+      "aldi": {
+        "nome": "Ovos do Solo Classe M",
+        "preco_hoje": 5.99
+      }
+    },
+    "mais_barato_hoje": "lidl",
+    "poupanca_eur": 4.0,
+    "poupanca_pct": 66.8,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 86.48648648648648
+    }
+  },
+  {
+    "produtos": {
+      "lidl": {
+        "nome": "Sabe mais na capa do folheto. A partir de seg. 9/11 a dom. 15/11 MILHAFRE Manteiga com Sal",
+        "preco_hoje": 5.99
+      },
+      "aldi": {
+        "nome": "C ° MILHAFRE Manteiga com Sal",
+        "preco_hoje": 2.19
+      }
+    },
+    "mais_barato_hoje": "aldi",
+    "poupanca_eur": 3.8,
+    "poupanca_pct": 63.4,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 96.15384615384616
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "BLOCO SANITÁRIO BREF",
+        "preco_hoje": 6.99
+      },
+      "lidl": {
+        "nome": "do Pack 12 unid. nº1382 BREF WC Bloco Sanitário Poder Ativo Triplo Aqua Pack 3x50 g 1 kg =",
+        "preco_hoje": 4.39
+      }
+    },
+    "mais_barato_hoje": "lidl",
+    "poupanca_eur": 2.6,
+    "poupanca_pct": 37.2,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "lidl": 100.0
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "BOLACHAS RECHEADAS OREO",
+        "preco_hoje": 2.99
+      },
+      "aldi": {
+        "nome": "BISCOTTO ® Mini Bolachas Recheadas",
+        "preco_hoje": 1.39
+      }
+    },
+    "mais_barato_hoje": "aldi",
+    "poupanca_eur": 1.6,
+    "poupanca_pct": 53.5,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 87.8048780487805
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "MANTEIGA PRÉSIDENT C/ SAL MARINHO",
+        "preco_hoje": 3.99
+      },
+      "aldi": {
+        "nome": ". C ° GOURMET FINEST CUISINE ® Manteiga com Sal Marinho",
+        "preco_hoje": 2.49
+      }
+    },
+    "mais_barato_hoje": "aldi",
+    "poupanca_eur": 1.5,
+    "poupanca_pct": 37.6,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 81.48148148148148
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "DETERGENTE PASTILHAS P/ MÁQUINA DA LOIÇA FAIRY TUDO EM UM LIMÃO",
+        "preco_hoje": 7.49
+      },
+      "lidl": {
+        "nome": "SUPER POP Detergente de Loiça de Limão",
+        "preco_hoje": 8.99
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 1.5,
+    "poupanca_pct": 16.7,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "lidl": 77.19298245614036
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "BOMBONS BISCOFF MILKA",
+        "preco_hoje": 3.29
+      },
+      "aldi": {
+        "nome": "MILKA Tablete de Chocolate de Leite com Biscoff",
+        "preco_hoje": 1.99
+      }
+    },
+    "mais_barato_hoje": "aldi",
+    "poupanca_eur": 1.3,
+    "poupanca_pct": 39.5,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 76.47058823529412
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "ÓLEO ALIMENTAR FRIGI",
+        "preco_hoje": 2.89
+      },
+      "lidl": {
+        "nome": "VITA D'OR Óleo Alimentar",
+        "preco_hoje": 1.69
+      }
+    },
+    "mais_barato_hoje": "lidl",
+    "poupanca_eur": 1.2,
+    "poupanca_pct": 41.5,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "lidl": 82.35294117647058
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "CREME P/ BARRAR PLANTA C/ SAL WRAPPER/ C/ SAL",
+        "preco_hoje": 1.97
+      },
+      "aldi": {
+        "nome": "C ° PLANTA Creme Vegetal",
+        "preco_hoje": 2.96
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.99,
+    "poupanca_pct": 33.4,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 77.77777777777777
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "LEITE BEM ESPECIAL MIMOSA CRESCIMENTO 1 3 ANOS",
+        "preco_hoje": 1.79
+      },
+      "aldi": {
+        "nome": "MIMOSA Leite Magro",
+        "preco_hoje": 0.89
+      }
+    },
+    "mais_barato_hoje": "aldi",
+    "poupanca_eur": 0.9,
+    "poupanca_pct": 50.3,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 80.0
+    }
+  },
+  {
+    "produtos": {
+      "lidl": {
+        "nome": "Disponíveis durante todo o Natal FAVORINA Trufas de Chocolate",
+        "preco_hoje": 2.29
+      },
+      "aldi": {
+        "nome": "Pai Natal de Chocolate",
+        "preco_hoje": 3.19
+      }
+    },
+    "mais_barato_hoje": "lidl",
+    "poupanca_eur": 0.9,
+    "poupanca_pct": 28.2,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 90.0
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "LEITE C/ CHOCOLATE AGROS",
+        "preco_hoje": 2.8
+      },
+      "lidl": {
+        "nome": "e ao produto sempre disponível. 2546/2026 - T.P. NACIONAL My Cookies XL Chocolate de Leite",
+        "preco_hoje": 1.99
+      },
+      "aldi": {
+        "nome": ". CHOCEUR ® Chocolate de Leite Ratinho",
+        "preco_hoje": 1.99
+      }
+    },
+    "mais_barato_hoje": "lidl",
+    "poupanca_eur": 0.81,
+    "poupanca_pct": 28.9,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "lidl": 78.94736842105263,
+      "aldi": 78.94736842105263
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "PÃO DE FORMA S/ GLÚTEN CONTINENTE",
+        "preco_hoje": 2.49
+      },
+      "aldi": {
+        "nome": "Pão de Forma",
+        "preco_hoje": 1.74
+      }
+    },
+    "mais_barato_hoje": "aldi",
+    "poupanca_eur": 0.75,
+    "poupanca_pct": 30.1,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 100.0
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "ARROZ BASMATI ORIENTE",
+        "preco_hoje": 3.99
+      },
+      "lidl": {
+        "nome": "CIGALA Arroz Basmati Pronto a Comer",
+        "preco_hoje": 3.25
+      }
+    },
+    "mais_barato_hoje": "lidl",
+    "poupanca_eur": 0.74,
+    "poupanca_pct": 18.5,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "lidl": 76.47058823529412
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "KIWI BIOLÓGICO ZESPRI",
+        "preco_hoje": 3.59
+      },
+      "aldi": {
+        "nome": "Kiwi Biológico embalado",
+        "preco_hoje": 2.99
+      }
+    },
+    "mais_barato_hoje": "aldi",
+    "poupanca_eur": 0.6,
+    "poupanca_pct": 16.7,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 80.0
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "MAÇÃ FUJI ALCOBAÇA IGP",
+        "preco_hoje": 1.99
+      },
+      "aldi": {
+        "nome": "Maçã Fuji",
+        "preco_hoje": 1.49
+      }
+    },
+    "mais_barato_hoje": "aldi",
+    "poupanca_eur": 0.5,
+    "poupanca_pct": 25.1,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 100.0
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "BISCOITOS CANELA/ LAGARTOS",
+        "preco_hoje": 3.99
+      },
+      "lidl": {
+        "nome": "Biscoitos de Canela",
+        "preco_hoje": 3.49
+      }
+    },
+    "mais_barato_hoje": "lidl",
+    "poupanca_eur": 0.5,
+    "poupanca_pct": 12.5,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "lidl": 91.42857142857143
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "ATUM EM ÓLEO PITÉU",
+        "preco_hoje": 0.89
+      },
+      "lidl": {
+        "nome": "Sempre disponível RAMIREZ Atum em Óleo",
+        "preco_hoje": 1.16
+      },
+      "aldi": {
+        "nome": "DESCONTO QUEBRAMAR Posta de Atum em Óleo Peso: líquido 110 g; escorrido 72 g;",
+        "preco_hoje": 0.74
+      }
+    },
+    "mais_barato_hoje": "aldi",
+    "poupanca_eur": 0.42,
+    "poupanca_pct": 36.2,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "lidl": 80.0,
+      "aldi": 80.0
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "CROCANTES DE FRANGO RECHEADOS IGLO CORDON BLEU",
+        "preco_hoje": 3.99
+      },
+      "lidl": {
+        "nome": "IGLO Nuggets de Frango",
+        "preco_hoje": 3.89
+      }
+    },
+    "mais_barato_hoje": "lidl",
+    "poupanca_eur": 0.1,
+    "poupanca_pct": 2.5,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "lidl": 77.77777777777777
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "REFRIGERANTE C/ GÁS CONTINENTE COLA ZERO/ COLA +",
+        "preco_hoje": 0.89
+      },
+      "lidl": {
+        "nome": "PEPSI Refrigerante Zero",
+        "preco_hoje": 0.99
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.1,
+    "poupanca_pct": 10.1,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "lidl": 85.0
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "PATO INTEIRO FRESCO",
+        "preco_hoje": 3.99
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "lidl": 75.0
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "LARANJA BIOLÓGICA CONTINENTE BIO",
+        "preco_hoje": 2.99
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": {
+      "loja": "aldi",
+      "preco": 2.29,
+      "a_partir_de": "2026-11-16"
+    },
+    "pontuacoes_correspondencia": {
+      "aldi": 76.47058823529412
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "BIFE DA PÁ DE NOVILHO ANGUS",
+        "preco_hoje": 15.99
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": {
+      "loja": "aldi",
+      "preco": 5.99,
+      "a_partir_de": "2026-11-16"
+    },
+    "pontuacoes_correspondencia": {
+      "aldi": 80.0
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "LOMBO DE PORCO S/ OSSO CONTINENTE",
+        "preco_hoje": 5.29
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": {
+      "loja": "aldi",
+      "preco": 4.69,
+      "a_partir_de": "2026-11-16"
+    },
+    "pontuacoes_correspondencia": {
+      "aldi": 80.0
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "QUEIJO VACA/ OVELHA AMANTEIGADO LIMIANO FATIAS",
+        "preco_hoje": 2.35
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 79.24528301886792
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "QUEIJO LIGHT CURADO A VACA QUE RI 16 PORÇÕES",
+        "preco_hoje": 2.95
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 83.87096774193549
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "ATUM TRITÃO NATURAL",
+        "preco_hoje": 0.85
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "lidl": 77.41935483870968
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "LEITE UHT PASTAGEM TERRA NOSTRA MEIO GORDO/ MAGRO",
+        "preco_hoje": 0.89
+      },
+      "lidl": {
+        "nome": "TERRA NOSTRA Leite Pastagem Magro",
+        "preco_hoje": 0.89
+      },
+      "aldi": {
+        "nome": ". MIMOSA Leite Meio-gordo",
+        "preco_hoje": 0.89
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "lidl": 100.0,
+      "aldi": 78.04878048780488
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "MANTEIGA MIMOSA C/ SAL/ S/ SAL",
+        "preco_hoje": 2.09
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 95.45454545454545
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "LEITE UHT GRESSO MEIO GORDO/ MAGRO",
+        "preco_hoje": 0.86
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 76.19047619047619
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "LEITE UHT S/ LACTOSE MIMOSA MEIO GORDO/ MAGRO",
+        "preco_hoje": 1.14
+      },
+      "aldi": {
+        "nome": "Sem lactose MIMOSA Leite Meio-gordo",
+        "preco_hoje": 1.14
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 93.93939393939394
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "SIDRA C/ ÁLCOOL BANDIDA POMAR MAÇÃ/ FRUTOS VERMELHOS/ MANGA +",
+        "preco_hoje": 1.24
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 82.05128205128204
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "DETERGENTE LÍQUIDO CONTINENTE MÁQUINA ROUPA",
+        "preco_hoje": 2.99
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 85.33333333333333
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "DETERGENTE MANUAL FAIRY ORIGINAL/ LIMÃO",
+        "preco_hoje": 2.99
+      },
+      "aldi": {
+        "nome": "FAIRY Detergente Manual da Loiça Ultra Original",
+        "preco_hoje": 2.99
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 91.42857142857143
+    }
+  },
+  {
+    "produtos": {
+      "continente": {
+        "nome": "PAPEL HIGIÉNICO SCOTTEX ACOLCHOADO 3 FOLHAS",
+        "preco_hoje": 3.99
+      }
+    },
+    "mais_barato_hoje": "continente",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": {
+      "loja": "aldi",
+      "preco": 1.49,
+      "a_partir_de": "2026-11-16"
+    },
+    "pontuacoes_correspondencia": {
+      "aldi": 83.01886792452831
+    }
+  },
+  {
+    "produtos": {
+      "aldi": {
+        "nome": "Almôndegas Mistas",
+        "preco_hoje": 2.99
+      }
+    },
+    "mais_barato_hoje": "aldi",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 100.0
+    }
+  },
+  {
+    "produtos": {
+      "lidl": {
+        "nome": "DELUXE Hambúrguer de Bovino com Cebola",
+        "preco_hoje": 3.99
+      }
+    },
+    "mais_barato_hoje": "lidl",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 87.32394366197182
+    }
+  },
+  {
+    "produtos": {
+      "lidl": {
+        "nome": "s lojas Lidl. *Face ao produto sempre disponível. 18 46/2026 - T.P. FERRERO ROCHER Bombons",
+        "preco_hoje": 9.69
+      }
+    },
+    "mais_barato_hoje": "lidl",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": {
+      "loja": "aldi",
+      "preco": 7.99,
+      "a_partir_de": "2026-11-16"
+    },
+    "pontuacoes_correspondencia": {
+      "aldi": 100.0
+    }
+  },
+  {
+    "produtos": {
+      "lidl": {
+        "nome": "VAQUEIRO Creme Vegetal para Cozinhar",
+        "preco_hoje": 6.29
+      }
+    },
+    "mais_barato_hoje": "lidl",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": {
+      "loja": "aldi",
+      "preco": 1.43,
+      "a_partir_de": "2026-11-16"
+    },
+    "pontuacoes_correspondencia": {
+      "aldi": 95.65217391304348
+    }
+  }
+]
