@@ -1,0 +1,1639 @@
+{
+  "data_execucao": "2026-11-23",
+  "periodo": "proxima semana",
+  "url_folheto": "https://folhetos.aldi.pt/2026/s49/2026_cw49_mo_promotion_aldi-natal-a-precos-baixos/",
+  "total_produtos": 233,
+  "produtos": [
+    {
+      "nome": "Dióspiro kg",
+      "preco": "1.89",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Perna de Porco sem Osso kg",
+      "preco": "3.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": ". Camarão 60/80 Avulso; kg",
+      "preco": "5.89",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": ". + 8 anos TOYLINO ® Consola de Jogos Sortido; unidade APENAS",
+      "preco": "9.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "aldi.pt LEVA 2 POR 2€ RUFFLES Batatas Fritas Onduladas",
+      "preco": "1.00",
+      "preco_unidade": "6,25€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "BEIRÃO Licor Beirão",
+      "preco": "9.99",
+      "preco_unidade": "14,27€/L",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "MERCI Sortido de Chocolates",
+      "preco": "4.99",
+      "preco_unidade": "19,96€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "100 doses",
+      "preco": "13.49",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "40 cápsulas",
+      "preco": "9.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": ". Descobre mais nas págs. 12-15 CHOCEUR ® Bombons Mozart",
+      "preco": "2.99",
+      "preco_unidade": "14,95€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "FIDALGO DOS PERDIGÕES Vinho Tinto Reserva Região: Alentejo;",
+      "preco": "2.79",
+      "preco_unidade": "3,72€/L",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Manga Aérea",
+      "preco": "2.29",
+      "preco_unidade": "4,58€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Abacate kg",
+      "preco": "3.49",
+      "preco_unidade": "1,33€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Cogumelos Laminados",
+      "preco": "1.24",
+      "preco_unidade": "4,96€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Nozes Avulso; kg 2",
+      "preco": "4.59",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Pistácios Biológicos Avulso; kg POR 100 G",
+      "preco": "2.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Groselha",
+      "preco": "2.59",
+      "preco_unidade": "0,92€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Estrela-do-natal Vaso",
+      "preco": "2.39",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Vaso",
+      "preco": "8.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Jardineira de Novilho",
+      "preco": "12.79",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Bife da Vazia de Novilho dos Açores",
+      "preco": "5.99",
+      "preco_unidade": "19,97€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Bife do Dianteiro dos Açores",
+      "preco": "3.99",
+      "preco_unidade": "13,30€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Hambúrgueres Crunchy de Frango Pack de 2 x 120 g;",
+      "preco": "2.99",
+      "preco_unidade": "12,46€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Hambúrgueres de Bovino com Queijo e Bacon",
+      "preco": "3.99",
+      "preco_unidade": "13,30€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Perna de Porco sem Osso 4",
+      "preco": "3.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Salsicha Fresca",
+      "preco": "2.39",
+      "preco_unidade": "5,98€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "DESCONTO Isento de glúten GOLDEN SEAFOOD ® Cocktail de Marisco",
+      "preco": "2.79",
+      "preco_unidade": "6,98€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Peito de Pato kg",
+      "preco": "15.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "TRADER JOE'S ® Batatas Encaracoladas",
+      "preco": "1.99",
+      "preco_unidade": "3,32€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "500/",
+      "preco": "1.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "MUCCI ® Gelado de Baunilha",
+      "preco": "1.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Croquete de Carne *PVP unitário na compra de 5 unidades LEVA 5 PAGA 4",
+      "preco": "0.68",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Croissant Folhado *PVP unitário na compra de 3 unidades LEVA 3 POR 1€",
+      "preco": "0.34",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "MARCA ALDI NESTLÉ Cereais Chocapic",
+      "preco": "3.49",
+      "preco_unidade": "5,58€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "GOLDEN BRIDGE ® Cereais Choco Cups",
+      "preco": "1.99",
+      "preco_unidade": "3,98€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "MARCA ALDI BOM PETISCO Atum em Óleo Vegetal Peso: líquido 120 g; escorrido 78 g;",
+      "preco": "1.19",
+      "preco_unidade": "15,26€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "TESOUROS DO MAR ® Atum em Óleo Vegetal Peso: líquido 120 g; escorrido 85 g;",
+      "preco": "0.93",
+      "preco_unidade": "10,94€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "MARCA ALDI PACK DE 48 DODOT Toalhitas Pure Aqua",
+      "preco": "1.74",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "água EXPERIMENTA",
+      "preco": "1.49",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "DESCONTO ALPRO Bebida de Amêndoa/ Aveia",
+      "preco": "1.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "MY VAY ® Almost Milk Aveia",
+      "preco": "0.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "ALPRO Bebida Vegetal sem Açúcar de Amêndoa/ Aveia",
+      "preco": "1.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "GRESSO Leite Meio-gordo",
+      "preco": "0.87",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "NESTLÉ Nestum Mel",
+      "preco": "3.79",
+      "preco_unidade": "6,32€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "NUTELLA Creme para Barrar",
+      "preco": "3.29",
+      "preco_unidade": "9,40€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "DELTA Café Moído Lote Chávena",
+      "preco": "3.99",
+      "preco_unidade": "15,96€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "PRINGLES Snack de Batata Original",
+      "preco": "2.39",
+      "preco_unidade": "13,66€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "REGUENGOS Vinho Tinto DOC Reserva Região: Alentejo;",
+      "preco": "3.99",
+      "preco_unidade": "5,32€/L",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": ". MATINAL Leite Meio-gordo",
+      "preco": "1.00",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "COMPRA AO MELHOR PREÇO TODOS OS DIAS C ° VIGOR Leite Meio-gordo",
+      "preco": "1.00",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "C ° VAQUEIRO Creme Vegetal",
+      "preco": "1.43",
+      "preco_unidade": "5,72€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "C ° ALPRO Creme de Soja para Barrar",
+      "preco": "1.79",
+      "preco_unidade": "7,96€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "C ° MATINAL Manteiga Magra",
+      "preco": "2.49",
+      "preco_unidade": "9,96€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Gordura",
+      "preco": "2.45",
+      "preco_unidade": "12,25€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "16 porções C ° LIMIANO Queijo Flamengo Fatias",
+      "preco": "2.35",
+      "preco_unidade": "11,75€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Unidade",
+      "preco": "3.49",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "C ° A VACA QUE RI Queijo Fundido Light",
+      "preco": "2.95",
+      "preco_unidade": "11,80€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "C ° A VACA QUE RI Queijo Fundido com Palitos",
+      "preco": "1.99",
+      "preco_unidade": "14,21€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "DESCONTO NESTLÉ Mokambo",
+      "preco": "3.89",
+      "preco_unidade": "19,45€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "MIMOSA Nata Cremosa",
+      "preco": "0.91",
+      "preco_unidade": "4,55€/L",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "CAJUMAR Farinha de Mandioca",
+      "preco": "1.99",
+      "preco_unidade": "3,98€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "DA TERRINHA Tapioca",
+      "preco": "2.69",
+      "preco_unidade": "5,38€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "HARIBO Gomas Favoritos Sortido;",
+      "preco": "1.79",
+      "preco_unidade": "5,97€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "352/",
+      "preco": "2.29",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "CORONA Cerveja",
+      "preco": "1.39",
+      "preco_unidade": "3,92€/L",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "GORDON'S Gin",
+      "preco": "13.89",
+      "preco_unidade": "19,84€/L",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": ". ROMEO ® Biscoitos para Cão",
+      "preco": "0.99",
+      "preco_unidade": "1,98€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "100 doses",
+      "preco": "4.89",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "SOLO ® Rolo de Cozinha Multiusos 2 folhas; unidade",
+      "preco": "4.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "​ ​5.99 -10 %",
+      "preco": "3.49",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "CACHET ® Ração para Gato Adulto Sortido: salmão MSC ou frango e bovino;",
+      "preco": "2.69",
+      "preco_unidade": "1,35€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "EO & CACHET ® Óleo de Salmão para Cães e Gatos Ajuda a melhorar a saúde da pele e do pelo;",
+      "preco": "2.99",
+      "preco_unidade": "14,95€/L",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "CAREFREE Pensos Diários Normais Cotton Feel Pack de 76",
+      "preco": "3.74",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Bolo-rei",
+      "preco": "4.99",
+      "preco_unidade": "8,32€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Bolo-rainha",
+      "preco": "5.99",
+      "preco_unidade": "11,98€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "SABORES DE PORTUGAL Broas de Milho",
+      "preco": "1.59",
+      "preco_unidade": "6,36€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "GOURMET FINEST CUISINE ® Panettone Clássico",
+      "preco": "3.59",
+      "preco_unidade": "11,97€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Isento de glúten SEASONS BEST ® Torrão Duro de Amêndoa",
+      "preco": "3.49",
+      "preco_unidade": "13,96€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "SEASONS BEST ® Biscoitos com Especiarias",
+      "preco": "2.49",
+      "preco_unidade": "4,15€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "SEASONS BEST ® Torrão Crocante de Chocolate de Leite",
+      "preco": "2.99",
+      "preco_unidade": "13,00€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Calendário de Natal Sortido;",
+      "preco": "1.99",
+      "preco_unidade": "26,53€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Pai Natal Chocolate de Leite",
+      "preco": "0.79",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Sortido;",
+      "preco": "1.99",
+      "preco_unidade": "19,90€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Contém álcool CHOCEUR ® Bombons de Chocolate Belga com Recheio de Creme de Avelã",
+      "preco": "3.99",
+      "preco_unidade": "15,96€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "CHOCEUR ® Bombons Praliné de Chocolate Preto com Recheio de Licor e Cereja",
+      "preco": "2.99",
+      "preco_unidade": "18,46€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "SEASONS BEST ® Bombons de Chocolate com Recheio de Speculoos",
+      "preco": "1.99",
+      "preco_unidade": "13,27€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "GOURMET FINEST CUISINE ® Bombons Praliné com Recheio Sortido;",
+      "preco": "5.99",
+      "preco_unidade": "18,43€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Sortido;",
+      "preco": "2.99",
+      "preco_unidade": "19,93€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Sortido;",
+      "preco": "4.99",
+      "preco_unidade": "24,95€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "SEASONS BEST ® Dinheiro de Chocolate",
+      "preco": "1.99",
+      "preco_unidade": "15,31€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "SEASONS BEST ® Argolas de Chocolate",
+      "preco": "1.99",
+      "preco_unidade": "9,95€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "unidade",
+      "preco": "1.29",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "ASSIM O NATAL SABE MAIS A NATAL WINDEL Caneca de Natal com Chocolate Sortido;",
+      "preco": "5.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Figuras com Drageias de Chocolate Sortido;",
+      "preco": "4.29",
+      "preco_unidade": "21,45€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Bola de Natal com Chocolates Sortido;",
+      "preco": "2.49",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "AFTER EIGHT Bombons de Chocolate com Framboesa/ Caramelo/ Laranja Pack de 12;",
+      "preco": "3.99",
+      "preco_unidade": "19,95€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "MILKA Bombons Praliné",
+      "preco": "4.89",
+      "preco_unidade": "46,57€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "340/",
+      "preco": "8.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "CHOCEUR ® Copos de Chocolate Preto",
+      "preco": "3.59",
+      "preco_unidade": "28,72€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "SEASONS BEST ® Figuras em Maçapão",
+      "preco": "2.29",
+      "preco_unidade": "11,45€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "DESCONTO C ° GOURMET FINEST CUISINE ® Tábua de Queijo Raclette",
+      "preco": "4.59",
+      "preco_unidade": "15,30€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Bolo de Natal Fatiado",
+      "preco": "7.99",
+      "preco_unidade": "14,27€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "CUÉTARA Bolachas Sortidas",
+      "preco": "2.49",
+      "preco_unidade": "11,86€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "SEASONS BEST ® Estrelas de Natal Recheadas",
+      "preco": "1.89",
+      "preco_unidade": "12,12€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": ") PACK DE 3",
+      "preco": "2.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "KINDER Bolachas Wafer com Recheio de Leite e Chocolate",
+      "preco": "2.49",
+      "preco_unidade": "19,45€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "16 cápsulas NOVO",
+      "preco": "5.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "C ° CUCINA ® Burrata com Trufa Branca",
+      "preco": "2.99",
+      "preco_unidade": "23,92€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "desta página são de stock limitado. BERTHE Sardinhas Fumadas em Azeite/ em Azeite Trufado",
+      "preco": "2.99",
+      "preco_unidade": "15,71€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Variantes Variantes PACK",
+      "preco": "2.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "PACK DE 4",
+      "preco": "1.49",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "PACK",
+      "preco": "2.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "unidade",
+      "preco": "5.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Mais cores HOME CREATION ® Decoração de Natal em Feltro com LED Sortido UNIDADE/ CONJUNTO",
+      "preco": "3.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Sortido PACK DE 12",
+      "preco": "11.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Variantes HOME CREATION ® Grinalda de Natal LED Sortido; unidade",
+      "preco": "12.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "unidade",
+      "preco": "9.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "unidade Medidas aprox.: 130 x 160 ou 140 x 240 cm",
+      "preco": "5.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Medidas aprox.: 40 x 60 cm CONJUNTO DE 9",
+      "preco": "2.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "CREATION ® Toalha de Mesa de Natal Sortido; unidade Medidas aprox.: 5 m x 70 cm Mais cores",
+      "preco": "5.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "HOME CREATION ® Papel de Embrulho de Natal Sortido; unidade",
+      "preco": "1.19",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "e Preços válidos a partir de 2/12/26. Todos os artigos desta página são de stock limitado.",
+      "preco": "139.00",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "unidade HOME CREATION ® Mini Difusor Sortido;",
+      "preco": "1.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Mais cores",
+      "preco": "1.49",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "unidade",
+      "preco": "1.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "unidade",
+      "preco": "3.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "ME CREATION ® Vela Macaron e Difusor Sortido; vela: tempo de chama aprox.: 12 h e difusor:",
+      "preco": "4.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "unidade 18",
+      "preco": "4.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "BBQ ® Acendalhas PACK DE 100",
+      "preco": "3.49",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "es + 8 anos TOYLINO ® Consola Retro Arcade Unidade FOLHETO BRINQUEDOS JÁ DISPONÍVEL APENAS",
+      "preco": "9.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "unidade 1000 peças APENAS",
+      "preco": "9.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Variantes",
+      "preco": "7.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "unidade CRIATIVOS",
+      "preco": "7.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "unidade",
+      "preco": "5.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "unidade 20",
+      "preco": "9.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Unidade",
+      "preco": "14.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "CONJUNTO",
+      "preco": "5.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "unidade",
+      "preco": "8.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "5 PARES",
+      "preco": "3.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "1 par",
+      "preco": "2.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "s cores LACURA ® Calendário de Advento SPA Com 24 produtos da linha LACURA ® SPA; conjunto",
+      "preco": "17.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "unidade APENAS",
+      "preco": "14.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "CONJUNTO",
+      "preco": "9.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "1 par",
+      "preco": "3.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "1 par",
+      "preco": "9.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "unidade",
+      "preco": "9.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "UP2FASHION ® Vestido Polar Tamanhos: M-XL; unidade",
+      "preco": "11.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "misola/ Sweat de Natal Sortido; tamanhos de senhora: S-XL e de homem: M-XL; unidade APENAS",
+      "preco": "9.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "unidade",
+      "preco": "9.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "unidade",
+      "preco": "11.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "unidade",
+      "preco": "7.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "CONJUNTO",
+      "preco": "12.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": ") embalado",
+      "preco": "0.89",
+      "preco_unidade": "1,11€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "C ° Couve-de- -bruxelas",
+      "preco": "1.59",
+      "preco_unidade": "3,18€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Framboesas",
+      "preco": "1.89",
+      "preco_unidade": "15,12€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Tomate Cherry embalado",
+      "preco": "2.69",
+      "preco_unidade": "5,38€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Mix de Frutos Vermelhos para Sangria",
+      "preco": "4.99",
+      "preco_unidade": "13,98€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "GARDENLINE ® Bromélia Vaso",
+      "preco": "7.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Bochechas de Porco Preto",
+      "preco": "3.49",
+      "preco_unidade": "13,96€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Picanha da América do Sul",
+      "preco": "21.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Lombo de Porco Assado",
+      "preco": "4.69",
+      "preco_unidade": "11,73€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Unidade",
+      "preco": "0.59",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Pão com Leitão *PVP unitário na compra de 2 unidades",
+      "preco": "1.50",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "CADA OVO 12+3 GRÁTIS MATINADOS Ovos do Campo M/L",
+      "preco": "3.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "FIM DE SEMANA SEGREDOS DE SÃO MIGUEL Azeite Virgem Extra",
+      "preco": "5.99",
+      "preco_unidade": "11,98€/L",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "SPEISEZEIT ® Especialidades de Caça Sortido;",
+      "preco": "4.79",
+      "preco_unidade": "15,97€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "SUN SNACKS ® Batatas Fritas em Azeite",
+      "preco": "1.69",
+      "preco_unidade": "13,00€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "SPITOS Aperitivo de Milho Biológico Em bolsas individuais; sem sal, nem açúcar adicionado;",
+      "preco": "1.39",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "XXL TRADER JOE'S ® Fruta Desidratada Sortido;",
+      "preco": "5.99",
+      "preco_unidade": "85,57€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "MIMOSA Leite Magro sem Lactose",
+      "preco": "1.14",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Bebida Instantânea Curcuma Biológica",
+      "preco": "3.99",
+      "preco_unidade": "26,60€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "CHOCEUR ® Mini Espumas Doces",
+      "preco": "3.39",
+      "preco_unidade": "12,74€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "DESCONTO Pastelaria fresca KNOPPERS Mini Wafers de Caramelo e Avelã",
+      "preco": "2.69",
+      "preco_unidade": "13,45€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Bolo de Coco e Chocolate",
+      "preco": "7.99",
+      "preco_unidade": "13,32€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "BRIOCHE PASQUIER Panquecas com Pepitas de Chocolate",
+      "preco": "2.99",
+      "preco_unidade": "10,68€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Sortido;",
+      "preco": "2.29",
+      "preco_unidade": "15,27€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "AVÓ ELVIRA Wafers Mistas",
+      "preco": "2.99",
+      "preco_unidade": "8,54€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "HARIBO Marshmallows com Cobertura de Chocolate",
+      "preco": "3.99",
+      "preco_unidade": "9,98€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "BIMBO Mini Muffins com Pepitas de Cacau",
+      "preco": "2.84",
+      "preco_unidade": "16,90€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "CHOCEUR ® Medalhas de Hortelã- pimenta/ Geleia de Laranja",
+      "preco": "1.89",
+      "preco_unidade": "7,56€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "dos os artigos desta página são de stock limitado. FINEST BAKERY ® Bolo com Creme de Cacau",
+      "preco": "1.29",
+      "preco_unidade": "10,75€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "TERRY'S Bombons Chocolate de Leite e Menta",
+      "preco": "3.19",
+      "preco_unidade": "22,00€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "unidade",
+      "preco": "1.49",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "o/ Muito Intenso Compatíveis com máquinas de café Delta Q; Intensidade 12/ 14; 40 cápsulas",
+      "preco": "9.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "10 cápsulas NOVO",
+      "preco": "3.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "SICAL Café Moído Tradição Intensidade 11;",
+      "preco": "3.35",
+      "preco_unidade": "15,23€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "ness/ Joyfulness Sortido: espuma de banho, loção corporal nutritiva ou creme de mãos; 100/",
+      "preco": "2.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "unidade",
+      "preco": "2.29",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "deixa a pele suave, removendo as células mortas de forma eficaz; unidade",
+      "preco": "1.49",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "ay Cabelo Condicio­ nador Gliss Sortido: Oil Nutritive, Long & Sublime ou Ultimate Repair;",
+      "preco": "3.99",
+      "preco_unidade": "19,95€/L",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "SCHWARZKOPF Sérum Gliss para Cabelo Oil Elixir",
+      "preco": "6.49",
+      "preco_unidade": "86,53€/L",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "PACK DE 20",
+      "preco": "2.69",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "unidade",
+      "preco": "2.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Sortido;",
+      "preco": "7.49",
+      "preco_unidade": "65,13€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "110 doses",
+      "preco": "7.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "unidade Potência: 200 W Capacidade aprox.: 500 ml TEFAL Frigideira 24 cm Unidade",
+      "preco": "24.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "l TEFAL Frigideira 28 cm Unidade",
+      "preco": "29.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "; unidade",
+      "preco": "11.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "unidade",
+      "preco": "5.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "unidade 30",
+      "preco": "2.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "unidade",
+      "preco": "2.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "lículas de largura máx.: 30 cm AMBIANO ® Películas para Embalar a Vácuo CONJUNTO DE 2 OU 3",
+      "preco": "4.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Unidade Potência máx.: 300 W Acessórios para trituração",
+      "preco": "19.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "UNIDADE/ CONJUNTO",
+      "preco": "5.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "cm AMBIANO ® Moinho/ Saca-rolhas Elétrico Utilização fácil; unidade",
+      "preco": "14.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Unidade",
+      "preco": "29.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "bambu CROFTON ® Frascos de Vidro com Tampa CONJUNTO DE 4",
+      "preco": "2.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "CONJUNTO DE 2, 3 OU 4",
+      "preco": "3.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "/26. Todos os artigos desta página são de stock limitado. CROFTON ® Tábua de Corte Unidade",
+      "preco": "9.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "tes em aço inoxidável Detalhe CROFTON ® Prato Rotativo para Servir Sortido; unidade APENAS",
+      "preco": "5.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Unidade",
+      "preco": "34.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "unidade Medidas aprox.: 50 x 50 ou 50 x 70 cm",
+      "preco": "2.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Medidas aprox.: 50 x 150 cm UNIDADE/ CONJUNTO",
+      "preco": "5.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Mais cores CONJUNTO DE 3 HOME CREATION ® Panos de Cozinha",
+      "preco": "4.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "HOME CREATION ® Tapete de Cozinha Unidade",
+      "preco": "7.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "ox.: 130 x 160 ou 140 x 240 cm HOME CREATION ® Tapete Unidade Medidas aprox.: 150 x 200 cm",
+      "preco": "34.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Brilho Unidade Capacidade aprox.: 120 ml 4 níveis de temporizador Luz ambiente LED APENAS",
+      "preco": "4.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Unidade",
+      "preco": "14.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "unidade",
+      "preco": "15.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "CONJUNTO",
+      "preco": "2.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Em caixa de presente Variantes CONJUNTO",
+      "preco": "12.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "edidas aprox.: 75 x 33 x 45 cm Mais cores NOVITESSE ® Acessórios em Cetim Sortido CONJUNTO",
+      "preco": "9.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Medidas aprox.: 90-100 x 200 cm Mais cores NOVITESSE ® Almofada de Assento Unidade",
+      "preco": "19.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Medidas aprox.: 140-160 x 200 cm Mais cores NOVITESSE ® Lençol-capa de Solteiro Unidade 34",
+      "preco": "7.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "NOVITESSE ® Lençol-capa Ajustável Unidade",
+      "preco": "9.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "m espinhas Isento de glúten SPECIAL ® Pizza Sortido: carbonara trufada ou burrata e pesto;",
+      "preco": "3.59",
+      "preco_unidade": "9,97€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "GOURMET FINEST CUISINE ® Lombos de Bacalhau",
+      "preco": "22.99",
+      "preco_unidade": "38,32€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "GOURMET FINEST CUISINE ® Mariscada",
+      "preco": "7.19",
+      "preco_unidade": "8,99€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Congelado (Branco)",
+      "preco": "3.39",
+      "preco_unidade": "9,42€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Congelado (Branco)",
+      "preco": "2.39",
+      "preco_unidade": "7,11€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "SPECIAL ® Croquetes Sortido: de polvo ou secretos de porco;",
+      "preco": "1.99",
+      "preco_unidade": "7,11€/KG",
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "Batata para Assar Saco 1 KG",
+      "preco": "1.19",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    },
+    {
+      "nome": "TEUS CARTÕES PRÉ-PAGOS CHEGARAM! ENCONTRA-OS JUNTO ÀS CAIXAS DE PAGAMENTO. NOVIDADE DESDE",
+      "preco": "10.00",
+      "preco_unidade": null,
+      "valido_de": "2026-11-30",
+      "valido_ate": "2026-12-06"
+    }
+  ]
+}

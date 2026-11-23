@@ -1,0 +1,176 @@
+[
+  {
+    "produtos": {
+      "lidl": {
+        "nome": "Batata Doce Roxa Emb 800 g 1 kg =",
+        "preco_hoje": 3.29
+      },
+      "aldi": {
+        "nome": "Uva Roxa kg",
+        "preco_hoje": 2.39
+      }
+    },
+    "mais_barato_hoje": "aldi",
+    "poupanca_eur": 0.9,
+    "poupanca_pct": 27.4,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 77.77777777777777
+    }
+  },
+  {
+    "produtos": {
+      "lidl": {
+        "nome": "Batata Doce Laranja Nacional",
+        "preco_hoje": 1.49
+      },
+      "aldi": {
+        "nome": "Batata- -doce",
+        "preco_hoje": 1.89
+      }
+    },
+    "mais_barato_hoje": "lidl",
+    "poupanca_eur": 0.4,
+    "poupanca_pct": 21.2,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 100.0
+    }
+  },
+  {
+    "produtos": {
+      "lidl": {
+        "nome": "Batata Branca para Assar",
+        "preco_hoje": 1.89
+      }
+    },
+    "mais_barato_hoje": "lidl",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": {
+      "loja": "aldi",
+      "preco": 1.19,
+      "a_partir_de": "2026-11-30"
+    },
+    "pontuacoes_correspondencia": {
+      "aldi": 82.92682926829268
+    }
+  },
+  {
+    "produtos": {
+      "lidl": {
+        "nome": "Sempre disponível A VACA QUE RI Queijo Fundido Palitos Pizza Pack 4x90 g 1 kg =",
+        "preco_hoje": 2.19
+      }
+    },
+    "mais_barato_hoje": "lidl",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": {
+      "loja": "aldi",
+      "preco": 1.99,
+      "a_partir_de": "2026-11-30"
+    },
+    "pontuacoes_correspondencia": {
+      "aldi": 92.3076923076923
+    }
+  },
+  {
+    "produtos": {
+      "lidl": {
+        "nome": "Pão de Queijo",
+        "preco_hoje": 2.89
+      }
+    },
+    "mais_barato_hoje": "lidl",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 81.81818181818181
+    }
+  },
+  {
+    "produtos": {
+      "lidl": {
+        "nome": "Disponíveis durante todo o Natal DELUXE Cachaço de Porco Fatiado",
+        "preco_hoje": 3.49
+      }
+    },
+    "mais_barato_hoje": "lidl",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 86.48648648648648
+    }
+  },
+  {
+    "produtos": {
+      "lidl": {
+        "nome": "ponível. 22 48/2026 - T.P. Disponíveis durante todo o Natal FAVORINA Dinheiro de Chocolate",
+        "preco_hoje": 0.99
+      }
+    },
+    "mais_barato_hoje": "lidl",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 76.36363636363636
+    }
+  },
+  {
+    "produtos": {
+      "lidl": {
+        "nome": "FAVORINA Sortido de Natal",
+        "preco_hoje": 1.99
+      },
+      "aldi": {
+        "nome": "HOME CREATION ® Sortido Criativo de Natal CONJUNTO",
+        "preco_hoje": 1.99
+      }
+    },
+    "mais_barato_hoje": "lidl",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 78.04878048780488
+    }
+  },
+  {
+    "produtos": {
+      "lidl": {
+        "nome": "MILKA OREO Calendário Advento",
+        "preco_hoje": 11.19
+      }
+    },
+    "mais_barato_hoje": "lidl",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 76.59574468085106
+    }
+  },
+  {
+    "produtos": {
+      "lidl": {
+        "nome": "COLGATE Max White Pasta Dentífrica Vinho, Chá e Café",
+        "preco_hoje": 3.99
+      },
+      "aldi": {
+        "nome": "COLGATE Pasta de Dentes Max White",
+        "preco_hoje": 3.99
+      }
+    },
+    "mais_barato_hoje": "lidl",
+    "poupanca_eur": 0.0,
+    "poupanca_pct": 0.0,
+    "proxima_alteracao": null,
+    "pontuacoes_correspondencia": {
+      "aldi": 82.14285714285714
+    }
+  }
+]

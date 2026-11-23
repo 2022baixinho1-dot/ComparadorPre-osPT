@@ -1,0 +1,339 @@
+{
+  "data_execucao": "2026-11-23",
+  "categoria": "fim-de-semana",
+  "folheto": "A partir de 27/11",
+  "valido_de": "2026-11-27",
+  "valido_ate": "2026-11-29",
+  "total_produtos": 47,
+  "produtos": [
+    {
+      "nome": "Abacaxi sem Coroa",
+      "preco": "0.99",
+      "preco_unidade": "0,99€/KG",
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "Sempre disponível",
+      "preco": "3.59",
+      "preco_unidade": null,
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "Sempre disponível",
+      "preco": "8.49",
+      "preco_unidade": "4,27€/KG",
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "Sempre disponível DULANO Tiras de Bacon Pack 2x125 g 1 kg =",
+      "preco": "2.29",
+      "preco_unidade": "8,60€/KG",
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "Sempre disponível",
+      "preco": "2.15",
+      "preco_unidade": "16,60€/KG",
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "A partir de sex. 27/11 a dom. 29/11 Amêijoa Vietnamita",
+      "preco": "24.99",
+      "preco_unidade": "0,70€/KG",
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "MILBONA Leite Magro/ Meio-gordo Cada pack 6x1 L 1 L =",
+      "preco": "2.07",
+      "preco_unidade": "0,67€/L",
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "3+3 Grátis",
+      "preco": "3.38",
+      "preco_unidade": "0,43€/KG",
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "2+2 Grátis",
+      "preco": "7.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "Leve 12 por Ou 1 pack por",
+      "preco": "11.99",
+      "preco_unidade": "17,13€/KG",
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "DELUXE Mini Bolo Rainha",
+      "preco": "2.99",
+      "preco_unidade": "11,96€/KG",
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "Curgete Nacional",
+      "preco": "1.19",
+      "preco_unidade": "1,19€/KG",
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "Dióspiro Mole Nacional",
+      "preco": "1.19",
+      "preco_unidade": "3,40€/KG",
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "DELUXE Tarte de Amêndoa",
+      "preco": "6.99",
+      "preco_unidade": "11,65€/KG",
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "OCEAN SEA Bacalhau Posta Tradicional",
+      "preco": "5.49",
+      "preco_unidade": "18,50€/KG",
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "OCEAN SEA Fishburger de Pescada Panado",
+      "preco": "5.99",
+      "preco_unidade": "13,73€/KG",
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "DELUXE Gamba Rosa de Moçambique sem Cabeça",
+      "preco": "1.79",
+      "preco_unidade": "22,48€/KG",
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "DELUXE Grana Padano DOP 20 Meses",
+      "preco": "4.49",
+      "preco_unidade": "22,45€/KG",
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "TERRA NOSTRA Queijo em Fatias Light Pack 2x200 g 1 kg =",
+      "preco": "4.39",
+      "preco_unidade": "10,98€/KG",
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "DELUXE Presunto de Parma Fatiado 18 Meses",
+      "preco": "6.99",
+      "preco_unidade": "46,60€/KG",
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "Poupa ainda mais com Lidl Plus de poupança semanal 359€ FRESHONA Mistura de Legumes",
+      "preco": "1.59",
+      "preco_unidade": null,
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "Sempre disponível HARVEST BASKET Batatas Pré-Fritas em Palitos Finos",
+      "preco": "1.35",
+      "preco_unidade": null,
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "Sempre disponível FRESHONA Esparregado de Espinafres",
+      "preco": "1.99",
+      "preco_unidade": "2,49€/KG",
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "cupões mone tários FAVORINA Bombons com Recheio Crocante Disponível em diversas variedades",
+      "preco": "4.99",
+      "preco_unidade": "12,45€/KG",
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "Sempre disponível LINDT Bombons de Chocolate de Leite",
+      "preco": "7.99",
+      "preco_unidade": "39,95€/KG",
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "NIXE Atum Posta Natural dos Açores",
+      "preco": "2.07",
+      "preco_unidade": "7,50€/KG",
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "3+3 Grátis",
+      "preco": "3.38",
+      "preco_unidade": "0,43€/KG",
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "2+2 Grátis",
+      "preco": "7.49",
+      "preco_unidade": "0,70€/KG",
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "nº5749 BAILEYS VAP",
+      "preco": "15.59",
+      "preco_unidade": "5,79€/L",
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "AU MY UNICORN Fluffy Toiletry Bag Pack nº5916375 GABBY'S DOLLHOUSE Thermo Bag + Shower Gel",
+      "preco": "91637312.29",
+      "preco_unidade": null,
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "AIR-VAL Coffret de Criança Disponível em diversas variedades Cada pack",
+      "preco": "13.79",
+      "preco_unidade": null,
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "NIVEA Pack Cocoa Crush Pack",
+      "preco": "16.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "NIVEA Pack Men Hydro Care Pack",
+      "preco": "17.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "UTUR AL-YAQUT Elixir Femme Disponível em diversas variedades",
+      "preco": "14.95",
+      "preco_unidade": null,
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "Cozinha e Cuidado do Lar",
+      "preco": "4.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "Cada par ESMARA Pantufas para Senhora Forro suave com palmilha almofadada Tam. 37 ao 41",
+      "preco": "19.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "ium para Senhora Forro interior macio e quente Impermeáveis Tam. 36 ao 40 consoante modelo",
+      "preco": "3.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "ompra excecionalmente até dia 24/01/2027. *exceto artigos para animais, higiene e limpeza.",
+      "preco": "4.19",
+      "preco_unidade": null,
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "Sansevieria Planta de interior Vaso:",
+      "preco": "3.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "Ramo de Outono",
+      "preco": "5.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "OCEAN SEA Fishburger de Pescada Panado",
+      "preco": "5.49",
+      "preco_unidade": "18,50€/KG",
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "4 emb. por Sempre disponível COMBINO Esparguete",
+      "preco": "0.85",
+      "preco_unidade": "0,43€/KG",
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "2+2 Grátis",
+      "preco": "1.69",
+      "preco_unidade": "0,43€/KG",
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "ESTEVA Vinho Tinto Douro Bipack Pack 2x750 ml 1 L =",
+      "preco": "18.79",
+      "preco_unidade": "5,79€/L",
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "ia Ideal para cortar metal, tubos de plástico e perfis de alumínio com 6 níveis de rotação",
+      "preco": "99.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "umínio e cobre Proteção contra sobrecarga devido ao controlador térmico com luz indicadora",
+      "preco": "11.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    },
+    {
+      "nome": "ARA MEN Botins Impermeáveis devido à membrana TEX integrada Tam. 41 ao 46 consoante modelo",
+      "preco": "19.99",
+      "preco_unidade": null,
+      "valido_de": "2026-11-27",
+      "valido_ate": "2026-11-29"
+    }
+  ]
+}
